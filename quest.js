@@ -817,6 +817,38 @@ const cardSets = {
   ],
   "AEuP": [
     {
+      "question": "Welche Hauptbereiche umfasst die Softwarequalität?",
+      "answer": "Die Softwarequalität umfasst Funktionalität, Benutzbarkeit, Veränderbarkeit, Effizienz, Übertragbarkeit und Zuverlässigkeit."
+    },
+    {
+      "question": "Was versteht man unter Softwarequalität?",
+      "answer": "Softwarequalität beschreibt, wie gut Software ihre Anforderungen erfüllt und wie zuverlässig, sicher und benutzbar sie ist."
+    },
+    {
+      "question": "Was bedeutet Funktionalität bei Softwarequalität?",
+      "answer": "Funktionalität beschreibt, ob die Software die gewünschten Aufgaben korrekt und sicher erfüllt."
+    },
+    {
+      "question": "Was gehört zur Benutzbarkeit von Software?",
+      "answer": "Benutzbarkeit umfasst Verständlichkeit, Erlernbarkeit, Bedienbarkeit und Attraktivität der Software."
+    },
+    {
+      "question": "Was ist mit Effizienz in der Softwarequalität gemeint?",
+      "answer": "Effizienz bedeutet, dass die Software wenig Ressourcen verbraucht und schnell arbeitet."
+    },
+    {
+      "question": "Was beschreibt die Veränderbarkeit von Software?",
+      "answer": "Veränderbarkeit zeigt, wie leicht eine Software analysiert, getestet, modifiziert oder stabil gehalten werden kann."
+    },
+    {
+      "question": "Was versteht man unter Übertragbarkeit?",
+      "answer": "Übertragbarkeit bedeutet, wie gut sich Software auf andere Systeme oder Plattformen anpassen lässt."
+    },
+    {
+      "question": "Was bedeutet Zuverlässigkeit bei Software?",
+      "answer": "Zuverlässigkeit meint, dass die Software auch bei Fehlern stabil läuft und reif für den Einsatz ist."
+    },
+    {
       "question": "Was bedeutet On-Premises?",
       "answer": "Bei On-Premises wird die gesamte IT-Infrastruktur im eigenen Unternehmen betrieben und verwaltet – inklusive Hardware, Software, Updates und Sicherheit."
     },
