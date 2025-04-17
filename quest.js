@@ -3017,6 +3017,200 @@ const cardSets = {
       "question": "Was macht Change Request Management?",
       "answer": "Change Request Management plant, steuert und setzt Änderungen im Projekt um, um sicherzustellen, dass sie erfolgreich und kontrolliert durchgeführt werden."
     }
+  ],
+  "KI":[
+    {
+      "question": "Was ist eine schwache KI?",
+      "answer": "Eine schwache KI ist auf eine bestimmte Aufgabe spezialisiert, z. B. Sprachassistenten oder Chatbots."
+    },
+    {
+      "question": "Was ist eine starke KI?",
+      "answer": "Eine starke KI kann wie ein Mensch denken, verstehen und flexibel in verschiedenen Bereichen handeln – sie existiert noch nicht vollständig."
+    },
+    {
+      "question": "Was ist ein neuronales Netzwerk?",
+      "answer": "Ein neuronales Netzwerk ist ein KI-Modell, das vom Aufbau des menschlichen Gehirns inspiriert ist und Informationen in Schichten verarbeitet."
+    },
+    {
+      "question": "Was ist ein LLM (Large Language Model)?",
+      "answer": "Ein LLM ist ein großes Sprachmodell, das mithilfe riesiger Textmengen trainiert wurde, um natürliche Sprache zu verstehen und zu erzeugen."
+    },
+    {
+      "question": "Was ist Supervised Learning?",
+      "answer": "Beim Supervised Learning lernt die KI aus Trainingsdaten mit den richtigen Antworten (Labels)."
+    },
+    {
+      "question": "Was ist Unsupervised Learning?",
+      "answer": "Beim Unsupervised Learning lernt die KI ohne vorgegebene Antworten, sie erkennt Muster oder Gruppen in den Daten."
+    },
+    {
+      "question": "Was ist Self-Supervised Learning?",
+      "answer": "Beim Self-Supervised Learning erzeugt die KI ihre eigenen Trainingslabels aus den Daten, um daraus zu lernen."
+    },
+    {
+      "question": "Was ist Reinforcement Learning?",
+      "answer": "Beim Reinforcement Learning lernt die KI durch Belohnung oder Bestrafung – sie wird belohnt, wenn sie etwas richtig macht."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Supervised und Unsupervised Learning?",
+      "answer": "Supervised Learning verwendet beschriftete Daten, während Unsupervised Learning Muster in unbeschrifteten Daten sucht."
+    },
+    {
+      "question": "Welches KI-Lernverfahren nutzt Belohnung als Feedback?",
+      "answer": "Reinforcement Learning nutzt Belohnung als Feedback, um zu lernen."
+    },
+    {
+      "question": "Welche Lernmethode nutzt beschriftete Daten (Labels)?",
+      "answer": "Supervised Learning nutzt beschriftete Daten."
+    },
+    {
+      "question": "Welche Lernmethode findet Muster ohne Labels?",
+      "answer": "Unsupervised Learning findet Muster ohne vorgegebene Labels."
+    },
+    {
+      "question": "Was bedeutet Künstliche Intelligenz (KI)?",
+      "answer": "Künstliche Intelligenz ist die Fähigkeit von Maschinen, Aufgaben zu erledigen, die normalerweise menschliche Intelligenz erfordern."
+    },
+    {
+      "question": "Wo wird KI im Alltag eingesetzt?",
+      "answer": "Zum Beispiel in Sprachassistenten, Übersetzern, Empfehlungen in Apps, Gesichtserkennung oder Navigation."
+    },
+    {
+      "question": "Was ist ein KI-Modell?",
+      "answer": "Ein KI-Modell ist ein trainiertes System, das aus Daten gelernt hat und Vorhersagen oder Entscheidungen treffen kann."
+    },
+    {
+      "question": "Was braucht man, um eine KI zu trainieren?",
+      "answer": "Man braucht viele Daten, Rechenleistung und ein Lernverfahren (z. B. ein neuronales Netzwerk)."
+    },
+    {
+      "question": "Was ist ein Datensatz in der KI?",
+      "answer": "Ein Datensatz ist eine große Sammlung von Informationen, mit denen die KI trainiert wird."
+    },
+    {
+      "question": "Was ist Bias (Verzerrung) in der KI?",
+      "answer": "Bias bedeutet, dass eine KI Vorurteile zeigt, weil sie mit unfairen oder einseitigen Daten trainiert wurde."
+    },
+    {
+      "question": "Warum ist Ethik in der KI wichtig?",
+      "answer": "Weil KI faire Entscheidungen treffen und keine Menschen benachteiligen soll."
+    },
+    {
+      "question": "Was ist ein Beispiel für eine gefährliche Nutzung von KI?",
+      "answer": "Deepfakes oder automatisierte Überwachung können missbraucht werden."
+    },
+    {
+      "question": "Was ist Explainable AI (erklärbare KI)?",
+      "answer": "Das ist eine KI, deren Entscheidungen für Menschen verständlich erklärt werden können."
+    },
+    {
+      "question": "Was ist ein Chatbot?",
+      "answer": "Ein Chatbot ist ein Programm, das mit Menschen über Text oder Sprache kommuniziert – oft mit KI."
+    },
+    {
+      "question": "Wie kann man KI verbessern?",
+      "answer": "Durch bessere Daten, mehr Training, gute Tests und faire Algorithmen."
+    },
+    {
+      "question": "Was ist eine Trainingsphase bei KI?",
+      "answer": "In der Trainingsphase lernt die KI aus Beispielen, wie sie Aufgaben lösen kann."
+    },
+    {
+      "question": "Kann KI kreativ sein?",
+      "answer": "Ja, zum Beispiel bei der Bilderzeugung, Musik oder Texten – aber sie basiert auf gelernten Mustern."
+    },
+    {
+      "question": "Was ist ein Prompt bei LLMs?",
+      "answer": "Ein Prompt ist die Eingabe, mit der man ein Sprachmodell wie ChatGPT anweist, etwas zu tun."
+    },
+    {
+      "question": "Wie unterscheidet sich eine klassische Software von KI?",
+      "answer": "Klassische Software folgt festen Regeln, KI kann aus Daten lernen und eigene Lösungen finden."
+    },
+    {
+      "question": "Wie lässt sich KI in Netzwerken nutzen?",
+      "answer": "Für Anomalieerkennung, Sicherheitsüberwachung oder Netzwerkoptimierung."
+    },
+    {
+      "question": "Warum ist Datenvorverarbeitung wichtig für KI?",
+      "answer": "Weil saubere und einheitliche Daten die Grundlage für ein gutes Modell sind."
+    },
+    {
+      "question": "Was ist ein Training-Set und was ein Test-Set?",
+      "answer": "Das Training-Set dient zum Lernen, das Test-Set zur Überprüfung der Leistung des Modells."
+    },
+    {
+      "question": "Welche rechtlichen Aspekte muss man bei KI-Projekten beachten?",
+      "answer": "Datenschutz (DSGVO), Urheberrecht und ethische Grundsätze."
+    },
+    {
+      "question": "Was ist ein AI-Workflow?",
+      "answer": "Ein Ablaufplan, der Schritte wie Datensammlung, Modelltraining, Test und Deployment umfasst."
+    },
+    {
+      "question": "Wie kann man ein KI-Modell in eine Anwendung integrieren?",
+      "answer": "Über eine API oder durch direkte Einbindung in den Code als Bibliothek."
+    },
+    {
+      "question": "Was bedeutet Modell-Feintuning?",
+      "answer": "Ein bereits trainiertes Modell wird mit spezifischen Daten weiter angepasst."
+    },
+    {
+      "question": "Was ist ein neuronales Netzwerk?",
+      "answer": "Ein neuronales Netzwerk ist ein KI-Modell, das aus vielen Schichten von Neuronen besteht und Muster in Daten erkennt."
+    },
+    {
+      "question": "Aus welchen Schichten besteht ein neuronales Netzwerk?",
+      "answer": "Aus Eingabeschicht, versteckten Schichten (Hidden Layers) und Ausgabeschicht."
+    },
+    {
+      "question": "Was passiert in den Neuronen eines neuronalen Netzwerks?",
+      "answer": "Jedes Neuron verrechnet Eingabewerte mit Gewichtungen und wendet eine Aktivierungsfunktion an."
+    },
+    {
+      "question": "Was ist eine Aktivierungsfunktion?",
+      "answer": "Eine Funktion, die entscheidet, ob ein Neuron 'aktiviert' wird, z. B. ReLU oder Sigmoid."
+    },
+    {
+      "question": "Wie lernt ein neuronales Netzwerk?",
+      "answer": "Durch Training mit Daten: Es passt die Gewichte an, um Fehler zu minimieren."
+    },
+    {
+      "question": "Wie wird der Fehler im Netzwerk gemessen?",
+      "answer": "Mit einer sogenannten Verlustfunktion (Loss Function)."
+    },
+    {
+      "question": "Was ist Backpropagation?",
+      "answer": "Ein Verfahren, mit dem der Fehler rückwärts durchs Netzwerk fließt, um die Gewichte zu korrigieren."
+    },
+    {
+      "question": "Was bewirken die Gewichtungen im neuronalen Netzwerk?",
+      "answer": "Sie bestimmen, wie stark ein Eingangswert die Ausgabe beeinflusst."
+    },
+    {
+      "question": "Was ist ein Epoch im Training eines neuronalen Netzwerks?",
+      "answer": "Eine vollständige Durchlauf aller Trainingsdaten durch das Netzwerk."
+    },
+    {
+      "question": "Wofür kann ein neuronales Netzwerk eingesetzt werden?",
+      "answer": "Zum Beispiel für Spracherkennung, Bilderkennung, Textverarbeitung oder Vorhersagen."
+    },
+    {
+      "question": "Was ist der 'Task' in einem Prompt?",
+      "answer": "Der Task beschreibt die konkrete Aufgabe, die die KI ausführen soll."
+    },
+    {
+      "question": "Was bedeutet 'Rolle' in einem Prompt?",
+      "answer": "Die Rolle gibt vor, in welcher Funktion die KI antworten soll, z. B. als Lehrer oder Entwickler."
+    },
+    {
+      "question": "Was ist der 'Kontext' in einem Prompt?",
+      "answer": "Der Kontext liefert Hintergrundwissen oder Rahmenbedingungen zur Aufgabe."
+    },
+    {
+      "question": "Wofür steht das 'Output-Format' im Prompt?",
+      "answer": "Das Output-Format beschreibt, wie die Antwort aussehen soll, z. B. als Liste, Tabelle oder JSON."
+    }
   ]
 };
 
