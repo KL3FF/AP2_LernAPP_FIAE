@@ -1699,6 +1699,402 @@ const cardSets = {
   ],
   "WISO": [
     {
+      "question": "Was ist die Rechtsgrundlage für eine Betriebsvereinbarung?",
+      "answer": "Die Rechtsgrundlage für eine Betriebsvereinbarung ist § 77 Betriebsverfassungsgesetz (BetrVG)."
+    },
+    {
+      "question": "Was ist eine Betriebsvereinbarung?",
+      "answer": "Eine Betriebsvereinbarung ist eine schriftliche Vereinbarung zwischen dem Betriebsrat und dem Arbeitgeber. Sie muss schriftlich abgeschlossen und für alle sichtbar im Betrieb ausgelegt sein."
+    },
+    {
+      "question": "Was gilt für alle Beschäftigten, wenn eine Betriebsvereinbarung abgeschlossen wird?",
+      "answer": "Die Betriebsvereinbarung ist unmittelbar, zwingend und verbindlich und gilt automatisch für alle Beschäftigten im Betrieb."
+    },
+    {
+      "question": "Welche Inhalte kann eine Betriebsvereinbarung regeln?",
+      "answer": "Eine Betriebsvereinbarung kann Regelungen zur betrieblichen Ordnung und zum Verhalten im Betrieb enthalten, wie z. B. Raucherregelungen, Pausenzeiten, Arbeitszeiten, Überstunden und weitere soziale Angelegenheiten."
+    },
+    {
+      "question": "Was besagt der Tarifvorrang in Bezug auf Betriebsvereinbarungen?",
+      "answer": "Der Tarifvorrang besagt, dass Themen, die in einem Tarifvertrag geregelt sind, nicht zusätzlich oder abweichend in einer Betriebsvereinbarung geregelt werden dürfen. Eine Betriebsvereinbarung darf einen Tarifvertrag nicht negativ beeinflussen."
+    },
+    {
+      "question": "Was muss der Arbeitgeber dem Betriebsrat im Hinblick auf Arbeitsplätze und neue Technologien tun?",
+      "answer": "Der Arbeitgeber muss den Betriebsrat rechtzeitig informieren und anhören."
+    },
+    {
+      "question": "Bei welchen Entscheidungen darf der Betriebsrat mitwirken?",
+      "answer": "Der Betriebsrat darf bei Einstellungen, Versetzungen und Kündigungen mitwirken."
+    },
+    {
+      "question": "Was ist das Mitbestimmungsrecht des Betriebsrats?",
+      "answer": "Der Betriebsrat hat ein echtes Mitspracherecht (Veto-Recht) bei Arbeitszeiten, Überstunden, Urlaubsplanung und sozialen Angelegenheiten."
+    },
+    {
+      "question": "Bei welchen Themen hat der Betriebsrat ein Mitwirkungsrecht?",
+      "answer": "Der Betriebsrat darf bei Entscheidungen zu Einstellungen, Versetzungen und Kündigungen mitwirken."
+    },
+    {
+      "question": "Welche Rechte hat der Betriebsrat bei der Festlegung von Arbeitszeiten?",
+      "answer": "Der Betriebsrat hat ein Mitbestimmungsrecht bei der Festlegung von Arbeitszeiten."
+    },
+    {
+      "question": "Welche sozialen Angelegenheiten kann der Betriebsrat mitbestimmen?",
+      "answer": "Der Betriebsrat hat ein Mitbestimmungsrecht bei sozialen Angelegenheiten, z. B. in Bezug auf Urlaub und Überstunden."
+    },
+    {
+      "question": "Wie viele wahlberechtigte Arbeitnehmer benötigt man zur Gründung eines Betriebsrats?",
+      "answer": "Mindestens 5 wahlberechtigte Arbeitnehmer."
+    },
+    {
+      "question": "Wie viele der wahlberechtigten Arbeitnehmer müssen wählbar sein?",
+      "answer": "Mindestens 3 müssen wählbar sein, das heißt volljährig und mindestens 6 Monate im Betrieb beschäftigt."
+    },
+    {
+      "question": "Wie viele Betriebsratsmitglieder gibt es bei 5 bis 20 Arbeitnehmern im Betrieb?",
+      "answer": "1 Betriebsratsmitglied."
+    },
+    {
+      "question": "Wie viele Mitglieder hat der Betriebsrat bei 21 bis 50 Arbeitnehmern?",
+      "answer": "3 Mitglieder."
+    },
+    {
+      "question": "Ab wie vielen Arbeitnehmern muss mindestens ein Betriebsratsmitglied vollständig freigestellt werden?",
+      "answer": "Ab 200 Arbeitnehmern."
+    },
+    {
+      "question": "Wie häufig finden Betriebsratswahlen statt?",
+      "answer": "Alle 4 Jahre."
+    },
+    {
+      "question": "Dürfen Betriebsratswahlen behindert werden?",
+      "answer": "Nein, die Wahl darf nicht behindert werden."
+    },
+    {
+      "question": "Wie oft finden Betriebsversammlungen statt?",
+      "answer": "Mindestens einmal im Vierteljahr (alle 3 Monate)."
+    },
+    {
+      "question": "Wie wird die Zeit für Betriebsversammlungen behandelt?",
+      "answer": "Betriebsversammlungen sind bezahlte Arbeitszeit."
+    },
+    {
+      "question": "Darf der Betriebsrat zum Streik aufrufen?",
+      "answer": "Nein, das ist Aufgabe der Gewerkschaften."
+    },
+    {
+      "question": "Was passiert als erstes, wenn ein Tarifvertrag ausläuft?",
+      "answer": "Der Tarifvertrag läuft aus, und es beginnt die Verhandlung über einen neuen Tarifvertrag."
+    },
+    {
+      "question": "Wer setzt sich zu den Tarifverhandlungen an einen Tisch?",
+      "answer": "Arbeitgeber und Gewerkschaften."
+    },
+    {
+      "question": "Was kann während der Verhandlungen als Druckmittel eingesetzt werden?",
+      "answer": "Warnstreiks können stattfinden."
+    },
+    {
+      "question": "Was passiert, wenn keine Einigung in den Tarifverhandlungen erzielt wird?",
+      "answer": "Ein Schlichter kann eingeschaltet werden, um zu helfen."
+    },
+    {
+      "question": "Was passiert, wenn auch die Schlichtung scheitert?",
+      "answer": "Es kommt zur Urabstimmung, bei der mindestens 75 % der Mitglieder für den Streik stimmen müssen."
+    },
+    {
+      "question": "Wann endet der Streik?",
+      "answer": "Der Streik endet, wenn mindestens 25 % der Mitglieder dem neuen Tarifvertrag zustimmen."
+    },
+    {
+      "question": "Was dürfen Arbeitgeber und Arbeitnehmer laut Grundgesetz bilden?",
+      "answer": "Sie dürfen Gewerkschaften bzw. Arbeitgeberverbände gründen."
+    },
+    {
+      "question": "Was bedeutet Tarifautonomie?",
+      "answer": "Nur Gewerkschaften und Arbeitgeber dürfen über Tarife verhandeln – der Staat mischt sich nicht ein."
+    },
+    {
+      "question": "Was ist die Tarifbindung?",
+      "answer": "Ein Tarifvertrag gilt, solange er gültig ist oder nicht gekündigt wurde."
+    },
+    {
+      "question": "Was bedeutet Friedenspflicht?",
+      "answer": "Während der Laufzeit eines Tarifvertrags darf nicht gestreikt werden."
+    },
+    {
+      "question": "Was regelt der Manteltarifvertrag?",
+      "answer": "Arbeitsbedingungen wie Arbeitszeit, Urlaub, Kündigungsfristen – aber nicht den Lohn."
+    },
+    {
+      "question": "Wie lange gilt ein Manteltarifvertrag in der Regel?",
+      "answer": "Etwa 3 bis 5 Jahre."
+    },
+    {
+      "question": "Was regelt der Lohn- und Gehaltstarifvertrag?",
+      "answer": "Er regelt die Entgelte, also Löhne und Gehälter."
+    },
+    {
+      "question": "Wie lange gilt ein Lohn- und Gehaltstarifvertrag meistens?",
+      "answer": "Meistens 1 bis 2 Jahre."
+    },
+    {
+      "question": "Für wen gelten Tarifverträge grundsätzlich?",
+      "answer": "Nur für Mitglieder der jeweiligen Gewerkschaft oder des Arbeitgeberverbands."
+    },
+    {
+      "question": "Wann gilt ein Tarifvertrag auch für Nichtmitglieder?",
+      "answer": "Wenn er für allgemeinverbindlich erklärt wurde oder der Arbeitgeber ihn freiwillig für alle anwendet."
+    },
+    {
+      "question": "Was ist ein Vorteil von Tarifverträgen für Arbeitgeber?",
+      "answer": "Es muss nicht mit jedem Arbeitnehmer einzeln verhandelt werden."
+    },
+    {
+      "question": "Was ist ein Vorteil von Tarifverträgen für Arbeitnehmer?",
+      "answer": "Einheitliche Regeln und im Streikfall Streikgeld von der Gewerkschaft."
+    },
+    {
+      "question": "Wann endet ein Zeitvertrag?",
+      "answer": "Ein Zeitvertrag endet automatisch mit dem vereinbarten Datum."
+    },
+    {
+      "question": "Was ist ein Aufhebungsvertrag?",
+      "answer": "Ein Aufhebungsvertrag ist eine einvernehmliche Beendigung des Arbeitsverhältnisses durch zwei Willenserklärungen."
+    },
+    {
+      "question": "Was braucht man für eine wirksame Kündigung?",
+      "answer": "Sie muss schriftlich erfolgen und nachweisbar zugegangen sein."
+    },
+    {
+      "question": "Wie lange ist die Kündigungsfrist für Arbeitnehmer bei ordentlicher Kündigung?",
+      "answer": "4 Wochen zum 15. oder zum Monatsende."
+    },
+    {
+      "question": "Wie lange ist die Kündigungsfrist für Arbeitgeber laut § 622 BGB?",
+      "answer": "Ebenfalls 4 Wochen, kann sich aber mit Dienstjahren verlängern."
+    },
+    {
+      "question": "Was ist eine außerordentliche Kündigung?",
+      "answer": "Eine fristlose Kündigung mit wichtigem Grund, z. B. bei Diebstahl oder ausbleibender Lohnzahlung."
+    },
+    {
+      "question": "Wer hat besonderen Kündigungsschutz?",
+      "answer": "Schwangere, Schwerbehinderte, Azubis, Pflegezeitnehmende, JAV, Betriebsräte, Datenschutzbeauftragte."
+    },
+    {
+      "question": "Wie lange gilt der Kündigungsschutz nach Ende einer Amtszeit z. B. als Betriebsrat?",
+      "answer": "Ein Jahr nach Ende der Amtszeit."
+    },
+    {
+      "question": "Wann gilt das Kündigungsschutzgesetz (KSchG)?",
+      "answer": "Wenn der Betrieb mehr als 10 Mitarbeiter hat und das Arbeitsverhältnis länger als 6 Monate besteht."
+    },
+    {
+      "question": "Wie werden Teilzeitkräfte bei der Mitarbeiterzahl berechnet?",
+      "answer": "30 Std./Woche = 0,75; 20 Std./Woche = 0,5; Vollzeit = 1,0"
+    },
+    {
+      "question": "Was sind die drei Kündigungsgründe laut KSchG?",
+      "answer": "Personenbedingt, verhaltensbedingt, betriebsbedingt."
+    },
+    {
+      "question": "Was bedeutet soziale Rechtfertigung bei Kündigungen?",
+      "answer": "Die Kündigung muss auf anerkannten Gründen beruhen, z. B. Krankheit oder Stellenabbau."
+    },
+    {
+      "question": "Was muss vor einer verhaltensbedingten Kündigung passieren?",
+      "answer": "In der Regel muss vorher eine Abmahnung erfolgen."
+    },
+    {
+      "question": "Was prüft der Arbeitgeber vor einer Kündigung nach KSchG?",
+      "answer": "Ob ein milderes Mittel wie z. B. Versetzung möglich ist."
+    },
+    {
+      "question": "Ab wann gilt eine Person als schwerbehindert?",
+      "answer": "Ab einem Grad der Behinderung von 50 % und einer voraussichtlichen Dauer von mindestens 6 Monaten."
+    },
+    {
+      "question": "Wie viele schwerbehinderte Menschen muss ein Betrieb mit 20 Arbeitsplätzen mindestens beschäftigen?",
+      "answer": "Mindestens eine Person, also 5 % der Arbeitsplätze."
+    },
+    {
+      "question": "Was passiert, wenn ein Betrieb keine schwerbehinderten Menschen einstellt?",
+      "answer": "Der Betrieb muss eine Ausgleichsabgabe zahlen."
+    },
+    {
+      "question": "Wie viele zusätzliche Urlaubstage haben schwerbehinderte Menschen?",
+      "answer": "5 zusätzliche Urlaubstage pro Jahr."
+    },
+    {
+      "question": "Darf man eine schwerbehinderte Person einfach kündigen?",
+      "answer": "Nein, es braucht die Zustimmung des Integrationsamts."
+    },
+    {
+      "question": "Wann muss der Antrag auf Zustimmung zur Kündigung gestellt werden?",
+      "answer": "Spätestens 2 Wochen vor der geplanten Kündigung."
+    },
+    {
+      "question": "Wie lange besteht Kündigungsschutz bei Schwangerschaft?",
+      "answer": "Während der Schwangerschaft und 4 Monate nach der Geburt."
+    },
+    {
+      "question": "Wie lange ist die Klagefrist bei Kündigung während der Schwangerschaft?",
+      "answer": "3 Wochen."
+    },
+    {
+      "question": "Wann darf ein Beschäftigungsverbot ausgesprochen werden?",
+      "answer": "Wenn die Gesundheit von Mutter oder Kind gefährdet ist."
+    },
+    {
+      "question": "Wie lange gilt das absolute Beschäftigungsverbot vor der Geburt?",
+      "answer": "6 Wochen vor der Geburt."
+    },
+    {
+      "question": "Wie lange gilt das absolute Beschäftigungsverbot nach der Geburt?",
+      "answer": "8 Wochen nach der Geburt."
+    },
+    {
+      "question": "Wie lange dauert das Beschäftigungsverbot bei Früh- oder Mehrlingsgeburten?",
+      "answer": "12 Wochen nach der Geburt."
+    },
+    {
+      "question": "Darf eine Schwangere nachts arbeiten?",
+      "answer": "Nein, nicht zwischen 20 Uhr und 6 Uhr."
+    },
+    {
+      "question": "Darf eine Schwangere an Sonn- und Feiertagen arbeiten?",
+      "answer": "Nein, das ist verboten."
+    },
+    {
+      "question": "Wie viel zahlt die Krankenkasse als Mutterschaftsgeld?",
+      "answer": "Bis zu 13 Euro pro Tag."
+    },
+    {
+      "question": "Wer zahlt die Differenz zum vollen Gehalt beim Mutterschaftsgeld?",
+      "answer": "Der Arbeitgeber, basierend auf dem Durchschnittsverdienst der letzten 3 Monate."
+    },
+    {
+      "question": "Wie viele Urlaubstage hat man bei einer 6-Tage-Woche laut BUrlG?",
+      "answer": "24 Werktage."
+    },
+    {
+      "question": "Wie viele Urlaubstage hat man bei einer 5-Tage-Woche laut BUrlG?",
+      "answer": "20 Werktage."
+    },
+    {
+      "question": "Wann besteht der volle Urlaubsanspruch?",
+      "answer": "Nach 6 Monaten Betriebszugehörigkeit."
+    },
+    {
+      "question": "Wie viel Urlaub steht einem in den ersten 6 Monaten zu?",
+      "answer": "1/12 des Jahresurlaubs pro vollem Monat."
+    },
+    {
+      "question": "Bis wann kann Urlaub ins nächste Jahr übertragen werden?",
+      "answer": "Bis zum 31. März des Folgejahres – nur bei besonderem Grund."
+    },
+    {
+      "question": "Wie soll Urlaub laut Gesetz genommen werden?",
+      "answer": "Möglichst zusammenhängend, mindestens 12 Tage am Stück."
+    },
+    {
+      "question": "Wann beginnt und endet eine Ausbildung laut BBiG?",
+      "answer": "Die Ausbildung beginnt laut Vertrag und endet mit der Abschlussprüfung oder dem vertraglichen Enddatum."
+    },
+    {
+      "question": "Wie lange dauert die Probezeit laut BBiG?",
+      "answer": "Die Probezeit dauert mindestens 1 Monat und höchstens 4 Monate."
+    },
+    {
+      "question": "Darf in der Probezeit gekündigt werden?",
+      "answer": "Ja, in der Probezeit darf jederzeit fristlos gekündigt werden."
+    },
+    {
+      "question": "Wann darf nach der Probezeit gekündigt werden?",
+      "answer": "Nur mit wichtigem Grund, z. B. Berufswechsel oder Diebstahl."
+    },
+    {
+      "question": "Wie lange ist die Kündigungsfrist nach der Probezeit?",
+      "answer": "Die Kündigungsfrist beträgt 4 Wochen (28 Tage)."
+    },
+    {
+      "question": "Hat ein Azubi Anspruch auf Vergütung?",
+      "answer": "Ja, der Azubi hat Anspruch auf eine angemessene Vergütung."
+    },
+    {
+      "question": "Hat der Azubi Anspruch auf Urlaub?",
+      "answer": "Ja, der Azubi hat gesetzlichen Anspruch auf Urlaub."
+    },
+    {
+      "question": "Muss der Betrieb Ausbildungsmittel kostenlos bereitstellen?",
+      "answer": "Ja, alle Ausbildungsmittel müssen kostenlos sein."
+    },
+    {
+      "question": "Darf der Azubi für die Berufsschule freigestellt werden?",
+      "answer": "Ja, der Azubi muss für Berufsschule und Prüfungen freigestellt werden."
+    },
+    {
+      "question": "Was gehört zu den Pflichten eines Azubis?",
+      "answer": "Berichtsheft führen, Schweigepflicht, Lernpflicht, Sorgfaltspflicht und Schulbesuch."
+    },
+    {
+      "question": "Für wen gilt das Jugendarbeitsschutzgesetz?",
+      "answer": "Für Jugendliche ab 15 bis unter 18 Jahren."
+    },
+    {
+      "question": "Wie lange dürfen Jugendliche täglich arbeiten?",
+      "answer": "Maximal 8 Stunden pro Tag, 40 Stunden pro Woche."
+    },
+    {
+      "question": "Wann darf ein Jugendlicher 8,5 Stunden arbeiten?",
+      "answer": "Wenn an anderen Tagen kürzer gearbeitet wird."
+    },
+    {
+      "question": "Ist am Prüfungstag Arbeit erlaubt?",
+      "answer": "Nein, am Prüfungstag ist der Jugendliche freigestellt."
+    },
+    {
+      "question": "Darf man arbeiten, wenn vor 9 Uhr Schule ist?",
+      "answer": "Nein, dann darf im Betrieb nicht gearbeitet werden."
+    },
+    {
+      "question": "Was gilt bei Blockunterricht mit mehr als 25 Stunden?",
+      "answer": "Dann ist keine Arbeit im Betrieb erlaubt."
+    },
+    {
+      "question": "Was passiert bei Einzelschultagen mit über 5 Stunden?",
+      "answer": "Auch dann darf im Betrieb nicht gearbeitet werden."
+    },
+    {
+      "question": "Welche ärztlichen Untersuchungen sind Pflicht?",
+      "answer": "Erstuntersuchung und erste Nachuntersuchung sind Pflicht."
+    },
+    {
+      "question": "Darf ein Jugendlicher Akkordarbeit machen?",
+      "answer": "Nein, Akkordarbeit ist verboten."
+    },
+    {
+      "question": "Wie viel Urlaub hat ein Jugendlicher mit 15 Jahren?",
+      "answer": "30 Werktage."
+    },
+    {
+      "question": "Wie lang ist die Pause bei 5 Stunden Arbeit?",
+      "answer": "Mindestens 30 Minuten."
+    },
+    {
+      "question": "Wie lang ist die Ruhezeit zwischen zwei Arbeitstagen?",
+      "answer": "Mindestens 12 Stunden."
+    },
+    {
+      "question": "Wann ist Nachtruhe für Jugendliche?",
+      "answer": "Von 20 Uhr bis 6 Uhr."
+    },
+    {
+      "question": "Dürfen Jugendliche an Samstagen arbeiten?",
+      "answer": "In der Regel nicht, nur bei Ausnahmen."
+    },
+    {
       question: "Was bedeutet das SMART-Prinzip?",
       answer: "Das SMART-Prinzip ist eine Methode zur Zieldefinition und steht für Spezifisch, Messbar, Akzeptiert, Realistisch und Terminieren."
     },
