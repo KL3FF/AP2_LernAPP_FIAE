@@ -3333,7 +3333,7 @@ const cardSets = {
     },    
     {
       "question": "Was ist der Output Layer?",
-      "answer": "Der Output Layer gibt das Ergebnis der Verarbeitung zurück, z. B. eine Vorhersage oder Klassifikation."
+      "answer": "Der Output Layer gibt das Ergebnis der Verarbeitung zurück, z.B. eine Vorhersage oder Klassifikation."
     },
     {
       "question": "Was macht der Output Layer?",
@@ -3341,7 +3341,27 @@ const cardSets = {
     },
     {
       "question": "Wie viele Neuronen hat der Output Layer?",
-      "answer": "Das hängt vom Problem ab – z. B. 1 Neuron für Ja/Nein oder mehrere für Klassen bei Klassifikationen."
+      "answer": "Das hängt vom Problem ab – z.B. 1 Neuron für Ja/Nein oder mehrere für Klassen bei Klassifikationen."
+    },
+    {
+      "question": "Was ist die Aktivierungsfunktion in einem neuronalen Netzwerk?",
+      "answer": "Die Aktivierungsfunktion entscheidet, ob ein Neuron ein Signal weitergibt. Sie verarbeitet die gewichtete Summe der Eingaben und gibt z. B. 0 oder 1 aus oder einen Wert dazwischen."
+    },
+    {
+      "question": "Wie lernt ein neuronales Netzwerk?",
+      "answer": "Es passt die Gewichte der Verbindungen zwischen Neuronen an, um den Fehler bei der Vorhersage zu verringern. Das passiert durch viele Wiederholungen mit Trainingsdaten."
+    },
+    {
+      "question": "Was bedeutet eine Epoche beim Training eines neuronalen Netzwerks?",
+      "answer": "Eine Epoche ist ein vollständiger Durchlauf aller Trainingsdaten durch das Netzwerk."
+    },
+    {
+      "question": "Wie wird der Fehler im neuronalen Netzwerk gemessen?",
+      "answer": "Mit einer sogenannten Verlustfunktion (Loss Function), die angibt, wie weit die Ausgabe vom gewünschten Ergebnis abweicht."
+    },
+    {
+      "question": "Warum bestehen neuronale Netzwerke aus mehreren Schichten?",
+      "answer": "Jede Schicht kann unterschiedliche Merkmale in den Daten erkennen. So können komplexe Muster Schritt für Schritt gelernt werden."
     },
     {
       "question": "Wie hängen Input, Hidden und Output Layer zusammen?",
