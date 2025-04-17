@@ -3210,6 +3210,102 @@ const cardSets = {
     {
       "question": "Wofür steht das 'Output-Format' im Prompt?",
       "answer": "Das Output-Format beschreibt, wie die Antwort aussehen soll, z. B. als Liste, Tabelle oder JSON."
+    },
+    {
+      "question": "Was ist der Hauptunterschied zwischen Deep Learning und traditionellem maschinellen Lernen?",
+      "answer": "Der Hauptunterschied besteht darin, dass Deep Learning auf neuronalen Netzwerken basiert und automatisch Merkmale aus Rohdaten lernt, während traditionelles maschinelles Lernen oft manuelle Feature-Extraktion erfordert."
+    },
+    {
+      "question": "Warum nennt man Deep Learning 'Deep'?",
+      "answer": "Es wird 'Deep' genannt, weil es auf Netzwerken mit vielen Schichten basiert, die es dem Modell ermöglichen, komplexe Muster und Hierarchien in den Daten zu lernen."
+    },
+    {
+      "question": "Was sind die Eingabeschichten in einem Deep Learning Modell?",
+      "answer": "Die Eingabeschicht ist die erste Schicht in einem neuronalen Netzwerk, die die Rohdaten empfängt und an die folgenden Schichten weiterleitet."
+    },
+    {
+      "question": "Was ist eine verborgene Schicht in einem Deep Learning Netzwerk?",
+      "answer": "Verborgene Schichten sind Zwischenebenen in einem neuronalen Netzwerk, die die Eingabedaten verarbeiten und abstrahierte Merkmale lernen."
+    },
+    {
+      "question": "Was ist eine Ausgabeschicht in einem neuronalen Netzwerk?",
+      "answer": "Die Ausgabeschicht gibt die Vorhersage des neuronalen Netzwerks aus, basierend auf den Berechnungen der vorherigen Schichten."
+    },
+    {
+      "question": "Was ist ein Gewicht in einem neuronalen Netzwerk?",
+      "answer": "Ein Gewicht bestimmt die Stärke des Zusammenhangs zwischen den Eingaben und den Neuronen eines neuronalen Netzwerks und wird während des Trainings angepasst."
+    },
+    {
+      "question": "Was ist ein Bias in einem neuronalen Netzwerk?",
+      "answer": "Ein Bias ist ein zusätzlicher Parameter in jedem Neuron, der es dem Modell ermöglicht, die Aktivierung zu verschieben, um eine genauere Vorhersage zu treffen."
+    },
+    {
+      "question": "Was ist die Aktivierungsfunktion in einem neuronalen Netzwerk?",
+      "answer": "Eine Aktivierungsfunktion bestimmt, ob ein Neuron aktiviert wird oder nicht und hilft dabei, Nichtlinearität in das Modell zu bringen, was es leistungsfähiger macht."
+    },
+    {
+      "question": "Warum sind Aktivierungsfunktionen wie ReLU oder Sigmoid wichtig?",
+      "answer": "Aktivierungsfunktionen wie ReLU oder Sigmoid ermöglichen es dem neuronalen Netzwerk, komplexe, nichtlineare Beziehungen in den Daten zu lernen."
+    },
+    {
+      "question": "Was ist Overfitting in Deep Learning?",
+      "answer": "Overfitting tritt auf, wenn ein Modell zu gut auf die Trainingsdaten passt und nicht generalisierbar ist, was zu einer schlechten Leistung auf neuen, ungesehenen Daten führt."
+    },
+    {
+      "question": "Was ist Underfitting in Deep Learning?",
+      "answer": "Underfitting tritt auf, wenn ein Modell nicht in der Lage ist, die Muster in den Trainingsdaten zu erfassen, weil es zu einfach oder ungenau ist."
+    },
+    {
+      "question": "Wie kann man Overfitting in Deep Learning vermeiden?",
+      "answer": "Man kann Overfitting vermeiden, indem man Regularisierungstechniken wie Dropout, Datenaugmentation oder die Verwendung eines Validierungsdatensatzes anwendet."
+    },
+    {
+      "question": "Was ist die Rolle der Lernrate in Deep Learning?",
+      "answer": "Die Lernrate bestimmt, wie schnell oder langsam ein Modell während des Trainings seine Gewichtungen anpasst. Eine zu hohe Lernrate kann zu instabilen Ergebnissen führen, während eine zu niedrige den Lernprozess verlangsamt."
+    },
+    {
+      "question": "Was ist Gradient Descent im Deep Learning?",
+      "answer": "Gradient Descent ist ein Optimierungsverfahren, das verwendet wird, um die Gewichte eines neuronalen Netzwerks so zu aktualisieren, dass der Fehler (Loss) minimiert wird."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Mini-Batch und Stochastic Gradient Descent?",
+      "answer": "Stochastic Gradient Descent (SGD) verwendet eine einzelne Datenprobe, um die Gewichtungen zu aktualisieren, während Mini-Batch Gradient Descent eine kleinere Gruppe von Datenproben verwendet, um den Durchschnittsfehler zu berechnen."
+    },
+    {
+      "question": "Was ist eine Epoch im Deep Learning?",
+      "answer": "Eine Epoche bezeichnet einen vollständigen Durchlauf des gesamten Trainingsdatensatzes durch das neuronale Netzwerk während des Trainingsprozesses."
+    },
+    {
+      "question": "Was sind Hyperparameter im Deep Learning?",
+      "answer": "Hyperparameter sind die Parameter, die vor dem Training des Modells festgelegt werden, wie z. B. die Anzahl der Schichten, Lernrate oder Batch-Größe."
+    },
+    {
+      "question": "Was ist ein Batch in Deep Learning?",
+      "answer": "Ein Batch ist eine Gruppe von Trainingsdaten, die zusammen in einem Schritt durch das Netzwerk verarbeitet werden. Die Batch-Größe gibt an, wie viele Datenpunkte in einem Batch enthalten sind."
+    },
+    {
+      "question": "Warum ist Datenvorverarbeitung wichtig im Deep Learning?",
+      "answer": "Datenvorverarbeitung ist wichtig, um die Eingabedaten zu bereinigen, zu normalisieren oder zu transformieren, was die Genauigkeit und Effizienz des Modells verbessert."
+    },
+    {
+      "question": "Was ist ein Testdatensatz im Deep Learning?",
+      "answer": "Ein Testdatensatz ist eine Sammlung von Daten, die während des Trainings nicht verwendet wird, sondern dazu dient, die Leistung des Modells nach dem Training zu evaluieren."
+    },
+    {
+      "question": "Was bedeutet 'Cross-Validation' im Deep Learning?",
+      "answer": "Cross-Validation ist eine Technik, bei der der Trainingsdatensatz in mehrere Teilmengen unterteilt wird, um das Modell auf verschiedenen Datensätzen zu validieren und die Leistung zu überprüfen."
+    },
+    {
+      "question": "Was ist ein Verlustfunktion (Loss Function)?",
+      "answer": "Die Verlustfunktion misst die Differenz zwischen der tatsächlichen und der vom Modell vorhergesagten Ausgabe. Ziel ist es, den Verlust während des Trainings zu minimieren."
+    },
+    {
+      "question": "Was ist eine Batch Normalization im Deep Learning?",
+      "answer": "Batch Normalization ist eine Technik, die verwendet wird, um die Eingaben jeder Schicht zu normalisieren, was das Training stabilisiert und beschleunigt."
+    },
+    {
+      "question": "Was ist ein Deep Learning Framework?",
+      "answer": "Ein Deep Learning Framework ist eine Softwarebibliothek wie TensorFlow oder PyTorch, die Entwicklern hilft, neuronale Netzwerke zu erstellen, zu trainieren und zu testen."
     }
   ]
 };
