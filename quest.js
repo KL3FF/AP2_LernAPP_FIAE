@@ -1699,6 +1699,50 @@ const cardSets = {
   ],
   "WISO": [
     {
+      "question": "Welche fünf Sozialversicherungen gibt es in Deutschland?",
+      "answer": "In Deutschland gibt es fünf Sozialversicherungen: Krankenversicherung, Pflegeversicherung, Arbeitslosenversicherung, Rentenversicherung und Unfallversicherung."
+    },
+    {
+      "question": "Wer ist Träger der Krankenversicherung?",
+      "answer": "Träger der Krankenversicherung sind die gesetzlichen Krankenkassen."
+    },
+    {
+      "question": "Wie wird die Krankenversicherung finanziert?",
+      "answer": "Die Krankenversicherung wird halb-halb durch den Arbeitgeber und den Arbeitnehmer finanziert."
+    },
+    {
+      "question": "Wer ist Träger der Pflegeversicherung?",
+      "answer": "Die Träger der Pflegeversicherung sind die Pflegekassen, die Teil der gesetzlichen Krankenkassen sind."
+    },
+    {
+      "question": "Wie wird die Pflegeversicherung finanziert?",
+      "answer": "Die Pflegeversicherung wird halb-halb durch den Arbeitgeber und den Arbeitnehmer finanziert."
+    },
+    {
+      "question": "Wer ist Träger der Arbeitslosenversicherung?",
+      "answer": "Träger der Arbeitslosenversicherung ist die Bundesagentur für Arbeit."
+    },
+    {
+      "question": "Wie wird die Arbeitslosenversicherung finanziert?",
+      "answer": "Die Arbeitslosenversicherung wird halb-halb durch den Arbeitgeber und den Arbeitnehmer finanziert."
+    },
+    {
+      "question": "Wer ist Träger der Rentenversicherung?",
+      "answer": "Träger der Rentenversicherung ist die Deutsche Rentenversicherung."
+    },
+    {
+      "question": "Wie wird die Rentenversicherung finanziert?",
+      "answer": "Die Rentenversicherung wird halb-halb durch den Arbeitgeber und den Arbeitnehmer finanziert."
+    },
+    {
+      "question": "Wer ist Träger der Unfallversicherung?",
+      "answer": "Träger der Unfallversicherung ist die gesetzliche Unfallversicherung, meist in Form der Berufsgenossenschaften."
+    },
+    {
+      "question": "Wie wird die Unfallversicherung finanziert?",
+      "answer": "Die Unfallversicherung wird vollständig durch den Arbeitgeber finanziert."
+    },
+    {
       "question": "Was ist die Rechtsgrundlage für eine Betriebsvereinbarung?",
       "answer": "Die Rechtsgrundlage für eine Betriebsvereinbarung ist § 77 Betriebsverfassungsgesetz (BetrVG)."
     },
@@ -3544,9 +3588,17 @@ const cardSets = {
     {
       "question": "Was macht Change Request Management?",
       "answer": "Change Request Management plant, steuert und setzt Änderungen im Projekt um, um sicherzustellen, dass sie erfolgreich und kontrolliert durchgeführt werden."
+    },
+    {
+      "question": "Nennen Sie mir klassische Vorgehensmodelle der Softwareentwicklung.",
+      "answer": "Wasserfallmodell , V-Modell , Spiralmodell"
+    },
+    {
+      "question": "Nennen Sie mir agile Vorgehensmodelle.",
+      "answer": "Scrum , Kanban,  Extreme,  Programming (XP)"
     }
   ],
-  "KI":[
+  "KI": [
     {
       "question": "Was ist eine schwache KI?",
       "answer": "Eine schwache KI ist auf eine bestimmte Aufgabe spezialisiert, z.B. Sprachassistenten oder Chatbots."
@@ -3726,7 +3778,7 @@ const cardSets = {
     {
       "question": "Wie funktioniert die Gewichtung von Eingaben in einem neuronalen Netzwerk?",
       "answer": "Jeder Eingang zu einem Neuron hat ein eigenes Gewicht. Dieses Gewicht bestimmt, wie stark die jeweilige Eingabe das Neuron beeinflusst. Das Neuron summiert alle gewichteten Eingaben. Wird dabei ein bestimmter Schwellwert überschritten, wird das Neuron aktiviert und gibt ein Signal weiter."
-    },    
+    },
     {
       "question": "Was ist der Output Layer?",
       "answer": "Der Output Layer gibt das Ergebnis der Verarbeitung zurück, z.B. eine Vorhersage oder Klassifikation."
