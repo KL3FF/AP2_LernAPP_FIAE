@@ -793,34 +793,6 @@ const cardSets = {
       "answer": "Man ist für alles verantwortlich – von der Hardware über das Netzwerk bis zur Sicherheit und Wartung der Software."
     },
     {
-      "question": "Was ist das Wasserfallmodell?",
-      "answer": "Ein lineares, klassisches Projektmanagementmodell mit den Phasen: Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
-    },
-    {
-      "question": "Welche Nachteile hat das Wasserfallmodell?",
-      "answer": "Es ist unflexibel bei Änderungen und erfordert eine vollständige Planung im Voraus."
-    },
-    {
-      "question": "Was ist Scrum?",
-      "answer": "Ein agiles Projektmanagementmodell, das flexibel auf Änderungen reagieren kann und auf Transparenz, Iterationen und Zusammenarbeit basiert."
-    },
-    {
-      "question": "Wie unterscheidet sich Scrum vom Wasserfallmodell?",
-      "answer": "Scrum ist iterativ und flexibel, während das Wasserfallmodell linear und wenig anpassbar ist."
-    },
-    {
-      "question": "Warum gilt Scrum als agil?",
-      "answer": "Weil es schnelle Anpassungen an neue Anforderungen erlaubt und regelmäßig Feedback einholt."
-    },
-    {
-      "question": "In welcher Reihenfolge verlaufen die Phasen im Wasserfallmodell?",
-      "answer": "Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
-    },
-    {
-      "question": "Was bedeutet Transparenz in Scrum?",
-      "answer": "Alle Projektbeteiligten haben jederzeit Einblick in den aktuellen Stand und die nächsten Schritte."
-    },
-    {
       "question": "Was ist statische Typisierung?",
       "answer": "Der Datentyp muss bereits vor der Laufzeit festgelegt werden, z. B. bei Java."
     },
@@ -1139,30 +1111,6 @@ const cardSets = {
     {
       question: "Was macht eine IDE (Integrierte Entwicklungsumgebung)?",
       answer: "Eine IDE vereint Werkzeuge wie einen Editor, Compiler, Debugger und weitere Hilfsprogramme in einer Oberfläche, um die Softwareentwicklung zu erleichtern."
-    },
-    {
-      question: "Was beschreibt das Wasserfallmodell?",
-      answer: "Das Wasserfallmodell beschreibt einen linearen Entwicklungsprozess: Analyse, Entwurf, Implementierung, Test, Einsatz und Wartung."
-    },
-    {
-      question: "Was sind die Vorteile des V-Modells?",
-      answer: "Das V-Modell bietet frühes Testen und eine klare Struktur, hat jedoch höhere Kosten und eingeschränkte Flexibilität."
-    },
-    {
-      question: "Was ist das Spiralmodell?",
-      answer: "Das Spiralmodell ist flexibel und fokussiert auf iterative Planung, aber es fehlt ein klares Endziel."
-    },
-    {
-      question: "Was ist Scrum?",
-      answer: "Scrum ist ein agiles Vorgehensmodell, das Flexibilität und Transparenz bietet, jedoch für große Teams zu komplex sein kann und hohe Disziplin erfordert."
-    },
-    {
-      question: "Was ist ein klassisches Vorgehensmodell?",
-      answer: "Klassische Vorgehensmodelle, wie das Wasserfallmodell, folgen einem festen, linearen Prozess. Dieser Prozess ist in klare Phasen unterteilt: Analyse, Entwurf, Implementierung, Testen und Wartung. Jede Phase wird nacheinander abgearbeitet, und Änderungen sind während des Prozesses nur schwer möglich."
-    },
-    {
-      question: "Was ist ein agiles Vorgehensmodell?",
-      answer: "Agile Vorgehensmodelle, wie Scrum, sind flexibler und iterativ. Sie bestehen aus kurzen, sich wiederholenden Entwicklungszyklen (Sprints), in denen regelmäßig Feedback eingeholt wird. Dies ermöglicht schnelle Anpassungen an sich ändernde Anforderungen und eine kontinuierliche Verbesserung der Software."
     },
     {
       question: "Was gehört zur Testdokumentation?",
@@ -1515,6 +1463,34 @@ const cardSets = {
   ],
   "WISO": [
     {
+      question: "Was bedeutet das SMART-Prinzip?",
+      answer: "Das SMART-Prinzip ist eine Methode zur Zieldefinition und steht für Spezifisch, Messbar, Akzeptiert, Realistisch und Terminieren."
+    },
+    {
+      question: "Was gehört zum Unternehmensleitbild?",
+      answer: "Das Unternehmensleitbild setzt sich aus Vision (Zukunftsbild des Unternehmens), Mission (Umsetzung der Vision) und Philosophie (Werte und Normen) zusammen."
+    },
+    {
+      question: "Was versteht man unter Corporate Identity?",
+      answer: "Corporate Identity bezeichnet das Erscheinungsbild eines Unternehmens, das durch Corporate Culture, Corporate Behavior, Corporate Design und Corporate Communication geprägt wird."
+    },
+    {
+      question: "Was umfasst die Corporate Culture?",
+      answer: "Die Corporate Culture umfasst die Philosophie, das Leitbild und die Werte des Unternehmens."
+    },
+    {
+      question: "Was umfasst das Corporate Behavior?",
+      answer: "Das Corporate Behavior umfasst das Verhalten und die Beziehungen des Unternehmens zu seinen Kunden und Partnern."
+    },
+    {
+      question: "Was gehört zum Corporate Design?",
+      answer: "Das Corporate Design umfasst das Logo, den Stylesheet, die Website und Arbeitskleidung des Unternehmens."
+    },
+    {
+      question: "Was gehört zur Corporate Communication?",
+      answer: "Corporate Communication umfasst die interne und externe Kommunikation des Unternehmens über Web, Print, Radio und TV."
+    },
+    {
       question: "Welche Abteilungen gibt es in einem Unternehmen?",
       answer: "Die Abteilungen in einem Unternehmen sind: Geschäftsführung, Buchhaltung, Finanzen, Controlling, Personalabteilung, Einkauf, Produktion, Absatz."
     },
@@ -1705,62 +1681,6 @@ const cardSets = {
     {
       question: "Was ist eine KG?",
       answer: "Eine KG (Kommanditgesellschaft) besteht aus mindestens 2 Gesellschaftern: einem Komplementär (Vollhafter) und einem Kommanditisten (Teilhaber). Es gibt kein Mindestkapital, und der Gewinn wird zu 4 % Verzinsung der Kapitaleinlage verteilt."
-    },
-    {
-      question: "Was bedeutet das SMART-Prinzip?",
-      answer: "Das SMART-Prinzip ist eine Methode zur Zieldefinition und steht für Spezifisch, Messbar, Akzeptiert, Realistisch und Terminieren."
-    },
-    {
-      question: "Was gehört zum Unternehmensleitbild?",
-      answer: "Das Unternehmensleitbild setzt sich aus Vision (Zukunftsbild des Unternehmens), Mission (Umsetzung der Vision) und Philosophie (Werte und Normen) zusammen."
-    },
-    {
-      question: "Was versteht man unter Corporate Identity?",
-      answer: "Corporate Identity bezeichnet das Erscheinungsbild eines Unternehmens, das durch Corporate Culture, Corporate Behavior, Corporate Design und Corporate Communication geprägt wird."
-    },
-    {
-      question: "Was umfasst die Corporate Culture?",
-      answer: "Die Corporate Culture umfasst die Philosophie, das Leitbild und die Werte des Unternehmens."
-    },
-    {
-      question: "Was umfasst das Corporate Behavior?",
-      answer: "Das Corporate Behavior umfasst das Verhalten und die Beziehungen des Unternehmens zu seinen Kunden und Partnern."
-    },
-    {
-      question: "Was gehört zum Corporate Design?",
-      answer: "Das Corporate Design umfasst das Logo, den Stylesheet, die Website und Arbeitskleidung des Unternehmens."
-    },
-    {
-      question: "Was gehört zur Corporate Communication?",
-      answer: "Corporate Communication umfasst die interne und externe Kommunikation des Unternehmens über Web, Print, Radio und TV."
-    },
-    {
-      question: "Was ist das Lastenheft?",
-      answer: "Das Lastenheft beschreibt, **was** gemacht werden soll und enthält die Anforderungen, den Ist- und Soll-Zustand."
-    },
-    {
-      question: "Was ist das Pflichtenheft?",
-      answer: "Das Pflichtenheft beschreibt, **wie** das Lastenheft umgesetzt werden soll und wird Bestandteil des Vertrages."
-    },
-    {
-      question: "Was sind die Merkmale eines Projektes?",
-      answer: "Ein Projekt ist einmalig, hat ein klares Ziel, der Ausgang ist ungewiss und es ist zeitlich begrenzt."
-    },
-    {
-      question: "Welche Ziele sollten in einem Projekt festgelegt werden?",
-      answer: "Neben dem SMART-Prinzip sollten Projekte auch ein Kostenziel, Sachziel und Terminziel haben."
-    },
-    {
-      question: "Welche Phasen umfasst der Software-Lebenszyklus?",
-      answer: "Der Software-Lebenszyklus umfasst die Phasen Anforderungsanalyse, Design/Entwurf, Implementierung, Test, Abnahme und Wartung."
-    },
-    {
-      question: "Was sind die Projektphasen?",
-      answer: "Die Projektphasen sind Initialisierung, Analyse, Planen, Ausführen, Überwachen/Testen und Abschluss/Abnahme."
-    },
-    {
-      question: "Was ist ein Meilenstein in einem Projekt?",
-      answer: "Ein Meilenstein ist der Abschluss einer Phase und leitet eine neue Phase im Projekt ein."
     },
     {
       question: "Wie ist die Prokura in Bezug auf das Handelsregister geregelt?",
@@ -2847,6 +2767,88 @@ const cardSets = {
       "question": "Wie geht man Schritt für Schritt bei der Umsetzung von Informationssicherheit vor?",
       "answer": "1. Strukturanalyse: Alle relevanten Objekte (z.B. IT-Systeme, Prozesse, Räume) werden erfasst und gruppiert. 2. Schutzbedarfsfeststellung: Für jedes Objekt wird bewertet, wie hoch der Bedarf an Vertraulichkeit, Integrität und Verfügbarkeit ist. 3. Bausteine auswählen: Passende IT-Grundschutz-Bausteine werden zugeordnet. 4. Risikoanalyse: Risiken werden identifiziert, bewertet und geeignete Maßnahmen abgeleitet. 5. Sicherheitsmaßnahmen umsetzen: Technische und organisatorische Maßnahmen werden angewendet. 6. Kontinuierliche Verbesserung: Alle Maßnahmen werden regelmäßig geprüft und angepasst (z.B. nach dem PDCA-Zyklus)."
     }
+  ],
+  "Projektmanagement": [
+    {
+      "question": "Was versteht man unter ‚Lessons Learned‘ in einem Projekt?",
+      "answer": "‚Lessons Learned‘ bezieht sich auf die Erkenntnisse und Erfahrungen, die am Ende eines Projektes gesammelt werden. Diese können sowohl positive als auch negative Aspekte umfassen und dienen dazu, aus den gemachten Erfahrungen zu lernen und zukünftige Projekte zu verbessern."
+    },
+    {
+      "question": "Was ist das Wasserfallmodell?",
+      "answer": "Ein lineares, klassisches Projektmanagementmodell mit den Phasen: Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
+    },
+    {
+      "question": "Welche Nachteile hat das Wasserfallmodell?",
+      "answer": "Es ist unflexibel bei Änderungen und erfordert eine vollständige Planung im Voraus."
+    },
+    {
+      "question": "Was ist Scrum?",
+      "answer": "Ein agiles Projektmanagementmodell, das flexibel auf Änderungen reagieren kann und auf Transparenz, Iterationen und Zusammenarbeit basiert."
+    },
+    {
+      "question": "Wie unterscheidet sich Scrum vom Wasserfallmodell?",
+      "answer": "Scrum ist iterativ und flexibel, während das Wasserfallmodell linear und wenig anpassbar ist."
+    },
+    {
+      "question": "Warum gilt Scrum als agil?",
+      "answer": "Weil es schnelle Anpassungen an neue Anforderungen erlaubt und regelmäßig Feedback einholt."
+    },
+    {
+      "question": "In welcher Reihenfolge verlaufen die Phasen im Wasserfallmodell?",
+      "answer": "Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
+    },
+    {
+      question: "Was sind die Vorteile des V-Modells?",
+      answer: "Das V-Modell bietet frühes Testen und eine klare Struktur, hat jedoch höhere Kosten und eingeschränkte Flexibilität."
+    },
+    {
+      question: "Was ist das Spiralmodell?",
+      answer: "Das Spiralmodell ist flexibel und fokussiert auf iterative Planung, aber es fehlt ein klares Endziel."
+    },
+    {
+      question: "Was ist Scrum?",
+      answer: "Scrum ist ein agiles Vorgehensmodell, das Flexibilität und Transparenz bietet, jedoch für große Teams zu komplex sein kann und hohe Disziplin erfordert."
+    },
+    {
+      question: "Was ist ein klassisches Vorgehensmodell?",
+      answer: "Klassische Vorgehensmodelle, wie das Wasserfallmodell, folgen einem festen, linearen Prozess. Dieser Prozess ist in klare Phasen unterteilt: Analyse, Entwurf, Implementierung, Testen und Wartung. Jede Phase wird nacheinander abgearbeitet, und Änderungen sind während des Prozesses nur schwer möglich."
+    },
+    {
+      question: "Was ist ein agiles Vorgehensmodell?",
+      answer: "Agile Vorgehensmodelle, wie Scrum, sind flexibler und iterativ. Sie bestehen aus kurzen, sich wiederholenden Entwicklungszyklen (Sprints), in denen regelmäßig Feedback eingeholt wird. Dies ermöglicht schnelle Anpassungen an sich ändernde Anforderungen und eine kontinuierliche Verbesserung der Software."
+    },
+    {
+      "question": "Was bedeutet Transparenz in Scrum?",
+      "answer": "Alle Projektbeteiligten haben jederzeit Einblick in den aktuellen Stand und die nächsten Schritte."
+    },
+    {
+      question: "Was ist das Lastenheft?",
+      answer: "Das Lastenheft beschreibt, **was** gemacht werden soll und enthält die Anforderungen, den Ist- und Soll-Zustand."
+    },
+    {
+      question: "Was ist das Pflichtenheft?",
+      answer: "Das Pflichtenheft beschreibt, **wie** das Lastenheft umgesetzt werden soll und wird Bestandteil des Vertrages."
+    },
+    {
+      question: "Was sind die Merkmale eines Projektes?",
+      answer: "Ein Projekt ist einmalig, hat ein klares Ziel, der Ausgang ist ungewiss und es ist zeitlich begrenzt."
+    },
+    {
+      question: "Welche Ziele sollten in einem Projekt festgelegt werden?",
+      answer: "Neben dem SMART-Prinzip sollten Projekte auch ein Kostenziel, Sachziel und Terminziel haben."
+    },
+    {
+      question: "Welche Phasen umfasst der Software-Lebenszyklus?",
+      answer: "Der Software-Lebenszyklus umfasst die Phasen Anforderungsanalyse, Design/Entwurf, Implementierung, Test, Abnahme und Wartung."
+    },
+    {
+      question: "Was sind die Projektphasen?",
+      answer: "Die Projektphasen sind Initialisierung, Analyse, Planen, Ausführen, Überwachen/Testen, Abschluss/Abnahme und Wartung."
+    },
+    {
+      question: "Was ist ein Meilenstein in einem Projekt?",
+      answer: "Ein Meilenstein ist der Abschluss einer Phase und leitet eine neue Phase im Projekt ein."
+    },
   ]
 };
 
