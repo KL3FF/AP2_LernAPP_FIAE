@@ -1,6 +1,46 @@
 const cardSets = {
   "IT-Tec": [
     {
+      "question": "Was ist LPWAN im Kontext des Internets der Dinge (IoT)?",
+      "answer": "LPWAN (Low Power Wide Area Network) bietet eine hohe Reichweite, niedrigen Energieverbrauch und eine kostengünstige Lösung für die Vernetzung von IoT-Geräten."
+    },
+    {
+      "question": "Was sind die Vorteile von LPWAN für IoT-Geräte?",
+      "answer": "LPWAN bietet eine hohe Reichweite, niedrigen Energieverbrauch und eine kostengünstige Vernetzung für IoT-Geräte."
+    },
+    {
+      "question": "Was ist ein LAN und wie wird es im Unternehmen verwendet?",
+      "answer": "Ein LAN (Local Area Network) bietet hohe Bandbreite, geringe Latenzzeiten und hohe Sicherheit. Es ermöglicht den gemeinsamen Zugriff auf Ressourcen und die effiziente Kommunikation innerhalb des Unternehmens."
+    },
+    {
+      "question": "Welche Vorteile bietet ein LAN für ein Unternehmen?",
+      "answer": "Ein LAN bietet hohe Bandbreite, geringe Latenzzeiten und eine hohe Sicherheit, was eine effiziente Kommunikation und den gemeinsamen Zugriff auf Ressourcen im Unternehmen ermöglicht."
+    },
+    {
+      "question": "Was ist ein Strukturmuster?",
+      "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
+    },
+    {
+      "question": "Was ist ein Beispiel für ein Strukturmuster?",
+      "answer": "Ein Beispiel für ein Strukturmuster ist das Facade-Pattern."
+    },
+    {
+      "question": "Was ist ein Erzeugungsmuster?",
+      "answer": "Erzeugungsmuster befassen sich mit der Erstellung von Objekten und bieten Lösungen, wie man Objekte instanziiert."
+    },
+    {
+      "question": "Was sind Beispiele für Erzeugungsmuster?",
+      "answer": "Beispiele für Erzeugungsmuster sind das Singleton-Pattern und das Factory-Pattern."
+    },
+    {
+      "question": "Was ist ein Verhaltensmuster?",
+      "answer": "Verhaltensmuster definieren, wie Objekte miteinander kommunizieren und interagieren sollen."
+    },
+    {
+      "question": "Was sind Beispiele für Verhaltensmuster?",
+      "answer": "Beispiele für Verhaltensmuster sind das Observer-Pattern und das Command-Pattern."
+    },
+    {
       "question": "Was bedeutet RAID und wie wird es verwendet?",
       "answer": "RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk kombiniert, um die Datenverfügbarkeit und/oder Performance zu erhöhen. Es gibt verschiedene RAID-Level (z.B. RAID 0, RAID 1, RAID 5), die unterschiedliche Vorteile bei Geschwindigkeit, Datensicherheit und Redundanz bieten."
     },
