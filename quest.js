@@ -164,7 +164,7 @@ const cardSets = {
     },
     {
       question: "Wie kann man einen Router zurücksetzen?",
-      answer: "Meist über die Reset-Taste oder über eine Konsolenverbindung (z. B. mit Putty oder TeraTerm)."
+      answer: "Meist über die Reset-Taste oder über eine Konsolenverbindung (z.B. mit Putty oder TeraTerm)."
     },
     {
       question: "Welche Zugriffsarten zur Router-Konfiguration gibt es?",
@@ -186,7 +186,7 @@ const cardSets = {
     // Gründe für Netzwerke
     {
       question: "Welche Gründe gibt es für den Einsatz von Netzwerken?",
-      answer: "• Ressourcensharing (z. B. Drucker)\n• Datasharing\n• Softwaresharing\n• Prozessorsharing\n• Informationsaustausch\n• Sicherheit & Redundanz"
+      answer: "• Ressourcensharing (z.B. Drucker)\n• Datasharing\n• Softwaresharing\n• Prozessorsharing\n• Informationsaustausch\n• Sicherheit & Redundanz"
     },
 
     // Netzwerktypen nach Reichweite
@@ -222,15 +222,15 @@ const cardSets = {
     // IT-Systeme im Netzwerk
     {
       question: "Was ist ein Server in einem Netzwerk?",
-      answer: "Ein Server stellt Dienste zur Verfügung, z. B. Domain Controller, Fileserver, DHCP oder DNS."
+      answer: "Ein Server stellt Dienste zur Verfügung, z.B. Domain Controller, Fileserver, DHCP oder DNS."
     },
     {
       question: "Was ist ein Client in einem Netzwerk?",
-      answer: "Ein Client nutzt die Dienste, z. B. ein Arbeitsplatzrechner oder ein Thin Client."
+      answer: "Ein Client nutzt die Dienste, z.B. ein Arbeitsplatzrechner oder ein Thin Client."
     },
     {
       question: "Was ist ein Terminal in einem Netzwerk?",
-      answer: "Ein Terminal dient nur zur Ein- und Ausgabe und ist mit einem Terminalserver verbunden – z. B. in Kassensystemen."
+      answer: "Ein Terminal dient nur zur Ein- und Ausgabe und ist mit einem Terminalserver verbunden – z.B. in Kassensystemen."
     },  // Peer to Peer
     {
       question: "Was ist ein Peer-to-Peer-Netzwerk?",
@@ -238,21 +238,21 @@ const cardSets = {
     },
     {
       question: "Wann ist ein Peer-to-Peer-Netzwerk sinnvoll?",
-      answer: "Ein P2P-Netzwerk ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z. B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
+      answer: "Ein P2P-Netzwerk ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z.B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
     },
 
     // Client-Server
     {
       question: "Was ist der Unterschied zwischen einem Client-Server-Netzwerk und einem Peer-to-Peer-Netzwerk?",
-      answer: "In einem Client-Server-Netzwerk gibt es einen zentralen Server, der Dienste anbietet (z. B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
+      answer: "In einem Client-Server-Netzwerk gibt es einen zentralen Server, der Dienste anbietet (z.B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
     },
     {
       question: "Was ist ein Client in einem Client-Server-Netzwerk?",
-      answer: "Ein Client ist ein Gerät, das Dienste von einem zentralen Server anfordert, z. B. ein Computer, der eine Webseite von einem Webserver abruft."
+      answer: "Ein Client ist ein Gerät, das Dienste von einem zentralen Server anfordert, z.B. ein Computer, der eine Webseite von einem Webserver abruft."
     },
     {
       question: "Was ist ein Server in einem Client-Server-Netzwerk?",
-      answer: "Ein Server stellt Dienste bereit, die von den Clients angefordert werden, z. B. ein Webserver, der Webseiten liefert, oder ein Mailserver, der E-Mails verwaltet."
+      answer: "Ein Server stellt Dienste bereit, die von den Clients angefordert werden, z.B. ein Webserver, der Webseiten liefert, oder ein Mailserver, der E-Mails verwaltet."
     },
 
     // Terminal-Server
@@ -262,7 +262,7 @@ const cardSets = {
     },
     {
       question: "Wann wird ein Terminal-Server eingesetzt?",
-      answer: "Terminal-Server werden eingesetzt, wenn Benutzer von verschiedenen Orten auf die gleiche Anwendung oder Desktopumgebung zugreifen müssen, z. B. bei Remote-Desktop-Diensten."
+      answer: "Terminal-Server werden eingesetzt, wenn Benutzer von verschiedenen Orten auf die gleiche Anwendung oder Desktopumgebung zugreifen müssen, z.B. bei Remote-Desktop-Diensten."
     },
 
     // Cluster
@@ -272,7 +272,7 @@ const cardSets = {
     },
     {
       question: "Warum wird ein Cluster in einem Netzwerk eingesetzt?",
-      answer: "Cluster werden eingesetzt, um die Verfügbarkeit und Leistung zu verbessern, z. B. in High-Availability-Systemen oder um die Last auf mehrere Server zu verteilen (Lastenverteilung)."
+      answer: "Cluster werden eingesetzt, um die Verfügbarkeit und Leistung zu verbessern, z.B. in High-Availability-Systemen oder um die Last auf mehrere Server zu verteilen (Lastenverteilung)."
     }, // Hub
     {
       question: "Was ist ein Hub?",
@@ -390,7 +390,7 @@ const cardSets = {
     },// SSID verstecken
     {
       question: "Wie kann man die SSID im WLAN verstecken?",
-      answer: "Die SSID kann im Web-Interface des Routers deaktiviert werden (z. B. http://192.168.1.245), sodass das WLAN unsichtbar für andere wird. Nur wer den Netzwerknamen kennt, kann sich verbinden."
+      answer: "Die SSID kann im Web-Interface des Routers deaktiviert werden (z.B. http://192.168.1.245), sodass das WLAN unsichtbar für andere wird. Nur wer den Netzwerknamen kennt, kann sich verbinden."
     },
     {
       question: "Was passiert, wenn die SSID im WLAN versteckt wird?",
@@ -455,7 +455,7 @@ const cardSets = {
     // Sicherheit und VLANs
     {
       question: "Warum bietet VLAN zusätzliche Sicherheit?",
-      answer: "VLANs trennen Netzwerke (z. B. Mitarbeiter und Gäste) und verhindern so, dass Geräte in einem VLAN automatisch auf Ressourcen in einem anderen VLAN zugreifen können. Dies bietet eine zusätzliche Sicherheitsebene."
+      answer: "VLANs trennen Netzwerke (z.B. Mitarbeiter und Gäste) und verhindern so, dass Geräte in einem VLAN automatisch auf Ressourcen in einem anderen VLAN zugreifen können. Dies bietet eine zusätzliche Sicherheitsebene."
     },
 
     // Cyber-Bedrohungen
@@ -465,7 +465,7 @@ const cardSets = {
     },
     {
       question: "Was ist Phishing?",
-      answer: "Phishing ist eine betrügerische Methode, bei der Angreifer versuchen, vertrauliche Informationen wie Passwörter oder Bankdaten zu stehlen, indem sie sich als vertrauenswürdige Quelle ausgeben (z. B. Bank oder Online-Shop)."
+      answer: "Phishing ist eine betrügerische Methode, bei der Angreifer versuchen, vertrauliche Informationen wie Passwörter oder Bankdaten zu stehlen, indem sie sich als vertrauenswürdige Quelle ausgeben (z.B. Bank oder Online-Shop)."
     },
     {
       question: "Was ist Ransomware?",
@@ -525,7 +525,7 @@ const cardSets = {
     // Sicherheitsmaßnahmen und Prinzipien
     {
       question: "Was versteht man unter infrastrukturellen Sicherheitsmaßnahmen?",
-      answer: "Infrastrukturelle Sicherheitsmaßnahmen sind physische und technische Schutzmaßnahmen, die dazu dienen, IT-Systeme und Netzwerke zu sichern, wie z. B. Firewalls, Antivirenprogramme und Zugangskontrollen."
+      answer: "Infrastrukturelle Sicherheitsmaßnahmen sind physische und technische Schutzmaßnahmen, die dazu dienen, IT-Systeme und Netzwerke zu sichern, wie z.B. Firewalls, Antivirenprogramme und Zugangskontrollen."
     },
     {
       question: "Was bedeutet 'Security by Design'?",
@@ -553,7 +553,7 @@ const cardSets = {
     },
     {
       question: "Was ist Multi-Faktor-Authentifizierung (MFA)?",
-      answer: "MFA ist eine Sicherheitsmaßnahme, bei der mehrere Identifikationsmethoden (z. B. Passwort und Fingerabdruck) verwendet werden, um den Zugriff auf ein System zu sichern."
+      answer: "MFA ist eine Sicherheitsmaßnahme, bei der mehrere Identifikationsmethoden (z.B. Passwort und Fingerabdruck) verwendet werden, um den Zugriff auf ein System zu sichern."
     },
     {
       question: "Was ist ein Virus?",
@@ -1165,7 +1165,7 @@ const cardSets = {
       answer: "Embedding ist der Prozess, bei dem du eine Sprache wie Python in ein anderes Programm (z. B. ein C-Programm) einbettest, sodass Python-Code innerhalb des C-Codes ausgeführt wird."
     }
   ],
-  "WISO":[
+  "WISO": [
     {
       question: "Welche Abteilungen gibt es in einem Unternehmen?",
       answer: "Die Abteilungen in einem Unternehmen sind: Geschäftsführung, Buchhaltung, Finanzen, Controlling, Personalabteilung, Einkauf, Produktion, Absatz."
@@ -1433,7 +1433,7 @@ const cardSets = {
     {
       question: "Was ist eine Allgemeine Handelsvollmacht?",
       answer: "Eine Allgemeine Handelsvollmacht umfasst alle gewöhnlichen Geschäftsaktivitäten eines Unternehmens, z.B. die Leitung einer Filiale. Sie wird mit „i.V.“ unterschrieben."
-    },{
+    }, {
       question: "Was sind die Gründe für Außenwirtschaft?",
       answer: "Die Gründe für Außenwirtschaft sind vielfältig, unter anderem die Rohstoffbeschaffung, wirtschaftliche Abhängigkeiten, Arbeitsteilung, Kriegsvermeidung und die Möglichkeit, neue Produkte zu schaffen."
     },
@@ -1796,9 +1796,68 @@ const cardSets = {
     {
       "question": "Was sind marktkonträre Maßnahmen?",
       "answer": "Marktkonträre Maßnahmen beinhalten staatliche Eingriffe in den Markt, wie Mindestlöhne, Gaspreisbremse oder Mietpreisbremse."
-    }
+    },
+    { "question": "Was sind natürliche Personen?", "answer": "Jeder Mensch ab der Geburt bis zum Tod." },
+    { "question": "Wann beginnt die Rechtsfähigkeit juristischer Personen?", "answer": "Mit der Gründung, z. B. Eintragung ins Handelsregister." },
+    { "question": "Was ist eine privatrechtliche juristische Person?", "answer": "Unternehmen, Vereine etc. (z. B. GmbH, AG)." },
+    { "question": "Was ist eine öffentlich-rechtliche juristische Person?", "answer": "Vom Staat gegründet (z. B. Schule, Stadt)." },
+    { "question": "Welche Formen der Willenserklärung gibt es?", "answer": "Ausdrücklich, konkludent, Schweigen." },
+    { "question": "Was bedeutet ausdrückliche Willenserklärung?", "answer": "Mündlich oder schriftlich." },
+    { "question": "Was bedeutet konkludente Willenserklärung?", "answer": "Durch schlüssiges Verhalten." },
+    { "question": "Wann gilt Schweigen als Zustimmung?", "answer": "Bei Kaufleuten." },
+    { "question": "Was ist ein einseitiges Rechtsgeschäft?", "answer": "Z. B. Testament." },
+    { "question": "Was ist ein zweiseitiges Rechtsgeschäft?", "answer": "Z. B. Vertrag (zwei Willenserklärungen)." },
+    { "question": "Wie sind Kinder unter 7 Jahren rechtlich?", "answer": "Willenserklärungen sind nichtig." },
+    { "question": "Wie sind 7- bis 17-Jährige geschäftsfähig?", "answer": "Beschränkt geschäftsfähig, Zustimmung nötig." },
+    { "question": "Was regelt der Taschengeldparagraph?", "answer": "Kauf mit eigenem Geld ist gültig." },
+    { "question": "Wann liegt ein rechtlicher Vorteil vor?", "answer": "Z. B. bei Geschenken." },
+    { "question": "Ab wann ist man voll geschäftsfähig?", "answer": "Ab 18 Jahren." },
+    { "question": "Was ist Besitz?", "answer": "Nutzung einer Sache, ohne Eigentümer zu sein." },
+    { "question": "Was ist Eigentum?", "answer": "Rechtlicher Besitz – durch Einigung und Übergabe." },
+    { "question": "Wie kommt ein Kaufvertrag zustande?", "answer": "Durch Angebot und Annahme." },
+    { "question": "Was ergibt Bestellvorgang + Lieferung?", "answer": "Einen Kaufvertrag." },
+    { "question": "Welche Inhalte hat ein Kaufvertrag?", "answer": "Art, Menge, Qualität, Preis, Verpackung, Versand, Zahlungsart, AGB." },
+    { "question": "Was ist ein bürgerlicher Kauf?", "answer": "Privatperson ↔ Privatperson." },
+    { "question": "Was ist ein einseitiger Handelskauf?", "answer": "Unternehmer ↔ Privatperson." },
+    { "question": "Was ist ein zweiseitiger Handelskauf?", "answer": "Unternehmer ↔ Unternehmer." },
+    { "question": "Was ist ein Stückkauf?", "answer": "Einzelstück, nicht ersetzbar." },
+    { "question": "Was ist ein Gattungskauf?", "answer": "Austauschbare Massenware." },
+    { "question": "Was ist ein Ramschkauf?", "answer": "Gesamtposten unbekannter Qualität." },
+    { "question": "Was ist Kauf auf Probe?", "answer": "Kauf kann zurückgegeben werden." },
+    { "question": "Was ist Kauf nach Probe?", "answer": "Lieferung muss wie Probe sein." },
+    { "question": "Was ist Kauf zur Probe?", "answer": "Kleine Menge zum Test." },
+    { "question": "Was ist ein Terminkauf?", "answer": "Lieferung in bestimmtem Zeitraum." },
+    { "question": "Was ist ein Fixkauf?", "answer": "Lieferung zu festem Termin, sonst kein Interesse mehr." },
+    { "question": "Was ist Kauf auf Abruf?", "answer": "Lieferung/Zahlung zu späterem Zeitpunkt." },
+    { "question": "Was ist ein quantitativer Angebotsvergleich?", "answer": "Preisvergleich mittels Handelskalkulation." },
+    { "question": "Was ist ein qualitativer Angebotsvergleich?", "answer": "Bewertung von Nutzen, Service etc." },
+    { "question": "Was passiert bei Wareneingang?", "answer": "Ware innen und außen auf Schäden prüfen." },
+    { "question": "Was ist Annahmeverzug?", "answer": "Käufer nimmt Ware nicht an." },
+    { "question": "Wer trägt Lagerkosten bei Annahmeverzug?", "answer": "Der Käufer." },
+    { "question": "Bei bei Annahmeverzug, wie haftet der Verkäufer dann noch?", "answer": "Ab Verzug nur bei grober Fahrlässigkeit oder Vorsatz." },
+    { "question": "Was ist Lieferverzug?", "answer": "Verkäufer liefert nicht rechtzeitig." },
+    { "question": "Was kann der Käufer bei Lieferverzug tun?", "answer": "Mahnen, Frist setzen, zurücktreten, Schadensersatz." },
+    { "question": "Was ist Zahlungsverzug?", "answer": "Käufer zahlt nicht fristgerecht." },
+    { "question": "Welche Rechte hat der Verkäufer bei Zahlungsverzug?", "answer": "Mahnen, Frist setzen, Rücktritt + Schadensersatz." },
+    { "question": "Was darf der Käufer bei mangelhafter Lieferung fordern?", "answer": "Nachbesserung oder Ersatz." },
+    { "question": "Was kann der Käufer nach 2 Fehlversuchen, bei mangelhafter Lieferung tun?", "answer": "Rücktritt, Minderung, Schadensersatz." },
+    { "question": "Wie lange gilt Gewährleistung bei Neuware?", "answer": "24 Monate." },
+    { "question": "Wie lange gilt Gewährleistung bei Gebrauchtware?", "answer": "12 Monate." },
+    { "question": "Wer muss nach 6 Monaten den Mangel beweisen?", "answer": "Der Käufer." },
+    { "question": "Was ist eine Garantie?", "answer": "Freiwillige Leistung des Herstellers." },
+    { "question": "Was sollte man bei Garantie beachten?", "answer": "AGB lesen." },
+    { "question": "Was sind offene Mängel?", "answer": "Sofort sichtbar." },
+    { "question": "Was sind versteckte Mängel?", "answer": "Erst bei Nutzung erkennbar." },
+    { "question": "Was sind arglistig verschwiegene Mängel?", "answer": "Bekannter Mangel wurde absichtlich nicht genannt." },
+    { "question": "Was ist eine Falschlieferung?", "answer": "Falsche Ware geliefert." },
+    { "question": "Was ist eine Minderlieferung?", "answer": "Zu wenig geliefert." },
+    { "question": "Was ist ein Montagemangel?", "answer": "Fehler beim Aufbau." },
+    { "question": "Was ist ein Beschaffenheitsmangel?", "answer": "Ware entspricht nicht der vereinbarten Qualität." },
+    { "question": "Wie berechnet man den Deckungsbeitrag?", "answer": "Umsatzerlöse - variable Kosten." },
+    { "question": "Wie berechnet man den Gewinn?", "answer": "Deckungsbeitrag - Fixkosten." },
+    { "question": "Was zeigt die Gewinnschwelle?", "answer": "Wie viele Stücke verkauft werden müssen für Gewinn." }
   ],
-  "IT-System":[
+  "IT-System": [
     {
       "question": "Was ist Kilo (k) und was entspricht es?",
       "answer": "Kilo (k) ist 10^3, also 1.000."
@@ -1897,7 +1956,7 @@ const cardSets = {
     {
       "question": "Wie ist der Aufbau einer MAC-Adresse?",
       "answer": "Eine MAC-Adresse besteht aus 6 Byte (48 Bit), wobei die ersten 3 Byte den Hersteller des Geräts identifizieren (Organizationally Unique Identifier - OUI)."
-    },{
+    }, {
       "question": "Was ist die Bedeutung der CIDR-Notation?",
       "answer": "CIDR (Classless Inter-Domain Routing) ist eine Methode zur Darstellung von IP-Adressen und deren zugehörigen Subnetzmasken, z.B. 192.168.1.0/24."
     },
@@ -2129,7 +2188,7 @@ const cardSets = {
       "answer": "Ein Server kann auf 0.0.0.0 lauschen, wenn er einen offenen Port in seiner Firewall hat, sodass andere Netzwerkteilnehmer mit der IP-Adresse des Servers und dem Port auf den Dienst zugreifen können."
     }
   ],
-  "IT-Sicherheit":[
+  "IT-Sicherheit": [
     {
       "question": "Wofür steht ISMS?",
       "answer": "ISMS steht für Informationssicherheits-Managementsystem."
@@ -2160,7 +2219,7 @@ const cardSets = {
     },
     {
       "question": "Was bedeutet kontinuierliche Verbesserung im ISMS?",
-      "answer": "Laufende Überprüfung und Weiterentwicklung der Sicherheitsmaßnahmen, z. B. nach dem PDCA-Zyklus."
+      "answer": "Laufende Überprüfung und Weiterentwicklung der Sicherheitsmaßnahmen, z.B. nach dem PDCA-Zyklus."
     },
     {
       "question": "Welche Grundsätze gelten für ein ISMS?",
@@ -2179,10 +2238,6 @@ const cardSets = {
       "answer": "Sicherheitsorganisation, Asset Management, Risikomanagement, Sicherheitsmaßnahmen."
     },
     {
-      "question": "Was ist unter Sicherheitsorganisation zu verstehen?",
-      "answer": "Alle Beteiligten tragen Verantwortung für Aufbau, Betrieb und Weiterentwicklung des ISMS."
-    },
-    {
       "question": "Was versteht man unter Asset Management?",
       "answer": "Verwaltung und Bewertung aller wichtigen Informationswerte als Basis für das Risikomanagement."
     },
@@ -2196,7 +2251,7 @@ const cardSets = {
     },
     {
       "question": "Was passiert in der Strukturanalyse?",
-      "answer": "Relevante Objekte werden identifiziert und gruppiert, z. B. nach Typ, Anwendung oder Netzwerkzugehörigkeit."
+      "answer": "Relevante Objekte werden identifiziert und gruppiert, z.B. nach Typ, Anwendung oder Netzwerkzugehörigkeit."
     },
     {
       "question": "Welche Kriterien werden zur Gruppierung in der Strukturanalyse verwendet?",
@@ -2245,7 +2300,7 @@ const cardSets = {
     {
       "question": "Was bedeutet PDCA im Kontext des ISMS?",
       "answer": "PDCA steht für Plan-Do-Check-Act und beschreibt einen Zyklus zur kontinuierlichen Verbesserung von Prozessen, auch in der IT-Sicherheit."
-    },{
+    }, {
       "question": "Was sind IT-Grundschutz-Bausteine?",
       "answer": "IT-Grundschutz-Bausteine beschreiben typische IT-Komponenten oder Prozesse und geben konkrete Sicherheitsanforderungen zum Schutz dieser."
     },
@@ -2271,11 +2326,11 @@ const cardSets = {
     },
     {
       "question": "Was bedeutet Risikovermeidung?",
-      "answer": "Das Risiko gar nicht erst entstehen lassen, z. B. durch Rechteentzug."
+      "answer": "Das Risiko gar nicht erst entstehen lassen, z.B. durch Rechteentzug."
     },
     {
       "question": "Was ist Risikotransfer?",
-      "answer": "Das Übertragen des Risikos auf Dritte, z. B. durch eine Versicherung."
+      "answer": "Das Übertragen des Risikos auf Dritte, z.B. durch eine Versicherung."
     },
     {
       "question": "Was versteht man unter Risikomigration?",
@@ -2323,7 +2378,7 @@ const cardSets = {
     },
     {
       "question": "Was ist eine typische Gefahr beim häuslichen Arbeitsplatz?",
-      "answer": "Unbefugter Zutritt, z. B. durch Familienmitglieder."
+      "answer": "Unbefugter Zutritt, z.B. durch Familienmitglieder."
     },
     {
       "question": "Welche Schutzmaßnahme MUSS am häuslichen Arbeitsplatz umgesetzt werden?",
@@ -2352,7 +2407,7 @@ const cardSets = {
     {
       "question": "Warum sind klare Übergaberegeln bei Laptop-Nutzung wichtig?",
       "answer": "Zur Vermeidung von Datenverlust und zur Nachvollziehbarkeit der Nutzung."
-    },{
+    }, {
       "question": "Wofür steht NTFS?",
       "answer": "NTFS steht für 'New Technology File System'."
     },
@@ -2426,7 +2481,7 @@ const cardSets = {
     },
     {
       "question": "Wie geht man Schritt für Schritt bei der Umsetzung von Informationssicherheit vor?",
-      "answer": "1. Strukturanalyse: Alle relevanten Objekte (z. B. IT-Systeme, Prozesse, Räume) werden erfasst und gruppiert. 2. Schutzbedarfsfeststellung: Für jedes Objekt wird bewertet, wie hoch der Bedarf an Vertraulichkeit, Integrität und Verfügbarkeit ist. 3. Bausteine auswählen: Passende IT-Grundschutz-Bausteine werden zugeordnet. 4. Risikoanalyse: Risiken werden identifiziert, bewertet und geeignete Maßnahmen abgeleitet. 5. Sicherheitsmaßnahmen umsetzen: Technische und organisatorische Maßnahmen werden angewendet. 6. Kontinuierliche Verbesserung: Alle Maßnahmen werden regelmäßig geprüft und angepasst (z. B. nach dem PDCA-Zyklus)."
+      "answer": "1. Strukturanalyse: Alle relevanten Objekte (z.B. IT-Systeme, Prozesse, Räume) werden erfasst und gruppiert. 2. Schutzbedarfsfeststellung: Für jedes Objekt wird bewertet, wie hoch der Bedarf an Vertraulichkeit, Integrität und Verfügbarkeit ist. 3. Bausteine auswählen: Passende IT-Grundschutz-Bausteine werden zugeordnet. 4. Risikoanalyse: Risiken werden identifiziert, bewertet und geeignete Maßnahmen abgeleitet. 5. Sicherheitsmaßnahmen umsetzen: Technische und organisatorische Maßnahmen werden angewendet. 6. Kontinuierliche Verbesserung: Alle Maßnahmen werden regelmäßig geprüft und angepasst (z.B. nach dem PDCA-Zyklus)."
     }
   ]
 };
