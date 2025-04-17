@@ -1,6 +1,74 @@
 const cardSets = {
   "IT-Tec": [
     {
+      "question": "Was bedeutet RAID und wie wird es verwendet?",
+      "answer": "RAID (Redundant Array of Independent Disks) ist eine Technologie, die mehrere Festplatten zu einem einzigen logischen Laufwerk kombiniert, um die Datenverfügbarkeit und/oder Performance zu erhöhen. Es gibt verschiedene RAID-Level (z.B. RAID 0, RAID 1, RAID 5), die unterschiedliche Vorteile bei Geschwindigkeit, Datensicherheit und Redundanz bieten."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen RAID 0 und RAID 1?",
+      "answer": "RAID 0 kombiniert Festplatten zu einem einzigen Volume zur Verbesserung der Lese- und Schreibgeschwindigkeit, bietet jedoch keine Redundanz. RAID 1 hingegen spiegelt die Daten auf zwei Festplatten, was eine höhere Datensicherheit bietet, aber keine Performance-Steigerung."
+    },
+    {
+      "question": "Was bedeutet MTBF und warum ist es wichtig?",
+      "answer": "MTBF (Mean Time Between Failures) ist eine Kennzahl, die die durchschnittliche Zeit beschreibt, die zwischen zwei Ausfällen eines Systems oder einer Festplatte vergeht. Ein hoher MTBF-Wert bedeutet, dass das System oder die Festplatte weniger wahrscheinlich ausfällt, was besonders in kritischen Infrastrukturen wichtig ist."
+    },
+    {
+      "question": "Wie wird MTBF berechnet?",
+      "answer": "MTBF wird normalerweise anhand von Systemtests oder historischen Ausfallraten berechnet. Die Berechnung ist eine statistische Schätzung der durchschnittlichen Zeit zwischen den Ausfällen eines Systems oder einer Festplatte."
+    },
+    {
+      "question": "Was ist RADIUS und wie funktioniert es?",
+      "answer": "RADIUS (Remote Authentication Dial-In User Service) ist ein zentraler Authentifizierungs-, Autorisierungs- und Abrechnungsprotokoll, das für die Verwaltung von Benutzerzugriffen auf Netzwerke und Dienste verwendet wird. Es ermöglicht einer zentralen Stelle, Benutzerdaten zu überprüfen und den Zugriff auf Netzwerkknoten zu steuern."
+    },
+    {
+      "question": "Was sind die Vorteile von RADIUS für die Authentifizierung?",
+      "answer": "RADIUS bietet eine zentralisierte Authentifizierung und Autorisierung, was die Verwaltung von Benutzern und deren Zugriffsrechten erleichtert. Es bietet auch zusätzliche Sicherheitsfunktionen wie die Verschlüsselung von Passwörtern während der Übertragung."
+    },
+    {
+      "question": "Was ist NAS (Network Attached Storage)?",
+      "answer": "NAS ist eine Speicherlösung, die über ein Netzwerk zugänglich ist. Es handelt sich um ein Gerät oder System, das mehrere Festplatten enthält und es Benutzern ermöglicht, Daten über das Netzwerk zu speichern und abzurufen."
+    },
+    {
+      "question": "Was ist der Hauptvorteil von NAS?",
+      "answer": "Der Hauptvorteil von NAS ist die zentrale Verwaltung von Daten, die über ein Netzwerk von mehreren Benutzern zugänglich sind, was die Datensicherung und das Teilen von Dateien vereinfacht."
+    },
+    {
+      "question": "Wie funktioniert NAS?",
+      "answer": "NAS ist ein eigenständiger Server, der über das Netzwerk verbunden ist und als zentraler Speicherort für Daten dient. Nutzer können über Dateifreigaben und Netzwerkprotokolle wie SMB, NFS oder AFP auf diese Daten zugreifen."
+    },
+    {
+      "question": "Was ist SAN (Storage Area Network)?",
+      "answer": "SAN ist ein spezialisiertes Netzwerk, das Speicherressourcen miteinander verbindet und diese Speicher über ein eigenes Netzwerk mit hoher Geschwindigkeit bereitstellt. Es bietet schnellen Zugriff auf Block-Level-Daten und wird hauptsächlich in großen Unternehmen genutzt."
+    },
+    {
+      "question": "Was unterscheidet SAN von NAS?",
+      "answer": "Im Gegensatz zu NAS, das Dateien über das Netzwerk bereitstellt, bietet SAN Block-Level-Speicher, der wie ein lokaler Festplattenspeicher verwendet wird, und ist daher schneller und leistungsfähiger für große Datenmengen."
+    },
+    {
+      "question": "Was sind die Vorteile von SAN?",
+      "answer": "SAN bietet hohe Geschwindigkeit und geringe Latenz bei der Datenübertragung, was besonders für Anwendungen mit hohem Datenaufkommen wie Datenbanken oder virtuelle Maschinen vorteilhaft ist."
+    },
+    {
+      "question": "Wann sollte man SAN anstelle von NAS verwenden?",
+      "answer": "SAN eignet sich für Umgebungen mit hohem Datenaufkommen, wie z.B. große Datenbanken oder Virtualisierungsumgebungen, in denen hohe Performance und niedrige Latenz erforderlich sind. NAS ist hingegen besser für kleinere, weniger anspruchsvolle Anforderungen."
+    },
+    {
+      "question": "Was sind typische Anwendungsfälle für NAS?",
+      "answer": "NAS wird oft in Büros oder kleinen bis mittleren Unternehmen verwendet, um Daten zu speichern und diese über das Netzwerk zu teilen, z. B. für Datei-Backups, Medienarchivierung oder Homeoffice-Lösungen."
+    },
+    {
+      "question": "Welche Netzwerkprotokolle verwendet NAS?",
+      "answer": "NAS verwendet in der Regel Netzwerkprotokolle wie SMB (Server Message Block), NFS (Network File System) und AFP (Apple Filing Protocol) für den Zugriff auf die gespeicherten Daten."
+    },
+    {
+      "question": "Was ist eine typische Konfiguration für SAN?",
+      "answer": "SAN besteht typischerweise aus einer Kombination von speziellen Storage-Servern, Fibre Channel Switches und Speicher-Arrays, die über Fibre Channel oder iSCSI miteinander verbunden sind."
+    },
+    {
+      "question": "Welche Vor- und Nachteile hat NAS im Vergleich zu SAN?",
+      "answer": "Vorteile von NAS: Einfacher zu implementieren und kostengünstiger. Nachteile: Geringere Performance im Vergleich zu SAN, da es auf Datei-Ebene arbeitet. SAN bietet höhere Performance und wird für block-level Speicher verwendet, ist jedoch komplexer und teurer."
+    },
+    {
       question: "Welche Aufgabe hat der Datenbus?",
       answer: "Er überträgt Daten zwischen Komponenten."
     },
@@ -676,6 +744,286 @@ const cardSets = {
     }
   ],
   "AEuP": [
+    {
+      "question": "Was bedeutet On-Premises?",
+      "answer": "Bei On-Premises wird die gesamte IT-Infrastruktur im eigenen Unternehmen betrieben und verwaltet – inklusive Hardware, Software, Updates und Sicherheit."
+    },
+    {
+      "question": "Was ist der Hauptunterschied zwischen On-Premises und Cloud-Lösungen?",
+      "answer": "On-Premises läuft lokal im Unternehmen, während Cloud-Lösungen extern von Anbietern bereitgestellt werden – meist über das Internet."
+    },
+    {
+      "question": "Was ist SaaS (Software as a Service)?",
+      "answer": "SaaS stellt komplette Anwendungen über das Internet bereit. Der Nutzer greift z.B. per Browser darauf zu. Beispiele: Google Docs, Microsoft 365."
+    },
+    {
+      "question": "Was ist PaaS (Platform as a Service)?",
+      "answer": "PaaS bietet eine Plattform zur Entwicklung, Testung und Bereitstellung von Anwendungen. Entwickler müssen sich nicht um Infrastruktur kümmern. Beispiel: Heroku."
+    },
+    {
+      "question": "Was ist IaaS (Infrastructure as a Service)?",
+      "answer": "IaaS stellt virtuelle Maschinen, Netzwerke und Speicher bereit. Der Nutzer verwaltet Betriebssysteme und Software selbst. Beispiel: Amazon AWS EC2."
+    },
+    {
+      "question": "Was verwaltet man selbst bei IaaS?",
+      "answer": "Das Betriebssystem, Middleware, Daten und Anwendungen – die Infrastruktur wie Server, Speicher und Netzwerk wird vom Anbieter verwaltet."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen SaaS und PaaS?",
+      "answer": "Bei SaaS nutzt man fertige Software, bei PaaS entwickelt man eigene Anwendungen auf einer vorgefertigten Plattform."
+    },
+    {
+      "question": "Nenne ein Beispiel für IaaS.",
+      "answer": "Amazon EC2 – stellt virtuelle Maschinen bereit, auf denen man sein eigenes Betriebssystem und Software installieren kann."
+    },
+    {
+      "question": "Nenne ein Beispiel für SaaS.",
+      "answer": "Google Workspace (z. B. Google Docs, Google Mail)."
+    },
+    {
+      "question": "Nenne ein Beispiel für PaaS.",
+      "answer": "Microsoft Azure App Services oder Heroku."
+    },
+    {
+      "question": "Welche Vorteile hat SaaS?",
+      "answer": "Einfach zu nutzen, keine Installation nötig, Updates und Wartung übernimmt der Anbieter."
+    },
+    {
+      "question": "Welche Verantwortung hat man bei On-Premises?",
+      "answer": "Man ist für alles verantwortlich – von der Hardware über das Netzwerk bis zur Sicherheit und Wartung der Software."
+    },
+    {
+      "question": "Was ist das Wasserfallmodell?",
+      "answer": "Ein lineares, klassisches Projektmanagementmodell mit den Phasen: Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
+    },
+    {
+      "question": "Welche Nachteile hat das Wasserfallmodell?",
+      "answer": "Es ist unflexibel bei Änderungen und erfordert eine vollständige Planung im Voraus."
+    },
+    {
+      "question": "Was ist Scrum?",
+      "answer": "Ein agiles Projektmanagementmodell, das flexibel auf Änderungen reagieren kann und auf Transparenz, Iterationen und Zusammenarbeit basiert."
+    },
+    {
+      "question": "Wie unterscheidet sich Scrum vom Wasserfallmodell?",
+      "answer": "Scrum ist iterativ und flexibel, während das Wasserfallmodell linear und wenig anpassbar ist."
+    },
+    {
+      "question": "Warum gilt Scrum als agil?",
+      "answer": "Weil es schnelle Anpassungen an neue Anforderungen erlaubt und regelmäßig Feedback einholt."
+    },
+    {
+      "question": "In welcher Reihenfolge verlaufen die Phasen im Wasserfallmodell?",
+      "answer": "Analyse, Anforderung, Entwurf, Implementierung, Testen, Wartung."
+    },
+    {
+      "question": "Was bedeutet Transparenz in Scrum?",
+      "answer": "Alle Projektbeteiligten haben jederzeit Einblick in den aktuellen Stand und die nächsten Schritte."
+    },
+    {
+      "question": "Was ist statische Typisierung?",
+      "answer": "Der Datentyp muss bereits vor der Laufzeit festgelegt werden, z. B. bei Java."
+    },
+    {
+      "question": "Was ist dynamische Typisierung?",
+      "answer": "Der Datentyp wird erst zur Laufzeit bestimmt, z. B. bei JavaScript."
+    },
+    {
+      "question": "Was ist starke Typisierung?",
+      "answer": "Eine Sprache erlaubt keine oder kaum automatische Typumwandlung. Entwickler müssen explizit umwandeln."
+    },
+    {
+      "question": "Was ist schwache Typisierung?",
+      "answer": "Die Sprache erlaubt oft automatische und implizite Typumwandlungen zwischen verschiedenen Datentypen."
+    },
+    {
+      "question": "Was versteht man unter impliziter Typumwandlung?",
+      "answer": "Eine automatische Umwandlung von Datentypen, z. B. von Integer zu Float, wenn keine Daten verloren gehen."
+    },
+    {
+      "question": "Was ist explizite Typumwandlung?",
+      "answer": "Der Entwickler muss die Umwandlung von einem Datentyp in einen anderen selbst vornehmen."
+    },
+    {
+      "question": "Nenne ein Beispiel für eine Sprache mit statischer Typisierung.",
+      "answer": "Java."
+    },
+    {
+      "question": "Nenne ein Beispiel für eine Sprache mit dynamischer Typisierung.",
+      "answer": "JavaScript."
+    },
+    {
+      "question": "Warum kann schwache Typisierung zu Problemen führen?",
+      "answer": "Weil automatisch Typen umgewandelt werden können, wodurch unvorhergesehene Fehler entstehen können."
+    },
+    {
+      "question": "Was ist eine virtuelle Maschine (VM)?",
+      "answer": "Ein System, das seine Ressourcen in virtuelle Systeme aufteilt. Auf jeder VM läuft ein eigenes Betriebssystem."
+    },
+    {
+      "question": "Was ist ein Hypervisor?",
+      "answer": "Ein Programm zur Erstellung und Verwaltung von VMs."
+    },
+    {
+      "question": "Was ist ein Typ-1-Hypervisor?",
+      "answer": "Ein Hypervisor, der direkt auf der Hardware läuft (Bare Metal), z. B. Hyper-V."
+    },
+    {
+      "question": "Was ist ein Typ-2-Hypervisor?",
+      "answer": "Ein Hypervisor, der auf einem Betriebssystem läuft, z. B. VirtualBox."
+    },
+    {
+      "question": "Wofür wird Server-Virtualisierung eingesetzt?",
+      "answer": "Für den Betrieb von Mailservern, Webservern, Fileservern usw."
+    },
+    {
+      "question": "Was ist ein ThinClient in der Client-Virtualisierung?",
+      "answer": "Ein abgespeckter PC, der nur zur Verbindung mit einer VM dient."
+    },
+    {
+      "question": "Was sind Vor- und Nachteile von Client-Virtualisierung?",
+      "answer": "Vorteil: billig, leicht zu patchen. Nachteil: netzwerkgebunden, bei Corona waren Laptops praktikabler."
+    },
+    {
+      "question": "Was ist Anwendungsvirtualisierung (Application-Server)?",
+      "answer": "Der Nutzer startet die Anwendung lokal, aber sie läuft auf einem Server. Für ihn wirkt es, als wäre sie lokal."
+    },
+    {
+      "question": "Was sind die Vorteile der Anwendungsvirtualisierung?",
+      "answer": "Nur eine Instanz muss gepatcht werden, geringer Verwaltungsaufwand, lokal wirkende Anwendung."
+    },
+    {
+      "question": "Was ist Containerisierung?",
+      "answer": "Mehrere Anwendungen laufen in isolierten Containern, die sich denselben Kernel teilen. Jeder Container hat ein eigenes Dateisystem."
+    },
+    {
+      "question": "Welche Vorteile bieten Container gegenüber VMs?",
+      "answer": "Geringer Ressourcenverbrauch, schnelle Startzeit, Isolierung durch Namespaces und cgroups."
+    },
+    {
+      "question": "Was sind cgroups und wofür werden sie verwendet?",
+      "answer": "Control Groups – teilen die Ressourcen (CPU, RAM) zwischen Containern."
+    },
+    {
+      "question": "Was sind Namespaces in Containern?",
+      "answer": "Sorgen für die Isolation, sodass Container sich gegenseitig nicht sehen."
+    },
+    {
+      "question": "Was macht Docker Compose?",
+      "answer": "Startet mehrere Container-Anwendungen mit Konfigurationsdateien und Skripten gleichzeitig."
+    },
+    {
+      "question": "Was ist Kubernetes?",
+      "answer": "Eine Orchestrierungssoftware, die Container automatisch starten, skalieren und verwalten kann."
+    },
+    {
+      "question": "Was kann Kubernetes im Fehlerfall tun?",
+      "answer": "Automatisch neue Container starten, wenn ein bestehender ausfällt oder überlastet ist."
+    },
+    {
+      "question": "Was ist die 1. Generation von Programmiersprachen?",
+      "answer": "Maschinensprache (1GL) – besteht nur aus 0 und 1, direkt vom Prozessor ausführbar."
+    },
+    {
+      "question": "Was ist die 2. Generation von Programmiersprachen?",
+      "answer": "Assembler (2GL) – benutzt mnemonische Codes, wird in Maschinencode übersetzt."
+    },
+    {
+      "question": "Was zählt zur 3. Generation der Programmiersprachen?",
+      "answer": "Hochsprachen wie C, C++, Java – menschenlesbar, aber maschinenfern."
+    },
+    {
+      "question": "Was ist die 4. Generation der Programmiersprachen?",
+      "answer": "Deklarative Sprachen wie SQL – Fokus liegt auf dem Was, nicht dem Wie."
+    },
+    {
+      "question": "Was versteht man unter unstrukturierter Programmierung?",
+      "answer": "Programmierung mit 'GOTO'-Befehlen – Sprünge zwischen Codeabschnitten, schwer wartbar, fehleranfällig."
+    },
+    {
+      "question": "Was ist strukturierte Programmierung?",
+      "answer": "Code folgt logischen Strukturen wie Sequenzen, Verzweigungen, Schleifen – besser wartbar."
+    },
+    {
+      "question": "Was sind Programmierparadigmen?",
+      "answer": "Verschiedene Denkmodelle zur Umsetzung von Programmen: Prozedural, Objektorientiert, Funktional, Logisch."
+    },
+    {
+      "question": "Was ist prozedurale Programmierung?",
+      "answer": "Programme bestehen aus Funktionen/Prozeduren. Nachteile: Datenstruktur und Logik sind getrennt."
+    },
+    {
+      "question": "Was ist objektorientierte Programmierung (OOP)?",
+      "answer": "Programme bestehen aus Objekten mit Attributen und Methoden. Stützt sich auf Vererbung, Polymorphie und Kapselung."
+    },
+    {
+      "question": "Was ist funktionale Programmierung?",
+      "answer": "Programme bestehen aus Funktionen. Kein Zustand, keine Objekte. Daten sind unveränderlich (Immutability)."
+    },
+    {
+      "question": "Was ist logische Programmierung?",
+      "answer": "Basierend auf Fakten und Regeln. Nutzt Backtracking, um Lösungen zu finden. Beispiel: Prolog."
+    },
+    {
+      "question": "Was bedeutet Immutability in der funktionalen Programmierung?",
+      "answer": "Daten werden nicht verändert. Neue Werte entstehen durch Zuweisung, nicht durch Modifikation."
+    },
+    {
+      "question": "Was ist Backtracking in der logischen Programmierung?",
+      "answer": "Eine Technik, bei der das Programm zu vorherigen Zuständen zurückkehrt, wenn eine Lösung fehlschlägt."
+    },
+    {
+      "question": "Welche Anomalien können bei einer unnormalisierten Datenbank auftreten?",
+      "answer": "Einfüge-, Änderungs- und Löschanomalien. Diese können zu Dateninkonsistenzen oder Datenverlust führen."
+    },
+    {
+      "question": "Was ist das Ziel der Normalisierung in einer Datenbank?",
+      "answer": "Die Vermeidung von Redundanzen und Anomalien durch strukturierte und logische Aufteilung der Daten auf mehrere Tabellen."
+    },
+    {
+      "question": "Was sind die Merkmale der 1. Normalform (1NF)?",
+      "answer": "Alle Werte in den Attributen müssen atomar sein (nicht weiter teilbar). Mehrfache Werte werden in einzelne Zeilen ausgelagert."
+    },
+    {
+      "question": "Was ist Voraussetzung für die 2. Normalform (2NF)?",
+      "answer": "Die 1. Normalform muss erfüllt sein. Zusätzlich dürfen Nicht-Schlüsselattribute nur vom gesamten Primärschlüssel abhängig sein (voll funktional abhängig)."
+    },
+    {
+      "question": "Welche Beziehungen müssen bei der 2. Normalform beachtet werden?",
+      "answer": "Fremdschlüssel müssen eingefügt werden, um Tabellen bei Bedarf zu verknüpfen (1:N, N:1 oder 1:1). N:M-Beziehungen werden durch Zwischentabellen aufgelöst."
+    },
+    {
+      "question": "Was ist die Voraussetzung für die 3. Normalform (3NF)?",
+      "answer": "Die 2. Normalform muss erfüllt sein. Außerdem dürfen keine transitiven Abhängigkeiten bestehen (ein Nicht-Schlüsselattribut darf nicht von einem anderen Nicht-Schlüsselattribut abhängen)."
+    },
+    {
+      "question": "Wofür steht die Abkürzung CRUD in der Datenverarbeitung?",
+      "answer": "Create, Read, Update, Delete – das sind die vier grundlegenden Operationen zur Bearbeitung von Daten in einer Datenbank."
+    },
+    {
+      "question": "Was gehört zur Funktionalität bei Softwarequalität?",
+      "answer": "Angemessenheit, Sicherheit, Richtigkeit, Interoperabilität"
+    },
+    {
+      "question": "Welche Aspekte umfasst die Benutzbarkeit von Software?",
+      "answer": "Attraktivität, Bedienbarkeit, Erlernbarkeit, Verständlichkeit"
+    },
+    {
+      "question": "Welche Eigenschaften beschreiben die Veränderbarkeit von Software?",
+      "answer": "Analysierbarkeit, Testbarkeit, Modifizierbarkeit, Stabilität"
+    },
+    {
+      "question": "Was beschreibt die Effizienz bei Softwarequalität?",
+      "answer": "Trade-Off zwischen Verbrauchsverhalten und Zeitverhalten"
+    },
+    {
+      "question": "Welche Kriterien zählen zur Übertragbarkeit von Software?",
+      "answer": "Anpassbarkeit, Austauschbarkeit, Koexistenz mit anderen Programmen, Installierbarkeit"
+    },
+    {
+      "question": "Was zählt zur Zuverlässigkeit bei Softwarequalität?",
+      "answer": "Fehlertoleranz, Reife"
+    },
     {
       question: "Was ist Betriebssystem-Software?",
       answer: "Ein Betriebssystem verwaltet die Hardware und Software eines Computers und stellt eine Benutzeroberfläche bereit. Beispiele sind Linux, Windows und Mac."
@@ -2189,6 +2537,22 @@ const cardSets = {
     }
   ],
   "IT-Sicherheit": [
+    {
+      "question": "Was bedeutet VPN und wie funktioniert die Verschlüsselung?",
+      "answer": "VPN (Virtual Private Network) ermöglicht es, eine sichere Verbindung über ein unsicheres Netzwerk, wie das Internet, zu erstellen. Die Verschlüsselung stellt sicher, dass die Daten während der Übertragung geschützt sind, indem sie in einen Code umgewandelt werden, der nur mit einem Schlüssel entschlüsselt werden kann."
+    },
+    {
+      "question": "Welche Arten der VPN-Verschlüsselung gibt es?",
+      "answer": "Es gibt verschiedene Verschlüsselungsmethoden, darunter IPSec (Internet Protocol Security), SSL (Secure Sockets Layer) und TLS (Transport Layer Security), die für sichere VPN-Verbindungen verwendet werden."
+    },
+    {
+      "question": "Was sind Zugriffrechte, Rollen und Rechte in einem System?",
+      "answer": "Zugriffsrechte sind Berechtigungen, die einem Benutzer oder einer Benutzergruppe in einem System zugewiesen werden, um auf bestimmte Ressourcen zugreifen zu können. Rollen sind Gruppen von Zugriffrechten, die zu bestimmten Benutzerarten oder -aufgaben passen, während Rechte festlegen, welche spezifischen Aktionen innerhalb eines Systems erlaubt sind, z.B. lesen, schreiben, oder ausführen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen einer Rolle und einem Recht?",
+      "answer": "Eine Rolle ist eine Sammlung von Rechten, die typischerweise mit bestimmten Benutzergruppen verbunden sind, wie Administratoren oder normale Benutzer. Ein Recht ist eine spezifische Berechtigung, wie das Bearbeiten oder Löschen von Daten."
+    },
     {
       "question": "Wofür steht ISMS?",
       "answer": "ISMS steht für Informationssicherheits-Managementsystem."
