@@ -1,6 +1,38 @@
 const cardSets = {
   "IT-Tec": [
     {
+      "question": "Was ist eine private IP-Adresse in IPv4?",
+      "answer": "Eine private IP-Adresse in IPv4 ist eine Adresse, die für die interne Netzwerkkommunikation innerhalb eines privaten Netzwerks verwendet wird und nicht im öffentlichen Internet geroutet wird."
+    },
+    {
+      "question": "Welcher IP-Bereich gehört zu den privaten IP-Adressen in IPv4? (Bereich A)",
+      "answer": "Der IP-Bereich A ist 10.0.0.0 bis 10.255.255.255."
+    },
+    {
+      "question": "Welcher IP-Bereich gehört zu den privaten IP-Adressen in IPv4? (Bereich B)",
+      "answer": "Der IP-Bereich B ist 172.16.0.0 bis 172.31.255.255."
+    },
+    {
+      "question": "Welcher IP-Bereich gehört zu den privaten IP-Adressen in IPv4? (Bereich C)",
+      "answer": "Der IP-Bereich C ist 192.168.0.0 bis 192.168.255.255."
+    },
+    {
+      "question": "Warum werden private IP-Adressen verwendet?",
+      "answer": "Private IP-Adressen werden verwendet, um Geräte innerhalb eines privaten Netzwerks zu identifizieren, ohne dass diese IP-Adressen im öffentlichen Internet sichtbar sind."
+    },
+    {
+      "question": "Was passiert, wenn ein Gerät mit einer privaten IP-Adresse auf das Internet zugreifen möchte?",
+      "answer": "Wenn ein Gerät mit einer privaten IP-Adresse auf das Internet zugreifen möchte, erfolgt die Umwandlung der privaten Adresse in eine öffentliche IP-Adresse durch ein Verfahren namens NAT (Network Address Translation)."
+    },
+    {
+      "question": "Kann eine private IP-Adresse im Internet erreichbar sein?",
+      "answer": "Nein, private IP-Adressen sind im Internet nicht direkt erreichbar. Sie können jedoch durch NAT oder einen Proxy-Server mit dem Internet kommunizieren."
+    },
+    {
+      "question": "Was ist der Zweck der NAT bei privaten IP-Adressen?",
+      "answer": "NAT (Network Address Translation) ermöglicht es Geräten mit privaten IP-Adressen, über eine einzige öffentliche IP-Adresse mit dem Internet zu kommunizieren, indem es die private Adresse in eine öffentliche Adresse umwandelt."
+    },
+    {
       "question": "Was ist LPWAN im Kontext des Internets der Dinge (IoT)?",
       "answer": "LPWAN (Low Power Wide Area Network) bietet eine hohe Reichweite, niedrigen Energieverbrauch und eine kostengünstige Lösung für die Vernetzung von IoT-Geräten."
     },
