@@ -2849,6 +2849,70 @@ const cardSets = {
       question: "Was ist ein Meilenstein in einem Projekt?",
       answer: "Ein Meilenstein ist der Abschluss einer Phase und leitet eine neue Phase im Projekt ein."
     },
+    {
+      "question": "Welche Rollen gibt es im Scrum Framework und was sind ihre Hauptaufgaben?",
+      "answer": "Im Scrum Framework gibt es drei Hauptrollen: der Product Owner, der Scrum Master und das Scrum Team. Der Product Owner ist verantwortlich für das Product Backlog, definiert die Anforderungen und stellt sicher, dass das Team an den richtigen Aufgaben arbeitet. Der Scrum Master sorgt dafür, dass Scrum korrekt umgesetzt wird und unterstützt das Team bei der Beseitigung von Hindernissen. Das Scrum Team arbeitet an den Aufgaben des Sprint Backlogs und liefert das Inkrement."
+    },
+    {
+      "question": "Was ist das Product Backlog und wer ist dafür verantwortlich?",
+      "answer": "Das Product Backlog ist eine geordnete Liste von Anforderungen, Features, Verbesserungen und Fehlerbehebungen, die das Produkt betreffen. Es wird vom Product Owner verwaltet und kontinuierlich priorisiert. Das Product Backlog enthält alle Wünsche und Anforderungen, die während der Produktentwicklung berücksichtigt werden sollen."
+    },
+    {
+      "question": "Was ist das Sprint Backlog und wie unterscheidet es sich vom Product Backlog?",
+      "answer": "Das Sprint Backlog ist eine Liste von Aufgaben, die das Scrum-Team im aktuellen Sprint umsetzen soll. Es wird während des Sprint Planning Meetings vom Team aus dem Product Backlog abgeleitet. Das Sprint Backlog ist fokussierter und umfasst nur die Aufgaben, die während des jeweiligen Sprints bearbeitet werden."
+    },
+    {
+      "question": "Wie lange dauert ein Sprint und was passiert am Ende eines Sprints?",
+      "answer": "Ein Sprint dauert normalerweise zwischen 1 und 4 Wochen. Am Ende jedes Sprints sollte ein funktionierendes Produktinkrement vorliegen, das potenziell ausgeliefert werden kann. Das Team präsentiert dieses Inkrement im Sprint Review und reflektiert den Sprint in der Sprint Retrospektive, um Verbesserungen für den nächsten Sprint zu identifizieren."
+    },
+    {
+      "question": "Was ist das Daily Scrum und wie wird es durchgeführt?",
+      "answer": "Das Daily Scrum ist ein kurzes tägliches Meeting, das maximal 15 Minuten dauert. Hier gibt das Team ein Update über den Fortschritt, bespricht, was gestern erreicht wurde, was heute geplant ist und ob es Hindernisse gibt. Ziel ist es, das Team synchron zu halten und Probleme frühzeitig zu erkennen."
+    },
+    {
+      "question": "Was sind Stakeholder im Scrum-Framework und wie wird mit ihnen zusammengearbeitet?",
+      "answer": "Stakeholder sind alle Personen oder Gruppen, die ein Interesse am Produkt oder Projekt haben. Sie können Kunden, Führungskräfte, Partner oder Endbenutzer sein. Der Scrum Master sorgt dafür, dass Stakeholder regelmäßig informiert werden, und der Product Owner kommuniziert mit den Stakeholdern, um ihre Anforderungen zu verstehen und in das Product Backlog zu integrieren."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen einem Scrum Team und einem traditionellen Entwicklungsteam?",
+      "answer": "Ein Scrum Team ist selbstorganisiert, interdisziplinär und besteht aus Mitgliedern mit verschiedenen Fähigkeiten, die zusammenarbeiten, um ein Inkrement zu liefern. Im Vergleich dazu sind traditionelle Entwicklungsteams oft hierarchisch organisiert und spezialisierter in einzelnen Aufgabenbereichen."
+    },
+    {
+      "question": "Was ist ein Inkrement in Scrum?",
+      "answer": "Ein Inkrement ist ein funktionierender Teil des Produkts, der am Ende eines Sprints geliefert wird. Es muss mit den vorherigen Inkrementen kompatibel sein und sollte alle notwendigen Features und Funktionen enthalten, um für den Endnutzer nutzbar zu sein."
+    },
+    {
+      "question": "Was ist das Sprint Goal und warum ist es wichtig?",
+      "answer": "Das Sprint Goal ist ein klar definiertes Ziel für den Sprint, das die Richtung und den Fokus für das Scrum Team vorgibt. Es hilft dem Team, priorisierte Aufgaben zu bearbeiten und das Endziel zu erreichen. Ein gut formuliertes Sprint Goal stellt sicher, dass alle Teammitglieder auf dasselbe Ziel hinarbeiten."
+    },
+    {
+      "question": "Was sind die Scrum Artefakte und welche Funktion haben sie?",
+      "answer": "Die Scrum Artefakte sind: Product Backlog, Sprint Backlog und Inkrement. Das Product Backlog ist die Sammlung aller Anforderungen, das Sprint Backlog sind die Aufgaben für den aktuellen Sprint, und das Inkrement ist das Ergebnis des Sprints, ein funktionsfähiges Produkt oder ein Teil des Produkts."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen einem Scrum Master und einem traditionellen Projektmanager?",
+      "answer": "Der Scrum Master ist dafür verantwortlich, Scrum zu implementieren und das Team zu unterstützen, während der traditionelle Projektmanager oft die Verantwortung für die gesamte Projektplanung, Ressourcenzuteilung und Risikomanagement übernimmt. Der Scrum Master sorgt für die Einhaltung der Scrum-Prozesse, während der Projektmanager traditionell mehr Kontrolle und Planung übernimmt."
+    },
+    {
+      "question": "Was ist eine Sprint Retrospektive und was wird dort besprochen?",
+      "answer": "Die Sprint Retrospektive ist ein Treffen am Ende jedes Sprints, bei dem das Scrum Team zusammenkommt, um den vergangenen Sprint zu reflektieren. Es werden Fragen wie: Was lief gut? Was könnte besser werden? Was können wir beim nächsten Sprint verbessern? besprochen, um kontinuierliche Verbesserung zu fördern."
+    },
+    {
+      "question": "Wie wird im Scrum-Framework mit Änderungen umgegangen?",
+      "answer": "Im Scrum-Framework wird Flexibilität gefördert. Änderungen können während des Projekts auftreten, und der Product Owner sorgt dafür, dass das Product Backlog regelmäßig aktualisiert wird, um auf neue Anforderungen oder Änderungen der Marktbedingungen zu reagieren. Scrum ist darauf ausgelegt, schnell auf Änderungen zu reagieren und Anpassungen vorzunehmen."
+    },
+    {
+      "question": "Was ist das Definition of Done (DoD) und warum ist es wichtig?",
+      "answer": "Die Definition of Done (DoD) beschreibt klare Kriterien, die festlegen, wann eine Aufgabe oder ein Inkrement als vollständig betrachtet wird. Sie ist wichtig, um sicherzustellen, dass das Team einheitliche Standards für die Qualität des Produkts hat und um Missverständnisse oder unvollständige Arbeiten zu vermeiden."
+    },
+    {
+      "question": "Was passiert im Sprint Planning Meeting?",
+      "answer": "Im Sprint Planning Meeting wird das Sprint Goal definiert, und das Team plant, welche Aufgaben aus dem Product Backlog in den aktuellen Sprint übernommen werden. Das Sprint Backlog wird erstellt, und der Teamaufwand für jede Aufgabe wird geschätzt. Dabei wird auch der Umfang und die Ressourcen des Sprints berücksichtigt."
+    },
+    {
+      "question": "Was macht Change Request Management?",
+      "answer": "Change Request Management plant, steuert und setzt Änderungen im Projekt um, um sicherzustellen, dass sie erfolgreich und kontrolliert durchgeführt werden."
+    }
   ]
 };
 
