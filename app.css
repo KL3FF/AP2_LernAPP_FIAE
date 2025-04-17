@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+#game {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#counter {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#answer {
+  margin-top: 15px;
+}
+
+#game-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.half-container {
+  width: 100%;
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Standard-Modus */
+body {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+#game {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#game.dark-mode {
+  background-color: #333333;
+  color: white;
+}
+
+.question .text-bottom {
+  margin-top: auto;
+  /* Text nach unten */
+  text-align: center;
+}
+
+.answer .text-top {
+  margin-bottom: auto;
+  /* Text nach oben */
+  text-align: center;
+}
+
+.corner-btn {
+  position: absolute;
+  bottom: 20px;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+#btn-yes {
+  left: 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#btn-no {
+  right: 20px;
+  background: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#show-answer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3672f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+#start-btn {
+  background: #3672f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+.set-btn {
+  background: #3672f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
