@@ -817,6 +817,138 @@ const cardSets = {
   ],
   "AEuP": [
     {
+      "question": "Wofür steht REST in REST-API?",
+      "answer": "REST steht für Representational State Transfer."
+    },
+    {
+      "question": "Was ist eine REST-API?",
+      "answer": "Eine REST-API ist eine Schnittstelle, über die Systeme über HTTP miteinander kommunizieren können."
+    },
+    {
+      "question": "Welche Protokolle nutzt REST?",
+      "answer": "REST nutzt das HTTP-Protokoll."
+    },
+    {
+      "question": "Was bedeutet GET in einer REST-API?",
+      "answer": "GET wird verwendet, um Daten vom Server abzurufen."
+    },
+    {
+      "question": "Was bedeutet POST in einer REST-API?",
+      "answer": "POST wird verwendet, um neue Daten an den Server zu senden."
+    },
+    {
+      "question": "Was bedeutet PUT in einer REST-API?",
+      "answer": "PUT wird verwendet, um vorhandene Daten vollständig zu aktualisieren."
+    },
+    {
+      "question": "Was bedeutet PATCH in einer REST-API?",
+      "answer": "PATCH wird verwendet, um Daten teilweise zu aktualisieren."
+    },
+    {
+      "question": "Was bedeutet DELETE in einer REST-API?",
+      "answer": "DELETE wird verwendet, um Daten zu löschen."
+    },
+    {
+      "question": "Was ist ein Endpunkt (Endpoint) in einer REST-API?",
+      "answer": "Ein Endpunkt ist eine URL, über die eine bestimmte Funktion der API angesprochen wird."
+    },
+    {
+      "question": "Was ist ein JSON-Format bei REST?",
+      "answer": "JSON ist ein Datenformat, das häufig zum Austausch von Informationen in REST-APIs verwendet wird."
+    },
+    {
+      "question": "Was ist ein Statuscode 200?",
+      "answer": "Er bedeutet, dass die Anfrage erfolgreich war."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 404?",
+      "answer": "404 bedeutet, dass die angeforderte Ressource nicht gefunden wurde."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 500?",
+      "answer": "500 zeigt einen Serverfehler an."
+    },
+    {
+      "question": "Ist REST zustandslos?",
+      "answer": "Ja, jede Anfrage ist unabhängig – der Server speichert keinen Zustand zwischen den Anfragen."
+    },
+    {
+      "question": "Was ist ein Vorteil von REST?",
+      "answer": "REST ist leichtgewichtig, flexibel und nutzt standardisierte HTTP-Methoden."
+    },
+    {
+      "question": "Welche fünf Hauptbereiche gibt es bei HTTP-Statuscodes?",
+      "answer": "1xx: Information, 2xx: Erfolg, 3xx: Weiterleitung, 4xx: Clientfehler, 5xx: Serverfehler"
+    },
+    {
+      "question": "Was bedeutet der Statuscode-Bereich 1xx?",
+      "answer": "1xx bedeutet, dass es sich um eine rein informative Antwort handelt."
+    },
+    {
+      "question": "Was bedeutet der Statuscode-Bereich 2xx?",
+      "answer": "2xx bedeutet, dass die Anfrage erfolgreich war."
+    },
+    {
+      "question": "Was bedeutet der Statuscode-Bereich 3xx?",
+      "answer": "3xx bedeutet, dass eine Weiterleitung erforderlich ist."
+    },
+    {
+      "question": "Was bedeutet der Statuscode-Bereich 4xx?",
+      "answer": "4xx bedeutet, dass ein Fehler beim Client aufgetreten ist."
+    },
+    {
+      "question": "Was bedeutet der Statuscode-Bereich 5xx?",
+      "answer": "5xx bedeutet, dass ein Serverfehler aufgetreten ist."
+    },
+    {
+      "question": "Wie sieht eine HTTP-Response grob aus?",
+      "answer": "Sie besteht aus Statuscode, Header und Body."
+    },
+    {
+      "question": "Was steht im Body einer Response?",
+      "answer": "Im Body stehen meist die angeforderten Daten oder eine Fehlermeldung."
+    },
+    {
+      "question": "Was steht im Header einer Response?",
+      "answer": "Der Header enthält Metadaten wie Content-Type, Datum oder Caching-Informationen."
+    },
+    {
+      "question": "Was zeigt der Status einer Response an?",
+      "answer": "Ob die Anfrage erfolgreich war oder ein Fehler aufgetreten ist."
+    },
+    {
+      "question": "Wie sieht ein typischer HTTP-Request aus?",
+      "answer": "Ein Request enthält Methode (z.B. GET), URL (Endpunkt), Header und optional einen Body."
+    },
+    {
+      "question": "Was steht im Body eines HTTP-Requests?",
+      "answer": "Im Body stehen meist Daten, die an den Server gesendet werden."
+    },
+    {
+      "question": "Was steht im Header eines HTTP-Requests?",
+      "answer": "Im Header stehen Informationen wie Authentifizierung JWT, Content-Type oder Spracheinstellungen."
+    },
+    {
+      "question": "Welche HTTP-Methoden sind am häufigsten in REST-APIs?",
+      "answer": "GET, POST, PUT, und DELETE"
+    },
+    {
+      "question": "Wofür wird die Methode GET verwendet?",
+      "answer": "GET wird verwendet, um Daten vom Server abzurufen."
+    },
+    {
+      "question": "Wofür wird die Methode POST verwendet?",
+      "answer": "POST wird verwendet, um neue Daten zu erstellen."
+    },
+    {
+      "question": "Wofür wird die Methode PUT verwendet?",
+      "answer": "PUT wird verwendet, um vorhandene Daten vollständig zu aktualisieren."
+    },
+    {
+      "question": "Wofür wird die Methode DELETE verwendet?",
+      "answer": "DELETE wird verwendet, um Daten zu löschen."
+    },
+    {
       "question": "Welche Hauptbereiche umfasst die Softwarequalität?",
       "answer": "Die Softwarequalität umfasst Funktionalität, Benutzbarkeit, Veränderbarkeit, Effizienz, Übertragbarkeit und Zuverlässigkeit."
     },
@@ -882,7 +1014,7 @@ const cardSets = {
     },
     {
       "question": "Nenne ein Beispiel für SaaS.",
-      "answer": "Google Workspace (z. B. Google Docs, Google Mail)."
+      "answer": "Google Workspace (z.B. Google Docs, Google Mail)."
     },
     {
       "question": "Nenne ein Beispiel für PaaS.",
@@ -898,11 +1030,11 @@ const cardSets = {
     },
     {
       "question": "Was ist statische Typisierung?",
-      "answer": "Der Datentyp muss bereits vor der Laufzeit festgelegt werden, z. B. bei Java."
+      "answer": "Der Datentyp muss bereits vor der Laufzeit festgelegt werden, z.B. bei Java."
     },
     {
       "question": "Was ist dynamische Typisierung?",
-      "answer": "Der Datentyp wird erst zur Laufzeit bestimmt, z. B. bei JavaScript."
+      "answer": "Der Datentyp wird erst zur Laufzeit bestimmt, z.B. bei JavaScript."
     },
     {
       "question": "Was ist starke Typisierung?",
@@ -914,7 +1046,7 @@ const cardSets = {
     },
     {
       "question": "Was versteht man unter impliziter Typumwandlung?",
-      "answer": "Eine automatische Umwandlung von Datentypen, z. B. von Integer zu Float, wenn keine Daten verloren gehen."
+      "answer": "Eine automatische Umwandlung von Datentypen, z.B. von Integer zu Float, wenn keine Daten verloren gehen."
     },
     {
       "question": "Was ist explizite Typumwandlung?",
@@ -942,11 +1074,11 @@ const cardSets = {
     },
     {
       "question": "Was ist ein Typ-1-Hypervisor?",
-      "answer": "Ein Hypervisor, der direkt auf der Hardware läuft (Bare Metal), z. B. Hyper-V."
+      "answer": "Ein Hypervisor, der direkt auf der Hardware läuft (Bare Metal), z.B. Hyper-V."
     },
     {
       "question": "Was ist ein Typ-2-Hypervisor?",
-      "answer": "Ein Hypervisor, der auf einem Betriebssystem läuft, z. B. VirtualBox."
+      "answer": "Ein Hypervisor, der auf einem Betriebssystem läuft, z.B. VirtualBox."
     },
     {
       "question": "Wofür wird Server-Virtualisierung eingesetzt?",
@@ -2170,19 +2302,19 @@ const cardSets = {
       "answer": "Marktkonträre Maßnahmen beinhalten staatliche Eingriffe in den Markt, wie Mindestlöhne, Gaspreisbremse oder Mietpreisbremse."
     },
     { "question": "Was sind natürliche Personen?", "answer": "Jeder Mensch ab der Geburt bis zum Tod." },
-    { "question": "Wann beginnt die Rechtsfähigkeit juristischer Personen?", "answer": "Mit der Gründung, z. B. Eintragung ins Handelsregister." },
-    { "question": "Was ist eine privatrechtliche juristische Person?", "answer": "Unternehmen, Vereine etc. (z. B. GmbH, AG)." },
-    { "question": "Was ist eine öffentlich-rechtliche juristische Person?", "answer": "Vom Staat gegründet (z. B. Schule, Stadt)." },
+    { "question": "Wann beginnt die Rechtsfähigkeit juristischer Personen?", "answer": "Mit der Gründung, z.B. Eintragung ins Handelsregister." },
+    { "question": "Was ist eine privatrechtliche juristische Person?", "answer": "Unternehmen, Vereine etc. (z.B. GmbH, AG)." },
+    { "question": "Was ist eine öffentlich-rechtliche juristische Person?", "answer": "Vom Staat gegründet (z.B. Schule, Stadt)." },
     { "question": "Welche Formen der Willenserklärung gibt es?", "answer": "Ausdrücklich, konkludent, Schweigen." },
     { "question": "Was bedeutet ausdrückliche Willenserklärung?", "answer": "Mündlich oder schriftlich." },
     { "question": "Was bedeutet konkludente Willenserklärung?", "answer": "Durch schlüssiges Verhalten." },
     { "question": "Wann gilt Schweigen als Zustimmung?", "answer": "Bei Kaufleuten." },
-    { "question": "Was ist ein einseitiges Rechtsgeschäft?", "answer": "Z. B. Testament." },
-    { "question": "Was ist ein zweiseitiges Rechtsgeschäft?", "answer": "Z. B. Vertrag (zwei Willenserklärungen)." },
+    { "question": "Was ist ein einseitiges Rechtsgeschäft?", "answer": "Z.B. Testament." },
+    { "question": "Was ist ein zweiseitiges Rechtsgeschäft?", "answer": "Z.B. Vertrag (zwei Willenserklärungen)." },
     { "question": "Wie sind Kinder unter 7 Jahren rechtlich?", "answer": "Willenserklärungen sind nichtig." },
     { "question": "Wie sind 7- bis 17-Jährige geschäftsfähig?", "answer": "Beschränkt geschäftsfähig, Zustimmung nötig." },
     { "question": "Was regelt der Taschengeldparagraph?", "answer": "Kauf mit eigenem Geld ist gültig." },
-    { "question": "Wann liegt ein rechtlicher Vorteil vor?", "answer": "Z. B. bei Geschenken." },
+    { "question": "Wann liegt ein rechtlicher Vorteil vor?", "answer": "Z.B. bei Geschenken." },
     { "question": "Ab wann ist man voll geschäftsfähig?", "answer": "Ab 18 Jahren." },
     { "question": "Was ist Besitz?", "answer": "Nutzung einer Sache, ohne Eigentümer zu sein." },
     { "question": "Was ist Eigentum?", "answer": "Rechtlicher Besitz – durch Einigung und Übergabe." },
@@ -3021,7 +3153,7 @@ const cardSets = {
   "KI":[
     {
       "question": "Was ist eine schwache KI?",
-      "answer": "Eine schwache KI ist auf eine bestimmte Aufgabe spezialisiert, z. B. Sprachassistenten oder Chatbots."
+      "answer": "Eine schwache KI ist auf eine bestimmte Aufgabe spezialisiert, z.B. Sprachassistenten oder Chatbots."
     },
     {
       "question": "Was ist eine starke KI?",
@@ -3081,7 +3213,7 @@ const cardSets = {
     },
     {
       "question": "Was braucht man, um eine KI zu trainieren?",
-      "answer": "Man braucht viele Daten, Rechenleistung und ein Lernverfahren (z. B. ein neuronales Netzwerk)."
+      "answer": "Man braucht viele Daten, Rechenleistung und ein Lernverfahren (z.B. ein neuronales Netzwerk)."
     },
     {
       "question": "Was ist ein Datensatz in der KI?",
@@ -3169,7 +3301,7 @@ const cardSets = {
     },
     {
       "question": "Was ist eine Aktivierungsfunktion?",
-      "answer": "Eine Funktion, die entscheidet, ob ein Neuron 'aktiviert' wird, z. B. ReLU oder Sigmoid."
+      "answer": "Eine Funktion, die entscheidet, ob ein Neuron 'aktiviert' wird, z.B. ReLU oder Sigmoid."
     },
     {
       "question": "Wie lernt ein neuronales Netzwerk?",
@@ -3201,7 +3333,7 @@ const cardSets = {
     },
     {
       "question": "Was bedeutet 'Rolle' in einem Prompt?",
-      "answer": "Die Rolle gibt vor, in welcher Funktion die KI antworten soll, z. B. als Lehrer oder Entwickler."
+      "answer": "Die Rolle gibt vor, in welcher Funktion die KI antworten soll, z.B. als Lehrer oder Entwickler."
     },
     {
       "question": "Was ist der 'Kontext' in einem Prompt?",
@@ -3209,7 +3341,7 @@ const cardSets = {
     },
     {
       "question": "Wofür steht das 'Output-Format' im Prompt?",
-      "answer": "Das Output-Format beschreibt, wie die Antwort aussehen soll, z. B. als Liste, Tabelle oder JSON."
+      "answer": "Das Output-Format beschreibt, wie die Antwort aussehen soll, z.B. als Liste, Tabelle oder JSON."
     },
     {
       "question": "Was ist der Hauptunterschied zwischen Deep Learning und traditionellem maschinellen Lernen?",
