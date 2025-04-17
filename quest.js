@@ -3296,6 +3296,74 @@ const cardSets = {
       "answer": "Aus Eingabeschicht, versteckten Schichten (Hidden Layers) und Ausgabeschicht."
     },
     {
+      "question": "Was ist der Input Layer in einem neuronalen Netzwerk?",
+      "answer": "Der Input Layer ist die Eingangsschicht, in der die Daten ins Netzwerk eingespeist werden."
+    },
+    {
+      "question": "Welche Aufgabe hat der Input Layer?",
+      "answer": "Er nimmt die Rohdaten entgegen und leitet sie an die nächste Schicht weiter."
+    },
+    {
+      "question": "Was ist ein Beispiel für Eingabedaten im Input Layer?",
+      "answer": "Zum Beispiel Pixelwerte eines Bildes oder Zahlen aus einer Tabelle."
+    },
+    {
+      "question": "Was ist der Hidden Layer?",
+      "answer": "Der Hidden Layer ist die Zwischenschicht, die die eigentliche Verarbeitung der Daten übernimmt."
+    },
+    {
+      "question": "Warum heißt er Hidden Layer?",
+      "answer": "Weil seine Berechnungen für außenstehende Nutzer nicht direkt sichtbar sind."
+    },
+    {
+      "question": "Was passiert im Hidden Layer?",
+      "answer": "Die Daten werden mit Gewichtungen und Aktivierungsfunktionen verarbeitet."
+    },
+    {
+      "question": "Kann es mehrere Hidden Layers geben?",
+      "answer": "Ja, in tiefen neuronalen Netzwerken gibt es oft viele Hidden Layers – daher der Begriff Deep Learning."
+    },
+    {
+      "question": "Wie funktioniert ein neuronales Netzwerk?",
+      "answer": "Ein neuronales Netzwerk besteht aus vielen Neuronen, die in Schichten organisiert sind. Jedes Neuron bekommt Eingaben, prüft deren Stärke und wird aktiviert, wenn sie stark genug sind. Dann gibt es ein Signal an die nächste Schicht weiter. So wandern die Informationen Schicht für Schicht bis zur letzten Schicht – dort wird schließlich das Ergebnis berechnet."
+    },
+    {
+      "question": "Wie funktioniert die Gewichtung von Eingaben in einem neuronalen Netzwerk?",
+      "answer": "Jeder Eingang zu einem Neuron hat ein eigenes Gewicht. Dieses Gewicht bestimmt, wie stark die jeweilige Eingabe das Neuron beeinflusst. Das Neuron summiert alle gewichteten Eingaben. Wird dabei ein bestimmter Schwellwert überschritten, wird das Neuron aktiviert und gibt ein Signal weiter."
+    },    
+    {
+      "question": "Was ist der Output Layer?",
+      "answer": "Der Output Layer gibt das Ergebnis der Verarbeitung zurück, z. B. eine Vorhersage oder Klassifikation."
+    },
+    {
+      "question": "Was macht der Output Layer?",
+      "answer": "Er fasst alle Berechnungen zusammen und liefert das finale Ergebnis des Netzwerks."
+    },
+    {
+      "question": "Wie viele Neuronen hat der Output Layer?",
+      "answer": "Das hängt vom Problem ab – z. B. 1 Neuron für Ja/Nein oder mehrere für Klassen bei Klassifikationen."
+    },
+    {
+      "question": "Wie hängen Input, Hidden und Output Layer zusammen?",
+      "answer": "Sie sind durch Gewichte verbunden und geben die Daten schrittweise von Schicht zu Schicht weiter."
+    },
+    {
+      "question": "Welche Rolle spielen die Gewichte zwischen den Layern?",
+      "answer": "Sie bestimmen, wie stark ein Wert von einem Neuron das nächste beeinflusst."
+    },
+    {
+      "question": "Welche Funktion wird in den Neuronen verwendet?",
+      "answer": "Aktivierungsfunktionen wie ReLU, Sigmoid oder Tanh bestimmen, ob ein Neuron aktiviert wird."
+    },
+    {
+      "question": "Warum braucht man Hidden Layers?",
+      "answer": "Weil sie komplexe Muster und Zusammenhänge in den Daten erkennen können."
+    },
+    {
+      "question": "Was passiert, wenn es keine Hidden Layer gibt?",
+      "answer": "Dann ist das Netzwerk sehr einfach und kann keine komplexen Muster lernen."
+    },
+    {
       "question": "Was passiert in den Neuronen eines neuronalen Netzwerks?",
       "answer": "Jedes Neuron verrechnet Eingabewerte mit Gewichtungen und wendet eine Aktivierungsfunktion an."
     },

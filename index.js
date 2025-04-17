@@ -1,14 +1,14 @@
 import { cardSets } from "./quest.js";
 
-
+const state = {
+  cardStack: [],
+  totalCards: 0,
+  answeredCorrect: 0,
+  showingAnswer: false,
+}
 
 document.addEventListener("DOMContentLoaded", () => {
-  const state = {
-    cardStack: [],
-    totalCards: 0,
-    answeredCorrect: 0,
-    showingAnswer: false,
-  }
+
 
   const gameDiv = document.getElementById("game");
   const counterDiv = document.getElementById("counter");
