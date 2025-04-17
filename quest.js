@@ -1699,6 +1699,98 @@ const cardSets = {
   ],
   "WISO": [
     {
+      "question": "Für wen gilt die Steuerklasse I?",
+      "answer": "Für ledige, geschiedene oder dauerhaft getrennt lebende Personen ohne Kinder."
+    },
+    {
+      "question": "Wer fällt in die Steuerklasse II?",
+      "answer": "Alleinerziehende mit Kind, die Anspruch auf den Entlastungsbetrag haben."
+    },
+    {
+      "question": "Welche Personen wählen die Steuerklasse III?",
+      "answer": "Verheiratete Hauptverdiener, deren Partner in Steuerklasse V ist."
+    },
+    {
+      "question": "Wann kommt Steuerklasse IV zur Anwendung?",
+      "answer": "Wenn beide Ehepartner etwa gleich viel verdienen."
+    },
+    {
+      "question": "Für wen ist Steuerklasse V gedacht?",
+      "answer": "Für verheiratete Personen mit geringerem Einkommen, wenn der Partner in Steuerklasse III ist."
+    },
+    {
+      "question": "Welche Personen werden in Steuerklasse VI eingeordnet?",
+      "answer": "Personen mit einem Zweitjob oder einer weiteren Beschäftigung."
+    },
+    {
+      "question": "Was regelt der Arbeitsvertrag?",
+      "answer": "Ein Arbeitsvertrag regelt die Rechte und Pflichten von Arbeitgeber (AG) und Arbeitnehmer (AN). Der AN verpflichtet sich zur Arbeitsleistung, während der AG dafür ein Arbeitsentgelt zahlt. Die Höhe des Entgelts wird verhandelt."
+    },
+    {
+      "question": "Welche Pflichten hat der Arbeitnehmer im Arbeitsvertrag?",
+      "answer": "Der Arbeitnehmer verpflichtet sich zur Arbeitsleistung."
+    },
+    {
+      "question": "Welche Pflicht hat der Arbeitgeber im Arbeitsvertrag?",
+      "answer": "Der Arbeitgeber verpflichtet sich zur Zahlung eines Arbeitsentgelts."
+    },
+    {
+      "question": "Kann ein Arbeitsvertrag mündlich abgeschlossen werden?",
+      "answer": "Ja, ein Arbeitsvertrag kann mündlich abgeschlossen werden, es gibt keine gesetzlich vorgeschriebene Form."
+    },
+    {
+      "question": "Was muss der Arbeitgeber nach dem Nachweisgesetz tun?",
+      "answer": "Der Arbeitgeber muss innerhalb eines Monats nach Arbeitsbeginn die wesentlichen Vertragsbedingungen schriftlich festhalten und dem Arbeitnehmer aushändigen."
+    },
+    {
+      "question": "Muss der Arbeitsvertrag unterschrieben werden?",
+      "answer": "Ja, der Arbeitsvertrag muss von beiden Parteien unterschrieben werden."
+    },
+    {
+      "question": "Was sind die Hauptpflichten des Arbeitgebers?",
+      "answer": "Die Hauptpflicht des Arbeitgebers ist die Zahlung der Vergütung und die Ausgabe einer Lohnabrechnung."
+    },
+    {
+      "question": "Welche Nebenpflichten hat der Arbeitgeber?",
+      "answer": "Die Nebenpflichten des Arbeitgebers umfassen die Fürsorgepflicht, den Schutz der Persönlichkeitsrechte, die Gewährung von Urlaub, die Ausstellung von Arbeitszeugnissen und die Gleichbehandlung der Arbeitnehmer."
+    },
+    {
+      "question": "Hat der Arbeitgeber das Weisungsrecht?",
+      "answer": "Ja, der Arbeitgeber hat das Weisungsrecht gemäß § 106 Gewerbeordnung (GewO)."
+    },
+    {
+      "question": "Was ist die Hauptpflicht des Arbeitnehmers?",
+      "answer": "Die Hauptpflicht des Arbeitnehmers ist die persönliche Arbeitsleistung, die bei Krankheit, Mutterschutz und Urlaub entfällt."
+    },
+    {
+      "question": "Welche Nebenpflichten hat der Arbeitnehmer?",
+      "answer": "Zu den Nebenpflichten des Arbeitnehmers gehören die Treuepflicht, die Verschwiegenheitspflicht und das Wettbewerbsverbot."
+    },
+    {
+      "question": "Welche Rechte hat der Arbeitnehmer bezüglich seiner Akteneinsicht?",
+      "answer": "Der Arbeitnehmer hat das Recht auf Akteneinsicht."
+    },
+    {
+      "question": "Nennen Sie mir verschiedene Vertragsarten im Arbeitsrecht.",
+      "answer": "Unbefristeter Arbeitsvertrag, Befristeter Arbeitsvertrag (Zeit- oder Zweckbefristet), Projektbezogener Arbeitsvertrag, Teilzeitarbeitsvertrag, Aushilfsvertrag, Minijob-Arbeitsvertrag, Arbeitsvertrag für freie Mitarbeiter, Praktikantenvertrag"
+    },
+    {
+      "question": "Nennen Sie mir wichtige Inhalte in einem Arbeitsvertrag.",
+      "answer": "Beginn des Arbeitsverhältnisses, Art der Tätigkeit, Dauer des Arbeitsverhältnisses, Probezeit, Art und Ort der Tätigkeit, Arbeitszeit, Arbeitsvergütung, Urlaub, Lohnfortzahlung im Krankheitsfall, Fristen zur Arbeitsunfähigkeitsbescheinigung, Anzeige von Nebentätigkeiten, Widerrufsvorbehalt bei Zusatzzahlungen, Zusatzvereinbarungen, Geheimhaltungsverpflichtung, Wettbewerbsverbot"
+    },
+    {
+      "question": "Hat der Arbeitnehmer Anspruch auf Urlaub?",
+      "answer": "Ja, der Arbeitnehmer hat Anspruch auf Urlaub."
+    },
+    {
+      "question": "Wie ist die Pausenregelung bei Arbeitszeiten?",
+      "answer": "Bei 6-9 Stunden Arbeit hat der Arbeitnehmer Anspruch auf mindestens 30 Minuten Pause. Bei mehr als 9 Stunden Arbeit sind mindestens 45 Minuten Pause vorgeschrieben."
+    },
+    {
+      "question": "Hat der Arbeitnehmer ein Recht auf Raucherpausen?",
+      "answer": "Nein, der Arbeitnehmer hat kein Recht auf Raucherpausen."
+    },
+    {
       "question": "Welche fünf Sozialversicherungen gibt es in Deutschland?",
       "answer": "In Deutschland gibt es fünf Sozialversicherungen: Krankenversicherung, Pflegeversicherung, Arbeitslosenversicherung, Rentenversicherung und Unfallversicherung."
     },
