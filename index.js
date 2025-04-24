@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p id="answer" style="display:none;">${card.answer}</p>
         </div>
       </div>
-      <button id="show-answer">Antwort anzeigen</button>
+      <button id="show-answer">Lösung anzeigen</button>
     </div>
   `;
     document.getElementById("show-answer").addEventListener("click", showAnswer);

@@ -25,10 +25,6 @@ const cardSets = {
       "answer": "Wenn ein Gerät mit einer privaten IP-Adresse auf das Internet zugreifen möchte, erfolgt die Umwandlung der privaten Adresse in eine öffentliche IP-Adresse durch ein Verfahren namens NAT (Network Address Translation)."
     },
     {
-      "question": "Kann eine private IP-Adresse im Internet erreichbar sein?",
-      "answer": "Nein, private IP-Adressen sind im Internet nicht direkt erreichbar. Sie können jedoch durch NAT oder einen Proxy-Server mit dem Internet kommunizieren."
-    },
-    {
       "question": "Was ist der Zweck der NAT bei privaten IP-Adressen?",
       "answer": "NAT (Network Address Translation) ermöglicht es Geräten mit privaten IP-Adressen, über eine einzige öffentliche IP-Adresse mit dem Internet zu kommunizieren, indem es die private Adresse in eine öffentliche Adresse umwandelt."
     },
@@ -102,7 +98,7 @@ const cardSets = {
     },
     {
       "question": "Was ist der Hauptvorteil von NAS?",
-      "answer": "Der Hauptvorteil von NAS ist die zentrale Verwaltung von Daten, die über ein Netzwerk von mehreren Benutzern zugänglich sind, was die Datensicherung und das Teilen von Dateien vereinfacht."
+      "answer": "Der Hauptvorteil von NAS ist die zentrale Verwaltung von Daten, die über ein Netzwerk von mehreren Benutzern zugänglich sind, was die Datensicherung und das Teilen von Dateien vereinfacht.Datenbasiert speicherzugriffe"
     },
     {
       "question": "Wie funktioniert NAS?",
@@ -110,7 +106,7 @@ const cardSets = {
     },
     {
       "question": "Was ist SAN (Storage Area Network)?",
-      "answer": "SAN ist ein spezialisiertes Netzwerk, das Speicherressourcen miteinander verbindet und diese Speicher über ein eigenes Netzwerk mit hoher Geschwindigkeit bereitstellt. Es bietet schnellen Zugriff auf Block-Level-Daten und wird hauptsächlich in großen Unternehmen genutzt."
+      "answer": "SAN ist ein spezialisiertes Netzwerk, das Speicherressourcen miteinander verbindet und diese Speicher über ein eigenes Netzwerk mit hoher Geschwindigkeit bereitstellt. Es bietet schnellen Zugriff auf Block-Level-Daten und wird hauptsächlich in großen Unternehmen genutzt.Blockbasierte Speicherzugriffe"
     },
     {
       "question": "Was unterscheidet SAN von NAS?",
@@ -259,12 +255,12 @@ const cardSets = {
       answer: "Sie besteht aus 4 Oktetten = 32 Bit."
     },
     {
-      question: "Was ist der Netzanteil bei 255.255.255.0?",
-      answer: "Beispiel: 192.168.1.0"
+      question: "Was ist der Netzanteil?",
+      answer: "Alle Bits auf der linken Seite."
     },
     {
-      question: "Was ist der Hostanteil bei 192.168.1.10 mit 255.255.255.0?",
-      answer: "Hostanteil ist: 0.0.0.10"
+      question: "Was ist der Hostanteil?",
+      answer: "Alle Bits auf der rechten Seite."
     },
     {
       question: "Wie kommunizieren Rechner im selben Netz?",
@@ -418,11 +414,15 @@ const cardSets = {
       question: "Was ist ein Hub?",
       answer: "Ein Hub ist ein einfaches Netzwerkgerät, das Datenpakete an alle angeschlossenen Geräte weiterleitet, ohne zu erkennen, wer der Empfänger ist. Dadurch entsteht unnötiger Datenverkehr und das Netzwerk wird ineffizient."
     },
+
     {
       question: "Warum werden Hubs heutzutage kaum noch verwendet?",
       answer: "Hubs sind ineffizient, da sie Daten an alle Geräte im Netzwerk senden, was den Datenverkehr überlastet und das Netzwerk unsicher macht. Daher sind sie durch Switches ersetzt worden."
     },
-
+    {
+      question: "Auf weclhe ISO OSI Schicht arbeitet ein Hub?",
+      answer: "Ein Hub arbeitet auf der physikalischen Schicht (Layer 1) des OSI-Modells. Er überträgt elektrische Signale, ohne die Daten zu analysieren oder zu filtern."
+    },
     // Switch
     {
       question: "Was ist der Unterschied zwischen einem Hub und einem Switch?",
@@ -432,7 +432,10 @@ const cardSets = {
       question: "Warum sind Switches effizienter als Hubs?",
       answer: "Switches sind effizienter, da sie den Datenverkehr gezielt an den richtigen Empfänger senden, wodurch der Datenfluss optimiert wird und weniger Kollisionen entstehen."
     },
-
+    {
+      question: "Auf welcher ISO OSI Schicht arbeitet ein Switch?",
+      answer: "Ein Switch arbeitet auf der Sicherungsschicht (Layer 2) des OSI-Modells. Er analysiert die MAC-Adressen der Datenpakete, um den richtigen Empfänger zu bestimmen."
+    },
     // Router
     {
       question: "Was ist die Funktion eines Routers?",
@@ -442,7 +445,10 @@ const cardSets = {
       question: "Welche Aufgaben übernimmt ein Router in den meisten Haushalten?",
       answer: "Ein Router übernimmt Aufgaben wie die Zuweisung von IP-Adressen (DHCP), Firewall-Schutz, WLAN-Verwaltung und ermöglicht den Zugang zum Internet."
     },
-
+    {
+      question: "Auf weclhe ISO OSI Schicht arbeitet ein Router",
+      answer: "Ein Router arbeitet auf der Netzwerkebene (Layer 3) des OSI-Modells. Er analysiert IP-Adressen, um Datenpakete zwischen verschiedenen Netzwerken weiterzuleiten."
+    },
     // Bridge
     {
       question: "Was ist eine Bridge in Netzwerken?",
@@ -452,7 +458,10 @@ const cardSets = {
       question: "Warum werden Bridges heutzutage seltener verwendet?",
       answer: "Die Funktion von Bridges ist heute oft in Switches integriert, die effizienter arbeiten, daher sind sie in modernen Netzwerken weniger verbreitet."
     },
-
+    {
+      question: "Auf weclhe ISO OSI Schicht arbeitet ein Bridge",
+      answer: "Eine Bridge arbeitet auf der Sicherungsschicht (Layer 2) des OSI-Modells. Sie analysiert die MAC-Adressen der Datenpakete, um den Datenverkehr zwischen den Netzwerken zu steuern."
+    },
     // Ring-Topologie
     {
       question: "Wie funktioniert eine Ring-Topologie?",
@@ -560,38 +569,31 @@ const cardSets = {
     // VLAN (Virtual Local Area Network)
     {
       question: "Was ist ein VLAN?",
-      answer: "Ein VLAN (Virtual Local Area Network) unterteilt ein physisches Netzwerk in mehrere virtuelle Netzwerke. So können Geräte in unterschiedlichen, isolierten Netzwerken arbeiten, obwohl sie physisch im gleichen Netzwerk sind."
+      answer: "Ein VLAN (Virtual Local Area Network) unterteilt ein physisches Netzwerk in mehrere virtuelle Netzwerke. So können Geräte in unterschiedlichen, isolierten Netzwerken, obwohl sie physisch im gleichen Netzwerk sind. Jedes Vlan hat eine ID von 1 bis 4095, die Ports des switches werden den VLANs zugewiesen."
     },
     {
       question: "Warum werden VLANs eingesetzt?",
       answer: "VLANs bieten mehr Sicherheit, da Geräte in verschiedenen VLANs nicht direkt miteinander kommunizieren können. Sie verbessern die Performance, indem sie den Broadcast-Verkehr verringern, und bieten Flexibilität, da keine physische Änderung an der Infrastruktur nötig ist."
     },
-
-    // Funktionsweise von VLANs
     {
-      question: "Wie funktionieren VLANs?",
-      answer: "VLANs werden mithilfe von Switches erstellt, die den Datenverkehr zwischen den VLANs steuern. Jedes Datenpaket bekommt ein Tag, das angibt, zu welchem VLAN es gehört. Für die Kommunikation zwischen VLANs ist häufig ein Router notwendig (Inter-VLAN Routing)."
+      question: "Was sind die vorteile von Vlans?",
+      answer:"Broadcast bereiche werden verkleiner, was kollisionen veringert. Mehr Sicherheit durch Abschrimung der Gruppen, "
     },
+    {
+      question: "Was ist ein Trunk-Ports in VLANs?",
+      answer: "Ein Trunk-Port in VLANs ist ein spezieller Switch-Port, der Verkehr von mehreren VLANs gleichzeitig transportieren kann. Er verbindet meist Switches untereinander oder einen Switch mit einem Router "
 
+    },
+    {
+      question: "Wie ist ein Access-Ports in VLANs?",
+      answer: "Ein Access-Port in VLANs ist ein Switch-Port, der nur Verkehr eines einzelnen VLANs transportiert. Er wird verwendet, um Endgeräte wie Computer oder Drucker mit dem Netzwerk zu verbinden."
+    },
     // VLAN-Tagging
     {
       question: "Was ist VLAN-Tagging?",
-      answer: "VLAN-Tagging ist der Prozess, bei dem jedem Datenpaket ein Tag hinzugefügt wird, das anzeigt, zu welchem VLAN es gehört. Dies ermöglicht es, den Verkehr innerhalb des VLANs korrekt zu verwalten."
+      answer: "VLAN-Tagging ist der Prozess, bei dem jedem Datenpaket ein Tag hinzugefügt (swichen Source Mac und Type) wird, das anzeigt, zu welchem VLAN es gehört. Dies ermöglicht es, den Verkehr innerhalb des VLANs korrekt zu verwalten."
     },
-    // VLAN-Beispiele
-    {
-      question: "Gib ein Beispiel für ein VLAN für die Verwaltung.",
-      answer: "Ein VLAN für die Verwaltung ist nur für Administratoren und Verwaltungspersonal zugänglich. Es bietet mehr Sicherheit, da es vom Rest des Netzwerks getrennt ist."
-    },
-    {
-      question: "Was ist ein VLAN für Mitarbeiter?",
-      answer: "Ein VLAN für Mitarbeiter trennt die Mitarbeitergeräte vom Rest des Netzwerks. Es sorgt für eine bessere Netzwerkorganisation und Sicherheit."
-    },
-    {
-      question: "Wie funktioniert ein VLAN für Gäste?",
-      answer: "Ein VLAN für Gäste ermöglicht den Gästen Zugang zum WLAN, jedoch ohne Zugriff auf interne Netzwerke. Dies schützt vertrauliche Unternehmensressourcen."
-    },
-
+  
     // Sicherheit und VLANs
     {
       question: "Warum bietet VLAN zusätzliche Sicherheit?",
@@ -814,6 +816,9 @@ const cardSets = {
       question: "Wie ist RAID 6 aufgebaut?",
       answer: "RAID 6 verwendet Striping mit doppelter Parität. Es ähnelt RAID 5, speichert jedoch Paritätsinformationen auf zwei Festplatten, was eine höhere Fehlertoleranz bietet. Es erfordert mindestens vier Festplatten."
     }
+  ],
+  "IT-Electronik":[
+
   ],
   "AEuP": [
     {

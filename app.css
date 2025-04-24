@@ -33,6 +33,7 @@ body {
 
   background: white;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
 #counter {
@@ -56,6 +57,7 @@ body {
   align-items: center;
   padding: 0;
   position: relative;
+
 }
 
 .half-container {
@@ -97,7 +99,7 @@ body.dark-mode {
 .answer .text-top {
   margin-bottom: auto;
   /* Text nach oben */
-  text-align: center;
+  text-align:left;
 }
 
 .corner-btn {
@@ -143,6 +145,7 @@ body.dark-mode {
   border-radius: 8px;
   padding: 15px 20px;
   font-size: 18px;
+  
 }
 
 
@@ -164,4 +167,5 @@ p {
   margin: 5px;
   font-size: 16px;
   cursor: pointer;
+  width: 140px;
 }
