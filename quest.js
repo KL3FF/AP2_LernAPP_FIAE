@@ -1,5 +1,341 @@
 const cardSets = {
-  "IT-Tec": [
+  "IT-Tec s1": [
+
+
+    // Verschlüsselungsstandards
+    {
+      question: "Was ist der Advanced Encryption Standard (AES)?",
+      answer: "AES ist ein weit verbreitetes symmetrisches Verschlüsselungsverfahren, das für die Verschlüsselung von Daten in vielen Sicherheitsprotokollen verwendet wird. Es unterstützt Schlüssellängen von 128, 192 und 256 Bit."
+    },
+    {
+      question: "Was ist RSA-Verschlüsselung?",
+      answer: "RSA ist ein asymmetrisches Verschlüsselungsverfahren, das auf den Prinzipien der Primfaktorzerlegung basiert. Es verwendet ein Schlüsselpaar (öffentlichen und privaten Schlüssel) für die Verschlüsselung und digitale Signaturen."
+    },
+    {
+      question: "Was ist SHA?",
+      answer: "SHA (Secure Hash Algorithm) ist eine Familie kryptografischer Hash-Funktionen, die verwendet wird, um Daten auf eine feste Länge zu 'hashen', wodurch die Integrität der Daten überprüft werden kann."
+    },
+
+    // Sicherheitsmaßnahmen und Prinzipien
+    {
+      question: "Was versteht man unter infrastrukturellen Sicherheitsmaßnahmen?",
+      answer: "Infrastrukturelle Sicherheitsmaßnahmen sind physische und technische Schutzmaßnahmen, die dazu dienen, IT-Systeme und Netzwerke zu sichern, wie z.B. Firewalls, Antivirenprogramme und Zugangskontrollen."
+    },
+    {
+      question: "Was bedeutet 'Security by Design'?",
+      answer: "Security by Design bedeutet, dass Sicherheitsaspekte von Anfang an in die Entwicklung von Systemen und Software integriert werden, anstatt sie später hinzuzufügen."
+    },
+    {
+      question: "Was bedeutet 'Security by Default'?",
+      answer: "Security by Default bedeutet, dass Systeme von Anfang an so konzipiert sind, dass sie standardmäßig sicher sind, und unsichere Funktionen oder Konfigurationen sind deaktiviert."
+    },
+
+    // Datensicherung
+    {
+      question: "Was ist der Unterschied zwischen differenzieller und inkrementeller Sicherung?",
+      answer: "Die differenzielle Sicherung sichert alle Daten, die seit der letzten vollständigen Sicherung geändert wurden, während die inkrementelle Sicherung nur die Daten sichert, die seit der letzten Sicherung verändert wurden."
+    },
+    {
+      question: "Was sind RAID-Systeme?",
+      answer: "RAID-Systeme (Redundant Array of Independent Disks) kombinieren mehrere Festplatten zu einem logischen Laufwerk, um die Leistung zu steigern oder die Datensicherheit zu erhöhen."
+    },
+
+    // Zugriffskontrollen
+    {
+      question: "Was ist Zugriffskontrolle?",
+      answer: "Zugriffskontrolle regelt, wer auf bestimmte Ressourcen und Informationen in einem System zugreifen darf. Sie umfasst Authentifizierung und Autorisierung von Benutzern."
+    },
+    {
+      question: "Was ist Multi-Faktor-Authentifizierung (MFA)?",
+      answer: "MFA ist eine Sicherheitsmaßnahme, bei der mehrere Identifikationsmethoden (z.B. Passwort und Fingerabdruck) verwendet werden, um den Zugriff auf ein System zu sichern."
+    },
+    {
+      question: "Was ist ein Virus?",
+      answer: "Viren schleusen sich in Computerprogramme ein, indem sie Dateien als 'Wirt' verwenden und verbreiten sich, um das System zu schädigen."
+    },
+    {
+      question: "Was ist ein Wurm?",
+      answer: "Würmer sind eigenständige Programme, die sich automatisch vervielfältigen und ohne Benutzerintervention, typischerweise über Netzwerke, verbreiten."
+    },
+    {
+      question: "Was ist ein Trojaner?",
+      answer: "Ein Trojaner gibt sich als nützliche Software aus, um Benutzer zu täuschen, und führt schädliche Aktivitäten aus, wie Datenklau oder die Installation weiterer Malware."
+    },
+    {
+      question: "Was ist eine Backdoor?",
+      answer: "Eine Backdoor ist ein geheimer Zugang zu einem Computer oder Netzwerk, der es Angreifern ermöglicht, das System zu kontrollieren, ohne dass der Benutzer davon erfährt."
+    },
+    {
+      question: "Was macht Spyware?",
+      answer: "Spyware läuft im Hintergrund und spioniert das Benutzerverhalten, persönliche Daten oder Passwörter aus und leitet sie an Dritte weiter."
+    },
+    {
+      question: "Was ist Scareware?",
+      answer: "Scareware verwendet gefälschte Warnmeldungen, um den Benutzer zu verunsichern und ihn zur Installation von Schadsoftware zu verleiten."
+    },
+    {
+      question: "Was ist Ransomware?",
+      answer: "Ransomware blockiert den Zugriff auf das System oder verschlüsselt Daten und fordert den Benutzer zur Zahlung von Lösegeld auf, um den Zugriff wiederherzustellen."
+    },
+    {
+      question: "Was ist ein Rootkit?",
+      answer: "Ein Rootkit ist eine Software, die tief im Betriebssystem versteckt ist und Angreifern ermöglicht, unerwünschte Vorgänge zu verschleiern."
+    },
+    {
+      question: "Wie verbreitet sich Malware über E-Mail?",
+      answer: "Malware wird häufig über E-Mail-Anhänge verbreitet, die als vermeintlich wichtige Dokumente getarnt sind. Sobald der Benutzer den Anhang öffnet, wird die Malware aktiviert."
+    },
+    {
+      question: "Wie kann Malware durch Software-Schwachstellen verbreitet werden?",
+      answer: "Schwachstellen in Software wie Webbrowser oder Betriebssysteme können ausgenutzt werden, um Malware zu installieren."
+    },
+    {
+      question: "Wie verbreitet sich Malware über Wechselmedien?",
+      answer: "Malware kann über externe Speichermedien wie USB-Sticks, CDs und DVDs verbreitet werden. Wird ein infiziertes USB-Laufwerk an ein System angeschlossen, kann die Malware das System infizieren."
+    },
+    {
+      question: "Was ist ein Denial-of-Service (DoS) Angriff?",
+      answer: "Ein DoS-Angriff zielt darauf ab, einen Netzwerkdienst oder ein System durch Überlastung mit Anfragen lahmzulegen."
+    },
+    {
+      question: "Was ist ein Distributed Denial-of-Service (DDoS) Angriff?",
+      answer: "DDoS-Angriffe sind eine erweiterte Form von DoS-Angriffen, bei denen viele Angreifern gleichzeitig Anfragen an das Ziel senden, um es zu überlasten."
+    },
+    {
+      question: "Was ist das Ziel eines DoS-Angriffs?",
+      answer: "Das Ziel eines DoS-Angriffs ist es, einen Dienst oder ein System lahmzulegen, durch Überlastung mit Anfragen oder durch Ausnutzen von Schwachstellen."
+    },
+    {
+      question: "Was ist das Ziel eines DDoS-Angriffs?",
+      answer: "Das Ziel eines DDoS-Angriffs ist es, ein System oder Netzwerk durch die gleichzeitige Überlastung mit Anfragen von mehreren Angreifern lahmzulegen."
+    },
+    {
+      question: "Was ist ein Domain Controller?",
+      answer: "Ein Domain Controller verwaltet Benutzer, Computer und Sicherheitsrichtlinien in einem Netzwerk und ist für Authentifizierung und Autorisierung verantwortlich."
+    },
+    {
+      question: "Was ist die Funktion eines Virtualisierungsservers?",
+      answer: "Ein Virtualisierungsserver nutzt Virtualisierung, um mehrere virtuelle Maschinen auf einer physischen Hardware laufen zu lassen und Ressourcen effizient zu nutzen."
+    },
+    {
+      question: "Was macht ein Druckserver?",
+      answer: "Ein Druckserver verwaltet und leitet Druckaufträge von Clients an den richtigen Drucker weiter und zentralisiert das Druckmanagement."
+    },
+    {
+      question: "Was ist die Funktion einer Firewall?",
+      answer: "Eine Firewall überwacht und filtert Netzwerkverkehr, um unbefugten Zugriff zu verhindern und schützt Netzwerke durch Regeln und Protokolle."
+    },
+    {
+      question: "Was sind die drei Aspekte der Datensicherheit?",
+      answer: "Die drei Aspekte der Datensicherheit sind: Vertraulichkeit, Integrität und Verfügbarkeit."
+    },
+    {
+      question: "Was bedeutet Vertraulichkeit in der Datensicherheit?",
+      answer: "Vertraulichkeit bedeutet, dass nur autorisierte Personen Zugang zu den Daten haben."
+    },
+    {
+      question: "Was bedeutet Integrität in der Datensicherheit?",
+      answer: "Integrität stellt sicher, dass die Daten korrekt und unverändert sind."
+    },
+    {
+      question: "Was bedeutet Verfügbarkeit in der Datensicherheit?",
+      answer: "Verfügbarkeit bedeutet, dass die Daten für berechtigte Nutzer jederzeit zugänglich sind."
+    },
+    {
+      question: "Was ist der vierte Aspekt der Datensicherheit, der zu den klassischen drei Aspekten hinzukommt?",
+      answer: "Der vierte Aspekt ist die Authentizität, die sicherstellt, dass die Quelle der Daten vertrauenswürdig ist."
+    },
+    // RAID 0
+    {
+      question: "Wie ist RAID 0 aufgebaut?",
+      answer: "RAID 0 verwendet Striping, bei dem Daten in Blöcke aufgeteilt und über mehrere Festplatten verteilt werden, um die Lese- und Schreibgeschwindigkeit zu erhöhen. Es bietet jedoch keine Redundanz oder Fehlerkorrektur."
+    },
+
+    // RAID 1
+    {
+      question: "Wie ist RAID 1 aufgebaut?",
+      answer: "RAID 1 verwendet Mirroring, bei dem die gleichen Daten auf zwei oder mehr Festplatten gleichzeitig gespeichert werden, um eine vollständige Datenspiegelung zu gewährleisten. Dies sorgt für hohe Datensicherheit, reduziert jedoch den verfügbaren Speicherplatz."
+    },
+
+    // RAID 5
+    {
+      question: "Wie ist RAID 5 aufgebaut?",
+      answer: "RAID 5 verwendet Striping mit Parität. Die Daten werden auf mindestens drei Festplatten verteilt, wobei eine Paritätsinformation für Fehlerkorrektur auf einer der Festplatten gespeichert wird. Dies bietet sowohl hohe Leistung als auch Datensicherheit."
+    },
+
+    // RAID 6
+    {
+      question: "Wie ist RAID 6 aufgebaut?",
+      answer: "RAID 6 verwendet Striping mit doppelter Parität. Es ähnelt RAID 5, speichert jedoch Paritätsinformationen auf zwei Festplatten, was eine höhere Fehlertoleranz bietet. Es erfordert mindestens vier Festplatten."
+    },
+
+    { "question": "ICMP: Wofür steht ICMP?", "answer": "Internet Control Message Protocol" },
+    { "question": "ICMP: Wofür wird ICMP verwendet?", "answer": "Zur Fehlerbehandlung und Diagnose in IP-Netzwerken" },
+    { "question": "ICMP: Welche Geräte nutzen ICMP?", "answer": "Router und Hosts" },
+    { "question": "ICMP: Wofür werden Echo Request und Echo Reply verwendet?", "answer": "Zur Überprüfung der Erreichbarkeit eines Hosts (z.B. mit Ping)" },
+    { "question": "ICMP: Wann wird eine Destination Unreachable Nachricht gesendet?", "answer": "Wenn ein Paket sein Ziel nicht erreichen kann" },
+    { "question": "ICMP: Wann wird eine Time Exceeded Nachricht gesendet?", "answer": "Wenn die Time to Live (TTL) eines Pakets abgelaufen ist" },
+    { "question": "ICMP Flood: Was ist ein ICMP Flood?", "answer": "Ein Angriff mit vielen ICMP Echo Requests zur Überlastung eines Ziels" },
+    { "question": "ICMP Flood: Was ist das Ziel eines ICMP Flood?", "answer": "Überlastung und Störung des Dienstes" },
+    { "question": "Ping of Death: Was passiert beim Ping of Death Angriff?", "answer": "Übergroße ICMP-Pakete bringen ältere Systeme zum Absturz" },
+    { "question": "Ping of Death: Warum sind moderne Systeme sicherer gegen den Ping of Death?", "answer": "Weil sie übergroße Pakete richtig verarbeiten können" },
+    { "question": "ICMP Redirect: Was passiert bei einem ICMP Redirect-Angriff?", "answer": "Gefälschte ICMP-Redirect-Nachrichten leiten Datenverkehr über einen vom Angreifer kontrollierten Router" },
+    { "question": "ICMP Redirect: Was ermöglicht ein ICMP Redirect-Angriff dem Angreifer?", "answer": "Abhören oder Umlenken des Datenverkehrs (Man-in-the-Middle)" }
+    ,
+    {
+      "question": "Oracle-DB: Was ist Oracle?",
+      "answer": "Oracle ist ein relationales Datenbanksystem."
+    },
+    {
+      "question": "NAT: Was passiert beim NAT-Prozess in Routern?",
+      "answer": "Ein Gerät tauscht seine private IP-Adresse gegen die öffentliche IP-Adresse des Routers."
+    },
+    {
+      "question": "NAT: Warum wurde NAT entwickelt?",
+      "answer": "NAT wurde aufgrund der Adressknappheit bei IPv4 entwickelt."
+    },
+    {
+      "question": "NAT: Was wird in einer NAT-Tabelle festgehalten?",
+      "answer": "In der NAT-Tabelle werden private IPs, öffentliche IPs, Ports, Ziel-IP, Ziel-Port, Protokolle und Zeitstempel festgehalten."
+    },
+    {
+      "question": "DNAT: Was ist der Unterschied zwischen SNAT und DNAT?",
+      "answer": "Bei DNAT geht eine Verbindung von außen (Internet) zu einem Gerät im LAN, bei SNAT ist es umgekehrt."
+    },
+    {
+      "question": "Spanning Tree: Was ist das Ziel von Spanning Tree?",
+      "answer": "Spanning Tree soll Schleifen im LAN vermeiden."
+    },
+    {
+      "question": "Spanning Tree: Wie wird die Root Bridge im Spanning Tree bestimmt?",
+      "answer": "Die Root Bridge wird durch den Switch mit der niedrigsten Bridge-ID bestimmt."
+    },
+    {
+      "question": "Spanning Tree: Was passiert mit doppelten Ports zur Root Bridge?",
+      "answer": "Doppelte Ports zur Root Bridge werden geschlossen."
+    },
+    {
+      "question": "VLAN: Was ermöglicht ein VLAN?",
+      "answer": "Ein VLAN ermöglicht die logische Aufteilung eines Netzwerks in separate, voneinander isolierte Bereiche, auch bei physischen Geräten im gleichen Netzwerk."
+    },
+    {
+      "question": "VLAN: Wie werden Geräte in einem VLAN eingeteilt?",
+      "answer": "Geräte werden in Gruppen (VLANs) eingeteilt."
+    },
+    {
+      "question": "VLAN: Was erhält jedes VLAN?",
+      "answer": "Jedes VLAN erhält eine eigene ID im Bereich von 1 bis 4095."
+    },
+    {
+      "question": "VLAN: Wie werden Ports auf einem Switch einem VLAN zugewiesen?",
+      "answer": "Ports am Switch werden mit der entsprechenden VLAN-ID konfiguriert."
+    },
+    {
+      "question": "WLAN: Was beeinflusst die WLAN-Übertragungsrate?",
+      "answer": "Die Übertragungsrate kann durch Entfernung, Hindernisse, Störungen, veraltete Hardware und viele Geräte im Netzwerk beeinträchtigt werden."
+    },
+    {
+      "question": "Wi-Fi: Was ist Wi-Fi?",
+      "answer": "Wi-Fi ist die praktische Bezeichnung für drahtlose Netzwerke nach dem IEEE-802.11-Standard."
+    },
+    {
+      "question": "Wi-Fi: Was beeinflusst die Reichweite und Antennengröße bei Wi-Fi?",
+      "answer": "Je höher die Frequenz eines Funksignals, desto kleiner ist die Antenne, aber die Reichweite nimmt ab."
+    },
+    {
+      "question": "WLAN-Frequenzbänder: Welche Kanäle sind bei 2,4 GHz überlappungsfrei?",
+      "answer": "Kanal 1, 6 und 11 sind bei 2,4 GHz überlappungsfrei."
+    },
+    {
+      "question": "WLAN-Frequenzbänder: Welche Frequenz hat mehr verfügbare Kanäle, 2,4 GHz oder 5 GHz?",
+      "answer": "5 GHz hat mehr verfügbare Kanäle."
+    },
+    {
+      "question": "WLAN-Frequenzbänder: Welche Frequenz hat eine höhere Geschwindigkeit, 2,4 GHz oder 5 GHz?",
+      "answer": "5 GHz hat eine höhere Geschwindigkeit, aber geringere Reichweite."
+    },
+    {
+      "question": "WLAN-Kanalbreite: Was passiert bei größerer Kanalbreite?",
+      "answer": "Je größer die Kanalbreite, desto höher der Datendurchsatz, aber auch anfälliger für Störungen."
+    },
+    {
+      "question": "WEP: Was war das Problem mit WEP?",
+      "answer": "WEP hatte einen schwachen Algorithmus und zu kurze Schlüssel, was es leicht zu knacken machte."
+    },
+    {
+      "question": "WPA: Was war WPA?",
+      "answer": "WPA war eine Reaktion auf die Schwächen von WEP und bot mehr Sicherheit, wurde aber nicht als finaler Standard eingeführt."
+    },
+    {
+      "question": "WPA2-Personal: Wie erfolgt die Authentifizierung bei WPA2-Personal?",
+      "answer": "Die Authentifizierung erfolgt über ein gemeinsames Passwort (Pre-Shared Key)."
+    },
+    {
+      "question": "WPA2-Personal: Wo wird WPA2-Personal verwendet?",
+      "answer": "WPA2-Personal wird meist in privaten Haushalten oder kleinen Netzwerken verwendet."
+    },
+    {
+      "question": "WPA2-Enterprise: Wie erfolgt die Authentifizierung bei WPA2-Enterprise?",
+      "answer": "Die Authentifizierung erfolgt über einen RADIUS-Server mit individuellen Zugangsdaten für jeden Nutzer."
+    },
+    {
+      "question": "WPA2-Enterprise: Wo wird WPA2-Enterprise eingesetzt?",
+      "answer": "WPA2-Enterprise wird in Unternehmen, Schulen oder großen Organisationen genutzt."
+    },
+    {
+      "question": "Antennen bei WLAN-Geräten: Welche Antennen werden häufig in WLAN-Routern eingesetzt?",
+      "answer": "In WLAN-Routern werden oft Dipolantennen (Stabantennen) verwendet."
+    },
+    {
+      "question": "Antennen bei WLAN-Geräten: Was zeichnet eine Parabolantenne aus?",
+      "answer": "Eine Parabolantenne bündelt das Signal stark in eine Richtung und erreicht hohe Reichweiten."
+    },
+    {
+      "question": "Antennen bei WLAN-Geräten: Was ist eine Yagi-Antenne?",
+      "answer": "Eine Yagi-Antenne hat eine gerichtete Abstrahlung mit hoher Reichweite und wird für gezielte WLAN-Verbindungen genutzt."
+    },
+    {
+      "question": "Bridge Modus: Was ermöglicht der Bridge-Modus?",
+      "answer": "Im Bridge-Modus können getrennte LANs über Funk verbunden werden."
+    },
+    {
+      "question": "Repeater-Modus: Was passiert im Repeater-Modus?",
+      "answer": "Im Repeater-Modus wird die Reichweite des WLANs durch Erweiterung der Funkzellen vergrößert."
+    },
+    {
+      "question": "Roaming: Was ist Roaming im WLAN?",
+      "answer": "Roaming ermöglicht es WLAN-Geräten, automatisch zwischen verschiedenen Zugangspunkten zu wechseln, ohne die Verbindung zu verlieren."
+    },
+    {
+      "question": "Infrastruktur-Modus: Was ist der Infrastruktur-Modus?",
+      "answer": "Im Infrastruktur-Modus geht jegliche Kommunikation über einen Accesspoint, der Zugang zum LAN bietet."
+    },
+    {
+      "question": "Ad-hoc-Modus: Was ist der Ad-hoc-Modus?",
+      "answer": "Im Ad-hoc-Modus kommunizieren WLAN-Clients direkt untereinander ohne Accesspoint."
+    },
+    {
+      "question": "Antennen bei WLAN-Geräten: Warum sind mehrere Antennen in WLAN-Geräten wichtig?",
+      "answer": "Mehr Antennen ermöglichen mehr gleichzeitige Datenströme und damit mehr Geschwindigkeit und Stabilität."
+    },
+    {
+      "question": "MU-MIMO: Was bedeutet MU-MIMO?",
+      "answer": "MU-MIMO steht für Multi-User Multiple Input, Multiple Output und erlaubt es, mehreren Geräten gleichzeitig unterschiedliche Daten zu senden."
+    },
+    {
+      "question": "MU-MIMO: Welche Geräte müssen MU-MIMO unterstützen?",
+      "answer": "Sowohl der Access Point als auch die Clients müssen MU-MIMO unterstützen."
+    },
+    {
+      "question": "MU-MIMO: Wie funktioniert MU-MIMO bei WLAN-ac (Wi-Fi 5)?",
+      "answer": "Bei WLAN-ac funktioniert MU-MIMO nur für den Downlink (vom Router zum Gerät)."
+    },
+    {
+      "question": "MU-MIMO: Wann wurde auch der Uplink (vom Gerät zum Router) mit MU-MIMO eingeführt?",
+      "answer": "Mit WLAN-ax (Wi-Fi 6) wurde auch der Uplink mit MU-MIMO eingeführt."
+    }
+  ],
+  "IT-Tec s2": [
     {
       "question": "Was ist eine private IP-Adresse in IPv4?",
       "answer": "Eine private IP-Adresse in IPv4 ist eine Adresse, die für die interne Netzwerkkommunikation innerhalb eines privaten Netzwerks verwendet wird und nicht im öffentlichen Internet geroutet wird."
@@ -43,30 +379,6 @@ const cardSets = {
     {
       "question": "Welche Vorteile bietet ein LAN für ein Unternehmen?",
       "answer": "Ein LAN bietet hohe Bandbreite, geringe Latenzzeiten und eine hohe Sicherheit, was eine effiziente Kommunikation und den gemeinsamen Zugriff auf Ressourcen im Unternehmen ermöglicht."
-    },
-    {
-      "question": "Was ist ein Strukturmuster?",
-      "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
-    },
-    {
-      "question": "Was ist ein Beispiel für ein Strukturmuster?",
-      "answer": "Ein Beispiel für ein Strukturmuster ist das Facade-Pattern."
-    },
-    {
-      "question": "Was ist ein Erzeugungsmuster?",
-      "answer": "Erzeugungsmuster befassen sich mit der Erstellung von Objekten und bieten Lösungen, wie man Objekte instanziiert."
-    },
-    {
-      "question": "Was sind Beispiele für Erzeugungsmuster?",
-      "answer": "Beispiele für Erzeugungsmuster sind das Singleton-Pattern und das Factory-Pattern."
-    },
-    {
-      "question": "Was ist ein Verhaltensmuster?",
-      "answer": "Verhaltensmuster definieren, wie Objekte miteinander kommunizieren und interagieren sollen."
-    },
-    {
-      "question": "Was sind Beispiele für Verhaltensmuster?",
-      "answer": "Beispiele für Verhaltensmuster sind das Observer-Pattern und das Command-Pattern."
     },
     {
       "question": "Was bedeutet RAID und wie wird es verwendet?",
@@ -354,7 +666,100 @@ const cardSets = {
       question: "Was ist ein GAN (Global Area Network)?",
       answer: "Globales Netzwerk – deckt den gesamten Planeten ab. Begriff wird kaum noch verwendet, da WAN ähnlich ist."
     },
-
+  ],
+  "IT-Tec s3": [
+    {
+      "question": "FTP-Data: Welcher Port wird für den Datentransfer bei FTP verwendet?",
+      "answer": "Port 20"
+    },
+    {
+      "question": "FTP-Data: Was wird mit Port 20 bei FTP gemacht?",
+      "answer": "Port 20 wird für den Datentransfer genutzt, nachdem die Verbindung hergestellt wurde."
+    },
+    {
+      "question": "FTP-Control: Welcher Port wird für die Steuerung des FTP-Datenverkehrs verwendet?",
+      "answer": "Port 21"
+    },
+    {
+      "question": "FTP-Control: Was wird mit Port 21 bei FTP gemacht?",
+      "answer": "Port 21 wird für die Kommunikation und Steuerung zwischen FTP-Server und -Client genutzt."
+    },
+    {
+      "question": "SSH: Welcher Port wird für den sicheren Fernzugriff auf Systeme verwendet?",
+      "answer": "Port 22"
+    },
+    {
+      "question": "SSH: Was ermöglicht SSH?",
+      "answer": "SSH ermöglicht verschlüsselten Remote-Zugriff auf Server und Systeme."
+    },
+    {
+      "question": "TELNET: Welcher Port wird für unverschlüsselten Fernzugriff auf Systeme verwendet?",
+      "answer": "Port 23"
+    },
+    {
+      "question": "TELNET: Was ist an TELNET problematisch?",
+      "answer": "TELNET ist unsicher, da es keine Verschlüsselung bietet."
+    },
+    {
+      "question": "SMTP: Welcher Port wird für den Versand von E-Mails verwendet?",
+      "answer": "Port 25"
+    },
+    {
+      "question": "SMTP: Was macht SMTP?",
+      "answer": "SMTP wird genutzt, um E-Mails zwischen Servern zu versenden."
+    },
+    {
+      "question": "DNS: Welcher Port wird für DNS-Anfragen verwendet?",
+      "answer": "Port 53"
+    },
+    {
+      "question": "DNS: Was macht DNS?",
+      "answer": "DNS übersetzt Domainnamen in IP-Adressen."
+    },
+    {
+      "question": "HTTP: Welcher Port wird für unverschlüsselte Kommunikation im Web verwendet?",
+      "answer": "Port 80"
+    },
+    {
+      "question": "HTTP: Was ist HTTP?",
+      "answer": "HTTP ist das grundlegende Protokoll für den Austausch von Webseiteninhalten."
+    },
+    {
+      "question": "HTTPS: Welcher Port wird für verschlüsselte Kommunikation im Web verwendet?",
+      "answer": "Port 443"
+    },
+    {
+      "question": "HTTPS: Was ist der Unterschied zwischen HTTP und HTTPS?",
+      "answer": "HTTPS nutzt SSL/TLS zur Verschlüsselung der Kommunikation und schützt die Privatsphäre."
+    },
+    {
+      "question": "POP3: Welcher Port wird zum Abrufen von E-Mails verwendet?",
+      "answer": "Port 110"
+    },
+    {
+      "question": "POP3: Was macht POP3?",
+      "answer": "POP3 wird genutzt, um E-Mails vom Server herunterzuladen und lokal zu speichern."
+    },
+    {
+      "question": "RDP: Welcher Port wird für den Remote-Desktop-Zugriff auf Windows-Systeme verwendet?",
+      "answer": "Port 3389"
+    },
+    {
+      "question": "RDP: Was ermöglicht RDP?",
+      "answer": "RDP ermöglicht es, einen Windows-Computer remote zu steuern."
+    },
+    {
+      "question": "MySQL: Welcher Port wird für den Zugriff auf MySQL-Datenbanken verwendet?",
+      "answer": "Port 3306"
+    },
+    {
+      "question": "MySQL: Was ist MySQL?",
+      "answer": "MySQL ist ein relationales Datenbankverwaltungssystem."
+    },
+    {
+      "question": "Oracle-DB: Welcher Port wird für den Zugriff auf Oracle-Datenbanken verwendet?",
+      "answer": "Port 1521"
+    },
     // IT-Systeme im Netzwerk
     {
       question: "Was ist ein Server in einem Netzwerk?",
@@ -577,7 +982,7 @@ const cardSets = {
     },
     {
       question: "Was sind die vorteile von Vlans?",
-      answer:"Broadcast bereiche werden verkleiner, was kollisionen veringert. Mehr Sicherheit durch Abschrimung der Gruppen, "
+      answer: "Broadcast bereiche werden verkleiner, was kollisionen veringert. Mehr Sicherheit durch Abschrimung der Gruppen, "
     },
     {
       question: "Was ist ein Trunk-Ports in VLANs?",
@@ -593,7 +998,7 @@ const cardSets = {
       question: "Was ist VLAN-Tagging?",
       answer: "VLAN-Tagging ist der Prozess, bei dem jedem Datenpaket ein Tag hinzugefügt (swichen Source Mac und Type) wird, das anzeigt, zu welchem VLAN es gehört. Dies ermöglicht es, den Verkehr innerhalb des VLANs korrekt zu verwalten."
     },
-  
+
     // Sicherheit und VLANs
     {
       question: "Warum bietet VLAN zusätzliche Sicherheit?",
@@ -649,178 +1054,1017 @@ const cardSets = {
       question: "Was ist der Unterschied zwischen Datenschutz und Datensicherheit?",
       answer: "Datenschutz bezieht sich auf den Schutz personenbezogener Daten vor unbefugtem Zugriff, während Datensicherheit Maßnahmen umfasst, die verhindern, dass Daten verloren gehen oder unbefugt verändert werden."
     },
+  ],
+  "IT-Tec s4": [
+    {
+      "question": "Was ist DHCP?",
+      "answer": "DHCP (Dynamic Host Configuration Protocol) ist ein Netzwerkprotokoll, das automatisch IP-Adressen und andere Netzwerkkonfigurationsinformationen an Geräte im Netzwerk verteilt."
+    },
+    {
+      "question": "Was ist der Zweck von DHCP?",
+      "answer": "Der Zweck von DHCP ist es, den Prozess der manuellen Konfiguration von Netzwerkeinstellungen zu automatisieren und Geräten automatisch IP-Adressen zuzuweisen."
+    },
+    {
+      "question": "Welche Rolle spielt der DHCP-Server?",
+      "answer": "Der DHCP-Server weist den DHCP-Clients IP-Adressen und andere Netzwerkkonfigurationsinformationen aus einem vordefinierten Pool zu."
+    },
+    {
+      "question": "Was ist ein DHCP-Client?",
+      "answer": "Ein DHCP-Client ist ein Gerät, das eine IP-Adresse und Netzwerkkonfigurationen benötigt und eine Anfrage an den DHCP-Server sendet."
+    },
+    {
+      "question": "Was ist eine Lease-Zeit in DHCP?",
+      "answer": "Die Lease-Zeit ist die Gültigkeitsdauer einer zugewiesenen IP-Adresse. Nach Ablauf dieser Zeit muss der Client die IP-Adresse erneuern oder eine neue anfordern."
+    },
+    {
+      "question": "Welche zusätzlichen Informationen kann ein DHCP-Server übermitteln?",
+      "answer": "Neben der IP-Adresse kann der DHCP-Server auch Informationen wie Subnetzmaske, Standardgateway, DNS-Server und eventuell Hostnamen, Domainnamen und NTP-Server übermitteln."
+    },
+    {
+      "question": "Wie werden Zeiten wie Lease-Duration und Renewal Time im DHCP übermittelt?",
+      "answer": "Diese Informationen werden über DHCP-Optionen wie 'Leaseduration' und 'Renewal Time' übermittelt."
+    },
+    {
+      "question": "Welche wichtige Information übermittelt der Client im DHCP Discover-Frame?",
+      "answer": "Der Client übermittelt in der DHCP-Discover-Nachricht oft die angeforderte (alte) IP-Adresse."
+    },
+    {
+      "question": "Was ist der DORA-Prozess im DHCP?",
+      "answer": "DORA beschreibt den Ablauf, bei dem ein Gerät eine IP-Adresse über DHCP erhält: Discover, Offer, Request, Acknowledge."
+    },
+    {
+      "question": "Was passiert während der Discover-Phase im DORA-Prozess?",
+      "answer": "In der Discover-Phase sendet der Client eine DHCP-Discover-Nachricht, um nach einem DHCP-Server zu suchen."
+    },
+    {
+      "question": "Was passiert während der Offer-Phase im DORA-Prozess?",
+      "answer": "In der Offer-Phase sendet der DHCP-Server eine DHCP-Offer-Nachricht, die eine freie IP-Adresse und Netzwerkinformationen enthält."
+    },
+    {
+      "question": "Was passiert während der Request-Phase im DORA-Prozess?",
+      "answer": "In der Request-Phase sendet der Client eine DHCP-Request-Nachricht, um die angebotene IP-Adresse zu bestätigen."
+    },
+    {
+      "question": "Was passiert während der Acknowledge-Phase im DORA-Prozess?",
+      "answer": "In der Acknowledge-Phase bestätigt der DHCP-Server dem Client die Zuweisung der IP-Adresse."
+    },
+    {
+      "question": "Was macht der Befehl 'ipconfig /release'?",
+      "answer": "Der Befehl 'ipconfig /release' gibt die aktuelle IP-Adresse des Geräts frei und gibt sie an den DHCP-Server zurück."
+    },
+    {
+      "question": "Was macht der Befehl 'ipconfig /renew'?",
+      "answer": "Der Befehl 'ipconfig /renew' fordert den DHCP-Server auf, dem Gerät eine neue IP-Adresse zuzuweisen oder die bestehende zu erneuern."
+    },
+    {
+      "question": "Was ist das Client-Server-Modell?",
+      "answer": "Das Client-Server-Modell beschreibt ein Netzwerkmodell, bei dem der Client Anfragen stellt und der Server darauf antwortet, z. B. beim Surfen im Web oder bei E-Mail-Kommunikation."
+    },
+    {
+      "question": "Was sind Dienste in Betriebssystemen?",
+      "answer": "In Windows werden Programme, die im Hintergrund laufen, als 'Dienste' bezeichnet, während sie in Linux 'Daemons' genannt werden."
+    },
+    {
+      "question": "Welche Aufgaben hat ein DNS-Server?",
+      "answer": "Ein DNS-Server wandelt Domainnamen in IP-Adressen um und umgekehrt."
+    },
+    {
+      "question": "Welche Aufgaben hat ein DHCP-Server?",
+      "answer": "Ein DHCP-Server vergibt automatisch IP-Adressen an Geräte im Netzwerk."
+    },
+    {
+      "question": "Was ist ein Telnet-Server?",
+      "answer": "Ein Telnet-Server ermöglicht Fernzugriff auf Geräte, ist jedoch unsicher. Eine sicherere Alternative ist SSH."
+    },
+    {
+      "question": "Was ist ein SMTP-Server?",
+      "answer": "Ein SMTP-Server ist für das Senden von E-Mails verantwortlich und nutzt Port 25."
+    },
+    {
+      "question": "Was ist ein IMAP4-Server?",
+      "answer": "Ein IMAP4-Server holt E-Mails vom Server, speichert sie aber weiterhin auf dem Server, was eine Synchronisation ermöglicht. Er nutzt Port 143."
+    },
+    {
+      "question": "Was ist nslookup?",
+      "answer": "nslookup ist ein Kommandozeilen-Tool, um Domainnamen in IP-Adressen aufzulösen und umgekehrt, was bei DNS-Problemen hilfreich ist."
+    },
+    {
+      "question": "Welches Protokoll wird für die Auflösung von Domainnamen zu IP-Adressen verwendet?",
+      "answer": "Das DNS-Protokoll wird verwendet, um Domainnamen in IP-Adressen aufzulösen. Es läuft über Port 53 (UDP/TCP)."
+    },
+    {
+      "question": "Was ist SSH?",
+      "answer": "SSH (Secure Shell) ist eine sichere Methode für den Fernzugriff auf Geräte, die Telnet ersetzt. Es läuft über TCP-Port 22."
+    },
+    {
+      "question": "Welche Ports und Protokolle werden in der Netzwerkkommunikation häufig verwendet?",
+      "answer": "Einige häufig genutzte Ports und Protokolle sind: DNS (Port 53), DHCP (Ports 67/68), Telnet (Port 23), SSH (Port 22), HTTP (Port 80), HTTPS (Port 443), FTP (Port 21), SMTP (Port 25), POP3 (Port 110), IMAP4 (Port 143), MQTT (Ports 1883/8883)."
+    },
+    {
+      "question": "Was ist JBOD?",
+      "answer": "JBOD (Just a Bunch Of Disks) ist kein echtes RAID, sondern einfach mehrere Festplatten zusammengefügt. Daten werden nacheinander auf die Platten geschrieben, und es gibt keinen Schutz vor Ausfällen."
+    },
+    {
+      "question": "Was sind die Vorteile von JBOD?",
+      "answer": "Der Vorteil von JBOD ist, dass es eine einfache Umsetzung ermöglicht und keine Kapazität verloren geht."
+    },
+    {
+      "question": "Was passiert, wenn bei JBOD eine Festplatte ausfällt?",
+      "answer": "Bei JBOD gibt es keinen Schutz vor Ausfällen, sodass beim Ausfall einer Festplatte alle darauf gespeicherten Daten verloren gehen können."
+    },
+    {
+      "question": "Was ist RAID 0?",
+      "answer": "RAID 0 (Striping) verteilt die Daten auf mindestens zwei Festplatten, was zu einer höheren Performance führt. Es bietet jedoch keine Redundanz – bei Ausfall einer Festplatte gehen alle Daten verloren."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 0?",
+      "answer": "Vorteil von RAID 0 ist eine hohe Performance, aber der Nachteil ist, dass keine Datensicherheit gewährleistet wird und alle Daten bei einem Festplattenausfall verloren gehen."
+    },
+    {
+      "question": "Was ist RAID 1?",
+      "answer": "RAID 1 (Mirroring) spiegelt die Daten 1:1 auf zwei Festplatten. Wenn eine Festplatte ausfällt, bleiben die Daten auf der anderen Festplatte erhalten."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 1?",
+      "answer": "Vorteil von RAID 1 ist eine hohe Datensicherheit, aber der Nachteil ist, dass nur die Hälfte des Speicherplatzes genutzt werden kann, da die Daten auf beiden Festplatten gespeichert werden."
+    },
+    {
+      "question": "Was ist RAID 5?",
+      "answer": "RAID 5 kombiniert Striping mit Parität und erfordert mindestens 3 Festplatten. Daten und Paritätsinformationen werden verteilt, sodass im Falle eines Ausfalls einer Festplatte die Daten rekonstruierbar sind."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 5?",
+      "answer": "RAID 5 bietet eine gute Mischung aus Sicherheit und Kapazität, jedoch ist nur ein Festplattenausfall tolerierbar. Außerdem kann die Schreibgeschwindigkeit langsamer sein als bei RAID 0."
+    },
+    {
+      "question": "Was ist RAID 6?",
+      "answer": "RAID 6 ist eine Erweiterung von RAID 5 und bietet doppelte Parität. Es benötigt mindestens 4 Festplatten und erlaubt den Ausfall von bis zu zwei Festplatten."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 6?",
+      "answer": "RAID 6 bietet sehr hohe Sicherheit, da es den Ausfall von zwei Festplatten toleriert. Der Nachteil ist jedoch, dass die Schreibgeschwindigkeit langsamer ist als bei RAID 5."
+    },
+    {
+      "question": "Was ist RAID 10 (1+0)?",
+      "answer": "RAID 10 kombiniert RAID 1 (Mirroring) und RAID 0 (Striping). Es erfordert mindestens 4 Festplatten und bietet eine gute Kombination aus Geschwindigkeit und Datensicherheit."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 10?",
+      "answer": "RAID 10 bietet sowohl hohe Geschwindigkeit als auch hohe Datensicherheit, jedoch ist der Speicherverlust von 50% ein Nachteil, da nur die Hälfte des verfügbaren Speicherplatzes genutzt wird."
+    },
+    {
+      "question": "Was ist RAID 01 (0+1)?",
+      "answer": "RAID 01 kombiniert RAID 0 (Striping) und RAID 1 (Mirroring), erfordert mindestens 4 Festplatten und bietet weniger Toleranz gegenüber Ausfällen als RAID 10."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 01?",
+      "answer": "RAID 01 bietet Geschwindigkeit und Sicherheit, jedoch ist es weniger robust als RAID 10 und weniger tolerant gegenüber Ausfällen."
+    },
+    {
+      "question": "Was ist RAID 50?",
+      "answer": "RAID 50 kombiniert RAID 5 und RAID 0. Es nutzt mehrere RAID 5-Gruppen und bietet eine gute Mischung aus Geschwindigkeit und Redundanz, erfordert jedoch viele Festplatten."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 50?",
+      "answer": "RAID 50 bietet eine bessere Geschwindigkeit und Redundanz als RAID 5 allein, aber es ist komplexer und benötigt viele Festplatten."
+    },
+    {
+      "question": "Was ist RAID 60?",
+      "answer": "RAID 60 kombiniert RAID 6 und RAID 0. Es verwendet mehrere RAID 6-Gruppen und bietet eine sehr hohe Sicherheit, da bis zu zwei Festplatten pro Gruppe ausfallen können."
+    },
+    {
+      "question": "Was sind die Vorteile und Nachteile von RAID 60?",
+      "answer": "RAID 60 bietet sehr hohe Sicherheit und kann den Ausfall von bis zu zwei Festplatten pro Gruppe tolerieren. Der Nachteil ist der höhere Speicherbedarf und die zusätzliche Komplexität."
+    },
+  ],
+  "IT-Sicherheit": [
 
-    // Verschlüsselungsstandards
     {
-      question: "Was ist der Advanced Encryption Standard (AES)?",
-      answer: "AES ist ein weit verbreitetes symmetrisches Verschlüsselungsverfahren, das für die Verschlüsselung von Daten in vielen Sicherheitsprotokollen verwendet wird. Es unterstützt Schlüssellängen von 128, 192 und 256 Bit."
+      "question": "Was besagt das Verbot mit Erlaubnisvorbehalt der DSGVO?",
+      "answer": "Daten dürfen nur verarbeitet werden, wenn eine spezielle Rechtsvorgabe oder eine informierte Einwilligung vorliegt."
     },
     {
-      question: "Was ist RSA-Verschlüsselung?",
-      answer: "RSA ist ein asymmetrisches Verschlüsselungsverfahren, das auf den Prinzipien der Primfaktorzerlegung basiert. Es verwendet ein Schlüsselpaar (öffentlichen und privaten Schlüssel) für die Verschlüsselung und digitale Signaturen."
+      "question": "Was versteht man unter Zweckbindung in der DSGVO?",
+      "answer": "Daten dürfen nur für den festgelegten Zweck erfasst und nicht weitergegeben werden."
     },
     {
-      question: "Was ist SHA?",
-      answer: "SHA (Secure Hash Algorithm) ist eine Familie kryptografischer Hash-Funktionen, die verwendet wird, um Daten auf eine feste Länge zu 'hashen', wodurch die Integrität der Daten überprüft werden kann."
-    },
-
-    // Sicherheitsmaßnahmen und Prinzipien
-    {
-      question: "Was versteht man unter infrastrukturellen Sicherheitsmaßnahmen?",
-      answer: "Infrastrukturelle Sicherheitsmaßnahmen sind physische und technische Schutzmaßnahmen, die dazu dienen, IT-Systeme und Netzwerke zu sichern, wie z.B. Firewalls, Antivirenprogramme und Zugangskontrollen."
+      "question": "Was ist das Ziel der Datenminimierung?",
+      "answer": "Nur die nötigsten Daten sollen erhoben werden."
     },
     {
-      question: "Was bedeutet 'Security by Design'?",
-      answer: "Security by Design bedeutet, dass Sicherheitsaspekte von Anfang an in die Entwicklung von Systemen und Software integriert werden, anstatt sie später hinzuzufügen."
+      "question": "Was bedeutet erweiterte Auskunftspflichten in der DSGVO?",
+      "answer": "Nutzer müssen umfassend über ihre Datenverarbeitung informiert werden."
     },
     {
-      question: "Was bedeutet 'Security by Default'?",
-      answer: "Security by Default bedeutet, dass Systeme von Anfang an so konzipiert sind, dass sie standardmäßig sicher sind, und unsichere Funktionen oder Konfigurationen sind deaktiviert."
-    },
-
-    // Datensicherung
-    {
-      question: "Was ist der Unterschied zwischen differenzieller und inkrementeller Sicherung?",
-      answer: "Die differenzielle Sicherung sichert alle Daten, die seit der letzten vollständigen Sicherung geändert wurden, während die inkrementelle Sicherung nur die Daten sichert, die seit der letzten Sicherung verändert wurden."
+      "question": "Welche Anforderungen bestehen an die Verständlichkeit von Erklärungen in der DSGVO?",
+      "answer": "Die Informationen müssen für alle verständlich sein."
     },
     {
-      question: "Was sind RAID-Systeme?",
-      answer: "RAID-Systeme (Redundant Array of Independent Disks) kombinieren mehrere Festplatten zu einem logischen Laufwerk, um die Leistung zu steigern oder die Datensicherheit zu erhöhen."
-    },
-
-    // Zugriffskontrollen
-    {
-      question: "Was ist Zugriffskontrolle?",
-      answer: "Zugriffskontrolle regelt, wer auf bestimmte Ressourcen und Informationen in einem System zugreifen darf. Sie umfasst Authentifizierung und Autorisierung von Benutzern."
+      "question": "Was bedeutet Rechenschaftspflicht für Unternehmen in Bezug auf die DSGVO?",
+      "answer": "Unternehmen müssen ihre Datenverarbeitung dokumentieren und regelmäßig Risiken bewerten."
     },
     {
-      question: "Was ist Multi-Faktor-Authentifizierung (MFA)?",
-      answer: "MFA ist eine Sicherheitsmaßnahme, bei der mehrere Identifikationsmethoden (z.B. Passwort und Fingerabdruck) verwendet werden, um den Zugriff auf ein System zu sichern."
+      "question": "Welche Information muss eine Datenschutzerklärung enthalten?",
+      "answer": "Sie muss die Website-Besucher über die Verarbeitung und Weitergabe personenbezogener Daten aufklären."
     },
     {
-      question: "Was ist ein Virus?",
-      answer: "Viren schleusen sich in Computerprogramme ein, indem sie Dateien als 'Wirt' verwenden und verbreiten sich, um das System zu schädigen."
+      "question": "Wie muss die Datenschutzerklärung formuliert sein?",
+      "answer": "Sie muss in verständlicher und transparenter Sprache verfasst sein."
     },
     {
-      question: "Was ist ein Wurm?",
-      answer: "Würmer sind eigenständige Programme, die sich automatisch vervielfältigen und ohne Benutzerintervention, typischerweise über Netzwerke, verbreiten."
+      "question": "Wann muss ein Vertrag mit einem Dienstleister abgeschlossen werden?",
+      "answer": "Bei externer Datenverarbeitung muss ein Vertrag abgeschlossen werden, der den Dienstleister zur Einhaltung der Datenschutzrichtlinien verpflichtet."
     },
     {
-      question: "Was ist ein Trojaner?",
-      answer: "Ein Trojaner gibt sich als nützliche Software aus, um Benutzer zu täuschen, und führt schädliche Aktivitäten aus, wie Datenklau oder die Installation weiterer Malware."
+      "question": "Was muss für die Verarbeitungstätigkeiten erstellt werden?",
+      "answer": "Ein Verzeichnis von Verarbeitungstätigkeiten muss erstellt werden."
     },
     {
-      question: "Was ist eine Backdoor?",
-      answer: "Eine Backdoor ist ein geheimer Zugang zu einem Computer oder Netzwerk, der es Angreifern ermöglicht, das System zu kontrollieren, ohne dass der Benutzer davon erfährt."
+      "question": "Wann muss ein Datenschutzbeauftragter ernannt werden?",
+      "answer": "Ein Datenschutzbeauftragter muss ernannt werden, wenn besonders schützenswerte Daten verarbeitet werden oder mehr als zehn Personen Daten bearbeiten."
     },
     {
-      question: "Was macht Spyware?",
-      answer: "Spyware läuft im Hintergrund und spioniert das Benutzerverhalten, persönliche Daten oder Passwörter aus und leitet sie an Dritte weiter."
+      "question": "Was regelt die Einwilligung in Bezug auf die DSGVO?",
+      "answer": "Daten dürfen nur für den jeweiligen Zweck genutzt werden."
     },
     {
-      question: "Was ist Scareware?",
-      answer: "Scareware verwendet gefälschte Warnmeldungen, um den Benutzer zu verunsichern und ihn zur Installation von Schadsoftware zu verleiten."
+      "question": "Welche Anforderungen bestehen an die Verschlüsselung von Daten?",
+      "answer": "Personenbezogene Daten müssen sicher übertragen werden."
     },
     {
-      question: "Was ist Ransomware?",
-      answer: "Ransomware blockiert den Zugriff auf das System oder verschlüsselt Daten und fordert den Benutzer zur Zahlung von Lösegeld auf, um den Zugriff wiederherzustellen."
+      "question": "Was ist beim Tracking externer Dienstleister zu beachten?",
+      "answer": "Externe Dienstleister für Tracking müssen vertraglich eingebunden werden."
     },
     {
-      question: "Was ist ein Rootkit?",
-      answer: "Ein Rootkit ist eine Software, die tief im Betriebssystem versteckt ist und Angreifern ermöglicht, unerwünschte Vorgänge zu verschleiern."
+      "question": "Was passiert bei einer Datenschutzverletzung?",
+      "answer": "Der Vorfall muss gemeldet werden."
     },
     {
-      question: "Wie verbreitet sich Malware über E-Mail?",
-      answer: "Malware wird häufig über E-Mail-Anhänge verbreitet, die als vermeintlich wichtige Dokumente getarnt sind. Sobald der Benutzer den Anhang öffnet, wird die Malware aktiviert."
+      "question": "Welche Informationsrechte haben Nutzer?",
+      "answer": "Nutzer haben das Recht, zu erfahren, welche Daten verarbeitet werden, wie lange und von wem."
     },
     {
-      question: "Wie kann Malware durch Software-Schwachstellen verbreitet werden?",
-      answer: "Schwachstellen in Software wie Webbrowser oder Betriebssysteme können ausgenutzt werden, um Malware zu installieren."
+      "question": "Welches Recht haben Nutzer in Bezug auf ihre Daten?",
+      "answer": "Nutzer können die Löschung ihrer Daten verlangen."
     },
     {
-      question: "Wie verbreitet sich Malware über Wechselmedien?",
-      answer: "Malware kann über externe Speichermedien wie USB-Sticks, CDs und DVDs verbreitet werden. Wird ein infiziertes USB-Laufwerk an ein System angeschlossen, kann die Malware das System infizieren."
+      "question": "Was bedeutet die Vorsicht im Umgang mit Datenschutz?",
+      "answer": "Es dürfen keine privaten Nutzungen von Kundendaten vorgenommen werden und Passwörter sollten geheim, komplex und regelmäßig geändert werden."
     },
     {
-      question: "Was ist ein Denial-of-Service (DoS) Angriff?",
-      answer: "Ein DoS-Angriff zielt darauf ab, einen Netzwerkdienst oder ein System durch Überlastung mit Anfragen lahmzulegen."
+      "question": "Welche Verhaltensweisen sind im Umgang mit sensiblen Daten wichtig?",
+      "answer": "Man sollte vermeiden, in öffentlichen Bereichen über sensible Daten zu sprechen und auf die Rechte an Bildern achten."
     },
     {
-      question: "Was ist ein Distributed Denial-of-Service (DDoS) Angriff?",
-      answer: "DDoS-Angriffe sind eine erweiterte Form von DoS-Angriffen, bei denen viele Angreifern gleichzeitig Anfragen an das Ziel senden, um es zu überlasten."
+      "question": "Welche Beispiele fallen unter personenbezogene Daten?",
+      "answer": "Name, Adresse, Geburtsdatum, Telefonnummer, E-Mail-Adresse, Finanzinformationen, Gesundheitsdaten und mehr."
     },
     {
-      question: "Was ist das Ziel eines DoS-Angriffs?",
-      answer: "Das Ziel eines DoS-Angriffs ist es, einen Dienst oder ein System lahmzulegen, durch Überlastung mit Anfragen oder durch Ausnutzen von Schwachstellen."
+      "question": "Was sind besondere personenbezogene Daten?",
+      "answer": "Daten wie ethnische Herkunft, politische Überzeugungen, Gesundheitsdaten, sexuelle Orientierung oder Gewerkschaftszugehörigkeit."
     },
     {
-      question: "Was ist das Ziel eines DDoS-Angriffs?",
-      answer: "Das Ziel eines DDoS-Angriffs ist es, ein System oder Netzwerk durch die gleichzeitige Überlastung mit Anfragen von mehreren Angreifern lahmzulegen."
+      "question": "Warum benötigen einige personenbezogene Daten besonders hohen Schutz?",
+      "answer": "Weil sie sehr intime oder sensitive Informationen betreffen."
     },
     {
-      question: "Was ist ein Domain Controller?",
-      answer: "Ein Domain Controller verwaltet Benutzer, Computer und Sicherheitsrichtlinien in einem Netzwerk und ist für Authentifizierung und Autorisierung verantwortlich."
+      "question": "Was ist das Recht auf informationelle Selbstbestimmung?",
+      "answer": "Die betroffene Person hat das Recht, selbst zu entscheiden, ob und wie ihre personenbezogenen Daten verarbeitet werden dürfen."
     },
     {
-      question: "Was ist die Funktion eines Virtualisierungsservers?",
-      answer: "Ein Virtualisierungsserver nutzt Virtualisierung, um mehrere virtuelle Maschinen auf einer physischen Hardware laufen zu lassen und Ressourcen effizient zu nutzen."
+      "question": "Warum ist die Einwilligung in die Datenverarbeitung wichtig?",
+      "answer": "Personenbezogene Daten dürfen nur mit der Zustimmung der betroffenen Person gespeichert oder verarbeitet werden."
     },
     {
-      question: "Was macht ein Druckserver?",
-      answer: "Ein Druckserver verwaltet und leitet Druckaufträge von Clients an den richtigen Drucker weiter und zentralisiert das Druckmanagement."
+      "question": "Warum ist der Schutz personenbezogener Daten wichtig?",
+      "answer": "Personenbezogene Daten geben Einblicke in die Identität einer Person und können für Missbrauch oder unbefugten Zugriff verwendet werden."
     },
     {
-      question: "Was ist die Funktion einer Firewall?",
-      answer: "Eine Firewall überwacht und filtert Netzwerkverkehr, um unbefugten Zugriff zu verhindern und schützt Netzwerke durch Regeln und Protokolle."
+      "question": "Wann sind Daten nicht personenbezogen?",
+      "answer": "Einzelne Informationen alleine sind nicht immer personenbezogen. Es müssen mehrere Datenpunkte vorliegen, die zusammen eine Person identifizierbar machen."
     },
     {
-      question: "Was sind die drei Aspekte der Datensicherheit?",
-      answer: "Die drei Aspekte der Datensicherheit sind: Vertraulichkeit, Integrität und Verfügbarkeit."
+      "question": "Was ist das Recht auf informationelle Selbstbestimmung?",
+      "answer": "Schutz vor unbefugter Verarbeitung personenbezogener Daten und aktive Zustimmung des Betroffenen erforderlich."
     },
     {
-      question: "Was bedeutet Vertraulichkeit in der Datensicherheit?",
-      answer: "Vertraulichkeit bedeutet, dass nur autorisierte Personen Zugang zu den Daten haben."
+      "question": "Was ist das Auskunftsrecht der betroffenen Person?",
+      "answer": "Das Recht auf Auskunft über gespeicherte personenbezogene Daten, inklusive einer kostenlosen Auskunft einmal jährlich bei Wirtschaftsauskunfteien."
     },
     {
-      question: "Was bedeutet Integrität in der Datensicherheit?",
-      answer: "Integrität stellt sicher, dass die Daten korrekt und unverändert sind."
+      "question": "Was besagt das Recht auf Berichtigung, Löschung und Sperrung?",
+      "answer": "Das Recht auf Berichtigung, Löschung oder Sperrung fehlerhafter oder widerrechtlich gespeicherter Daten."
     },
     {
-      question: "Was bedeutet Verfügbarkeit in der Datensicherheit?",
-      answer: "Verfügbarkeit bedeutet, dass die Daten für berechtigte Nutzer jederzeit zugänglich sind."
+      "question": "Was ist die Pflicht zur Schulung und Verpflichtung der Mitarbeiter?",
+      "answer": "Mitarbeiter, die mit personenbezogenen Daten arbeiten, müssen in Datenschutzfragen geschult werden und über das Datengeheimnis belehrt werden."
     },
     {
-      question: "Was ist der vierte Aspekt der Datensicherheit, der zu den klassischen drei Aspekten hinzukommt?",
-      answer: "Der vierte Aspekt ist die Authentizität, die sicherstellt, dass die Quelle der Daten vertrauenswürdig ist."
+      "question": "Wann ist die Weitergabe personenbezogener Daten an Dritte erlaubt?",
+      "answer": "Grundsätzlich nur mit der Zustimmung des Betroffenen oder in Ausnahmefällen mit verschlüsselter und abgetrennter Übertragung."
     },
-    // RAID 0
     {
-      question: "Wie ist RAID 0 aufgebaut?",
-      answer: "RAID 0 verwendet Striping, bei dem Daten in Blöcke aufgeteilt und über mehrere Festplatten verteilt werden, um die Lese- und Schreibgeschwindigkeit zu erhöhen. Es bietet jedoch keine Redundanz oder Fehlerkorrektur."
+      "question": "Welche Sicherheitsmaßnahmen müssen bei der Speicherung personenbezogener Daten beachtet werden?",
+      "answer": "Daten müssen passwortgeschützt, verschlüsselt und vor Schadsoftware geschützt gespeichert werden. In einigen Fällen müssen sie anonymisiert werden."
     },
-
-    // RAID 1
     {
-      question: "Wie ist RAID 1 aufgebaut?",
-      answer: "RAID 1 verwendet Mirroring, bei dem die gleichen Daten auf zwei oder mehr Festplatten gleichzeitig gespeichert werden, um eine vollständige Datenspiegelung zu gewährleisten. Dies sorgt für hohe Datensicherheit, reduziert jedoch den verfügbaren Speicherplatz."
+      "question": "Was ist Zweckbindung und Löschung im Datenschutz?",
+      "answer": "Daten dürfen nur für den festgelegten Zweck verarbeitet werden. Sobald der Zweck erfüllt ist, müssen sie gelöscht oder vor weiterem Zugriff geschützt werden."
     },
-
-    // RAID 5
     {
-      question: "Wie ist RAID 5 aufgebaut?",
-      answer: "RAID 5 verwendet Striping mit Parität. Die Daten werden auf mindestens drei Festplatten verteilt, wobei eine Paritätsinformation für Fehlerkorrektur auf einer der Festplatten gespeichert wird. Dies bietet sowohl hohe Leistung als auch Datensicherheit."
+      "question": "Welche Bedrohungen für die Informationssicherheit gibt es?",
+      "answer": "Hard- und Softwareprobleme, äußere Einflüsse, Kriminelle, Probleme bei der Datenverarbeitung und Schwachstellen durch den Menschen."
     },
-
-    // RAID 6
     {
-      question: "Wie ist RAID 6 aufgebaut?",
-      answer: "RAID 6 verwendet Striping mit doppelter Parität. Es ähnelt RAID 5, speichert jedoch Paritätsinformationen auf zwei Festplatten, was eine höhere Fehlertoleranz bietet. Es erfordert mindestens vier Festplatten."
+      "question": "Was ist ein Informationssicherheitsmanagementsystem (ISMS)?",
+      "answer": "Ein ISMS definiert und setzt Vorgaben und Regeln zur Sicherstellung der Informationssicherheit um."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Informationssicherheit und IT-Sicherheit?",
+      "answer": "IT-Sicherheit fokussiert sich auf den Schutz elektronisch gespeicherter Daten und IT-Systeme, während Informationssicherheit auch den Schutz nicht-technischer Systeme umfasst."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Informationssicherheit und Datenschutz?",
+      "answer": "Datenschutz schützt personenbezogene Daten und die Privatsphäre, während Informationssicherheit auch Risiken für die Wirtschaft und andere nicht-technische Bereiche abdeckt."
+    },
+    {
+      "question": "Was sind die drei Schutzziele der Informationssicherheit?",
+      "answer": "Vertraulichkeit, Integrität und Verfügbarkeit."
+    },
+    {
+      "question": "Was ist ein VPN?",
+      "answer": "Ein VPN verschlüsselt den Datenverkehr zwischen Geräten oder Netzwerken, um sichere Verbindungen über das Internet zu ermöglichen."
+    },
+    {
+      "question": "Was bedeutet Zero Trust in der Sicherheitsstrategie?",
+      "answer": "Zero Trust geht davon aus, dass kein Nutzer oder Gerät automatisch vertraut wird, und jeder Zugriff muss geprüft und mit den nötigen Rechten erlaubt werden."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Authentifizierung und Authentisierung?",
+      "answer": "Authentifizierung ist der Identitätsnachweis, während Authentifikation die Überprüfung der Identität ist."
+    },
+    {
+      "question": "Was ist 2-Faktor-Authentifizierung (2FA)?",
+      "answer": "Die Kombination von mindestens zwei Bereichen wie Passwort und Fingerabdruck zur Identitätsprüfung."
+    },
+    {
+      "question": "Was bedeutet Autorisierung in der Zugriffskontrolle?",
+      "answer": "Es wird entschieden, welche Zugriffsrechte eine Person basierend auf ihrer Identität und den erforderlichen Berechtigungen erhält."
+    },
+    {
+      "question": "Was ist Hashing?",
+      "answer": "Hashing ist ein Verfahren, bei dem ein Klartext durch einen Algorithmus in einen einzigartigen Hash-Wert umgewandelt wird, der nicht rückgängig gemacht werden kann."
+    },
+    {
+      "question": "Welche Eigenschaften hat Hashing?",
+      "answer": "Einweg-Funktion, Lavineneffekt, Kollisionsresistenz, Effizienz und keine Rückschlüsse auf den ursprünglichen Text möglich."
+    },
+    {
+      "question": "Was ist der Zweck von Salting und Peppering in der Sicherheit?",
+      "answer": "Salting fügt vor dem Hashing eine zufällige Zeichenkette hinzu, um vor Rainbow Tables zu schützen. Peppering verwendet einen geheimen Wert, der im Programm gespeichert wird, um die Sicherheit zu erhöhen."
+    },
+    {
+      "question": "Was ist Kryptographie?",
+      "answer": "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen, mit dem Ziel, Daten so zu schützen, dass sie nur von Berechtigten gelesen oder überprüft werden können."
+    },
+    {
+      "question": "Was sind die neuen Themen der Kryptographie im digitalen Zeitalter?",
+      "answer": "Digitale Signaturen, Identifikationsprotokolle, kryptografische Hashfunktionen, Geheimnisteilung, elektronische Wahlverfahren und elektronisches Geld."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Kryptographie und Kryptoanalyse?",
+      "answer": "Kryptographie schützt Daten durch Verschlüsselung, während Kryptoanalyse versucht, verschlüsselte Informationen zu knacken oder zu analysieren."
+    },
+    {
+      "question": "Was ist symmetrische Kryptographie?",
+      "answer": "Symmetrische Kryptographie verwendet denselben Schlüssel zum Verschlüsseln und Entschlüsseln von Daten, ist schnell, aber der Schlüssel muss sicher übergeben werden."
+    },
+    {
+      "question": "Was ist asymmetrische Kryptographie?",
+      "answer": "Asymmetrische Kryptographie verwendet zwei Schlüssel: einen öffentlichen Schlüssel zum Verschlüsseln und einen privaten Schlüssel zum Entschlüsseln. Der Vorteil ist eine sicherere Schlüsselübergabe, aber sie ist langsamer und rechenintensiver."
+    },
+    {
+      "question": "Was ist hybride Kryptographie?",
+      "answer": "Hybride Kryptographie kombiniert symmetrische und asymmetrische Kryptographie, indem Daten symmetrisch verschlüsselt und der symmetrische Schlüssel asymmetrisch übertragen wird."
+    },
+    {
+      "question": "Was ist ein Cipher?",
+      "answer": "Ein Cipher ist eine Methode zum Verschlüsseln von Texten, um die Bedeutung zu verschleiern, sodass Unbefugte nichts erkennen können."
+    },
+    {
+      "question": "Was ist ein Ciphertext?",
+      "answer": "Ciphertext ist der verschlüsselte Text, der durch einen Cipher erzeugt wird."
+    },
+    {
+      "question": "Was ist eine Cipher Suite?",
+      "answer": "Eine Cipher Suite ist ein Paket aus mehreren kryptografischen Verfahren, das in sicheren Netzwerkverbindungen wie HTTPS verwendet wird. Sie besteht aus Schlüsselaustausch-Algorithmus, Authentifizierungs-Algorithmus, Massenverschlüsselungs-Algorithmus und MAC/Hashing-Algorithmus."
+    },
+    {
+      "question": "Was ist der SHA-512 Hashwert?",
+      "answer": "SHA-512 ist eine Hashfunktion, die aus einer Eingabe eine feste, 512-bit lange Zeichenkette erzeugt. Es wird zur Datenprüfung genutzt und ist nicht umkehrbar."
+    },
+    {
+      "question": "Was sind die Eigenschaften von SHA-512?",
+      "answer": "SHA-512 ist nicht umkehrbar, kollisionssicher und hat einen Lawineneffekt, sodass kleine Änderungen im Input den Hash-Wert komplett verändern."
+    },
+    {
+      "question": "Was ist AES?",
+      "answer": "AES (Advanced Encryption Standard) ist eine symmetrische Verschlüsselung, bei der derselbe Schlüssel zum Verschlüsseln und Entschlüsseln von Daten verwendet wird."
+    },
+    {
+      "question": "Was ist RSA?",
+      "answer": "RSA ist ein asymmetrisches Kryptosystem, das einen öffentlichen Schlüssel zum Verschlüsseln und einen privaten Schlüssel zum Entschlüsseln verwendet."
+    },
+    {
+      "question": "Wie werden Zertifikate zur Sicherheit verwendet?",
+      "answer": "Zertifikate werden verwendet, um DNS-Abfragen zu schützen, SSL/TLS-Zertifikate für sichere Netzwerkverbindungen bereitzustellen, E-Mails zu verschlüsseln, digitale Signaturen zu erstellen und die Identität bei Systemanmeldungen zu prüfen."
+    },
+    {
+      "question": "Was ist der Nutzen von SSL/TLS-Zertifikaten?",
+      "answer": "SSL/TLS-Zertifikate sorgen dafür, dass sich der Server eindeutig identifizieren kann, und ermöglichen eine sichere Kommunikation über Netzwerke."
+    },
+    {
+      "question": "Wie wird digitale Signatur zur Sicherheit eingesetzt?",
+      "answer": "Digitale Signaturen, die mit Zertifikaten erstellt werden, ermöglichen es, nachzuweisen, dass ein Dokument unverändert und wirklich vom angegebenen Absender stammt."
+    },
+    {
+      "question": "Warum sind Zertifikate für die Systemanmeldung wichtig?",
+      "answer": "Zertifikate bieten mehr Sicherheit als Passwörter, da sie schwerer zu erraten oder abzufangen sind und somit eine sichere Identitätsprüfung ermöglichen."
+    },
+    {
+      "question": "Was ist die Public Key Infrastructure (PKI)?",
+      "answer": "Die Public Key Infrastructure (PKI) ist ein System, das Public Key und Private Key nutzt, um die Identität der Kommunikationspartner zu überprüfen und die Authentizität von Zertifikaten zu gewährleisten."
+    },
+    {
+      "question": "Wie wird ein Zertifikat in einer PKI ausgestellt?",
+      "answer": "Die PKI überprüft die Identität eines Nutzers oder Geräts und stellt ein Zertifikat für den Public Key aus, das die Authentizität des Schlüsselpaares bestätigt."
+    },
+    {
+      "question": "Was ist die hierarchische Struktur einer PKI?",
+      "answer": "Eine PKI besteht aus einer Root Certificate Authority (CA), die untergeordnete Zertifizierungsstellen (Issuing CAs) autorisiert. Diese stellen dann Zertifikate für Endgeräte und Nutzer aus."
+    },
+    {
+      "question": "Welche Sicherheitsprobleme gibt es in der PKI?",
+      "answer": "CAs können kompromittiert werden, und es gab Fälle, in denen Zertifikate gestohlen wurden. Es gibt jedoch öffentliche Listen von zurückgezogenen Zertifikaten, die regelmäßig abgeglichen werden sollten."
+    },
+    {
+      "question": "Was ist eine digitale Signatur?",
+      "answer": "Eine digitale Signatur nutzt kryptografische Verfahren, um Nachrichten mit einem privaten Schlüssel zu signieren und dient der sicheren, rechtlich anerkannten Signatur von Nachrichten."
+    },
+    {
+      "question": "Was ist erforderlich, um eine digitale Signatur zu erstellen?",
+      "answer": "Der öffentliche Schlüssel muss eindeutig dem Unterzeichner zugeordnet werden, und nur dieser sollte den privaten Schlüssel besitzen."
+    },
+    {
+      "question": "Welche Arten von elektronischen Signaturen gibt es?",
+      "answer": "Es gibt die einfache elektronische Signatur, die fortgeschrittene elektronische Signatur und die qualifizierte elektronische Signatur."
+    },
+    {
+      "question": "Was ist eine einfache elektronische Signatur?",
+      "answer": "Eine einfache elektronische Signatur hat keine besonderen Anforderungen und ist rechtlich nicht beweiswürdig. Ein Beispiel ist der Name unter einer E-Mail."
+    },
+    {
+      "question": "Was ist eine fortgeschrittene elektronische Signatur?",
+      "answer": "Eine fortgeschrittene elektronische Signatur ermöglicht die eindeutige Identifizierung des Unterzeichners und ist rechtlich wirksam, wenn die beweisführende Partei die Echtheit nachweisen kann."
+    },
+    {
+      "question": "Was ist eine qualifizierte elektronische Signatur?",
+      "answer": "Eine qualifizierte elektronische Signatur basiert auf einem qualifizierten Zertifikat und einer sicheren Signaturerstellungseinheit (SSEE). Sie ist rechtlich gleichwertig mit einer Unterschrift auf Papier."
+    },
+    {
+      "question": "Was ist der Transportmodus in IPsec?",
+      "answer": "Im Transportmodus bleibt der Original-IP-Header erhalten, nur die Nutzlast (Daten) wird verschlüsselt."
+    },
+    {
+      "question": "Was ist der Tunnelmodus in IPsec?",
+      "answer": "Im Tunnelmodus wird der gesamte IP-Header sowie die Nutzlast verschlüsselt, und ein neuer IP-Header wird hinzugefügt, um die Kommunikation zwischen virtuellen Schnittstellen zu ermöglichen."
+    },
+    {
+      "question": "Welche Sicherheitseigenschaften bietet IPsec?",
+      "answer": "IPsec bietet Datenschutz durch Verschlüsselung, Inhaltsintegrität durch Datenauthentifizierung, Absenderauthentifizierung und ggf. Zertifikate."
+    },
+    {
+      "question": "Was sind die Schlüsselaustauschmethoden in IPsec?",
+      "answer": "Zu den Schlüsselaustauschmethoden in IPsec gehören der manuelle Schlüssel, AutoKey-IKE (Internet Key Exchange) und der Diffie-Hellman Exchange."
+    },
+    {
+      "question": "Was ist das Authentication Header (AH)-Protokoll in IPsec?",
+      "answer": "Das AH-Protokoll authentifiziert die Quelle eines IP-Pakets und überprüft die Integrität des Inhalts durch einen Hash (z. B. HMAC mit MD5 oder SHA)."
+    },
+    {
+      "question": "Was ist das Encapsulating Security Payload (ESP)-Protokoll in IPsec?",
+      "answer": "Das ESP-Protokoll bietet Verschlüsselung und Authentifizierung des gesamten IP-Pakets, wobei im Tunnelmodus das gesamte IP-Paket (einschließlich Header und Payload) verschlüsselt wird."
+    },
+    {
+      "question": "Welche Authentifizierungsalgorithmen werden im AH-Protokoll verwendet?",
+      "answer": "Die Authentifizierungsalgorithmen im AH-Protokoll sind MD5 (Message Digest 5) und SHA (Secure Hash Algorithm), wobei SHA als sicherer gilt."
+    },
+    {
+      "question": "Welche Verschlüsselungsalgorithmen werden im ESP-Protokoll verwendet?",
+      "answer": "Zu den Verschlüsselungsalgorithmen im ESP-Protokoll gehören DES (Data Encryption Standard), 3DES (Triple DES) und AES (Advanced Encryption Standard), wobei AES empfohlen wird."
+    },
+    {
+      "question": "Welche Authentifizierung wird im ESP-Protokoll verwendet?",
+      "answer": "MD5 oder SHA können für die Authentifizierung im ESP-Protokoll verwendet werden."
+    },
+    {
+      "question": "Was ist das Grundprinzip der asymmetrischen Verschlüsselung?",
+      "answer": "In der asymmetrischen Verschlüsselung gibt es zwei Schlüssel: einen öffentlichen Schlüssel (Public Key), den jeder einsehen kann, und einen privaten Schlüssel (Private Key), der nur vom Besitzer des Schlüssels verwendet wird. Nachrichten werden mit dem öffentlichen Schlüssel verschlüsselt und mit dem privaten Schlüssel entschlüsselt."
+    },
+    {
+      "question": "Was sind die Vorteile der asymmetrischen Verschlüsselung?",
+      "answer": "Die Vorteile der asymmetrischen Verschlüsselung sind, dass kein sicherer Schlüsselaustausch erforderlich ist, da der öffentliche Schlüssel öffentlich zugänglich ist, und dass die Verteilung einfach ist, da jeder den öffentlichen Schlüssel erhalten kann, um sicher zu kommunizieren."
+    },
+    {
+      "question": "Was sind die Nachteile der asymmetrischen Verschlüsselung?",
+      "answer": "Die Nachteile der asymmetrischen Verschlüsselung sind, dass sie langsam ist, da das Entschlüsseln mit dem privaten Schlüssel viel Rechenleistung erfordert, und dass es bei häufigem Gebrauch zu Verzögerungen kommen kann."
+    },
+    {
+      "question": "Was ist der RSA-Algorithmus?",
+      "answer": "Der RSA-Algorithmus ist eines der bekanntesten asymmetrischen Verfahren. Es wird häufig in digitalen Signaturen und bei der Verschlüsselung von Daten im Internet eingesetzt."
+    },
+    {
+      "question": "Warum ist Verschlüsselung in der heutigen digitalen Welt wichtig?",
+      "answer": "Verschlüsselung ist wichtig, weil sie sicherstellt, dass Informationen nur von autorisierten Empfängern gelesen werden können. Sie schützt Privatsphäre, Sicherheit und Vertrauen, indem sie verhindert, dass Daten abgefangen und missbraucht werden."
+    },
+    {
+      "question": "Welche Ziele verfolgt die Präsentation zu Verschlüsselungsverfahren?",
+      "answer": "Die Präsentation verfolgt das Ziel, drei wichtige Verschlüsselungsverfahren zu erklären: symmetrische Verschlüsselung, asymmetrische Verschlüsselung und hybride Verschlüsselung."
+    },
+    {
+      "question": "Was ist das hybride Verschlüsselungsverfahren?",
+      "answer": "Das hybride Verschlüsselungsverfahren kombiniert die Vorteile der symmetrischen und asymmetrischen Verschlüsselung. Es nutzt einen symmetrischen Session Key für die schnelle Verschlüsselung der Nachricht und verschlüsselt diesen Session Key mit einem asymmetrischen Verfahren."
+    },
+    {
+      "question": "Wie funktioniert das hybride Verschlüsselungsverfahren?",
+      "answer": "Person A erstellt einen Session Key, um die Nachricht symmetrisch zu verschlüsseln. Der Public Key von Person B wird verwendet, um den Session Key asymmetrisch zu verschlüsseln. Person A sendet die verschlüsselte Nachricht und den verschlüsselten Session Key an Person B, der den Session Key mit seinem Private Key entschlüsselt und damit die Nachricht entschlüsselt."
+    },
+    {
+      "question": "Was sind die Vorteile des hybriden Verschlüsselungsverfahrens?",
+      "answer": "Das hybride Verschlüsselungsverfahren ist effizient, da es die schnelle symmetrische Verschlüsselung für die eigentliche Nachricht nutzt, während es das asymmetrische Verfahren nur für den Session Key verwendet. Es bietet auch hohe Sicherheit, da der Session Key geschützt wird und regelmäßig erneuert wird."
+    },
+    {
+      "question": "Was sind die Nachteile des hybriden Verschlüsselungsverfahrens?",
+      "answer": "Der Nachteil des hybriden Verschlüsselungsverfahrens ist die Komplexität, da es die Implementierung von zwei Verschlüsselungsverfahren erfordert."
+    },
+    {
+      "question": "Welche bekannten Beispiele nutzen das hybride Verschlüsselungsverfahren?",
+      "answer": "Beispiele für das hybride Verschlüsselungsverfahren sind TLS/SSL (Transport Layer Security), das für sichere Verbindungen im Internet wie HTTPS verwendet wird, und PGP (Pretty Good Privacy), das in der E-Mail-Verschlüsselung genutzt wird."
+    },
+    {
+      "question": "Was ist TLS/SSL?",
+      "answer": "TLS/SSL (Transport Layer Security) ist ein Protokoll, das für sichere Verbindungen im Internet sorgt, insbesondere bei HTTPS-Verbindungen, und auf dem hybriden Verschlüsselungsverfahren basiert."
+    },
+    {
+      "question": "Was ist PGP (Pretty Good Privacy)?",
+      "answer": "PGP ist ein Verschlüsselungsverfahren, das in der E-Mail-Verschlüsselung verwendet wird und ebenfalls auf dem hybriden Verschlüsselungsverfahren basiert."
+    },
+    {
+      "question": "Warum ist das hybride Verschlüsselungsverfahren bevorzugt?",
+      "answer": "Das hybride Verschlüsselungsverfahren ist bevorzugt, weil es die Geschwindigkeit und Effizienz der symmetrischen Verschlüsselung mit der Sicherheit der asymmetrischen Verschlüsselung kombiniert, was es zur bevorzugten Methode für sichere und schnelle Kommunikation macht, insbesondere im Internet."
+    },
+    {
+      "question": "Hybrides Verschlüsselungsverfahren: Was vereint es?",
+      "answer": "Es vereint die Geschwindigkeit der symmetrischen Verschlüsselung mit der Sicherheit der asymmetrischen Verschlüsselung."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Wie funktioniert die Verschlüsselung?",
+      "answer": "Person A verschlüsselt die Nachricht mit einem Schlüssel und sendet diese an Person B."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Was benötigt Person B, um die Nachricht zu entschlüsseln?",
+      "answer": "Person B benötigt denselben Schlüssel, den Person A verwendet hat."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Wie wird der Schlüssel zwischen A und B übermittelt?",
+      "answer": "Person A überträgt den Schlüssel an Person B."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Was passiert, wenn der Schlüssel abgefangen wird?",
+      "answer": "Die gesamte Kommunikation kann kompromittiert werden."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Welche Nachteile hat es?",
+      "answer": "Das Schlüsselverteilungsproblem: Der Schlüssel muss sicher übertragen werden."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Nenne ein Beispiel für ein unsicheres Verfahren.",
+      "answer": "DES (Data Encryption Standard)."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Welches Verfahren ist heutzutage der Standard?",
+      "answer": "AES (Advanced Encryption Standard)."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was bestätigt ein Zertifikat?",
+      "answer": "Es bestätigt die Identität einer Entität und enthält deren öffentlichen Schlüssel."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was ist der Hauptbestandteil eines digitalen Zertifikats?",
+      "answer": "Der öffentliche Schlüssel der Entität."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was wird verwendet, um die Integrität eines Zertifikats sicherzustellen?",
+      "answer": "Die digitale Signatur der Zertifizierungsstelle (CA)."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Wer ist verantwortlich für die Ausstellung und Verwaltung von Zertifikaten?",
+      "answer": "Die Zertifizierungsstelle (CA)."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Welche Funktion hat der öffentliche Schlüssel im Zertifikat?",
+      "answer": "Er wird verwendet, um Daten zu verschlüsseln oder die Integrität von Nachrichten zu überprüfen."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was stellt die digitale Signatur sicher?",
+      "answer": "Dass das Zertifikat nicht manipuliert wurde."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Welche Arten von digitalen Zertifikaten gibt es?",
+      "answer": "Einzelzertifikate, Zwischenzertifikate, Root-Zertifikate."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was ist ein Einzelzertifikat?",
+      "answer": "Ein Zertifikat, das einer einzelnen Entität wie einer Webseite oder einem Benutzer zugewiesen wird."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was ist ein Zwischenzertifikat?",
+      "answer": "Ein Zertifikat, das als Bindeglied zwischen der Root-Zertifizierungsstelle und den Endzertifikaten fungiert."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was ist die Funktion eines Root-Zertifikats?",
+      "answer": "Es ist die höchste vertrauenswürdige Instanz in der PKI und stellt die ersten Zertifikate aus."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Wo sind Root-Zertifikate häufig vorinstalliert?",
+      "answer": "In den meisten Betriebssystemen und Anwendungen."
+    },
+    {
+      "question": "Zertifikate in der Informationssicherheit: Was ist das Ziel von Zertifikaten?",
+      "answer": "Sicherzustellen, dass der öffentliche Schlüssel tatsächlich zu der angegebenen Entität gehört."
+    },
+    {
+      "question": "Symmetrisches Verschlüsselungsverfahren: Wie wird es bei großen Datenmengen bewertet?",
+      "answer": "Es ist besonders schnell."
+    },
+    {
+      "question": "Arten von digitalen Signaturen: Was ist eine einfache elektronische Signatur?",
+      "answer": "Eine einfache digitale Signatur hat keine speziellen Anforderungen und ist rechtlich nicht bindend."
+    },
+    {
+      "question": "Arten von digitalen Signaturen: Was ist ein Beispiel für eine einfache elektronische Signatur?",
+      "answer": "Eine gescannte Unterschrift oder ein Name am Ende einer E-Mail."
+    },
+    {
+      "question": "Arten von digitalen Signaturen: Was ist eine fortgeschrittene elektronische Signatur (AES)?",
+      "answer": "Eine AES ermöglicht eine eindeutige Identifizierung des Unterzeichners und ist rechtlich beweisbar, aber die Beweislast liegt bei der Partei, die sich auf die Signatur beruft."
+    },
+    {
+      "question": "Arten von digitalen Signaturen: Was ist eine qualifizierte elektronische Signatur (QES)?",
+      "answer": "Eine QES basiert auf einem qualifizierten Zertifikat und einer sicheren Signaturerstellungseinheit (SSEE) und hat den gleichen rechtlichen Wert wie eine handschriftliche Unterschrift."
+    },
+    {
+      "question": "Verwendung von Zertifikaten: Was ermöglichen SSL/TLS-Zertifikate?",
+      "answer": "Sie ermöglichen sichere, verschlüsselte Verbindungen im Internet, wie bei HTTPS-Verbindungen zu Webseiten."
+    },
+    {
+      "question": "Verwendung von Zertifikaten: Wie werden Zertifikate bei der E-Mail-Verschlüsselung eingesetzt?",
+      "answer": "Zertifikate werden verwendet, um E-Mails zu verschlüsseln und zu signieren, sodass nur der beabsichtigte Empfänger die Nachricht lesen kann und der Absender authentifiziert ist."
+    },
+    {
+      "question": "Verwendung von Zertifikaten: Wie wird ein Zertifikat bei der VPN- und Systemanmeldung eingesetzt?",
+      "answer": "Zertifikate werden verwendet, um die Identität von Benutzern oder Systemen bei der Anmeldung zu verifizieren."
+    },
+    {
+      "question": "Verwendung von Zertifikaten: Welche Rolle spielen Zertifikate bei digitalen Signaturen?",
+      "answer": "Zertifikate spielen eine wichtige Rolle bei der Erstellung und Verifikation digitaler Signaturen von Dokumenten."
+    },
+    {
+      "question": "Vorteile von Zertifikaten: Was ist ein Vorteil von Zertifikaten in Bezug auf Vertrauenswürdigkeit?",
+      "answer": "Zertifikate bieten eine vertrauenswürdige und nachprüfbare Möglichkeit der Identitätsprüfung."
+    },
+    {
+      "question": "Vorteile von Zertifikaten: Wie verbessern Zertifikate die Sicherheit?",
+      "answer": "Zertifikate ermöglichen sichere Datenübertragungen und gewährleisten die Integrität und Authentizität von Nachrichten."
+    },
+    {
+      "question": "Vorteile von Zertifikaten: Welche rechtliche Bedeutung haben qualifizierte digitale Signaturen?",
+      "answer": "Qualifizierte digitale Signaturen haben in vielen Ländern die gleiche rechtliche Bedeutung wie handschriftliche Unterschriften."
+    },
+    {
+      "question": "Herausforderungen von Zertifikaten: Was ist eine Herausforderung bei der Verwaltung von Zertifikaten?",
+      "answer": "Zertifikate müssen regelmäßig erneuert und die Zertifikatskette gepflegt werden."
+    },
+    {
+      "question": "Herausforderungen von Zertifikaten: Was erfordert der Aufbau einer PKI?",
+      "answer": "Der Aufbau einer PKI erfordert technisches Wissen und geeignete Infrastruktur."
+    },
+    {
+      "question": "Herausforderungen von Zertifikaten: Was passiert, wenn eine Zertifizierungsstelle kompromittiert wird?",
+      "answer": "Es können falsche Zertifikate ausgestellt werden, was die Sicherheit gefährdet."
     }
   ],
-  "IT-Electronik":[
-
-  ],
   "AEuP": [
+    {
+      "question": "Was versteht man unter einer objektorientierten Programmiersprache?",
+      "answer": "Ein System wird durch das Zusammenspiel kooperierender Objekte beschrieben. Einem Objekt sind bestimmte Attribute (Eigenschaften) und Methoden zugeordnet. Diese können auch vererbt werden. Das System ist in der Lage, von Objekten Nachrichten zu empfangen und zu senden."
+    },
+    {
+      "question": "Was versteht man unter einer imperativen Programmiersprache?",
+      "answer": "Ein Programm besteht aus einer Folge von Anweisungen, die vorgeben, in welcher Reihenfolge was vom Computer getan werden soll."
+    },
+    {
+      "question": "Nenne die drei wichtigsten Analyseverfahren, um Umfang, Voraussetzungen, Dauer und Kosten eines Entwicklungsprojektes zu ermitteln.",
+      "answer": "Systemanalyse, Datenanalyse, Prozessanalyse."
+    },
+    {
+      "question": "Was ist Pseudocode?",
+      "answer": "Der Code ähnelt einem Mix aus natürlicher Sprache, höherer Programmiersprache und mathematischen Verknüpfungen. Er ist nicht maschinenlesbar, aber für Programmierer verständlich."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
+      "answer": "Whitebox-Tests überprüfen die Funktionsweise mithilfe des Quellcodes. Blackbox-Tests prüfen nur die nach außen sichtbaren Funktionen."
+    },
+    {
+      "question": "Nenne sechs Qualitätskriterien, die allgemein an eine Software gestellt werden.",
+      "answer": "Kompatibilität, Portabilität, Verifizierbarkeit, Effizienz, Usability, Sicherheit."
+    },
+    {
+      "question": "Was sind imperative Programmiersprachen?",
+      "answer": "Ablauf von Befehlen, die ein Problem lösen, z. B. C."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen einer Entwicklerdokumentation und einer Anwenderdokumentation?",
+      "answer": "Die Entwicklerdokumentation nutzt zahlreiche Abkürzungen und Fachbegriffe. In der Anwenderdokumentation befindet sich keine programmiertechnische Systembeschreibung."
+    },
+    {
+      "question": "Was ist Polymorphie?",
+      "answer": "Polymorphie bedeutet, dass Kindklassen die Methoden ihrer Elternklasse überschreiben und je nach Objekt unterschiedlich verhalten können."
+    },
+    {
+      "question": "Was sind die drei Besonderheiten bei der Objektorientierung?",
+      "answer": "In der objektorientierten Programmierung sind die drei Hauptmerkmale Kapselung, Vererbung und Polymorphie."
+    },
+    {
+      "question": "Was ist in der OOP unter Vererbung zu verstehen?",
+      "answer": "Elternklassen geben ihre Eigenschaften und Methoden an die untergeordneten Kindklassen weiter."
+    },
+    {
+      "question": "Was versteht man bei der OOP unter Kapselung?",
+      "answer": "Daten und Methoden innerhalb einer Struktur werden zusammengefasst. Ermöglicht mit dem Geheimnisprinzip den kontrollierten Zugriff auf Daten und Methoden über Schnittstellen."
+    },
+    {
+      "question": "Was versteht man in der Programmierung unter Default?",
+      "answer": "Bezeichnet den voreingestellten Wert."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen dynamischer und statischer Typisierung?",
+      "answer": "In dynamischen Sprachen (wie Python) wird der Datentyp zur Laufzeit geprüft, während in statischen Sprachen (wie C++) der Datentyp zur Kompilierzeit festgelegt wird."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen starker und schwacher Typisierung?",
+      "answer": "Starke Typisierung schließt ungewollte Typumwandlungen aus, während schwache Typisierung diese zulässt."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen expliziter und impliziter Typisierung?",
+      "answer": "Der Unterschied zwischen direkt angegebenen (expliziten) und automatisch zugewiesenen (impliziten) Typen."
+    },
+    {
+      "question": "Was ist optionale Typisierung?",
+      "answer": "Optionale Typisierung (z. B. in Python durch Type Hints) ermöglicht eine flexiblere Typenprüfung."
+    },
+    {
+      "question": "Was ist Hashing?",
+      "answer": "Hashing ist eine einwegige Verschlüsselungstechnik, die nicht zurückgerechnet werden kann. Es wird auch das Konzept von 'Salt' und 'Pepper' zur Verstärkung der Sicherheit erklärt."
+    },
+    {
+      "question": "Was versteht man unter Salt und Pepper im Zusammenhang mit Hashing?",
+      "answer": "Salt ist eine zufällige Zeichenfolge, die zusammen mit dem Passwort gehasht wird, um die Sicherheit zu erhöhen, und Pepper ist eine zusätzliche Sicherheitsmaßnahme, bei der der Hashwert weiter verändert wird."
+    },
+    {
+      "question": "Was ist MD5-Hashing?",
+      "answer": "MD5-Hashing wird verwendet, um die Unterschiede zwischen Eingaben wie 'Apfel' und 'apfel' zu zeigen. Es wird beschrieben, wie Hashes für Passwörter mit Salt kombiniert werden, um zusätzliche Sicherheit zu gewährleisten."
+    },
+    {
+      "question": "Was ist unter einem Softwareentwurf zu verstehen?",
+      "answer": "Der Softwareentwurf bildet die Grundlage für die Implementierung und umfasst die detaillierte Planung der Softwareumsetzung."
+    },
+    {
+      "question": "Was beinhaltet ein Softwareentwurf?",
+      "answer": "Ein Softwareentwurf umfasst Aufgaben des Systems, Schnittstellen, zu verwendende Komponenten, die eingesetzte Hardware, das Betriebssystem und die Programmiersprache."
+    },
+    {
+      "question": "Nenne drei Vorteile einer Individualsoftware gegenüber einer Branchensoftware.",
+      "answer": "1. Weniger oder keine Lizenzgebühren, 2. Anpassung an die spezifischen Prozesse des Unternehmens, 3. Mehr Gestaltungsmöglichkeiten."
+    },
+    {
+      "question": "Erläutere die Funktionsweise der Schleife als Kontrollstruktur.",
+      "answer": "Eine Schleife wird so lange wiederholt, bis die Bedingung nicht mehr zutrifft oder eine festgelegte Durchlaufzahl erreicht ist."
+    },
+    {
+      "question": "Welche Wichtigkeit hat ein Entwurf unter der Beachtung der Größe des Teams und der Größe des Projekts?",
+      "answer": "Je größer das Team oder das Projekt ist, desto wichtiger ist ein genauer Entwurf. Nur so können alle Teammitglieder ihre Aufgaben genau erkennen und effizient arbeiten."
+    },
+    {
+      "question": "Welche 6 Phasen gibt es bei einem professionellen Software-Engineering?",
+      "answer": "1. Planung, 2. Analyse, 3. Entwurf, 4. Implementierung, 5. Test, 6. Dokumentation."
+    },
+    {
+      "question": "Eine Software besteht aus allen Modultests problemlos. Kann man jetzt die Aussage treffen, dass die Software fehlerfrei ist?",
+      "answer": "Nein, es müssten alle denkbaren Use-Cases durchgetestet werden, was in der Praxis jedoch unmöglich ist."
+    },
+    {
+      "question": "Was ist ein Array?",
+      "answer": "Ein Array ist eine Datenstruktur, die mehrere Werte speichert. Es kann eindimensional (wie eine Liste) oder mehrdimensional (wie eine Matrix oder Tabelle) sein."
+    },
+    {
+      "question": "Was ist ein Key-Value-Daten-Typ?",
+      "answer": "Ein Key-Value-Daten-Typ speichert Daten als Paare von Schlüssel und Wert. Jeder Schlüssel ist mit einem Wert verknüpft, wodurch eine schnelle Suche nach dem Wert über den Schlüssel ermöglicht wird."
+    },
+    {
+      "question": "Was ist ein Interpreter?",
+      "answer": "Ein Interpreter verarbeitet den Quellcode eines Projekts zur Laufzeit. Er liest und analysiert jede Zeile und führt sie sofort aus."
+    },
+    {
+      "question": "Um was handelt es sich bei der Programmiersprache Java?",
+      "answer": "Java ist eine objektorientierte Compilersprache."
+    },
+    {
+      "question": "Um was handelt es sich bei der Programmiersprache Perl?",
+      "answer": "Perl ist eine objektorientierte Skriptsprache."
+    },
+    {
+      "question": "Um was handelt es sich bei der Programmiersprache C?",
+      "answer": "C ist eine imperative Compilersprache."
+    },
+    {
+      "question": "Um was handelt es sich bei der Programmiersprache Ruby?",
+      "answer": "Ruby ist eine objektorientierte Skriptsprache."
+    },
+    {
+      "question": "Was versteht man unter einer Skriptsprache?",
+      "answer": "Eine Skriptsprache ist eine Programmiersprache, die über einen Interpreter ausgeführt wird."
+    },
+    {
+      "question": "Was versteht man unter einer Compilersprache?",
+      "answer": "Eine Compilersprache wird durch einen Compiler in Maschinensprache umgewandelt, wobei der gesamte Quellcode des Programms übersetzt wird, bevor das Programm ausgeführt wird."
+    },
+    {
+      "question": "Wofür steht die Abkürzung API?",
+      "answer": "API steht für Application Programming Interface."
+    },
+    {
+      "question": "Wie viele voneinander unbekannte Systeme kommunizieren bei einer API miteinander?",
+      "answer": "Zwei Systeme kommunizieren miteinander."
+    },
+    {
+      "question": "Wer stellt den Dienst über eine API bereit, wenn man sich mit seinem Google-Login bei einer Drittwebseite einloggt?",
+      "answer": "Google stellt den Dienst über die API bereit."
+    },
+    {
+      "question": "Musst du den Code von Facebook kennen, um über eine API Facebook-Kommentare auf deiner Webseite einzubinden?",
+      "answer": "Nein, weil die API eine Schnittstelle bereitstellt, über die man Funktionen nutzen kann, ohne den internen Code zu kennen."
+    },
+    {
+      "question": "Warum reduzieren APIs den Programmieraufwand?",
+      "answer": "Weil viele Funktionen über fertige Schnittstellen nutzbar sind, ohne dass man sie selbst programmieren muss. Man greift auf bewährte Dienste zu, statt alles neu zu entwickeln."
+    },
+    {
+      "question": "Wie ist es möglich, über eine Vergleich-Webseite einen Flug von Lufthansa zu buchen?",
+      "answer": "Die Webseite nutzt die öffentliche API von Lufthansa, um Flugdaten abzurufen und Buchungen zu ermöglichen."
+    },
+    {
+      "question": "Was benötigt man, um eine API zu nutzen?",
+      "answer": "Einen API-Key."
+    },
+    {
+      "question": "Warum ist der API-Key notwendig?",
+      "answer": "Er identifiziert den Nutzer und verhindert unkontrollierte oder missbräuchliche Zugriffe."
+    },
+    {
+      "question": "Woher bekommt man einen API-Key?",
+      "answer": "Vom Anbieter der API – meist durch Registrierung auf dessen Entwicklerplattform."
+    },
+    {
+      "question": "Was versteht man im Zusammenhang mit APIs unter einem Aufruf?",
+      "answer": "Ein API-Aufruf ist die Anfrage eines Programms an eine API, um Daten zu senden oder abzurufen."
+    },
+    {
+      "question": "Wofür steht die Abkürzung JSON?",
+      "answer": "JSON steht für JavaScript Object Notation."
+    },
+    {
+      "question": "Warum ist JSON bei Programmierern so beliebt?",
+      "answer": "Weil JSON leicht lesbar, einfach zu verarbeiten und mit fast allen Programmiersprachen kompatibel ist."
+    },
+    {
+      "question": "Welcher Code erscheint, wenn auf einer Datenbank nichts abgespeichert ist?",
+      "answer": "200 – OK. Die Anfrage war erfolgreich, auch wenn keine Daten zurückgegeben wurden."
+    },
+    {
+      "question": "Wie stellt man sicher, dass man auf einer Datenbank nichts überschreibt?",
+      "answer": "Zuerst den aktuellen Inhalt abfragen (z. B. mit GET), um zu prüfen, ob bereits Daten vorhanden sind."
+    },
+    {
+      "question": "Wie geht man vor, um auf einer Datenbank nichts zu überschreiben, wenn Daten vorhanden sind?",
+      "answer": "Zuerst mit GET die vorhandenen Daten auslesen, dann beides zusammenführen (alte + neue Daten) und anschließend mit PUT oder POST die aktualisierten Daten hochladen."
+    },
+    {
+      "question": "Was bedeutet ein 4xx-Fehler bei der GET-Methode in Zusammenhang mit APIs?",
+      "answer": "Die Anfrage ist fehlerhaft – mögliche Gründe sind keine Berechtigung, Ressource nicht vorhanden oder GET-Methode nicht unterstützt."
+    },
+    {
+      "question": "Was sind zwei mögliche Gründe für den Fehlercode 404?",
+      "answer": "1. Die angeforderte URL existiert nicht (falsche oder veraltete Adresse). 2. Die Ressource wurde verschoben, aber der Link wurde nicht aktualisiert (toter Link)."
+    },
+    {
+      "question": "Kann man die Aussage treffen, dass eine Software fehlerfrei ist, wenn sie aus allen Modultests besteht?",
+      "answer": "Nein, weil man alle möglichen Use-Case-Tests durchführen müsste, was unmöglich ist."
+    },
+    {
+      "question": "Was ist ein Array?",
+      "answer": "Ein Array besteht aus mehreren Datenwerten, die entweder eindimensional wie Listen oder mehrdimensional wie Matrizen und Tabellen sein können."
+    },
+    {
+      "question": "Wie funktioniert ein Interpreter?",
+      "answer": "Zur Laufzeit wird der Quellcode Zeile für Zeile analysiert und ausgeführt."
+    },
+    {
+      "question": "Was ist eine objektorientierte Compilersprache?",
+      "answer": "Eine objektorientierte Compilersprache ist zum Beispiel Java."
+    },
+    {
+      "question": "Was ist eine objektorientierte Skriptsprache?",
+      "answer": "Beispiele für objektorientierte Skriptsprachen sind Perl und Ruby."
+    },
+    {
+      "question": "Was versteht man unter einer Compilersprache?",
+      "answer": "Der Code wird vor der Laufzeit in Maschinencode übersetzt."
+    },
+    {
+      "question": "Was ist eine objektorientierte Programmiersprache?",
+      "answer": "In einer objektorientierten Programmiersprache arbeiten kooperative Objekte zusammen, die Attribute und Methoden haben. Das System kann Objekt-Nachrichten empfangen und senden."
+    },
+    {
+      "question": "Was ist eine imperative Programmiersprache?",
+      "answer": "Eine imperative Programmiersprache besteht aus einer Folge von Anweisungen, die dem Computer sagen, was als Nächstes zu tun ist."
+    },
+    {
+      "question": "Welche drei Analyseverfahren gibt es, um Umfang, Voraussetzungen, Dauer und Kosten einer Entwicklung zu ermitteln?",
+      "answer": "Die drei Analyseverfahren sind: 1. Systemanalyse, 2. Prozessanalyse, 3. Datenanalyse."
+    },
+    {
+      "question": "Was ist Pseudocode?",
+      "answer": "Pseudocode ist ein Mix aus Programmiersprache, mathematischer Verknüpfung und natürlicher Sprache."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
+      "answer": "Whitebox-Tests überprüfen die Funktionsweise des Quellcodes, während Blackbox-Tests die äußeren, sichtbaren Funktionen ohne Quellcode überprüfen."
+    },
+    {
+      "question": "Welche Qualitätskriterien gibt es für Software?",
+      "answer": "Die Qualitätskriterien für Software sind: Kompatibilität, Portabilität, Usability, Integrität, Effizienz und Verifizierbarkeit."
+    },
+    {
+      "question": "Was ist Eclipse?",
+      "answer": "Eclipse ist eine Entwicklungsumgebung, die ursprünglich für Java entwickelt wurde, aber auch für andere Sprachen mit Erweiterungen nutzbar ist."
+    },
+    {
+      "question": "Wie können Eingabefehler für Endnutzer reduziert werden?",
+      "answer": "Eingabefehler können durch Plausibilitätsüberprüfung und Begrenzungen reduziert werden, z. B. PLZ nur Zahlen oder E-Mail-Syntax überprüfen."
+    },
+    {
+      "question": "Was bedeutet GUI?",
+      "answer": "GUI steht für grafische Benutzeroberfläche."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Entwicklerdokumentation und Anwendungsdokumentation?",
+      "answer": "Entwicklerdokumentation enthält viele Abkürzungen und Fachbegriffe, während Anwendungsdokumentation keine programmiertechnische Systembeschreibung enthält."
+    },
+    {
+      "question": "Was versteht man bei der OOP unter Polymorphie?",
+      "answer": "Polymorphie tritt auf, wenn eine Methode in einer abgeleiteten Klasse die gleiche Signatur hat wie in der Basisklasse, und zur Laufzeit die Methode überschrieben wird."
+    },
+    {
+      "question": "Was sind Default-Werte?",
+      "answer": "Default-Werte sind voreingestellte Werte."
+    },
+    {
+      "question": "Was ist die Funktion von alert() in JavaScript?",
+      "answer": "alert() in JavaScript zeigt ein Fehlermeldungs-Popup an, das eine Nachricht als Parameter übergeben bekommt."
+    },
+    {
+      "question": "Was versteht man bei der OOP unter Vererbung?",
+      "answer": "Bei der Vererbung erbt eine Kindklasse von der Elternklasse die Methoden und Eigenschaften."
+    },
+    {
+      "question": "Was bedeutet NOT NULL?",
+      "answer": "NOT NULL bedeutet, dass das Feld nicht null sein darf."
+    },
+    {
+      "question": "Was versteht man bei der OOP unter Kapselung?",
+      "answer": "Kapselung bedeutet, dass Daten und Methoden innerhalb einer Struktur zusammengefasst sind und der Zugriff über Schnittstellen erfolgt. Dies folgt dem Geheimnisprinzip."
+    },
     {
       "question": "Wofür steht REST in REST-API?",
       "answer": "REST steht für Representational State Transfer."
@@ -868,6 +2112,22 @@ const cardSets = {
     {
       "question": "Was bedeutet der Statuscode 404?",
       "answer": "404 bedeutet, dass die angeforderte Ressource nicht gefunden wurde."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 400?",
+      "answer": "Falsche oder fehlerhafte Anfrage vom Client."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 100?",
+      "answer": "100 bedeutet, dass die Anfrage empfangen wurde und der Client fortfahren kann."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 102?",
+      "answer": "102 bedeutet, dass die Anfrage bearbeitet wird, aber noch keine Antwort vorliegt."
+    },
+    {
+      "question": "Was bedeutet der Statuscode 301?",
+      "answer": "Die Ressource wurde dauerhaft verschoben – neue Adresse wird mitgeteilt."
     },
     {
       "question": "Was bedeutet der Statuscode 500?",
@@ -1185,30 +2445,7 @@ const cardSets = {
       "question": "Was ist Backtracking in der logischen Programmierung?",
       "answer": "Eine Technik, bei der das Programm zu vorherigen Zuständen zurückkehrt, wenn eine Lösung fehlschlägt."
     },
-    {
-      "question": "Welche Anomalien können bei einer unnormalisierten Datenbank auftreten?",
-      "answer": "Einfüge-, Änderungs- und Löschanomalien. Diese können zu Dateninkonsistenzen oder Datenverlust führen."
-    },
-    {
-      "question": "Was ist das Ziel der Normalisierung in einer Datenbank?",
-      "answer": "Die Vermeidung von Redundanzen und Anomalien durch strukturierte und logische Aufteilung der Daten auf mehrere Tabellen."
-    },
-    {
-      "question": "Was sind die Merkmale der 1. Normalform (1NF)?",
-      "answer": "Alle Werte in den Attributen müssen atomar sein (nicht weiter teilbar). Mehrfache Werte werden in einzelne Zeilen ausgelagert."
-    },
-    {
-      "question": "Was ist Voraussetzung für die 2. Normalform (2NF)?",
-      "answer": "Die 1. Normalform muss erfüllt sein. Zusätzlich dürfen Nicht-Schlüsselattribute nur vom gesamten Primärschlüssel abhängig sein (voll funktional abhängig)."
-    },
-    {
-      "question": "Welche Beziehungen müssen bei der 2. Normalform beachtet werden?",
-      "answer": "Fremdschlüssel müssen eingefügt werden, um Tabellen bei Bedarf zu verknüpfen (1:N, N:1 oder 1:1). N:M-Beziehungen werden durch Zwischentabellen aufgelöst."
-    },
-    {
-      "question": "Was ist die Voraussetzung für die 3. Normalform (3NF)?",
-      "answer": "Die 2. Normalform muss erfüllt sein. Außerdem dürfen keine transitiven Abhängigkeiten bestehen (ein Nicht-Schlüsselattribut darf nicht von einem anderen Nicht-Schlüsselattribut abhängen)."
-    },
+
     {
       "question": "Wofür steht die Abkürzung CRUD in der Datenverarbeitung?",
       "answer": "Create, Read, Update, Delete – das sind die vier grundlegenden Operationen zur Bearbeitung von Daten in einer Datenbank."
@@ -1704,6 +2941,770 @@ const cardSets = {
   ],
   "WISO": [
     {
+      question: "Was ist der Leitzins?",
+      answer: "Der Leitzins ist der Zinssatz, den die EZB festlegt, und beeinflusst den Geldfluss in der Wirtschaft."
+    },
+    {
+      question: "Wie beeinflusst ein niedriger Leitzins die Wirtschaft?",
+      answer: "Ein niedriger Leitzins macht Kredite günstiger und erhöht die Geldmenge im Umlauf."
+    },
+    {
+      question: "Wie beeinflusst ein hoher Leitzins die Wirtschaft?",
+      answer: "Ein hoher Leitzins macht Kredite teurer und reduziert die Geldmenge im Umlauf."
+    },
+    {
+      question: "Was ist Inflation?",
+      answer: "Inflation bezeichnet den Rückgang der Kaufkraft des Geldes, wodurch man für den gleichen Betrag weniger kaufen kann."
+    },
+    {
+      question: "Was sind die Ursachen der Inflation?",
+      answer: "Ursachen der Inflation können Nachfrageinflation, Angebotsinflation und Geldmengeninflation sein."
+    },
+    {
+      question: "Was ist Deflation?",
+      answer: "Deflation ist der Anstieg der Kaufkraft des Geldes, wodurch man für den gleichen Betrag mehr kaufen kann."
+    },
+    {
+      question: "Was sind die Ursachen der Deflation?",
+      answer: "Deflation entsteht oft durch zu geringe Nachfrage und gleichzeitig hohes Angebot."
+    },
+    {
+      question: "Was sind die Folgen der Inflation?",
+      answer: "Inflation führt zur Entwertung von Ersparnissen und belastet vor allem Rentner und Arbeitslose."
+    },
+    {
+      question: "Wie kann Inflation bekämpft werden?",
+      answer: "Inflation kann durch eine Erhöhung des Leitzinses bekämpft werden."
+    },
+    {
+      question: "Was ist ein Warenkorb und wie wird er zur Berechnung der Inflationsrate verwendet?",
+      answer: "Der Warenkorb ist eine Zusammenstellung von typischen Waren und Dienstleistungen, deren Preisentwicklung mit dem Vorjahr verglichen wird, um die Inflationsrate zu berechnen."
+    },
+    {
+      question: "Was versteht man unter Kaufkraft?",
+      answer: "Kaufkraft beschreibt, wie viel man für eine bestimmte Menge Geld kaufen kann."
+    },
+    {
+      question: "Was ist der Binnenwert des Geldes?",
+      answer: "Der Binnenwert des Geldes beschreibt, wie viel man mit einer Einheit Geld für Güter kaufen kann."
+    },
+    {
+      question: "Was ist die Verkehrsgleichung?",
+      answer: "Die Verkehrsgleichung beschreibt das Verhältnis zwischen Geldmenge und dem Gesamtwert der gehandelten Güter."
+    },
+    {
+      question: "Was sind die Phasen des Konjunkturzyklus?",
+      answer: "Die Phasen des Konjunkturzyklus umfassen die Expansion, den Boom, die Rezession und die Depression."
+    },
+    {
+      question: "Was sind Frühindikatoren zur Konjunkturbeobachtung?",
+      answer: "Frühindikatoren sind z.B. Lagerbestände und der Aktienindex."
+    },
+    {
+      question: "Was sind Spätindikatoren zur Konjunkturbeobachtung?",
+      answer: "Spätindikatoren sind z.B. Steuereinnahmen und die Inflationsrate."
+    },
+    {
+      question: "Was sind Präsenzindikatoren zur Konjunkturbeobachtung?",
+      answer: "Präsenzindikatoren sind z.B. aktuelle Lagerbestände, Preise und offene Stellen."
+    },
+    {
+      question: "Welche Maßnahmen können zur Stabilisierung der Konjunktur ergriffen werden?",
+      answer: "Zur Stabilisierung können der Leitzins angepasst oder staatliche Schulden aufgenommen werden, um die Wirtschaft zu stützen."
+    },
+    {
+      question: "Was sind nachfragestimulierte Maßnahmen zur Konjunkturpolitik?",
+      answer: "Nachfragestimulierte Maßnahmen umfassen Subventionen, Steuersenkungen und Abschreibungsmöglichkeiten."
+    },
+    {
+      question: "Was sind angebotsseitige Maßnahmen zur Konjunkturpolitik?",
+      answer: "Angebotsseitige Maßnahmen verbessern die Produktionskapazitäten durch gute Infrastruktur und günstige Rahmenbedingungen für Unternehmen."
+    },
+    {
+      "question": "Was versteht man unter Binnenkonjunktur?",
+      "answer": "Binnenkonjunktur bezeichnet die Wirtschaftsentwicklung im Inland, die auf heimischer Nachfrage basiert."
+    },
+    {
+      "question": "Was bedeutet Preisstabilität im magischen Viereck?",
+      "answer": "Preisstabilität bedeutet die Sicherung der Kaufkraft."
+    },
+    {
+      "question": "Was ist hohe Vollbeschäftigung im magischen Viereck?",
+      "answer": "Hohe Vollbeschäftigung bedeutet weniger als 2% Arbeitslose."
+    },
+    {
+      "question": "Was bedeutet stetiges Wirtschaftswachstum im magischen Viereck?",
+      "answer": "Stetiges Wirtschaftswachstum bedeutet, dass die Wirtschaft kontinuierlich wächst."
+    },
+    {
+      "question": "Was bedeutet Gleichgewicht in der In- und Außenwirtschaft im magischen Viereck?",
+      "answer": "Gleichgewicht in der In- und Außenwirtschaft bedeutet, dass Exporte und Importe im Gleichgewicht sind."
+    },
+    {
+      "question": "Was ist die Handelsbilanz?",
+      "answer": "Die Handelsbilanz ist die Verrechnung von Export und Import von Waren."
+    },
+    {
+      "question": "Was ist die Dienstleistungsbilanz?",
+      "answer": "Die Dienstleistungsbilanz ist die Verrechnung von Export und Import von Dienstleistungen."
+    },
+    {
+      "question": "Was umfasst die Bilanz der Erwerbs- und Vermögenseinkommen?",
+      "answer": "Sie umfasst alle Kapitalanlagen, die gezahlt werden, wie etwa Zinsen und Dividenden."
+    },
+    {
+      "question": "Was ist die laufende Übertragung in der Leistungsbilanz?",
+      "answer": "Die laufende Übertragung umfasst unentgeltliche Leistungen wie Renten, Spenden und Entwicklungshilfe."
+    },
+    {
+      "question": "Was ist die Außenbilanz?",
+      "answer": "Die Außenbilanz ist die Summe der Handelsbilanz und der Dienstleistungsbilanz."
+    },
+    {
+      "question": "Was versteht man unter Vermögensübertragung?",
+      "answer": "Vermögensübertragung beschreibt einmalige Übertragungen zwischen Ländern, wie etwa Schuldenerlass oder Unterstützung von Ländern."
+    },
+    {
+      "question": "Was sind Direktinvestitionen?",
+      "answer": "Direktinvestitionen sind Beteiligungen in Form von Aktien oder anderen Beteiligungen an Unternehmen im Ausland."
+    },
+    {
+      "question": "Was versteht man unter Wertpapieren?",
+      "answer": "Wertpapiere umfassen den Erwerb und Verkauf von klassischen Wertpapieren wie Aktien oder Anleihen."
+    },
+    {
+      "question": "Was bedeutet Kreditverkehr in der Kapitalbilanz?",
+      "answer": "Kreditverkehr umfasst sowohl langfristige als auch kurzfristige Kredite zwischen Ländern."
+    },
+    {
+      "question": "Was sind nicht wiederaufladbare Transaktionen?",
+      "answer": "Nicht wiederaufladbare Transaktionen umfassen schwer nachverfolgbare Vorgänge wie Koffergeschäfte."
+    },
+    {
+      "question": "Was versteht man unter Netto-Auslands-Aktiva?",
+      "answer": "Die Netto-Auslands-Aktiva resultieren aus den Salden der Kapitalbilanz und den nicht wiederaufladbaren Transaktionen."
+    },
+    {
+      "question": "Was ist ein Devisenzufluss?",
+      "answer": "Devisenzufluss bezeichnet den Eintritt von ausländischer Währung in ein Land, z.B. durch Exporte, Tourismus oder ausländische Investitionen."
+    },
+    {
+      "question": "Was ist ein Devisenabfluss?",
+      "answer": "Devisenabfluss bezeichnet das Verlassen der heimischen Währung aus einem Land, z.B. durch Importe oder Auslandsinvestitionen."
+    },
+    {
+      "question": "Was bedeutet ein Leistungsbilanzüberschuss?",
+      "answer": "Ein Leistungsbilanzüberschuss entsteht, wenn ein Land mehr Einnahmen aus Exporten und Dienstleistungen erzielt, als es für Importe ausgibt."
+    },
+    {
+      "question": "Was sind die Folgen eines Leistungsbilanzüberschusses für die Binnenkonjunktur?",
+      "answer": "Ein Exportboom führt zu steigenden Investitionen, sinkender Arbeitslosigkeit und einer steigenden Nachfrage."
+    },
+    {
+      "question": "Was bedeutet ein Leistungsbilanzdefizit?",
+      "answer": "Ein Leistungsbilanzdefizit entsteht, wenn ein Land mehr für Importe und Dienstleistungen ausgibt als es durch Exporte und Einnahmen erzielt."
+    },
+    {
+      "question": "Was sind die Folgen eines Leistungsbilanzdefizits für die Binnenkonjunktur?",
+      "answer": "Ein hohes Importvolumen führt zu sinkenden Investitionen, steigender Arbeitslosigkeit und einer sinkenden Nachfrage."
+    },
+    {
+      "question": "Was passiert mit dem Wechselkurs im Außenhandel bei einem Leistungsbilanzdefizit?",
+      "answer": "Durch den Umtausch von Euro in Dollar steigt der Dollar-Kurs, was die Exporterlöse durch einen sinkenden Euro-Wechselkurs ausgleicht."
+    },
+    {
+      "question": "Was sind die Bedürfnisse in der Reihenfolge?",
+      "answer": "1. Grundbedürfnisse: Essen, Trinken, Schlafen. 2. Sicherheitsbedürfnisse: Haus, Wohnung, berufliche Sicherheit. 3. Sozialbedürfnisse: Freundschaft, Liebe, Zusammengehörigkeit. 4. Ich-Bedürfnisse: Anerkennung. 5. Selbstverwirklichung."
+    },
+    {
+      "question": "Was beschreibt die Formel für Rentabilität?",
+      "answer": "Rentabilität = Gewinn / Kapital."
+    },
+    {
+      "question": "Was ist Eigenkapitalrentabilität?",
+      "answer": "Eigenkapitalrentabilität zeigt die Rentabilität eines Unternehmens im Verhältnis zum eingesetzten Eigenkapital."
+    },
+    {
+      "question": "Wie wird Produktivität berechnet?",
+      "answer": "Produktivität = Output / Input."
+    },
+    {
+      "question": "Wie wird Wirtschaftlichkeit berechnet?",
+      "answer": "Wirtschaftlichkeit = Erlöse / Kosten oder Ertrag / Aufwand."
+    },
+    {
+      "question": "Wie berechnet man die Arbeitslosenquote?",
+      "answer": "Arbeitslosenquote = Arbeitslose / Erwerbspersonen * 100."
+    },
+    {
+      "question": "Was bedeutet Vollbeschäftigung?",
+      "answer": "Vollbeschäftigung bedeutet eine Arbeitslosenquote von 2% bis 4%."
+    },
+    {
+      "question": "Was ist Unterbeschäftigung?",
+      "answer": "Unterbeschäftigung liegt vor, wenn die Arbeitslosenquote mehr als 2% bis 4% beträgt."
+    },
+    {
+      "question": "Was ist Überbeschäftigung?",
+      "answer": "Überbeschäftigung bedeutet, dass mehr offene Stellen als Arbeitslose existieren."
+    },
+    {
+      "question": "Was ist friktionelle Arbeitslosigkeit?",
+      "answer": "Friktionelle Arbeitslosigkeit tritt auf, wenn jemand aufgrund eines Jobwechsels vorübergehend arbeitslos ist."
+    },
+    {
+      "question": "Was ist saisonale Arbeitslosigkeit?",
+      "answer": "Saisonale Arbeitslosigkeit entsteht, wenn aufgrund jahreszeitbedingter Faktoren wie in der Landwirtschaft oder im Tourismus keine Arbeit vorhanden ist."
+    },
+    {
+      "question": "Was ist konjunkturelle Arbeitslosigkeit?",
+      "answer": "Konjunkturelle Arbeitslosigkeit tritt auf, wenn die Wirtschaft schwächelt und weniger Arbeitsplätze zur Verfügung stehen."
+    },
+    {
+      "question": "Was ist strukturelle Arbeitslosigkeit?",
+      "answer": "Strukturelle Arbeitslosigkeit entsteht durch Umstrukturierungen, wie etwa durch den Wandel in bestimmten Branchen oder Technologien."
+    },
+    {
+      "question": "Was ist langzeit Arbeitslosigkeit?",
+      "answer": "Langzeit Arbeitslosigkeit liegt vor, wenn jemand mehr als ein Jahr lang arbeitslos ist."
+    },
+    {
+      "question": "Was ist die Theorie der freien Marktwirtschaft?",
+      "answer": "Die Theorie der freien Marktwirtschaft besagt, dass freier Handel zum Wohlstand aller führt."
+    },
+    {
+      "question": "Wie funktioniert der Staat in einer freien Marktwirtschaft?",
+      "answer": "In einer freien Marktwirtschaft greift der Staat nicht ein und agiert als 'Nachtwächter'."
+    },
+    {
+      "question": "Wie erfolgt die Preisbildung in einer freien Marktwirtschaft?",
+      "answer": "In einer freien Marktwirtschaft erfolgt die Preisbildung durch Angebot und Nachfrage."
+    },
+    {
+      "question": "Welche Probleme gibt es in der freien Marktwirtschaft?",
+      "answer": "In der freien Marktwirtschaft können Monopole entstehen, und sozial schwache Menschen können ausgenutzt werden."
+    },
+    {
+      "question": "Was ist die Theorie der Zentralverwaltungswirtschaft?",
+      "answer": "Die Theorie der Zentralverwaltungswirtschaft besagt, dass es kein Privat Eigentum an Produktionsmitteln gibt."
+    },
+    {
+      "question": "Wie funktioniert der Staat in einer Zentralverwaltungswirtschaft?",
+      "answer": "In einer Zentralverwaltungswirtschaft ist der Staat Eigentümer der Produktionsmittel und verwaltet die Wirtschaft durch eine Planungsbehörde."
+    },
+    {
+      "question": "Wie erfolgt die Preisbildung in einer Zentralverwaltungswirtschaft?",
+      "answer": "In einer Zentralverwaltungswirtschaft bestimmt der Staat die Preise."
+    },
+    {
+      "question": "Welche Probleme gibt es in einer Zentralverwaltungswirtschaft?",
+      "answer": "In einer Zentralverwaltungswirtschaft gibt es keine freie Entfaltung für den Einzelnen."
+    },
+    {
+      "question": "Was ist die Theorie der sozialen Marktwirtschaft?",
+      "answer": "Die Theorie der sozialen Marktwirtschaft vereint die besten Aspekte der freien Marktwirtschaft und der zentralen Planung."
+    },
+    {
+      "question": "Wie funktioniert der Staat in einer sozialen Marktwirtschaft?",
+      "answer": "In einer sozialen Marktwirtschaft hat der Staat viele Freiheiten und nur wenig Einfluss, und es wird eine 'Sozialstadt' angestrebt."
+    },
+    {
+      "question": "Was ist das Solidaritätsprinzip?",
+      "answer": "Das Solidaritätsprinzip besagt, dass die Gemeinschaft dem Einzelnen hilft."
+    },
+    {
+      "question": "Was ist das Subsidiaritätsprinzip?",
+      "answer": "Das Subsidiaritätsprinzip besagt, dass der Staat einspringt, wenn der Einzelne sich nicht mehr selbst helfen kann."
+    },
+    {
+      "question": "Was sind marktkonforme Maßnahmen?",
+      "answer": "Marktkonforme Maßnahmen beinhalten staatliche Unterstützungen wie Wohngeld oder Kindergeld."
+    },
+    {
+      "question": "Was sind marktkonträre Maßnahmen?",
+      "answer": "Marktkonträre Maßnahmen beinhalten staatliche Eingriffe in den Markt, wie Mindestlöhne, Gaspreisbremse oder Mietpreisbremse."
+    },
+  ],
+  "WISO2": [
+    {
+      "question": "Außenwirtschaft: Was ist ein Grund für Außenwirtschaft?",
+      "answer": "Rohstoffbeschaffung: Zugang zu wichtigen natürlichen Ressourcen."
+    },
+    {
+      "question": "Außenwirtschaft: Was bedeutet Abhängigkeit in der Außenwirtschaft?",
+      "answer": "Wirtschaftliche Verflechtungen, die zu gegenseitiger Abhängigkeit führen."
+    },
+    {
+      "question": "Außenwirtschaft: Was versteht man unter Arbeitsteilung?",
+      "answer": "Spezialisierung der Produktionsfaktoren für höhere Effizienz."
+    },
+    {
+      "question": "Außenwirtschaft: Wie kann Außenwirtschaft zur Kriegsvermeidung beitragen?",
+      "answer": "Wirtschaftliche Kooperationen können Konflikte eindämmen."
+    },
+    {
+      "question": "Außenwirtschaft: Was wird durch Außenwirtschaft in Bezug auf neue Produkte ermöglicht?",
+      "answer": "Innovation und Technologietransfer ermöglichen eine breitere Produktpalette."
+    },
+    {
+      "question": "Protektionismus: Was ist Protektionismus?",
+      "answer": "Schutz des heimischen Marktes vor ausländischen Produkten."
+    },
+    {
+      "question": "Protektionismus: Welche kurzfristigen Effekte hat Protektionismus?",
+      "answer": "Kann kurzfristig positive Effekte haben."
+    },
+    {
+      "question": "Protektionismus: Welche langfristigen Nachteile hat Protektionismus?",
+      "answer": "Reduziert die Produktvielfalt und den Zugang zu neuen Technologien aus dem Ausland."
+    },
+    {
+      "question": "Autarkie: Was versteht man unter Autarkie?",
+      "answer": "Wirtschaftliche Unabhängigkeit von anderen Ländern."
+    },
+    {
+      "question": "Freihandelsabkommen: Was ist ein Freihandelsabkommen?",
+      "answer": "Verträge, die den Handel erleichtern – etwa durch den Wegfall von Zöllen."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Was ist das Hauptziel der EZB?",
+      "answer": "Sicherstellung der Kaufkraft des Euro und Schaffung von Preisstabilität."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Wie agiert die EZB in Bezug auf nationale Regierungen?",
+      "answer": "Die EZB agiert unabhängig von den nationalen Regierungen."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Welche Kernfunktion hat die EZB im Bereich Banknotendruck?",
+      "answer": "Kontrolle über die Ausgabe von Banknoten."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Welche Rolle spielt die EZB in der Geldpolitik?",
+      "answer": "Einfluss auf die wirtschaftliche Entwicklung in Europa."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Was versteht man unter Devisengeschäften der EZB?",
+      "answer": "Steuerung des Zahlungsverkehrs."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Was regelt die EZB bezüglich des Leitzinses?",
+      "answer": "Festlegung und Anpassung des Leitzinses."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Welche Aufgabe hat die EZB in der Bankenaufsicht?",
+      "answer": "Überwachung der Banken in der Europäischen Union."
+    },
+    {
+      "question": "Instrumente der EZB: Was sind Offenmarktgeschäfte?",
+      "answer": "Kauf und Verkauf von Wertpapieren an Banken – planbar, gezielt und fair, jedoch nur solange der Vorrat reicht."
+    },
+    {
+      "question": "Instrumente der EZB: Was sind ständige Fazilitäten?",
+      "answer": "Sofort verfügbare Kreditfazilitäten für Banken, die kurzfristig überschüssige Gelder anlegen oder schnell Geld benötigen."
+    },
+    {
+      "question": "Instrumente der EZB: Welche Konsequenzen hat die Nutzung ständiger Fazilitäten für Banken?",
+      "answer": "Meist geringere Zinseinnahmen bzw. höhere Zinszahlungen."
+    },
+    {
+      "question": "Instrumente der EZB: Was bedeutet Mindestreservepolitik?",
+      "answer": "Banken sind verpflichtet, einen bestimmten Prozentsatz (aktuell ca. 1%) ihrer Einlagen als Reserve zu halten."
+    },
+    {
+      "question": "Instrumente der EZB: Was ist der Zweck der Mindestreservepolitik?",
+      "answer": "Gewährleistung der Stabilität und Sicherheit."
+    },
+    {
+      "question": "Europäische Zentralbank (EZB): Was umfasst der Begriff ‚ESZB‘?",
+      "answer": "Der Begriff ‚ESZB‘ umfasst sowohl die EZB als auch die nationalen Zentralbanken."
+    },
+    {
+      "question": "EZB-Rat: Wo befindet sich der Sitz des EZB-Rats?",
+      "answer": "Frankfurt am Main"
+    },
+    {
+      "question": "EZB-Rat: Wie oft finden Sitzungen des EZB-Rats statt?",
+      "answer": "Alle zwei Wochen"
+    },
+    {
+      "question": "EZB-Rat: Welche Aufgaben hat der EZB-Rat bei seinen Sitzungen?",
+      "answer": "Festlegung von Leitlinien und Beschlüssen, Bestimmung des Leitzinses, Bankaufsicht"
+    },
+    {
+      "question": "EZB-Rat: Was ist das Direktorium des EZB-Rats?",
+      "answer": "Es besteht aus 6 Mitgliedern, darunter der Präsident und der Vizepräsident, und ist für die Umsetzung der Geldpolitik und Leitung des Geschäftsbetriebs der EZB verantwortlich."
+    },
+    {
+      "question": "EZB-Rat: Was ist die Aufgabe des Erweiterten Rats der EZB?",
+      "answer": "Er hat eine beratende Funktion, erstellt den Jahresbericht und bereitet den Eintritt neuer Euro-Mitgliedsländer vor."
+    },
+    {
+      "question": "Leitzins: Was ist der Leitzins?",
+      "answer": "Der Zinssatz, den die EZB in Europa (bzw. die FED in den USA) festlegt."
+    },
+    {
+      "question": "Leitzins: Was passiert bei einem niedrigen Leitzins?",
+      "answer": "Kredite werden günstiger, aber Anlagemöglichkeiten weniger attraktiv, was zu einer erhöhten Geldmenge im Umlauf führt."
+    },
+    {
+      "question": "Leitzins: Was passiert bei einem hohen Leitzins?",
+      "answer": "Kredite werden teurer, Anlageformen attraktiver, wodurch weniger Geld im Umlauf ist."
+    },
+    {
+      "question": "Leitzins: Was ist das Ziel des Leitzinses?",
+      "answer": "Stabilisierung konjunktureller Schwankungen und Erreichen eines wirtschaftlichen Gleichgewichts."
+    },
+    {
+      "question": "Inflation und Deflation: Was ist eine offene Inflation?",
+      "answer": "Eine Inflation, die erkennbar ist und sofort Einfluss auf die Kaufkraft hat, wobei der Staat keinen Einfluss nimmt."
+    },
+    {
+      "question": "Inflation und Deflation: Was ist eine verdeckte Inflation?",
+      "answer": "Eine nicht erkennbare Inflation, bei der der Staat durch Maßnahmen wie Substitution oder Festlegung von Höchstpreisen den Preis stabil hält."
+    },
+    {
+      "question": "Inflation: Was ist Inflation?",
+      "answer": "Ein Rückgang der Kaufkraft des Geldes – man bekommt weniger für den gleichen Geldbetrag."
+    },
+    {
+      "question": "Inflation: Was sind die Ursachen von Inflation?",
+      "answer": "Nachfrageinflation (Nachfrage ist größer als Angebot), Angebotsinflation (z. B. teurere Rohstoffkosten), Geldmengeninflation (zu hohe Geldmenge im Umlauf)."
+    },
+    {
+      "question": "Inflation: Was sind die Folgen von Inflation?",
+      "answer": "Entwertung der Ersparnisse, Personen, die sich nicht an steigende Preise anpassen können (z. B. Rentner, Arbeitslose), leiden darunter."
+    },
+    {
+      "question": "Inflation: Welche Maßnahme wird gegen Inflation ergriffen?",
+      "answer": "Erhöhung des Leitzinses."
+    },
+    {
+      "question": "Inflation: Wie kann eine moderat angestrebte Inflation von etwa 2% das Wirtschaftswachstum fördern?",
+      "answer": "Eine moderate Inflation kann das Wirtschaftswachstum fördern."
+    },
+    {
+      "question": "Deflation: Was ist Deflation?",
+      "answer": "Ein Anstieg der Kaufkraft des Geldes – man bekommt mehr für den gleichen Geldbetrag."
+    },
+    {
+      "question": "Deflation: Was sind die Ursachen von Deflation?",
+      "answer": "Zu geringe Nachfrage bei gleichzeitig hohem Angebot, Sparverhalten und die Erwartung weiter sinkender Preise."
+    },
+    {
+      "question": "Deflation: Was sind die Folgen von Deflation?",
+      "answer": "Unternehmen produzieren weniger, Löhne sinken und es kommt zu Entlassungen."
+    },
+    {
+      "question": "Deflation: Welche Maßnahmen werden gegen Deflation ergriffen?",
+      "answer": "Senkung des Leitzinses, Erhöhung staatlicher Ausgaben und Ankurbelung des Geldkreislaufs."
+    },
+    {
+      "question": "Warenkorb und Inflationsrate: Was ist ein Warenkorb?",
+      "answer": "Eine Zusammenstellung typischer Waren und Dienstleistungen, deren Preisentwicklung zum Vorjahr verglichen wird, um die Inflationsrate zu berechnen."
+    },
+    {
+      "question": "Kaufkraft: Was ist Kaufkraft?",
+      "answer": "Kaufkraft gibt an, wie viel du für dein Geld bekommst."
+    },
+    {
+      "question": "Binnenwert des Geldes: Was beschreibt der Binnenwert des Geldes?",
+      "answer": "Der Binnenwert des Geldes beschreibt, wie viel Wert es im Verhältnis zu Gütern hat."
+    },
+    {
+      "question": "Verkehrsgleichung: Was ist die Verkehrsgleichung?",
+      "answer": "Geldvolumen = Gesamtwert der Güter; G * U = P * H."
+    },
+    {
+      "question": "Verkehrsgleichung: Was bedeutet G * U = P * H?",
+      "answer": "G steht für die Geldmenge, U für die Umlaufgeschwindigkeit, P für die Preise und H für das Handelsvolumen."
+    },
+    {
+      "question": "Kaufkraft: Was passiert mit der Kaufkraft, wenn der Preis sinkt?",
+      "answer": "Wenn der Preis sinkt, steigt die Kaufkraft."
+    },
+    {
+      "question": "Kaufkraft: Was passiert mit der Kaufkraft, wenn der Preis steigt?",
+      "answer": "Wenn der Preis steigt, sinkt die Kaufkraft."
+    },
+    {
+      "question": "Kaufkraft: Wie berechnet sich die Kaufkraft?",
+      "answer": "Kaufkraft = H / (G * U)."
+    },
+    {
+      "question": "Konjunktur: Was beeinflusst die Konjunktur?",
+      "answer": "Unternehmen, Staat und private Haushalte."
+    },
+    {
+      "question": "Konjunkturzyklus: Was ist die Phase der Expansion?",
+      "answer": "In der Expansion sinkt die Arbeitslosigkeit und die Zinsen steigen."
+    },
+    {
+      "question": "Konjunkturzyklus: Was passiert in der Boom-Phase?",
+      "answer": "In der Boom-Phase gibt es eine sehr niedrige Arbeitslosigkeit."
+    },
+    {
+      "question": "Konjunkturzyklus: Was passiert in der Rezessions-Phase?",
+      "answer": "In der Rezession steigt die Arbeitslosigkeit."
+    },
+    {
+      "question": "Konjunkturzyklus: Was passiert in der Depression?",
+      "answer": "In der Depression herrscht sehr hohe Arbeitslosigkeit."
+    },
+    {
+      "question": "Indikatoren zur Konjunkturbeobachtung: Was sind Frühindikatoren?",
+      "answer": "Frühindikatoren sind zum Beispiel Lagerbestände und Aktienindex."
+    },
+    {
+      "question": "Indikatoren zur Konjunkturbeobachtung: Was sind Spätindikatoren?",
+      "answer": "Spätindikatoren sind zum Beispiel Steuereinnahmen und Inflationsrate."
+    },
+    {
+      "question": "Indikatoren zur Konjunkturbeobachtung: Was sind Präsenzindikatoren?",
+      "answer": "Präsenzindikatoren sind zum Beispiel aktuelle Lagerbestände, Preise und offene Stellen."
+    },
+    {
+      "question": "Maßnahmen zur Stabilisierung der Konjunktur: Wie kann die EZB die Konjunktur stabilisieren?",
+      "answer": "Durch Leitzinsanpassungen – Senken oder Erhöhen des Leitzinses, um wirtschaftliche Schwankungen zu glätten."
+    },
+    {
+      "question": "Maßnahmen zur Stabilisierung der Konjunktur: Wie kann der Staat in Rezessionen und Depressionen die Wirtschaft stützen?",
+      "answer": "Der Staat kann gezielt Schulden aufnehmen, um die Wirtschaft zu stützen."
+    },
+    {
+      "question": "Maßnahmen zur Stabilisierung der Konjunktur: Was sollte bei Expansions- oder Boomphasen beachtet werden?",
+      "answer": "Bei Expansions- oder Boomphasen ist es wichtig, eine übermäßige Verschuldung zu vermeiden."
+    },
+    {
+      "question": "Maßnahmen zur Stabilisierung der Konjunktur: Was versteht man unter nachfrageseitiger Politik?",
+      "answer": "Die Politik versucht, das Kaufen zu verstärken, zum Beispiel durch Subventionen, Steuersenkungen oder Abschreibungsmöglichkeiten."
+    },
+    {
+      "question": "Maßnahmen zur Stabilisierung der Konjunktur: Was versteht man unter angebotsseitiger Politik?",
+      "answer": "Die Politik hilft der Wirtschaft durch eine gute Infrastruktur und günstige Rahmenbedingungen."
+    },
+    {
+      "question": "Binnenkonjunktur: Was ist Binnenkonjunktur?",
+      "answer": "Binnenkonjunktur bezeichnet die Wirtschaftsentwicklung im Inland, die auf heimischer Nachfrage basiert."
+    },
+    {
+      "question": "Magisches Viereck: Was bedeutet Preisstabilität im Magischen Viereck?",
+      "answer": "Sicherung der Kaufkraft."
+  },
+  {
+      "question": "Magisches Viereck: Was bedeutet hohe Vollbeschäftigung im Magischen Viereck?",
+      "answer": "Weniger als 2% Arbeitslose."
+  },
+  {
+      "question": "Magisches Viereck: Was bedeutet stetiges Wirtschaftswachstum im Magischen Viereck?",
+      "answer": "Die Wirtschaft wächst stetig weiter."
+  },
+  {
+      "question": "Magisches Viereck: Was bedeutet Gleichgewicht in der In- und Außenwirtschaft?",
+      "answer": "Export und Import sind im Gleichgewicht."
+  },
+  {
+      "question": "Zahlungsbilanz: Welche Institutionen sind für die Zahlungsbilanz zuständig?",
+      "answer": "Die DZB für Deutschland und die EZB für die EU."
+  },
+  {
+      "question": "Leistungsbilanz: Was umfasst die Handelsbilanz?",
+      "answer": "Die Warenverrechnung von Export und Import."
+  },
+  {
+      "question": "Leistungsbilanz: Was umfasst die Dienstleistungsbilanz?",
+      "answer": "Die Verrechnung von Dienstleistungsexport und -import."
+  },
+  {
+      "question": "Leistungsbilanz: Was umfasst die Erwerbs- und Vermögenseinkommensbilanz?",
+      "answer": "Alle Kapitalanlagen, die gezahlt werden – Export minus Import."
+  },
+  {
+      "question": "Leistungsbilanz: Was umfasst die laufende Übertragungsbilanz?",
+      "answer": "Unentgeltliche Leistungen wie Rente, Spenden und Entwicklungshilfe – Export minus Import."
+  },
+  {
+      "question": "Zahlungsbilanz: Wie berechnet sich der Außenbetrag?",
+      "answer": "Der Außenbetrag ist gleich der Handelsbilanz plus der Dienstleistungsbilanz."
+  },
+  {
+      "question": "Vermögensübertragung: Was bedeutet Vermögensübertragung?",
+      "answer": "Einmalige Übertragung zwischen Ländern, etwa durch Schuldenerlass oder Unterstützung."
+  },
+  {
+      "question": "Vermögensübertragung: Wie kann eine Vermögensübertragung zwischen Ländern erfolgen?",
+      "answer": "Durch Schuldenerlass, Unterstützung von Ländern oder Einwanderung und Erbschaften."
+  },
+  {
+      "question": "Kapitalbilanz: Was umfasst Direktinvestitionen?",
+      "answer": "Beteiligungen in Form von Aktien."
+  },
+  {
+      "question": "Kapitalbilanz: Was umfasst den Bereich Wertpapiere?",
+      "answer": "Erwerb und Verkauf von klassischen Wertpapieren."
+  },
+  {
+      "question": "Kapitalbilanz: Was umfasst den Bereich Kreditverkehr?",
+      "answer": "Langfristige und kurzfristige Kredite."
+  },
+  {
+      "question": "Kapitalbilanz: Was sind sonstige Transaktionen?",
+      "answer": "Sonstige Finanztransaktionen, die nicht in andere Kategorien passen."
+  },
+  {
+      "question": "Saldo nicht wiederaufladbare Transaktionen: Was umfasst dieser Saldo?",
+      "answer": "Alle ungeklärten Dinge, die man nicht nachverfolgen kann, wie Koffergeschäfte."
+  },
+  {
+      "question": "Devisen: Was ist ein Devisenzufluss?",
+      "answer": "Wenn ausländische Währung in ein Land fließt, etwa durch Exporte oder ausländische Investitionen."
+  },
+  {
+      "question": "Devisen: Was ist ein Devisenabfluss?",
+      "answer": "Wenn heimische Währung das Land verlässt, zum Beispiel durch Importe oder Auslandskredite."
+  },
+  {
+      "question": "Leistungsbilanzüberschuss: Was bedeutet ein Leistungsbilanzüberschuss?",
+      "answer": "Ein Land erhält mehr durch Exporte und Dienstleistungen, als es ausgibt. Mehr Geld fließt ins Land als hinaus."
+  },
+  {
+      "question": "Binnenkonjunktur: Was passiert bei einem Exportboom?",
+      "answer": "Investitionen steigen, Arbeitslosigkeit sinkt und die Nachfrage steigt."
+  },
+  {
+      "question": "Binnenkonjunktur: Was passiert bei einem Exportboom in Bezug auf die Inlandsgeldmenge?",
+      "answer": "Die Inlandsgeldmenge steigt, was zu importierter Inflation führt."
+  },
+  {
+      "question": "Außenhandel: Was passiert mit dem Eurokurs bei einem USD-Umtausch?",
+      "answer": "Der Eurokurs steigt."
+  },
+  {
+      "question": "Außenhandel: Was passiert, wenn der Eurokurs steigt?",
+      "answer": "Die Exporterlöse sinken, und die Leistungsbilanz wird ausgeglichen."
+  },
+  {
+    "question": "Was ist ein Leistungsbilanzdefizit?",
+    "answer": "Es entsteht, wenn ein Land mehr für Importe und Dienstleistungen ausgibt als es durch Exporte und Einnahmen erhält, was zu einem Nettoabfluss von Geld führt."
+},
+{
+    "question": "Was passiert bei einem hohen Import für die Binnenkonjunktur?",
+    "answer": "Investitionen sinken, Arbeitslosigkeit steigt, Nachfrage sinkt, was zu einer Rezession führt."
+},
+{
+    "question": "Was passiert bei einem hohen Import für die Inlandsgeldmenge?",
+    "answer": "Die Inlandsgeldmenge sinkt, wodurch auch die Inflation sinkt."
+},
+{
+    "question": "Was passiert bei einem €-Umtausch in $ für den Außenhandel?",
+    "answer": "Der $-Kurs steigt, was Exporterlöse steigen lässt und die Leistungsbilanz ausgleicht."
+},
+{
+    "question": "Was ist die Reihenfolge der Bedürfnisse laut der Bedürfnishierarchie?",
+    "answer": "1. Grundbedürfnisse, 2. Sicherheitsbedürfnisse, 3. Sozialbedürfnisse, 4. Ich-Bedürfnisse, 5. Selbstverwirklichung."
+},
+{
+    "question": "Was ist der Zusammenhang zwischen Bedürfnis und Nachfrage?",
+    "answer": "Bedürfnis führt zu Geld, was dann zu einem Bedarf führt, der den Kaufwillen und schließlich die Nachfrage auslöst."
+},
+{
+    "question": "Wie berechnet man die Rentabilität?",
+    "answer": "Rentabilität = Gewinn / Kapital."
+},
+{
+    "question": "Wie berechnet man die Eigenkapitalrentabilität?",
+    "answer": "Eigenkapitalrentabilität = Jahresgewinn * 100 / Eigenkapital."
+},
+{
+    "question": "Wie berechnet man die Produktivität?",
+    "answer": "Produktivität = Output / Input."
+},
+{
+    "question": "Wie berechnet man die Wirtschaftlichkeit?",
+    "answer": "Wirtschaftlichkeit = Erlöse / Kosten oder Ertrag / Aufwand."
+},
+{
+    "question": "Was ist eine Beschäftigungsquote?",
+    "answer": "Die Beschäftigungsquote zeigt den Grad der Kapazitätsauslastung einer Volkswirtschaft."
+},
+{
+    "question": "Wie berechnet man die Arbeitslosenquote?",
+    "answer": "Arbeitslosenquote = Arbeitslose / Erwerbspersonen * 100."
+},
+{
+    "question": "Was bedeutet Vollbeschäftigung in Bezug auf die Arbeitslosenquote?",
+    "answer": "Vollbeschäftigung liegt vor, wenn die Arbeitslosenquote zwischen 2% und 4% liegt."
+},
+{
+    "question": "Was bedeutet Unterbeschäftigung?",
+    "answer": "Unterbeschäftigung bedeutet eine Arbeitslosenquote von mehr als 2%-4%."
+},
+{
+    "question": "Was ist die Bedeutung von Überbeschäftigung?",
+    "answer": "Überbeschäftigung tritt auf, wenn es mehr offene Stellen gibt als Arbeitslose."
+},
+{
+    "question": "Welche Arten von Arbeitslosigkeit gibt es?",
+    "answer": "Friktionelle, saisonelle, konjunkturelle, strukturelle und Langzeitarbeitslosigkeit."
+},
+{
+    "question": "Was ist friktionelle Arbeitslosigkeit?",
+    "answer": "Arbeitslosigkeit aufgrund eines Jobwechsels, die von kurzer Dauer ist."
+},
+{
+    "question": "Was ist saisonelle Arbeitslosigkeit?",
+    "answer": "Arbeitslosigkeit aufgrund saisonaler Schwankungen, z.B. in der Landwirtschaft oder im Tourismus."
+},
+{
+    "question": "Was ist konjunkturelle Arbeitslosigkeit?",
+    "answer": "Arbeitslosigkeit aufgrund einer schwachen Wirtschaftslage."
+},
+{
+    "question": "Was ist strukturelle Arbeitslosigkeit?",
+    "answer": "Arbeitslosigkeit aufgrund von Umstrukturierungen oder Veränderungen in der Wirtschaft."
+},
+{
+    "question": "Was ist Langzeitarbeitslosigkeit?",
+    "answer": "Arbeitslosigkeit, die länger als ein Jahr dauert."
+},
+{
+    "question": "Was ist die Theorie der freien Marktwirtschaft?",
+    "answer": "Freier Handel führt zum Wohlstand aller, ohne staatliche Eingriffe."
+},
+{
+    "question": "Was sind die Probleme der freien Marktwirtschaft?",
+    "answer": "Monopole und Ausnutzung sozial schwacher Menschen."
+},
+{
+    "question": "Was ist die Theorie der Zentralverwaltungswirtschaft?",
+    "answer": "Es gibt kein Privat Eigentum an Produktionsmitteln, und der Staat verwaltet alles."
+},
+{
+    "question": "Was sind die Probleme der Zentralverwaltungswirtschaft?",
+    "answer": "Es gibt keine freie Entfaltung für den Einzelnen und der Staat bestimmt die Preise."
+},
+{
+    "question": "Was ist die Theorie der sozialen Marktwirtschaft?",
+    "answer": "Es kombiniert das Beste aus beiden Welten: Der Staat bietet viele Freiheiten und wenig Einfluss, aber sorgt für soziale Absicherung."
+},
+{
+    "question": "Was ist das Solidaritätsprinzip in der sozialen Marktwirtschaft?",
+    "answer": "Die Gemeinschaft hilft dem Einzelnen."
+},
+{
+    "question": "Was ist das Subsidiaritätsprinzip?",
+    "answer": "Der Staat springt ein, wenn der Einzelne sich nicht selbst helfen kann."
+},
+{
+    "question": "Was bedeutet marktkonforme Politik?",
+    "answer": "Der Staat gibt Menschen Geld, z.B. Wohngeld oder Kindergeld."
+},
+{
+    "question": "Was bedeutet marktkonträre Politik?",
+    "answer": "Der Staat greift in den Markt ein, z.B. durch Mindestlöhne oder Mietpreisbremse."
+}
+  ],
+  "WISO3": [
+    {
       "question": "Für wen gilt die Steuerklasse I?",
       "answer": "Für ledige, geschiedene oder dauerhaft getrennt lebende Personen ohne Kinder."
     },
@@ -2017,14 +4018,14 @@ const cardSets = {
     },
     {
       "question": "Was ist eine außerordentliche Kündigung?",
-      "answer": "Eine fristlose Kündigung mit wichtigem Grund, z. B. bei Diebstahl oder ausbleibender Lohnzahlung."
+      "answer": "Eine fristlose Kündigung mit wichtigem Grund, z.B. bei Diebstahl oder ausbleibender Lohnzahlung."
     },
     {
       "question": "Wer hat besonderen Kündigungsschutz?",
       "answer": "Schwangere, Schwerbehinderte, Azubis, Pflegezeitnehmende, JAV, Betriebsräte, Datenschutzbeauftragte."
     },
     {
-      "question": "Wie lange gilt der Kündigungsschutz nach Ende einer Amtszeit z. B. als Betriebsrat?",
+      "question": "Wie lange gilt der Kündigungsschutz nach Ende einer Amtszeit z.B. als Betriebsrat?",
       "answer": "Ein Jahr nach Ende der Amtszeit."
     },
     {
@@ -2032,7 +4033,7 @@ const cardSets = {
       "answer": "Wenn der Betrieb mehr als 10 Mitarbeiter hat und das Arbeitsverhältnis länger als 6 Monate besteht."
     },
     {
-      "question": "Wie werden Teilzeitkräfte bei der Mitarbeiterzahl berechnet?",
+      "question": "Wie werden Teilzeitkräfte bei der Mitarbeiterzahl berechnet? (KSchG)",
       "answer": "30 Std./Woche = 0,75; 20 Std./Woche = 0,5; Vollzeit = 1,0"
     },
     {
@@ -2041,7 +4042,7 @@ const cardSets = {
     },
     {
       "question": "Was bedeutet soziale Rechtfertigung bei Kündigungen?",
-      "answer": "Die Kündigung muss auf anerkannten Gründen beruhen, z. B. Krankheit oder Stellenabbau."
+      "answer": "Die Kündigung muss auf anerkannten Gründen beruhen, z.B. Krankheit oder Stellenabbau."
     },
     {
       "question": "Was muss vor einer verhaltensbedingten Kündigung passieren?",
@@ -2049,7 +4050,7 @@ const cardSets = {
     },
     {
       "question": "Was prüft der Arbeitgeber vor einer Kündigung nach KSchG?",
-      "answer": "Ob ein milderes Mittel wie z. B. Versetzung möglich ist."
+      "answer": "Ob ein milderes Mittel wie z.B. Versetzung möglich ist."
     },
     {
       "question": "Ab wann gilt eine Person als schwerbehindert?",
@@ -2075,6 +4076,8 @@ const cardSets = {
       "question": "Wann muss der Antrag auf Zustimmung zur Kündigung gestellt werden?",
       "answer": "Spätestens 2 Wochen vor der geplanten Kündigung."
     },
+  ],
+  "WISO4": [
     {
       "question": "Wie lange besteht Kündigungsschutz bei Schwangerschaft?",
       "answer": "Während der Schwangerschaft und 4 Monate nach der Geburt."
@@ -2153,7 +4156,7 @@ const cardSets = {
     },
     {
       "question": "Wann darf nach der Probezeit gekündigt werden?",
-      "answer": "Nur mit wichtigem Grund, z. B. Berufswechsel oder Diebstahl."
+      "answer": "Nur mit wichtigem Grund, z.B. Berufswechsel oder Diebstahl."
     },
     {
       "question": "Wie lange ist die Kündigungsfrist nach der Probezeit?",
@@ -2319,6 +4322,9 @@ const cardSets = {
       question: "Was ist der Quartärsektor?",
       answer: "Der Quartärsektor umfasst den Informationssektor, der sich auf Informatiker und Informationsdienste konzentriert."
     },
+  ],
+  "WISO5": [
+
     {
       question: "Was ist das ökonomische Prinzip?",
       answer: "Das ökonomische Prinzip umfasst das Maximalprinzip (mit gegebenen Mitteln maximaler Ertrag) und das Minimalprinzip (mit gegebenem Ziel minimaler Einsatz)."
@@ -2553,290 +4559,6 @@ const cardSets = {
     {
       question: "Welche Aufgaben hat der EZB-Rat?",
       answer: "Der EZB-Rat legt Leitlinien fest, bestimmt den Leitzins und überwacht die Bankenaufsicht."
-    },
-    {
-      question: "Was ist der Leitzins?",
-      answer: "Der Leitzins ist der Zinssatz, den die EZB festlegt, und beeinflusst den Geldfluss in der Wirtschaft."
-    },
-    {
-      question: "Wie beeinflusst ein niedriger Leitzins die Wirtschaft?",
-      answer: "Ein niedriger Leitzins macht Kredite günstiger und erhöht die Geldmenge im Umlauf."
-    },
-    {
-      question: "Wie beeinflusst ein hoher Leitzins die Wirtschaft?",
-      answer: "Ein hoher Leitzins macht Kredite teurer und reduziert die Geldmenge im Umlauf."
-    },
-    {
-      question: "Was ist Inflation?",
-      answer: "Inflation bezeichnet den Rückgang der Kaufkraft des Geldes, wodurch man für den gleichen Betrag weniger kaufen kann."
-    },
-    {
-      question: "Was sind die Ursachen der Inflation?",
-      answer: "Ursachen der Inflation können Nachfrageinflation, Angebotsinflation und Geldmengeninflation sein."
-    },
-    {
-      question: "Was ist Deflation?",
-      answer: "Deflation ist der Anstieg der Kaufkraft des Geldes, wodurch man für den gleichen Betrag mehr kaufen kann."
-    },
-    {
-      question: "Was sind die Ursachen der Deflation?",
-      answer: "Deflation entsteht oft durch zu geringe Nachfrage und gleichzeitig hohes Angebot."
-    },
-    {
-      question: "Was sind die Folgen der Inflation?",
-      answer: "Inflation führt zur Entwertung von Ersparnissen und belastet vor allem Rentner und Arbeitslose."
-    },
-    {
-      question: "Wie kann Inflation bekämpft werden?",
-      answer: "Inflation kann durch eine Erhöhung des Leitzinses bekämpft werden."
-    },
-    {
-      question: "Was ist ein Warenkorb und wie wird er zur Berechnung der Inflationsrate verwendet?",
-      answer: "Der Warenkorb ist eine Zusammenstellung von typischen Waren und Dienstleistungen, deren Preisentwicklung mit dem Vorjahr verglichen wird, um die Inflationsrate zu berechnen."
-    },
-    {
-      question: "Was versteht man unter Kaufkraft?",
-      answer: "Kaufkraft beschreibt, wie viel man für eine bestimmte Menge Geld kaufen kann."
-    },
-    {
-      question: "Was ist der Binnenwert des Geldes?",
-      answer: "Der Binnenwert des Geldes beschreibt, wie viel man mit einer Einheit Geld für Güter kaufen kann."
-    },
-    {
-      question: "Was ist die Verkehrsgleichung?",
-      answer: "Die Verkehrsgleichung beschreibt das Verhältnis zwischen Geldmenge und dem Gesamtwert der gehandelten Güter."
-    },
-    {
-      question: "Was sind die Phasen des Konjunkturzyklus?",
-      answer: "Die Phasen des Konjunkturzyklus umfassen die Expansion, den Boom, die Rezession und die Depression."
-    },
-    {
-      question: "Was sind Frühindikatoren zur Konjunkturbeobachtung?",
-      answer: "Frühindikatoren sind z.B. Lagerbestände und der Aktienindex."
-    },
-    {
-      question: "Was sind Spätindikatoren zur Konjunkturbeobachtung?",
-      answer: "Spätindikatoren sind z.B. Steuereinnahmen und die Inflationsrate."
-    },
-    {
-      question: "Was sind Präsenzindikatoren zur Konjunkturbeobachtung?",
-      answer: "Präsenzindikatoren sind z.B. aktuelle Lagerbestände, Preise und offene Stellen."
-    },
-    {
-      question: "Welche Maßnahmen können zur Stabilisierung der Konjunktur ergriffen werden?",
-      answer: "Zur Stabilisierung können der Leitzins angepasst oder staatliche Schulden aufgenommen werden, um die Wirtschaft zu stützen."
-    },
-    {
-      question: "Was sind nachfragestimulierte Maßnahmen zur Konjunkturpolitik?",
-      answer: "Nachfragestimulierte Maßnahmen umfassen Subventionen, Steuersenkungen und Abschreibungsmöglichkeiten."
-    },
-    {
-      question: "Was sind angebotsseitige Maßnahmen zur Konjunkturpolitik?",
-      answer: "Angebotsseitige Maßnahmen verbessern die Produktionskapazitäten durch gute Infrastruktur und günstige Rahmenbedingungen für Unternehmen."
-    },
-    {
-      "question": "Was versteht man unter Binnenkonjunktur?",
-      "answer": "Binnenkonjunktur bezeichnet die Wirtschaftsentwicklung im Inland, die auf heimischer Nachfrage basiert."
-    },
-    {
-      "question": "Was bedeutet Preisstabilität im magischen Viereck?",
-      "answer": "Preisstabilität bedeutet die Sicherung der Kaufkraft."
-    },
-    {
-      "question": "Was ist hohe Vollbeschäftigung im magischen Viereck?",
-      "answer": "Hohe Vollbeschäftigung bedeutet weniger als 2% Arbeitslose."
-    },
-    {
-      "question": "Was bedeutet stetiges Wirtschaftswachstum im magischen Viereck?",
-      "answer": "Stetiges Wirtschaftswachstum bedeutet, dass die Wirtschaft kontinuierlich wächst."
-    },
-    {
-      "question": "Was bedeutet Gleichgewicht in der In- und Außenwirtschaft im magischen Viereck?",
-      "answer": "Gleichgewicht in der In- und Außenwirtschaft bedeutet, dass Exporte und Importe im Gleichgewicht sind."
-    },
-    {
-      "question": "Was ist die Handelsbilanz?",
-      "answer": "Die Handelsbilanz ist die Verrechnung von Export und Import von Waren."
-    },
-    {
-      "question": "Was ist die Dienstleistungsbilanz?",
-      "answer": "Die Dienstleistungsbilanz ist die Verrechnung von Export und Import von Dienstleistungen."
-    },
-    {
-      "question": "Was umfasst die Bilanz der Erwerbs- und Vermögenseinkommen?",
-      "answer": "Sie umfasst alle Kapitalanlagen, die gezahlt werden, wie etwa Zinsen und Dividenden."
-    },
-    {
-      "question": "Was ist die laufende Übertragung in der Leistungsbilanz?",
-      "answer": "Die laufende Übertragung umfasst unentgeltliche Leistungen wie Renten, Spenden und Entwicklungshilfe."
-    },
-    {
-      "question": "Was ist die Außenbilanz?",
-      "answer": "Die Außenbilanz ist die Summe der Handelsbilanz und der Dienstleistungsbilanz."
-    },
-    {
-      "question": "Was versteht man unter Vermögensübertragung?",
-      "answer": "Vermögensübertragung beschreibt einmalige Übertragungen zwischen Ländern, wie etwa Schuldenerlass oder Unterstützung von Ländern."
-    },
-    {
-      "question": "Was sind Direktinvestitionen?",
-      "answer": "Direktinvestitionen sind Beteiligungen in Form von Aktien oder anderen Beteiligungen an Unternehmen im Ausland."
-    },
-    {
-      "question": "Was versteht man unter Wertpapieren?",
-      "answer": "Wertpapiere umfassen den Erwerb und Verkauf von klassischen Wertpapieren wie Aktien oder Anleihen."
-    },
-    {
-      "question": "Was bedeutet Kreditverkehr in der Kapitalbilanz?",
-      "answer": "Kreditverkehr umfasst sowohl langfristige als auch kurzfristige Kredite zwischen Ländern."
-    },
-    {
-      "question": "Was sind nicht wiederaufladbare Transaktionen?",
-      "answer": "Nicht wiederaufladbare Transaktionen umfassen schwer nachverfolgbare Vorgänge wie Koffergeschäfte."
-    },
-    {
-      "question": "Was versteht man unter Netto-Auslands-Aktiva?",
-      "answer": "Die Netto-Auslands-Aktiva resultieren aus den Salden der Kapitalbilanz und den nicht wiederaufladbaren Transaktionen."
-    },
-    {
-      "question": "Was ist ein Devisenzufluss?",
-      "answer": "Devisenzufluss bezeichnet den Eintritt von ausländischer Währung in ein Land, z.B. durch Exporte, Tourismus oder ausländische Investitionen."
-    },
-    {
-      "question": "Was ist ein Devisenabfluss?",
-      "answer": "Devisenabfluss bezeichnet das Verlassen der heimischen Währung aus einem Land, z.B. durch Importe oder Auslandsinvestitionen."
-    },
-    {
-      "question": "Was bedeutet ein Leistungsbilanzüberschuss?",
-      "answer": "Ein Leistungsbilanzüberschuss entsteht, wenn ein Land mehr Einnahmen aus Exporten und Dienstleistungen erzielt, als es für Importe ausgibt."
-    },
-    {
-      "question": "Was sind die Folgen eines Leistungsbilanzüberschusses für die Binnenkonjunktur?",
-      "answer": "Ein Exportboom führt zu steigenden Investitionen, sinkender Arbeitslosigkeit und einer steigenden Nachfrage."
-    },
-    {
-      "question": "Was bedeutet ein Leistungsbilanzdefizit?",
-      "answer": "Ein Leistungsbilanzdefizit entsteht, wenn ein Land mehr für Importe und Dienstleistungen ausgibt als es durch Exporte und Einnahmen erzielt."
-    },
-    {
-      "question": "Was sind die Folgen eines Leistungsbilanzdefizits für die Binnenkonjunktur?",
-      "answer": "Ein hohes Importvolumen führt zu sinkenden Investitionen, steigender Arbeitslosigkeit und einer sinkenden Nachfrage."
-    },
-    {
-      "question": "Was passiert mit dem Wechselkurs im Außenhandel bei einem Leistungsbilanzdefizit?",
-      "answer": "Durch den Umtausch von Euro in Dollar steigt der Dollar-Kurs, was die Exporterlöse durch einen sinkenden Euro-Wechselkurs ausgleicht."
-    },
-    {
-      "question": "Was sind die Bedürfnisse in der Reihenfolge?",
-      "answer": "1. Grundbedürfnisse: Essen, Trinken, Schlafen. 2. Sicherheitsbedürfnisse: Haus, Wohnung, berufliche Sicherheit. 3. Sozialbedürfnisse: Freundschaft, Liebe, Zusammengehörigkeit. 4. Ich-Bedürfnisse: Anerkennung. 5. Selbstverwirklichung."
-    },
-    {
-      "question": "Was beschreibt die Formel für Rentabilität?",
-      "answer": "Rentabilität = Gewinn / Kapital."
-    },
-    {
-      "question": "Was ist Eigenkapitalrentabilität?",
-      "answer": "Eigenkapitalrentabilität zeigt die Rentabilität eines Unternehmens im Verhältnis zum eingesetzten Eigenkapital."
-    },
-    {
-      "question": "Wie wird Produktivität berechnet?",
-      "answer": "Produktivität = Output / Input."
-    },
-    {
-      "question": "Wie wird Wirtschaftlichkeit berechnet?",
-      "answer": "Wirtschaftlichkeit = Erlöse / Kosten oder Ertrag / Aufwand."
-    },
-    {
-      "question": "Wie berechnet man die Arbeitslosenquote?",
-      "answer": "Arbeitslosenquote = Arbeitslose / Erwerbspersonen * 100."
-    },
-    {
-      "question": "Was bedeutet Vollbeschäftigung?",
-      "answer": "Vollbeschäftigung bedeutet eine Arbeitslosenquote von 2% bis 4%."
-    },
-    {
-      "question": "Was ist Unterbeschäftigung?",
-      "answer": "Unterbeschäftigung liegt vor, wenn die Arbeitslosenquote mehr als 2% bis 4% beträgt."
-    },
-    {
-      "question": "Was ist Überbeschäftigung?",
-      "answer": "Überbeschäftigung bedeutet, dass mehr offene Stellen als Arbeitslose existieren."
-    },
-    {
-      "question": "Was ist friktionelle Arbeitslosigkeit?",
-      "answer": "Friktionelle Arbeitslosigkeit tritt auf, wenn jemand aufgrund eines Jobwechsels vorübergehend arbeitslos ist."
-    },
-    {
-      "question": "Was ist saisonale Arbeitslosigkeit?",
-      "answer": "Saisonale Arbeitslosigkeit entsteht, wenn aufgrund jahreszeitbedingter Faktoren wie in der Landwirtschaft oder im Tourismus keine Arbeit vorhanden ist."
-    },
-    {
-      "question": "Was ist konjunkturelle Arbeitslosigkeit?",
-      "answer": "Konjunkturelle Arbeitslosigkeit tritt auf, wenn die Wirtschaft schwächelt und weniger Arbeitsplätze zur Verfügung stehen."
-    },
-    {
-      "question": "Was ist strukturelle Arbeitslosigkeit?",
-      "answer": "Strukturelle Arbeitslosigkeit entsteht durch Umstrukturierungen, wie etwa durch den Wandel in bestimmten Branchen oder Technologien."
-    },
-    {
-      "question": "Was ist langzeit Arbeitslosigkeit?",
-      "answer": "Langzeit Arbeitslosigkeit liegt vor, wenn jemand mehr als ein Jahr lang arbeitslos ist."
-    },
-    {
-      "question": "Was ist die Theorie der freien Marktwirtschaft?",
-      "answer": "Die Theorie der freien Marktwirtschaft besagt, dass freier Handel zum Wohlstand aller führt."
-    },
-    {
-      "question": "Wie funktioniert der Staat in einer freien Marktwirtschaft?",
-      "answer": "In einer freien Marktwirtschaft greift der Staat nicht ein und agiert als 'Nachtwächter'."
-    },
-    {
-      "question": "Wie erfolgt die Preisbildung in einer freien Marktwirtschaft?",
-      "answer": "In einer freien Marktwirtschaft erfolgt die Preisbildung durch Angebot und Nachfrage."
-    },
-    {
-      "question": "Welche Probleme gibt es in der freien Marktwirtschaft?",
-      "answer": "In der freien Marktwirtschaft können Monopole entstehen, und sozial schwache Menschen können ausgenutzt werden."
-    },
-    {
-      "question": "Was ist die Theorie der Zentralverwaltungswirtschaft?",
-      "answer": "Die Theorie der Zentralverwaltungswirtschaft besagt, dass es kein Privat Eigentum an Produktionsmitteln gibt."
-    },
-    {
-      "question": "Wie funktioniert der Staat in einer Zentralverwaltungswirtschaft?",
-      "answer": "In einer Zentralverwaltungswirtschaft ist der Staat Eigentümer der Produktionsmittel und verwaltet die Wirtschaft durch eine Planungsbehörde."
-    },
-    {
-      "question": "Wie erfolgt die Preisbildung in einer Zentralverwaltungswirtschaft?",
-      "answer": "In einer Zentralverwaltungswirtschaft bestimmt der Staat die Preise."
-    },
-    {
-      "question": "Welche Probleme gibt es in einer Zentralverwaltungswirtschaft?",
-      "answer": "In einer Zentralverwaltungswirtschaft gibt es keine freie Entfaltung für den Einzelnen."
-    },
-    {
-      "question": "Was ist die Theorie der sozialen Marktwirtschaft?",
-      "answer": "Die Theorie der sozialen Marktwirtschaft vereint die besten Aspekte der freien Marktwirtschaft und der zentralen Planung."
-    },
-    {
-      "question": "Wie funktioniert der Staat in einer sozialen Marktwirtschaft?",
-      "answer": "In einer sozialen Marktwirtschaft hat der Staat viele Freiheiten und nur wenig Einfluss, und es wird eine 'Sozialstadt' angestrebt."
-    },
-    {
-      "question": "Was ist das Solidaritätsprinzip?",
-      "answer": "Das Solidaritätsprinzip besagt, dass die Gemeinschaft dem Einzelnen hilft."
-    },
-    {
-      "question": "Was ist das Subsidiaritätsprinzip?",
-      "answer": "Das Subsidiaritätsprinzip besagt, dass der Staat einspringt, wenn der Einzelne sich nicht mehr selbst helfen kann."
-    },
-    {
-      "question": "Was sind marktkonforme Maßnahmen?",
-      "answer": "Marktkonforme Maßnahmen beinhalten staatliche Unterstützungen wie Wohngeld oder Kindergeld."
-    },
-    {
-      "question": "Was sind marktkonträre Maßnahmen?",
-      "answer": "Marktkonträre Maßnahmen beinhalten staatliche Eingriffe in den Markt, wie Mindestlöhne, Gaspreisbremse oder Mietpreisbremse."
     },
     { "question": "Was sind natürliche Personen?", "answer": "Jeder Mensch ab der Geburt bis zum Tod." },
     { "question": "Wann beginnt die Rechtsfähigkeit juristischer Personen?", "answer": "Mit der Gründung, z.B. Eintragung ins Handelsregister." },
@@ -3543,6 +5265,142 @@ const cardSets = {
   ],
   "Projektmanagement": [
     {
+      "question": "Warum ändern sich Anforderungen in IT-Projekten?",
+      "answer": "Anforderungen ändern sich, weil Stakeholder ihre Ziele aufgrund neuer Informationen oder Änderungen in Gesetzen anpassen."
+    },
+    {
+      "question": "Welche Folgen haben sich ändernde Anforderungen in IT-Projekten?",
+      "answer": "In 56% der IT-Projekte passen die ursprünglichen Anforderungen nicht zum Endprodukt, was zu Zeit- und Budgetverschwendung führt."
+    },
+    {
+      "question": "Was ist das Ziel von Anforderungsmanagement?",
+      "answer": "Das Ziel ist es, sicherzustellen, dass die Anforderungen der internen und externen Stakeholder an das Produkt erfüllt werden."
+    },
+    {
+      "question": "Was sind die Qualitätsmerkmale der Dokumentation von Anforderungen?",
+      "answer": "Vollständig, Adäquat, Verständlich, Eindeutig, Prüfbar, Nachverfolgbar, Risikogerecht."
+    },
+    {
+      "question": "Was sind die drei Aspekte des magischen Dreiecks des Projektmanagements?",
+      "answer": "Zeit, Kosten (Ressourcen) und Qualität."
+    },
+    {
+      "question": "Was zeichnet ein Projekt aus?",
+      "answer": "Ein Projekt ist einmalig, mit klarem Ziel, abgegrenzt von anderen Vorhaben, zeitlich begrenzt, mit eigener Organisation, definiertem Team und finanziellen Abgrenzungen."
+    },
+    {
+      "question": "Was ist ein phasenorientiertes Vorgehen im Projektmanagement?",
+      "answer": "Ein phasenorientiertes Vorgehen unterteilt das Projekt in klar definierte Phasen mit Meilensteinen nach jeder Phase. Nur bei erfolgreichem Abschluss geht es weiter."
+    },
+    {
+      "question": "Wann eignet sich das phasenorientierte Vorgehen?",
+      "answer": "Es eignet sich bei stabilen, planbaren Projekten, wie z.B. beim Wasserfall- oder V-Modell."
+    },
+    {
+      "question": "Was ist iteratives Vorgehen im Projektmanagement?",
+      "answer": "Iteratives Vorgehen bedeutet, dass die Phasen des Projekts nacheinander durchlaufen werden, jedoch in mehreren Zyklen."
+    },
+    {
+      "question": "Was ist evolutionäres Vorgehen im Projektmanagement?",
+      "answer": "Evolutionäres Vorgehen ist iterativ, mit mehr Spielraum für Änderungen und Fokus auf funktionierendem Code, oft ohne umfassende Planung."
+    },
+    {
+      "question": "Was ist das Ziel des agilen Vorgehens?",
+      "answer": "Das Ziel des agilen Vorgehens ist es, mit hoher Flexibilität auf Änderungen zu reagieren, während Planung, Entwicklung und Tests oft parallel laufen."
+    },
+    {
+      "question": "Welche Methoden gehören zum agilen Vorgehen?",
+      "answer": "Beispiele sind Scrum und Kanban."
+    },
+    {
+      "question": "Welche Phasen umfasst das agile Vorgehen?",
+      "answer": "Das agile Vorgehen umfasst die Phasen Planung, Entwicklung und Test."
+    },
+    {
+      "question": "Was sind die 4 Ebenen der Kommunikation?",
+      "answer": "Die vier Ebenen der Kommunikation sind: Sachebene, Selbstkundgabe, Beziehungsebene und Appell-Ebene."
+    },
+    {
+      "question": "Was ist die Sachebene in der Kommunikation?",
+      "answer": "Die Sachebene betrifft Fakten, Daten und reine Informationen, also die Frage ‚Worum geht es?‘."
+    },
+    {
+      "question": "Was ist die Selbstkundgabe in der Kommunikation?",
+      "answer": "Die Selbstkundgabe zeigt, was der Sender über sich selbst preisgibt, wie z.B. Gefühle und Einstellungen."
+    },
+    {
+      "question": "Was beschreibt die Beziehungsebene in der Kommunikation?",
+      "answer": "Die Beziehungsebene zeigt, wie der Sender zum Empfänger steht, z.B. durch Ton, Mimik und Gestik."
+    },
+    {
+      "question": "Was ist die Appell-Ebene in der Kommunikation?",
+      "answer": "Die Appell-Ebene beschreibt, was der Sender beim Empfänger bewirken möchte, z.B. ein Wunsch oder ein Befehl."
+    },
+    {
+      "question": "Was bedeutet Usability?",
+      "answer": "Usability bedeutet, wie benutzerfreundlich ein digitales Produkt ist. Es hängt immer von der Zielgruppe ab."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Utility und Usability?",
+      "answer": "Utility beschreibt, was das Produkt kann. Usability beschreibt, wie gut man das Produkt benutzen kann."
+    },
+    {
+      "question": "Was ist UX?",
+      "answer": "UX (User Experience) ist das gesamte Erlebnis, das ein Nutzer mit einem Produkt hat. Ziel ist es, eine positive Erfahrung zu schaffen."
+    },
+    {
+      "question": "Was ist das Ziel einer guten UX?",
+      "answer": "Das Ziel einer guten UX ist es, dass der Nutzer eine positive Erfahrung macht und sich für das Produkt begeistert."
+    },
+    {
+      "question": "Was ist eine sinnvolle Reihenfolge in der Produktplanung?",
+      "answer": "Die sinnvolle Reihenfolge ist: Use case → Sketch → Wireframe → Mockup → Prototype → Produkt."
+    },
+    {
+      "question": "Was ist wichtig bei einem UI, um eine gute UX zu erreichen?",
+      "answer": "Ein konsistentes Design, Mobile First, Responsive Design, intuitive Navigation, schnelle Ladezeit, Performance und Feedback."
+    },
+    {
+      "question": "Was ist ein API-Call?",
+      "answer": "Ein API-Call ist eine Anfrage von einem Programm an eine andere Software oder einen Server, um Daten zu erhalten oder eine Aktion auszuführen."
+    },
+    {
+      "question": "Wie viele Hauptarten von Anforderungen gibt es und welche sind das?",
+      "answer": "Es gibt drei Hauptarten von Anforderungen: Funktionale Anforderungen, Nicht-funktionale Anforderungen und Randbedingungen."
+    },
+    {
+      "question": "Welche funktionalen Anforderungen gibt es?",
+      "answer": "Beispielsweise Benutzerschnittstellen, Architektur, Stromversorgung und Lastenbalancierung."
+    },
+    {
+      "question": "Welche nicht-funktionalen Anforderungen gibt es?",
+      "answer": "Beispielsweise Performance, Sicherheit, Benutzbarkeit, Testbarkeit, Wartbarkeit und Portabilität."
+    },
+    {
+      "question": "Welche Randbedingungen gibt es?",
+      "answer": "Beispielsweise Kosten, Marktanalyse, Prozesse, Vertrieb, Organisation und Dokumentation."
+    },
+    {
+      "question": "Was ist Anforderungsermittlung im Software-Engineering?",
+      "answer": "Anforderungsermittlung bezieht sich auf die Sammlung der Anforderungen aus verschiedenen Quellen mittels Erhebungsmethodik."
+    },
+    {
+      "question": "Was sind die wichtigsten Schritte der Anforderungsermittlung?",
+      "answer": "Die Schritte umfassen Erhebung, Dokumentation und Verwaltung der Anforderungen."
+    },
+    {
+      "question": "Was ist die Bedeutung der Dokumentation im Anforderungsmanagement?",
+      "answer": "Dokumentation sorgt dafür, dass die Anforderungen klar und nachvollziehbar festgehalten werden."
+    },
+    {
+      "question": "Was ist die Verwaltung von Anforderungen?",
+      "answer": "Verwaltung stellt sicher, dass Anforderungen validiert, priorisiert und bei Änderungen nachverfolgt werden können."
+    },
+    {
+      "question": "Welche Erhebungsmethoden gibt es?",
+      "answer": "Erhebungsmethoden sind z.B. Interviews, Kundenumfragen, Personenanalysen, Prototypen, offene und verdeckte Beobachtungen, Konkurrenzanalysen."
+    },
+    {
       "question": "Was versteht man unter ‚Lessons Learned‘ in einem Projekt?",
       "answer": "‚Lessons Learned‘ bezieht sich auf die Erkenntnisse und Erfahrungen, die am Ende eines Projektes gesammelt werden. Diese können sowohl positive als auch negative Aspekte umfassen und dienen dazu, aus den gemachten Erfahrungen zu lernen und zukünftige Projekte zu verbessern."
     },
@@ -3612,11 +5470,11 @@ const cardSets = {
     },
     {
       question: "Welche Phasen umfasst der Software-Lebenszyklus?",
-      answer: "Der Software-Lebenszyklus umfasst die Phasen Anforderungsanalyse, Design/Entwurf, Implementierung, Test, Abnahme und Wartung."
+      answer: "Anforderungsanalyse, Design, Implementierung, Test, Abnahme und Wartung."
     },
     {
       question: "Was sind die Projektphasen?",
-      answer: "Die Projektphasen sind Initialisierung, Analyse, Planen, Ausführen, Überwachen/Testen, Abschluss/Abnahme und Wartung."
+      answer: "Initialisierung, Analyse, Planung, Durchführung, Überwachen, Abschluss."
     },
     {
       question: "Was ist ein Meilenstein in einem Projekt?",
@@ -3890,7 +5748,7 @@ const cardSets = {
     },
     {
       "question": "Was ist die Aktivierungsfunktion in einem neuronalen Netzwerk?",
-      "answer": "Die Aktivierungsfunktion entscheidet, ob ein Neuron ein Signal weitergibt. Sie verarbeitet die gewichtete Summe der Eingaben und gibt z. B. 0 oder 1 aus oder einen Wert dazwischen."
+      "answer": "Die Aktivierungsfunktion entscheidet, ob ein Neuron ein Signal weitergibt. Sie verarbeitet die gewichtete Summe der Eingaben und gibt z.B. 0 oder 1 aus oder einen Wert dazwischen."
     },
     {
       "question": "Wie lernt ein neuronales Netzwerk?",
@@ -4071,6 +5929,462 @@ const cardSets = {
     {
       "question": "Was ist ein Deep Learning Framework?",
       "answer": "Ein Deep Learning Framework ist eine Softwarebibliothek wie TensorFlow oder PyTorch, die Entwicklern hilft, neuronale Netzwerke zu erstellen, zu trainieren und zu testen."
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Was entspricht einem Tupel im Relationen-Modell?",
+      "answer": "Ein Tupel entspricht im Relationen-Modell der Entität des ER-Modells."
+    },
+    {
+      "question": "Wie werden Beziehungen zwischen Relationen im Relationen-Modell erstellt?",
+      "answer": "Beziehungen zwischen Relationen werden mit Hilfe von Fremdschlüsseln erstellt."
+    },
+    {
+      "question": "Was entspricht einer Relation im Relationen-Modell?",
+      "answer": "Eine Relation im Relationen-Modell entspricht in der relationalen Datenbank einer Tabelle."
+    },
+    {
+      "question": "Was macht ein Primärschlüssel?",
+      "answer": "Ein Primärschlüssel macht jede Tabelle eindeutig identifizierbar."
+    },
+    {
+      "question": "Was ist ein anderes Wort für Suchschlüssel?",
+      "answer": "Ein anderes Wort für Suchschlüssel ist Index."
+    },
+    {
+      "question": "Welche Voraussetzung muss bei der Bildung von Primärschlüsseln eingehalten werden?",
+      "answer": "Bei der Bildung von Primärschlüsseln muss das Prinzip der Eindeutigkeit eingehalten werden."
+    },
+    {
+      "question": "Was entspricht einer Tabelle im logischen Datenmodell?",
+      "answer": "Eine Tabelle entspricht der Entitätsmenge im logischen Datenmodell."
+    },
+    {
+      "question": "Was beschreibt das ER-Modell?",
+      "answer": "Das ER-Modell beschreibt Daten in einem bestimmten Anwendungsbereich und dient zur Modellierung eines Ausschnitts der realen Welt."
+    },
+    {
+      "question": "Was ist eine Datenbank?",
+      "answer": "Eine Datenbank fasst zusammengehörige Entitätstypen in Tabellen zusammen."
+    },
+    {
+      "question": "Was ist eine Entität?",
+      "answer": "Eine Entität ist ein konkretes Objekt, das in der Datenbank abgebildet wird."
+    },
+    {
+      "question": "Was ist eine Entitätsmenge?",
+      "answer": "Eine Entitätsmenge ist die Gruppe gleichartiger Entitäten, z.B. alle Kunden."
+    },
+    {
+      "question": "Was speichert eine Tabelle oder Relation?",
+      "answer": "Eine Tabelle oder Relation speichert gleichartige Entitäten, wobei jede Tabellenzeile einen Datensatz (Tupel) repräsentiert."
+    },
+    {
+      "question": "Was enthält ein Datensatz oder Tupel?",
+      "answer": "Ein Datensatz oder Tupel enthält alle zusammengehörigen Werte einer Entität."
+    },
+    {
+      "question": "Was ist ein Attribut?",
+      "answer": "Ein Attribut beschreibt eine Eigenschaft eines Entitätstyps und entspricht einer Spalte der Tabelle."
+    },
+    {
+      "question": "Was ist ein Datenfeld?",
+      "answer": "Ein Datenfeld enthält den Wert eines Attributs in einem Datensatz."
+    },
+    {
+      "question": "Was ist der Zweck eines Datentyps?",
+      "answer": "Der Datentyp definiert das Format und die Größe eines Attributs."
+    },
+    {
+      "question": "Was ist ein Schlüssel?",
+      "answer": "Ein Schlüssel ist ein Attribut oder eine Attributkombination, die eine Entität eindeutig identifiziert."
+    },
+    {
+      "question": "Was ist ein Primärschlüssel?",
+      "answer": "Der Primärschlüssel ist der eindeutig gewählte Hauptschlüssel, der oft künstlich ist (z.B. Mitarbeiter-Nr)."
+    },
+    {
+      "question": "Was ist DDL (Data Definition Language)?",
+      "answer": "DDL wird verwendet, um die Struktur von Datenbanken und Tabellen zu erstellen, zu ändern oder zu löschen."
+    },
+    {
+      "question": "Was wird mit DQL (Data Query Language) gemacht?",
+      "answer": "DQL dient der Abfrage von Daten aus einer Datenbank, hauptsächlich über den SELECT-Befehl."
+    },
+    {
+      "question": "Was macht DML (Data Manipulation Language)?",
+      "answer": "DML wird genutzt, um Daten in Tabellen einzufügen, zu ändern oder zu löschen."
+    },
+    {
+      "question": "Was regelt DCL (Data Control Language)?",
+      "answer": "DCL regelt den Zugriff auf Datenbankobjekte durch Rechtevergabe."
+    },
+    {
+      "question": "Was ist eine Fremdschlüsselverletzung?",
+      "answer": "Eine Fremdschlüsselverletzung tritt auf, wenn Datensätze in einer Tabelle gelöscht werden, auf die andere Tabellen verweisen, und die Löschaktion von der eingestellten Aktion abhängt (RESTRICT, CASCADE, SET NULL)."
+    },
+    {
+      "question": "Was ist SQL?",
+      "answer": "SQL (Structured Query Language) ist eine standardisierte Sprache zur Verwaltung und Abfrage von Daten in relationalen Datenbanken."
+    },
+    {
+      "question": "Was ist eine relationale Datenbank?",
+      "answer": "Eine relationale Datenbank speichert Daten in Tabellen, die durch Beziehungen miteinander verbunden sind."
+    },
+    {
+      "question": "Was ist eine Tabelle in SQL?",
+      "answer": "Eine Tabelle ist eine strukturierte Sammlung von Daten, die in Zeilen und Spalten organisiert ist."
+    },
+    {
+      "question": "Was ist ein Primärschlüssel?",
+      "answer": "Ein Primärschlüssel ist ein eindeutiger Bezeichner für jede Zeile in einer Tabelle."
+    },
+    {
+      "question": "Was ist ein Fremdschlüssel?",
+      "answer": "Ein Fremdschlüssel ist ein Feld in einer Tabelle, das auf den Primärschlüssel einer anderen Tabelle verweist."
+    },
+    {
+      "question": "Welche Anomalien können bei einer unnormalisierten Datenbank auftreten?",
+      "answer": "Einfüge-, Änderungs- und Löschanomalien. Diese können zu Dateninkonsistenzen oder Datenverlust führen."
+    },
+    {
+      "question": "Was ist das Ziel der Normalisierung in einer Datenbank?",
+      "answer": "Die Vermeidung von Redundanzen und Anomalien durch strukturierte und logische Aufteilung der Daten auf mehrere Tabellen."
+    },
+    {
+      "question": "Was sind die Merkmale der 1. Normalform (1NF)?",
+      "answer": "Alle Werte in den Attributen müssen atomar sein (nicht weiter teilbar). Mehrfache Werte werden in einzelne Zeilen ausgelagert."
+    },
+    {
+      "question": "Was ist Voraussetzung für die 2. Normalform (2NF)?",
+      "answer": "Die 1. Normalform muss erfüllt sein. Zusätzlich dürfen Nicht-Schlüsselattribute nur vom gesamten Primärschlüssel abhängig sein (voll funktional abhängig)."
+    },
+    {
+      "question": "Welche Beziehungen müssen bei der 2. Normalform beachtet werden?",
+      "answer": "Fremdschlüssel müssen eingefügt werden, um Tabellen bei Bedarf zu verknüpfen (1:N, N:1 oder 1:1). N:M-Beziehungen werden durch Zwischentabellen aufgelöst."
+    },
+    {
+      "question": "Was ist die Voraussetzung für die 3. Normalform (3NF)?",
+      "answer": "Die 2. Normalform muss erfüllt sein. Außerdem dürfen keine transitiven Abhängigkeiten bestehen (ein Nicht-Schlüsselattribut darf nicht von einem anderen Nicht-Schlüsselattribut abhängen)."
+    },
+    { "question": "Datenbank: Was ist eine Entität?", "answer": "Ein konkretes Objekt, das gespeichert werden soll." },
+    { "question": "Datenbank: Was ist eine Entitätsmenge?", "answer": "Gruppe ähnlicher Entitäten." },
+    { "question": "Datenbank: Was ist ein DBMS?", "answer": "Software zur Verwaltung von Datenbanken." },
+    { "question": "Datenbank: Was ist eine Tabelle?", "answer": "Struktur zur Speicherung gleichartiger Entitäten." },
+    { "question": "Datenbank: Was ist ein Datensatz/Tupel?", "answer": "Daten zu einer Entität in einer Tabellenzeile." },
+    { "question": "Datenbank: Was ist ein Attribut?", "answer": "Merkmal eines Entitätstyps, z.B. Name." },
+    { "question": "Datenbank: Was ist ein Datenfeld?", "answer": "Attribut + konkreter Wert." },
+    { "question": "Datenbank: Was legt der Datentyp fest?", "answer": "Typ des Attributs (Text, Zahl, Datum)." },
+    { "question": "Phasen der Datenbankentwicklung: Was ist Ziel der externen Phase?", "answer": "Ermittlung des Informationsbedarfs der Nutzer." },
+    { "question": "Phasen der Datenbankentwicklung: Was ist Ziel der konzeptionellen Phase?", "answer": "Formale Beschreibung aller relevanten Objekte und Beziehungen." },
+    { "question": "Phasen der Datenbankentwicklung: Was ist Ziel der logischen Phase?", "answer": "Umsetzung des semantischen Modells in ein relationales Modell." },
+    { "question": "Phasen der Datenbankentwicklung: Was ist Ziel der physischen Phase?", "answer": "Modellierung der Datenbankstruktur in einem konkreten DBMS." },
+    { "question": "SQL: Was bedeutet DDL?", "answer": "Data Definition Language - Strukturierung der Datenbank." },
+    { "question": "SQL: Was bedeutet DML?", "answer": "Data Manipulation Language - Arbeiten mit den Daten." },
+    { "question": "SQL: Was bedeutet DQL?", "answer": "Data Query Language - Daten abfragen." },
+    { "question": "SQL: Was bedeutet DCL?", "answer": "Data Control Language - Zugriffsrechte verwalten." },
+    { "question": "SQL-Code: Einfaches SELECT-Statement?", "answer": "SELECT Vorname, Nachname\nFROM Kunden;" },
+    { "question": "SQL-Code: SELECT mit WHERE und LIKE?", "answer": "SELECT Vorname, Nachname\nFROM Kunden\nWHERE Nachname LIKE 'Me%';" },
+    { "question": "SQL-Code: SELECT mit JOIN?", "answer": "SELECT Kunden.Vorname, Bestellungen.Produkt\nFROM Kunden\nJOIN Bestellungen ON Kunden.KundenID = Bestellungen.KundenID;" },
+    { "question": "SQL-Code: SELECT + WHERE + LIKE kombiniert?", "answer": "SELECT Bestellungen.Produkt\nFROM Bestellungen\nWHERE Bestellungen.Produkt LIKE '%Buch';" },
+    { "question": "SQL-Code: Alias für Tabellen?", "answer": "SELECT k.Vorname, k.Nachname, b.Produkt\nFROM Kunden AS k\nJOIN Bestellungen AS b ON k.KundenID = b.KundenID;" },
+    { "question": "SQL-Code: CREATE TABLE Beispiel Kunden?", "answer": "CREATE TABLE Kunden (\n\tProduktID INT PRIMARY KEY,\n\tProduktname VARCHAR(100),\n\tPreis DECIMAL(10,2),\n\tVerfügbar BOOLEAN,\n\tErstellungsdatum DATE,\n\tBild BLOB\n);" },
+    { "question": "SQL-Code: CREATE TABLE mit Fremdschlüssel?", "answer": "CREATE TABLE Bestellungen (\n\tBestellID INT PRIMARY KEY,\n\tProdukt VARCHAR(100),\n\tBestelldatum DATE,\n\tKundenID INT,\n\tFOREIGN KEY (KundenID) REFERENCES Kunden(KundenID)\n);" },
+    { "question": "SQL-Code: SELECT mit ORDER BY?", "answer": "SELECT Vorname, Nachname, Geburtsdatum\nFROM Kunden\nORDER BY Geburtsdatum DESC;" },
+    { "question": "SQL: Aggregatfunktion zum Zählen?", "answer": "SELECT COUNT(*) AS AnzahlKunden\nFROM Kunden;" },
+    { "question": "SQL: Aggregatfunktion zum Summieren?", "answer": "SELECT SUM(Preis) AS Gesamtumsatz\nFROM Bestellungen;" },
+    { "question": "SQL: Aggregatfunktion für Durchschnitt?", "answer": "SELECT AVG(Preis) AS Durchschnittspreis\nFROM Produkte;" },
+    { "question": "SQL: Aggregatfunktion für Maximum?", "answer": "SELECT MAX(Preis) AS HöchsterPreis\nFROM Produkte;" },
+    { "question": "SQL: Aggregatfunktion für Minimum?", "answer": "SELECT MIN(Preis) AS NiedrigsterPreis\nFROM Produkte;" },
+    { "question": "SQL: GROUP BY mit Aggregatfunktion?", "answer": "SELECT KundenID, COUNT(*) AS AnzahlBestellungen\nFROM Bestellungen\nGROUP BY KundenID;" },
+    { "question": "SQL: HAVING nach Aggregatfunktion?", "answer": "SELECT KundenID, COUNT(*) AS AnzahlBestellungen\nFROM Bestellungen\nGROUP BY KundenID\nHAVING COUNT(*) > 5;" },
+    { "question": "SQL-Code: INSERT INTO Beispiel?", "answer": "INSERT INTO Kunden (KundenID, Vorname, Nachname, Email, Geburtsdatum)\nVALUES (1, 'Max', 'Mustermann', 'max.mustermann@email.com', '1985-06-15');" },
+    { "question": "SQL: Generelle Struktur einer SQL-Abfrage?", "answer": "SELECT <Spalten>\nFROM <Tabelle1>\nJOIN <Tabelle2> ON <Bedingung>\nWHERE <Bedingung>\nGROUP BY <Spalten>\nHAVING <Bedingung>\nORDER BY <Spalten> [ASC|DESC]\nLIMIT <Anzahl>;" },
+    { "question": "SQL-Code: SELECT mit Zeitraum (BETWEEN)?", "answer": "SELECT BestellID, KundenID, Bestelldatum, Betrag\nFROM Bestellungen\nWHERE Bestelldatum BETWEEN '2025-01-01' AND '2025-04-01';" },
+    { "question": "SQL-Code: SELECT nach Monat und Jahr?", "answer": "SELECT BestellID, KundenID, Bestelldatum, Betrag\nFROM Bestellungen\nWHERE YEAR(Bestelldatum) = 2025 AND MONTH(Bestelldatum) = 4;" },
+    { "question": "SQL-Code: Aktuelles Datum mit NOW()?", "answer": "SELECT BestellID, KundenID, Bestelldatum, Betrag\nFROM Bestellungen\nWHERE Bestelldatum = CURDATE();" },
+    { "question": "SQL-Code: Subquery in WHERE?", "answer": "SELECT Vorname, Nachname\nFROM Kunden\nWHERE KundenID IN (SELECT KundenID FROM Bestellungen WHERE Betrag > 100);" },
+    { "question": "SQL-Code: Subquery im SELECT-Teil?", "answer": "SELECT Vorname, Nachname,\n(SELECT COUNT(*) FROM Bestellungen WHERE Bestellungen.KundenID = Kunden.KundenID) AS Bestellanzahl\nFROM Kunden;" },
+    { "question": "SQL-Code: Subquery im FROM-Teil?", "answer": "SELECT Sub.KundenID, Sub.Bestellanzahl\nFROM (SELECT KundenID, COUNT(*) AS Bestellanzahl FROM Bestellungen GROUP BY KundenID) AS Sub;" },
+    { "question": "SQL-Code: Subquery in JOIN?", "answer": "SELECT Kunden.Vorname, Kunden.Nachname, Bestellungen.Betrag\nFROM Kunden\nINNER JOIN (SELECT KundenID, Betrag FROM Bestellungen WHERE Betrag > 100) AS Bestellungen\nON Kunden.KundenID = Bestellungen.KundenID;" },
+    { "question": "SQL-Code: Neue Spalte hinzufügen?", "answer": "ALTER TABLE Kunden\nADD Geburtsdatum DATE;" },
+    { "question": "SQL-Code: Spalte löschen?", "answer": "ALTER TABLE Kunden\nDROP COLUMN Geburtsdatum;" },
+    { "question": "SQL-Code: Ganze Tabelle löschen?", "answer": "DROP TABLE Kunden;" },
+    { "question": "SQL: LIKE mit %?", "answer": "SELECT * FROM Kunden\nWHERE Name LIKE 'A%';" },
+    { "question": "SQL: LIKE mit _ (Unterstrich)?", "answer": "SELECT * FROM Kunden\nWHERE Name LIKE '__e__';" }
+    ,
+    {
+      "question": "Welche fünf Haupttypen von Datenbanken werden allgemein unterschieden?",
+      "answer": "Relationale Datenbanken, NoSQL-Datenbanken, Objektorientierte Datenbanken, Hierarchische Datenbanken und Netzwerkdatenbanken."
+    },
+    {
+      "question": "Was sind die NoSQL-Datenbank-Typen?",
+      "answer": "Key-Value-Stores, Dokumentenorientiert, Spaltenorientiert und Graphdatenbanken."
+    },
+    {
+      "question": "Was ist die Grundidee relationaler Datenbanken?",
+      "answer": "Daten werden in Tabellen (Relationen) gespeichert – Zeilen sind Datensätze, Spalten sind Attribute."
+    },
+    {
+      "question": "Wie werden Beziehungen zwischen Tabellen in relationalen Datenbanken hergestellt?",
+      "answer": "Beziehungen werden über Primär- und Fremdschlüssel hergestellt."
+    },
+    {
+      "question": "Welche Abfragesprache wird in relationalen Datenbanken verwendet?",
+      "answer": "SQL (Structured Query Language)."
+    },
+    {
+      "question": "Was sind die Vorteile relationaler Datenbanken?",
+      "answer": "Sie sind strukturiert, konsistent und weit verbreitet."
+    },
+    {
+      "question": "Nenne Beispiele für relationale Datenbanken.",
+      "answer": "MySQL, PostgreSQL, Oracle, Microsoft SQL Server."
+    },
+    {
+      "question": "Was ist die Grundidee von NoSQL-Datenbanken?",
+      "answer": "NoSQL-Datenbanken sind flexibler als RDBMS und haben keine feste Tabellenstruktur."
+    },
+    {
+      "question": "Für was sind NoSQL-Datenbanken besonders geeignet?",
+      "answer": "Für große, verteilte, unstrukturierte Datenmengen."
+    },
+    {
+      "question": "Welche Haupttypen von NoSQL-Datenbanken gibt es?",
+      "answer": "Key-Value-Stores, Dokumentenorientiert, Spaltenorientiert und Graphdatenbanken."
+    },
+    {
+      "question": "Was sind Key-Value-Stores in NoSQL-Datenbanken?",
+      "answer": "Sie speichern Daten als Schlüssel-Wert-Paare und sind oft sehr schnell, häufig in-memory."
+    },
+    {
+      "question": "Nenne Beispiele für Key-Value-Stores.",
+      "answer": "Redis, Amazon DynamoDB."
+    },
+    {
+      "question": "Was ist die Besonderheit von dokumentenorientierten NoSQL-Datenbanken?",
+      "answer": "Sie speichern Daten als Dokumente (z.B. JSON, BSON), die eine sehr flexible Struktur bieten und oft alle relevanten Informationen enthalten."
+    },
+    {
+      "question": "Nenne Beispiele für dokumentenorientierte NoSQL-Datenbanken.",
+      "answer": "MongoDB, CouchDB."
+    },
+    {
+      "question": "Was bedeutet ‚self-contained‘ bei dokumentenorientierten Datenbanken?",
+      "answer": "Jedes Dokument enthält alle relevanten Informationen für einen bestimmten Anwendungsfall."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen relationalen und dokumentenorientierten Datenbanken?",
+      "answer": "Dokumentenorientierte Datenbanken haben keine klassischen Relationen wie relationale Datenbanken, sondern stellen Beziehungen oft nur durch IDs oder Referenzen her."
+    },
+    {
+      "question": "Was ist die Besonderheit von spaltenorientierten NoSQL-Datenbanken?",
+      "answer": "Sie speichern Daten spaltenweise statt zeilenweise, was sie ideal für analytische Abfragen mit vielen gleichartigen Werten macht."
+    },
+    {
+      "question": "Nenne Beispiele für spaltenorientierte NoSQL-Datenbanken.",
+      "answer": "Apache Cassandra, HBase."
+    },
+    {
+      "question": "Was ist die Grundidee von Graphdatenbanken?",
+      "answer": "Graphdatenbanken speichern Daten in Knoten und Kanten und sind ideal für Netzwerke und Beziehungen."
+    },
+    {
+      "question": "Nenne Beispiele für Graphdatenbanken.",
+      "answer": "Neo4j, ArangoDB."
+    },
+    {
+      "question": "Für was sind Graphdatenbanken besonders geeignet?",
+      "answer": "Sie sind ideal für die Modellierung von Beziehungen, z.B. in sozialen Netzwerken oder bei vernetzten Geräten."
+    },
+    {
+      "question": "Was ist die Grundidee von objektorientierten Datenbanken?",
+      "answer": "Objektorientierte Datenbanken speichern komplette Objekte mit Attributen und Methoden, ähnlich wie in der objektorientierten Programmierung."
+    },
+    {
+      "question": "Nenne Beispiele für objektorientierte Datenbanken.",
+      "answer": "db4o, ObjectDB."
+    },
+    {
+      "question": "Wie speichern hierarchische Datenbanken Daten?",
+      "answer": "Daten werden in einer Baumstruktur gespeichert, wobei jeder Datensatz einen 'Eltern'-Datensatz hat."
+    },
+    {
+      "question": "Welche Vorteile und Nachteile haben hierarchische Datenbanken?",
+      "answer": "Sie sind schnell für bestimmte Abfragen, aber unflexibel bei Änderungen."
+    },
+    {
+      "question": "Nenne ein Beispiel für eine hierarchische Datenbank.",
+      "answer": "IBM IMS."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen hierarchischen und Netzwerkdatenbanken?",
+      "answer": "Netzwerkdatenbanken erlauben es, dass ein Datensatz mehrere 'Eltern' haben kann, was sie flexibler, aber komplexer macht."
+    },
+    {
+      "question": "Nenne ein Beispiel für eine Netzwerkdatenbank.",
+      "answer": "Integrated Data Store (IDS)."
+    }
+
+  ],
+  "Arch und Test":[
+    {
+      "question": "Was bedeutet es, dass Phasen in der Softwareentwicklung häufig iterativ durchlaufen werden?",
+      "answer": "Phasen werden häufig mit Wiederholungen in kurzen Abständen durchlaufen."
+    },
+    {
+      "question": "Was bildet die Grundlage für die Implementierung in der Softwareentwicklung?",
+      "answer": "Der Softwareentwurf bildet die Grundlage für die Implementierung."
+    },
+    {
+      "question": "Was beinhaltet der Softwareentwurf?",
+      "answer": "Der Softwareentwurf beinhaltet Aufgaben des Systems, Schnittstellen des Systems, Einbindung vorhandener Komponenten, einzusetzende Hardware und zu unterstützende Betriebssysteme."
+    },
+    {
+      "question": "Was sind die Vorteile von Individualsoftware im Vergleich zu Branchensoftware?",
+      "answer": "Individualsoftware ist auf lange Sicht günstiger, da keine Lizenz- oder Abo-Gebühren anfallen, und sie passt sich den Wünschen des Unternehmens an und bietet mehr Gestaltungsmöglichkeiten."
+    },
+    {
+      "question": "Was ist eine Kontrollstruktur einer Schleife?",
+      "answer": "Eine Schleife läuft so lange weiter, wie die Bedingung zutrifft oder die Durchlaufzahl nicht erreicht ist."
+    },
+    {
+      "question": "Was ist bei einem großen Team und der Größe des Projekts zu beachten?",
+      "answer": "Je größer das Team, desto wichtiger ist ein genauer Entwurf, damit das gesamte Team seine Aufgaben klar erkennen kann."
+    },
+    {
+      "question": "Welche sind die 6 Phasen der Softwareentwicklung?",
+      "answer": "Die 6 Phasen der Softwareentwicklung sind: 1. Planung, 2. Analyse, 3. Entwurf, 4. Implementierung, 5. Test, 6. Dokumentation."
+    },
+    {
+      "question": "Was ist ein Strukturmuster?",
+      "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
+    },
+    {
+      "question": "Was ist ein Beispiel für ein Strukturmuster?",
+      "answer": "Ein Beispiel für ein Strukturmuster ist das Facade-Pattern."
+    },
+    {
+      "question": "Was ist ein Erzeugungsmuster?",
+      "answer": "Erzeugungsmuster befassen sich mit der Erstellung von Objekten und bieten Lösungen, wie man Objekte instanziiert."
+    },
+    {
+      "question": "Was sind Beispiele für Erzeugungsmuster?",
+      "answer": "Beispiele für Erzeugungsmuster sind das Singleton-Pattern und das Factory-Pattern."
+    },
+    {
+      "question": "Was ist ein Verhaltensmuster?",
+      "answer": "Verhaltensmuster definieren, wie Objekte miteinander kommunizieren und interagieren sollen."
+    },
+    {
+      "question": "Was sind Beispiele für Verhaltensmuster?",
+      "answer": "Beispiele für Verhaltensmuster sind das Observer-Pattern und das Command-Pattern."
+    },
+    { "question": "UML-Diagramme: Was beschreiben Strukturdiagramme?", "answer": "Den statischen Aufbau des Systems." },
+    { "question": "UML-Diagramme: Was beschreiben Verhaltensdiagramme?", "answer": "Dynamische Abläufe." },
+    { "question": "UML-Diagramme: Was zeigen Interaktionsdiagramme?", "answer": "Die Zusammenarbeit von Objekten." },
+    { "question": "UML-Diagramme: Nenne drei Strukturdiagramme.", "answer": "Klassendiagramm, Objektdiagramm, Komponentendiagramm." },
+    { "question": "UML-Diagramme: Nenne vier Interaktionsdiagramme.", "answer": "Sequenzdiagramm, Kommunikationsdiagramm, Zeitverlaufsdiagramm, Interaktionsübersichtsdiagramm." },
+    { "question": "Phasen der Softwareentwicklung: Was passiert in der Analysephase?", "answer": "Erfassen von Wünschen und Anforderungen des Auftraggebers." },
+    { "question": "Phasen der Softwareentwicklung: Was wird in der Entwurfsphase entschieden?", "answer": "Softwarearchitektur, Benutzeroberfläche, Programmiersprachen und Ressourcenplanung." },
+    { "question": "Phasen der Softwareentwicklung: Was passiert in der Implementierungsphase?", "answer": "Code wird geschrieben und dokumentiert." },
+    { "question": "Phasen der Softwareentwicklung: Wann wird getestet?", "answer": "Vor, während und nach der Entwicklung." },
+    { "question": "Phasen der Softwareentwicklung: Was passiert in der Einsatzphase?", "answer": "Software wird dem Kunden übergeben oder veröffentlicht." },
+    { "question": "Phasen der Softwareentwicklung: Was passiert in der Wartungsphase?", "answer": "Fehler werden durch Updates oder Patches behoben." },
+    { "question": "Testarten: Was wird beim Unit-Test getestet?", "answer": "Einzelne Funktionen oder Klassen isoliert." },
+    { "question": "Testarten: Was wird beim Integrationstest geprüft?", "answer": "Zusammenarbeit mehrerer Komponenten." },
+    { "question": "Testarten: Was wird beim Systemtest geprüft?", "answer": "Das gesamte System als Ganzes." },
+    { "question": "Testarten: Wer führt normalerweise den Akzeptanztest durch?", "answer": "Der Kunde." },
+    { "question": "Testmethoden: Was ist ein Blackbox-Test?", "answer": "Test ohne Kenntnis des Codes, Fokus auf Eingaben und Ausgaben." },
+    { "question": "Testmethoden: Was ist ein Whitebox-Test?", "answer": "Test mit Kenntnis des Codes, Prüfung der Logik und Bedingungen." },
+    {
+      "question": "Was sind Design Patterns?",
+      "answer": "Design Patterns sind bewährte Lösungsvorschläge für wiederkehrende Probleme im Entwurf von objektorientierten Softwaresystemen."
+    },
+    {
+      "question": "Was beschreiben Design Patterns?",
+      "answer": "Sie beschreiben, wie Klassen, Objekte und Methoden zusammenwirken, um ein bestimmtes Entwurfsproblem zu lösen."
+    },
+    {
+      "question": "Was sind die Vorteile von Design Patterns?",
+      "answer": "Bewährte Lösungen, vereinfachte Diskussion, Programmiersprachenunabhängigkeit und Transparenz von Vor- und Nachteilen."
+    },
+    {
+      "question": "Wie werden Design Patterns unterteilt?",
+      "answer": "In Erzeugungsmuster (Creational Patterns), Strukturmuster (Structural Patterns) und Verhaltensmuster (Behavioral Patterns)."
+    },
+    {
+      "question": "Was ist der Zweck von Erzeugungsmustern (Creational Patterns)?",
+      "answer": "Sie betreffen die Erzeugung von Objekten und sorgen dafür, dass der Erstellungsprozess von der konkreten Implementierung getrennt bleibt."
+    },
+    {
+      "question": "Nenne Beispiele für Erzeugungsmuster.",
+      "answer": "Abstrakte Fabrik, Singleton, Builder."
+    },
+    {
+      "question": "Was macht das abstrakte Fabrikmuster?",
+      "answer": "Es erzeugt Familien von verwandten Objekten."
+    },
+    {
+      "question": "Was gewährleistet das Singleton-Muster?",
+      "answer": "Es stellt sicher, dass eine Klasse nur eine Instanz hat."
+    },
+    {
+      "question": "Was kapselt das Builder-Muster?",
+      "answer": "Es kapselt die Konstruktion komplexer Objekte."
+    },
+    {
+      "question": "Was ist der Zweck von Strukturmustern (Structural Patterns)?",
+      "answer": "Strukturmuster befassen sich mit dem Design und der Struktur von Software und definieren Beziehungen zwischen Klassen und Objekten."
+    },
+    {
+      "question": "Nenne Beispiele für Strukturmuster.",
+      "answer": "Adapter, Kompositum, Proxy, Dekorierer, MVC."
+    },
+    {
+      "question": "Was macht das Adapter-Muster?",
+      "answer": "Es passt eine Schnittstelle an eine andere an."
+    },
+    {
+      "question": "Was macht das Kompositum-Muster?",
+      "answer": "Es behandelt Objekte und deren Kombinationen als einzelne Instanzen."
+    },
+    {
+      "question": "Was stellt das Proxy-Muster zur Verfügung?",
+      "answer": "Es stellt ein Stellvertreterobjekt zur Verfügung."
+    },
+    {
+      "question": "Was macht das Dekorierer-Muster?",
+      "answer": "Es fügt einem Objekt zusätzliche Funktionalitäten hinzu."
+    },
+    {
+      "question": "Was trennt das MVC-Muster?",
+      "answer": "Es trennt Benutzeroberfläche, Daten und Logik."
+    },
+    {
+      "question": "Was ist der Zweck von Verhaltensmustern (Behavioral Patterns)?",
+      "answer": "Sie modellieren das Verhalten der Software und verbessern die Flexibilität und Kommunikation zwischen Objekten."
+    },
+    {
+      "question": "Nenne Beispiele für Verhaltensmuster.",
+      "answer": "Observer, Zustand, Schablonenmuster (Template Method)."
+    },
+    {
+      "question": "Was macht das Observer-Muster?",
+      "answer": "Es ermöglicht Objekten, Benachrichtigungen zu erhalten, wenn sich ein anderes Objekt verändert."
+    },
+    {
+      "question": "Was verändert das Zustand-Muster?",
+      "answer": "Es verändert das Verhalten eines Objekts basierend auf seinem Zustand."
+    },
+    {
+      "question": "Was tut das Schablonenmuster (Template Method)?",
+      "answer": "Es definiert das Grundgerüst einer Methode und lässt Unterklassen Teile der Methode spezifizieren."
+    },
+    {
+      "question": "Was ist das Ebenen-Modell in der Strukturierung von Software?",
+      "answer": "Das Ebenen-Modell beschreibt die Struktur von Software mit den Ebenen: System, Dienst, Schichten, Komponenten, Klassen, Methoden und Quellcode."
     }
   ]
 };
