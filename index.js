@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnYes = document.getElementById("btn-yes");
   const btnNo = document.getElementById("btn-no");
 
+
+
   document.getElementById("btn-yes").addEventListener("click", () => markAnswer(true));
   document.getElementById("btn-no").addEventListener("click", () => markAnswer(false));
   showSetSelection();
