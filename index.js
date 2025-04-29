@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       <div class="half-container answer">
         <div class="text-top">
-          <p id="answer" style="display:none;">${card.answer}</p>
+          <pre id="answer" style="display:none;">${card.answer}</pre>
         </div>
       </div>
       <button id="show-answer">Lösung anzeigen</button>

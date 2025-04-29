@@ -169,7 +169,9 @@ button {
 p {
   font-size: 18px;
 }
-
+pre {
+  font-size: 18px;
+}
 
 .set-btn {
   background: #3672f4;

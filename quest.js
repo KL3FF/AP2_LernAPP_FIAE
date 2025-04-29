@@ -6389,87 +6389,87 @@ const cardSets = {
   ],
   "Python":[
     {
-      "question": "Python Ausgabe auf dem Bildschirm",
+      "question": "Python: Ausgabe auf dem Bildschirm",
       "answer": "print(\"Hallo Welt!\")"
     },
     {
-      "question": "Python Benutzereingabe abfragen",
+      "question": "Python: Benutzereingabe abfragen",
       "answer": "name = input(\"Wie heißt du? \")\nprint(\"Hallo\", name)"
     },
     {
-      "question": "Python while-Schleife",
+      "question": "Python: while-Schleife",
       "answer": "zahl = 0\nwhile zahl < 5:\n\tprint(\"Zahl ist:\", zahl)\n\tzahl += 1"
     },
     {
-      "question": "Python for-Schleife",
+      "question": "Python: for-Schleife",
       "answer": "for i in range(5):\n\tprint(\"Durchlauf:\", i)"
     },
     {
-      "question": "Python match / case (Switch Case)",
+      "question": "Python: match / case (Switch Case)",
       "answer": "match farbe:\n\tcase \"rot\":\n\t\tprint(\"Stopp!\")\n\tcase \"grün\":\n\t\tprint(\"Los!\")\n\tcase \"gelb\":\n\t\tprint(\"Langsam...\")\n\tcase _:\n\t\tprint(\"Unbekannte Farbe\")"
     },
     {
-      "question": "Python Anzahl der Elemente eines Datentyps zurückgeben",
+      "question": "Python: Anzahl der Elemente eines Datentyps zurückgeben",
       "answer": "len(menge)"
     },
     {
-      "question": "Python SET",
+      "question": "Python: SET",
       "answer": "farben = {\"rot\", \"blau\", \"grün\"}\nfarben.add(\"gelb\")  # Wert hinzufügen\nfarben.remove(\"blau\")  # Wert entfernen\nfor f in farben:\n\tprint(f)"
     },
     {
-      "question": "Python Dict (Dictionary)",
+      "question": "Python: Dict (Dictionary)",
       "answer": "person = {\"name\": \"Anna\", \"alter\": 25}\nperson[\"stadt\"] = \"Berlin\"\nperson[\"alter\"] = 26\nwert = person.pop(\"alter\")\nfor key, value in person.items():\n\tprint(key, \":\", value)"
     },
     {
-      "question": "Python List",
+      "question": "Python: List",
       "answer": "zahlen = [1, 2, 3]\nzahlen.append(4)\nzahlen.insert(0, 100)\nzahlen.pop()\nzahlen.pop(0)\nfor z in zahlen:\n\tprint(z)"
     },
     {
-      "question": "Python Enumerate bei Listen",
+      "question": "Python: Enumerate bei Listen",
       "answer": "for index, z in enumerate(zahlen):\n\tprint(f\"Index {index}: {z}\")"
     },
     {
-      "question": "Python Enumerate bei Dictionary",
+      "question": "Python: Enumerate bei Dictionary",
       "answer": "person = {\"name\": \"Anna\", \"alter\": 25}\nfor index, (key, value) in enumerate(person.items()):\n\tprint(f\"Index {index}: {key} = {value}\")"
     },
     {
-      "question": "Python Enumerate bei Set",
+      "question": "Python: Enumerate bei Set",
       "answer": "farben = {\"rot\", \"grün\", \"blau\"}\nfor index, f in enumerate(farben):\n\tprint(f\"Index {index}: {f}\")"
     },
     {
-      "question": "Python Funktion definieren (addiere)",
+      "question": "Python: Funktion definieren (addiere)",
       "answer": "def addiere(a, b):\n\treturn a + b\nergebnis = addiere(5, 7)"
     },
     {
-      "question": "Python Funktion definieren (berechnungen)",
+      "question": "Python: Funktion definieren (berechnungen)",
       "answer": "def berechnungen(a, b):\n\tsumme = a + b\n\tdifferenz = a - b\n\treturn summe, differenz\nsumme, differenz = berechnungen(10, 5)"
     },
     {
-      "question": "Python String in List umwandeln",
+      "question": "Python: String in List umwandeln",
       "answer": "mein_string = \"Hallo\"\nmeine_liste = list(mein_string)\nprint(meine_liste)  # Ausgabe: ['H', 'a', 'l', 'l', 'o']"
     },
     {
-      "question": "Python List in String umwandeln",
+      "question": "Python: List in String umwandeln",
       "answer": "meine_liste = ['H', 'e', 'l', 'l', 'o']\nmein_string = ''.join(meine_liste)\nprint(mein_string)  # Ausgabe: \"Hello\""
     },
     {
-      "question": "Python String in Int umwandeln",
+      "question": "Python: String in Int umwandeln",
       "answer": "zahl_str = \"123\"\nzahl_int = int(zahl_str)\nprint(zahl_int)  # Ausgabe: 123"
     },
     {
-      "question": "Python String in float umwandeln",
+      "question": "Python: String in float umwandeln",
       "answer": "zahl_str = \"12.34\"\nzahl_float = float(zahl_str)\nprint(zahl_float)  # Ausgabe: 12.34"
     },
     {
-      "question": "Python Zahl in String umwandeln",
+      "question": "Python: Zahl in String umwandeln",
       "answer": "zahl = 123\nzahl_str = str(zahl)\nprint(zahl_str)  # Ausgabe: \"123\""
     },
     {
-      "question": "Python String in Bool umwandeln",
+      "question": "Python: String in Bool umwandeln",
       "answer": "string_true = \"True\"\nbool_wert = bool(string_true)\nprint(bool_wert)  # Ausgabe: True\n\nstring_false = \"False\"\nbool_wert = bool(string_false)\nprint(bool_wert)  # Ausgabe: True"
     },
     {
-      "question": "Python Klasse definieren",
+      "question": "Python: Klasse definieren",
       "answer": "class Rechteck:\n\tanzahl = 0\n\tdef __init__(self, breite, hoehe):\n\t\tself.hoehe = hoehe\n\t\tRechteck.anzahl += 1\n\tdef flaeche(self):\n\t\treturn self.breite * self.hoehe"
     },
     {
