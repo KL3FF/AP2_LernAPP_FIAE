@@ -184,3 +184,8 @@ pre {
   cursor: pointer;
   width: 140px;
 }
+
+
+#answer {
+  white-space: pre-wrap;
+}
