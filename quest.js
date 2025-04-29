@@ -6438,11 +6438,11 @@ const cardSets = {
     },
     {
       "question": "Python: Funktion definieren (addiere)",
-      "answer": "def addiere(a, b):\n\treturn a + b\nergebnis = addiere(5, 7)"
+      "answer": "def addiere(a, b):\n\treturn a + b\n\nergebnis = addiere(5, 7)"
     },
     {
       "question": "Python: Funktion definieren (berechnungen)",
-      "answer": "def berechnungen(a, b):\n\tsumme = a + b\n\tdifferenz = a - b\n\treturn summe, differenz\nsumme, differenz = berechnungen(10, 5)"
+      "answer": "def berechnungen(a, b):\n\tsumme = a + b\n\tdifferenz = a - b\n\n\treturn summe, differenz\nsumme, differenz = berechnungen(10, 5)"
     },
     {
       "question": "Python: String in List umwandeln",
