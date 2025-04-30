@@ -30,11 +30,6 @@ const cardSets = {
       answer: "Security by Default bedeutet, dass Systeme von Anfang an so konzipiert sind, dass sie standardmäßig sicher sind, und unsichere Funktionen oder Konfigurationen sind deaktiviert."
     },
 
-    // Datensicherung
-    {
-      question: "Was ist der Unterschied zwischen differenzieller und inkrementeller Sicherung?",
-      answer: "Die differenzielle Sicherung sichert alle Daten, die seit der letzten vollständigen Sicherung geändert wurden, während die inkrementelle Sicherung nur die Daten sichert, die seit der letzten Sicherung verändert wurden."
-    },
     {
       question: "Was sind RAID-Systeme?",
       answer: "RAID-Systeme (Redundant Array of Independent Disks) kombinieren mehrere Festplatten zu einem logischen Laufwerk, um die Leistung zu steigern oder die Datensicherheit zu erhöhen."
@@ -631,12 +626,6 @@ const cardSets = {
       answer: "Es leitet DNS-Anfragen weiter, wenn kein eigener DNS-Server im Netzwerk vorhanden ist."
     },
 
-    // Gründe für Netzwerke
-    {
-      question: "Welche Gründe gibt es für den Einsatz von Netzwerken?",
-      answer: "• Ressourcensharing (z.B. Drucker)\n• Datasharing\n• Softwaresharing\n• Prozessorsharing\n• Informationsaustausch\n• Sicherheit & Redundanz"
-    },
-
     // Netzwerktypen nach Reichweite
     {
       question: "Was ist ein CAN (Controller Area Network)?",
@@ -774,25 +763,25 @@ const cardSets = {
       answer: "Ein Terminal dient nur zur Ein- und Ausgabe und ist mit einem Terminalserver verbunden – z.B. in Kassensystemen."
     },  // Peer to Peer
     {
-      question: "Was ist ein Peer-to-Peer-Netzwerk?",
-      answer: "In einem Peer-to-Peer-Netzwerk (P2P) sind alle Geräte gleichberechtigt und können sowohl als Client als auch als Server fungieren. Es gibt keinen zentralen Server."
+      question: "Was ist ein Peer-to-Peer-Architektur?",
+      answer: "In einem Peer-to-Peer-Architektur (P2P) sind alle Geräte gleichberechtigt und können sowohl als Client als auch als Server fungieren. Es gibt keinen zentralen Server."
     },
     {
-      question: "Wann ist ein Peer-to-Peer-Netzwerk sinnvoll?",
-      answer: "Ein P2P-Netzwerk ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z.B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
+      question: "Wann ist ein Peer-to-Peer-Architektur sinnvoll?",
+      answer: "Ein P2P ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z.B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
     },
 
     // Client-Server
     {
-      question: "Was ist der Unterschied zwischen einem Client-Server-Netzwerk und einem Peer-to-Peer-Netzwerk?",
-      answer: "In einem Client-Server-Netzwerk gibt es einen zentralen Server, der Dienste anbietet (z.B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
+      question: "Was ist der Unterschied zwischen einem Client-Server-Architektur und einem Peer-to-Peer-Architektur?",
+      answer: "In einem Client-Server-Architektur gibt es einen zentralen Server, der Dienste anbietet (z.B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
     },
     {
-      question: "Was ist ein Client in einem Client-Server-Netzwerk?",
+      question: "Was ist ein Client in einem Client-Server-Architektur?",
       answer: "Ein Client ist ein Gerät, das Dienste von einem zentralen Server anfordert, z.B. ein Computer, der eine Webseite von einem Webserver abruft."
     },
     {
-      question: "Was ist ein Server in einem Client-Server-Netzwerk?",
+      question: "Was ist ein Server in einem Client-Server-Architektur?",
       answer: "Ein Server stellt Dienste bereit, die von den Clients angefordert werden, z.B. ein Webserver, der Webseiten liefert, oder ein Mailserver, der E-Mails verwaltet."
     },
 
@@ -1056,6 +1045,146 @@ const cardSets = {
     },
   ],
   "IT-Tec s4": [
+
+
+
+    {
+      "question": "Was ist eine statische IP-Adresse?",
+      "answer": "Eine statische IP-Adresse bleibt immer gleich und wird manuell einem Gerät zugewiesen – z. B. für Server oder Drucker."
+    },
+
+    {
+      "question": "Wie bekommt ein Gerät eine dynamische IP-Adresse?",
+      "answer": "Dynamische IP-Adressen werden automatisch über DHCP (Dynamic Host Configuration Protocol) vom Router oder Server vergeben."
+    },
+
+    {
+      "question": "Was ist redundante Hardware?",
+      "answer": "Redundante Hardware sind doppelt vorhandene Komponenten wie Netzteile, Festplatten oder Server, die bei einem Ausfall automatisch einspringen, um einen unterbrechungsfreien Betrieb zu gewährleisten."
+    },
+    {
+      "question": "Was ist ein Failover-Cluster?",
+      "answer": "Ein Failover-Cluster ist ein Zusammenschluss mehrerer Server, bei dem ein anderer Server automatisch übernimmt, wenn einer ausfällt, um die Verfügbarkeit von Diensten sicherzustellen."
+    },
+    {
+      "question": "Was ist eine Paketfilter-Firewall?",
+      "answer": "Eine Paketfilter-Firewall überprüft eingehende und ausgehende Datenpakete anhand von Regeln (z. B. IP-Adresse, Port, Protokoll) und entscheidet, ob sie weitergeleitet oder blockiert werden."
+    },
+    {
+      "question": "Was ist ein Anwendungs-Gateway (auch Proxy-Firewall genannt)?",
+      "answer": "Ein Anwendungs-Gateway filtert den Datenverkehr auf der Anwendungsebene. Es überprüft und kontrolliert die Kommunikation zwischen Clients und Servern und schützt so vor Angriffen, die auf spezifische Anwendungen abzielen."
+    },
+
+    {
+      "question": "Was ist Power over Ethernet (PoE)?",
+      "answer": "Power over Ethernet (PoE) ist eine Technologie, die es ermöglicht, Geräte über Ethernet-Kabel mit Strom zu versorgen."
+    },
+    {
+      "question": "Was ist eine Netzwerktopologie?",
+      "answer": "Beschreibt die Struktur und Anordnung der Geräte zueinander im Netzwerk. Beispiele sind Bus-, Stern-, Ring- und Mesh-Topologie."
+    },
+
+    {
+      "question": "Was ist ein Paketfilter-Firewall?",
+      "answer": "Prüft Netzwerkpakete auf OSI-Schicht 3/4."
+    },
+    {
+      "question": "Was ist eine Application-Firewall (NGFW)?",
+      "answer": "Prüft den Verkehr auf Anwendungsebene (OSI-Schicht 7)."
+    },
+    {
+      "question": "Was ist ein Device Security Check?",
+      "answer": "Überprüfung eines Geräts auf Schwachstellen wie: Betriebssystemeinstellungen, Netzwerkkonfiguration und Verschlüsselung."
+    },
+    {
+      "question": "Was ist RADIUS im Bereich WLAN?",
+      "answer": "Authentifizierungsprotokoll, häufig für WLAN-Zugriffe verwendet. RADIUS Accounting protokolliert Nutzeraktivitäten im Netzwerk."
+    },
+    {
+      "question": "Was ist Subnetz-ID IPv6 (Prefix)?",
+      "answer": "Identifiziert das Subnetz."
+    },
+    {
+      "question": "Was ist Interface-ID IPv6?",
+      "answer": "Identifiziert ein Gerät innerhalb eines Subnetzes."
+    },
+    {
+      "question": "Was sind die Vorteile von IPv6?",
+      "answer": "2^128 Adressen, Integrierte Sicherheit (IPSec)."
+    },
+    {
+      "question": "Was ist Routing (Netzwerke)?",
+      "answer": "Weiterleitung zwischen Netzwerken."
+    },
+    {
+      "question": "Was ist Switching (Netzwerke)?",
+      "answer": "Weiterleitung innerhalb eines Netzwerks."
+    },
+    {
+      "question": "Was ist IPsec (Internet Protocol Security)?",
+      "answer": "Wird oft in VPNs eingesetzt. Bietet Verschlüsselung, Authentizität und Integrität von IP-Paketen. Ermöglicht eine sichere Datenübertragung über unsichere Netzwerke (z. B. Internet)."
+    },
+    {
+      "question": "Was ist ein Vollbackup?",
+      "answer": "Ein Vollbackup sichert alle Daten vollständig."
+    },
+    {
+      "question": "Was ist eine inkrementelle Sicherung?",
+      "answer": "Bei einer inkrementellen Sicherung wird nach einer Vollsicherung nur das gesichert, was sich seit der letzten Sicherung verändert hat."
+    },
+    {
+      "question": "Was ist eine differenzielle Sicherung?",
+      "answer": "Bei einer differenziellen Sicherung werden alle Daten gesichert, die sich seit der letzten Vollsicherung verändert haben."
+    },
+    {
+      "question": "Was ist das Generationenprinzip in einer Backup-Strategie?",
+      "answer": "Das Generationenprinzip beschreibt unterschiedliche Backup-Arten: Sohn (tägliches Backup), Vater (wöchentliches Backup) und Großvater (monatliches Backup)."
+    },
+    {
+      "question": "Was ist die 3-2-1 Backup-Regel bei Datensicherheit?",
+      "answer": "Die 3-2-1 Regel besagt: 3 Kopien der Daten (inkl. Original), 2 verschiedene Speichermedien und 1 Kopie an einem sicheren Ort."
+    },
+    {
+      "question": "Was ist eine Disaster Recovery-Strategie und -Maßnahme im Bereich IT-Systeme?",
+      "answer": "Disaster Recovery umfasst Strategien und Maßnahmen zur Wiederherstellung von IT-Systemen nach Katastrophen, wie Cyberangriffen oder Stromausfällen, um Ausfallzeiten und Datenverlust zu minimieren."
+    },
+    {
+      "question": "Was ist RTO (Recovery Time Objective)?",
+      "answer": "RTO bezeichnet die maximal akzeptierte Zeitspanne, bis die Systemfunktionalität nach einem Ausfall wiederhergestellt ist."
+    },
+    {
+      "question": "Was ist RPO (Recovery Point Objective)?",
+      "answer": "RPO beschreibt den maximal akzeptierten Datenverlust, gemessen in Zeit (z. B. 1 Stunde alte Daten dürfen verloren gehen)."
+    },
+    {
+      "question": "Was sind X.509-Zertifikate?",
+      "answer": "X.509-Zertifikate sind der Standard für digitale Zertifikate und enthalten Informationen wie den Namen des Inhabers, den öffentlichen Schlüssel, den Signaturalgorithmus und die Zertifizierungsstelle (CA)."
+    },
+
+    {
+      "question": "Was ist ein PAN (Personal Area Network)?",
+      "answer": "Ein kleines, privates Netzwerk zur Verbindung persönlicher Geräte über kurze Distanz (z. B. Bluetooth)."
+    },
+    {
+      "question": "Was ist ein Access Point?",
+      "answer": "Ein Access Point erweitert die Reichweite eines WLANs und ermöglicht den Zugang zum Netzwerk."
+    },
+    {
+      "question": "Was ist Quality of Service (QoS)?",
+      "answer": "QoS gibt Anwendungen unterschiedliche Prioritäten, damit z. B. Video- oder Sprachdaten bevorzugt übertragen werden."
+    },
+    {
+      "question": "Was ist das Internet of Things (IoT)?",
+      "answer": "IoT bezeichnet vernetzte Geräte, die Daten erfassen und intelligente Aktionen ausführen. Datenschutzrisiken sind eine Herausforderung."
+    },
+    {
+      "question": "Welche Cloud-Modelle gibt es?",
+      "answer": "Public Cloud (öffentlich), Private Cloud (intern, geschützt) und Hybride Cloud (Kombination aus beiden)."
+    },
+    {
+      "question": "Vor was schützt ein RAID?",
+      "answer": "RAID schützt in erster Linie vor physischem Festplattenschaden. Es bietet keine Sicherheit gegen Virenbefall oder versehentliches Löschen."
+    },
     {
       "question": "Was ist DHCP?",
       "answer": "DHCP (Dynamic Host Configuration Protocol) ist ein Netzwerkprotokoll, das automatisch IP-Adressen und andere Netzwerkkonfigurationsinformationen an Geräte im Netzwerk verteilt."
@@ -1238,7 +1367,124 @@ const cardSets = {
     },
   ],
   "IT-Sicherheit": [
+    {
+      "question": "Welche Arten der Authentifizierung gibt es?",
+      "answer": "1. Wissen – z. B. Passwort, PIN. 2. Besitz – z. B. Schlüsselkarte, Token. 3. Biometrie – z. B. Fingerabdruck, Gesichtserkennung."
+    },
+    {
+      "question": "Was ist das Least Privilege Principle in der IT?",
+      "answer": "Dabei bekommt ein Nutzer oder System nur die minimal notwendigen Berechtigungen, um Risiken wie Missbrauch oder Sicherheitslücken zu minimieren. Es ist ein Teil von Zero Trust."
+    },
+    {
+      "question": "Was sind die Datenschutz Grundprinzipien bei der Datenerhebung?",
+      "answer":
+        "Zweckbindung: Daten nur für festgelegten Zweck verwenden \n Datenminimierung: Nur so viele Daten wie nötig verarbeiten \n Transparenz: Nutzer informieren, was mit ihren Daten geschieht \n Richtigkeit: Daten müssen korrekt und aktuell sein."
 
+    },
+    {
+      "question": "Was sind die Aufgaben eines IT-Sicherheitsbeauftragten?",
+      "answer":
+        "Überwacht Sicherheitsrichtlinien  \nFührt Schulungen durch \nKontrolliert Sicherheitsmaßnahmen \nUnterstützt bei der Umsetzung gesetzlicher Vorschriften."
+
+    },
+    {
+      "question": "Welche Verbindungsarten bei VPN (Virtual Private Network) gibt es?",
+      "answer": "End-to-Site VPN: Einzelner Client verbindet sich mit einem Unternehmensnetzwerk (z. B. Homeoffice → Firmennetz). Site-to-Site VPN: Zwei Netzwerke werden sicher miteinander verbunden (z. B. zwei Firmenstandorte). End-to-End VPN: Direkte Verbindung zwischen zwei Endgeräten."
+    },
+
+    {
+      "question": "Was ist Zero Trust Network Access (ZTNA)?",
+      "answer": "Sicherheitsmodell: Niemals vertrauen, immer prüfen. Jeder Nutzer und jedes Gerät muss ständig authentifiziert werden – auch innerhalb des eigenen Netzwerks."
+    },
+    {
+      "question": "Welche Modi gibt es bei IPsec?",
+      "answer": "Tunnelmodus: Verschlüsselt den gesamten IP-Datenverkehr (häufig bei VPN zwischen Netzwerken). Transportmodus: Verschlüsselt nur die Nutzdaten, IP-Header bleibt erhalten (häufig zwischen zwei Geräten)."
+    },
+    {
+      "question": "Was musst du tun bei einer Datenschutzverletzung?",
+      "answer": "Innerhalb von 72 Stunden an die Datenschutzbehörde melden. Betroffene Personen unverzüglich informieren, wenn ein Risiko besteht."
+    },
+    {
+      "question": "Was ist MTBF (Mean Time Between Failures)?",
+      "answer": "Durchschnittliche Zeit zwischen zwei Ausfällen (bei reparierbaren Systemen)."
+    },
+    {
+      "question": "Was ist MTTF (Mean Time To Failure)?",
+      "answer": "Durchschnittliche Lebensdauer bis zum ersten Ausfall (bei nicht-reparierbaren Geräten)."
+    },
+
+    {
+      "question": "Was ist PSK (Pre-Shared Key)?",
+      "answer": "Ein vorab verabredeter Schlüssel, der zur Absicherung der Kommunikation dient, z. B. bei WLANs."
+    },
+    {
+      "question": "Wie kann man Datensicherung durchführen?",
+      "answer": "Datensicherung erfolgt durch Backups (aktuelle Daten) und Archivierung (langfristige Speicherung nicht mehr aktiv genutzter Daten)."
+    },
+    {
+      "question": "Was ist eine Betriebssystemhärtung?",
+      "answer": "Betriebssystemhärtung umfasst Maßnahmen wie Firewalls, Patch-Management und das Schließen unnötiger Ports zur Erhöhung der Systemsicherheit."
+    },
+    {
+      "question": "Was ist ein Single Sign-On (SSO)?",
+      "answer": "Single Sign-On ermöglicht eine einmalige Anmeldung, um auf mehrere Anwendungen zuzugreifen. Vorteil: Erhöhte Benutzerfreundlichkeit. Nachteil: Fällt SSO aus, sind alle Systeme betroffen."
+    },
+    {
+      "question": "Was ist Zugangskontrolle?",
+      "answer": "Zugangskontrolle bezieht sich auf den physischen Zugang zu Gebäuden und Räumen, etwa durch Ausweiskarten oder Sicherheitsschleusen."
+    },
+    {
+      "question": "Was ist Zugriffskontrolle?",
+      "answer": "Zugriffskontrolle betrifft den logischen Zugriff auf Systeme, geregelt über Benutzerrollen und Zugriffsrechte."
+    },
+    {
+      "question": "Was sind Passwortsicherheitsrichtlinien?",
+      "answer": "Passwörter sollten Sonderzeichen, Groß- und Kleinschreibung enthalten sowie eine ausreichende Länge haben."
+    },
+    {
+      "question": "Was sind technische und organisatorische Maßnahmen (TOM) bei der IT-Sicherheit?",
+      "answer": "Beispiele sind Alarmanlagen, Zugangs- und Zutrittskontrollen sowie Anonymisierung personenbezogener Daten."
+    },
+    {
+      "question": "Warum müssen Firmen auf dem aktuellen Stand der Technik sein?",
+      "answer": "Unternehmen müssen immer die wirksamsten und neuesten Sicherheitstechnologien einsetzen, um Datenschutz und IT-Sicherheit zu gewährleisten."
+    },
+    {
+      "question": "Was ist Anonymisierung?",
+      "answer": "Bei der Anonymisierung werden alle Identifikationsmerkmale entfernt, sodass die betroffene Person nicht mehr identifizierbar ist."
+    },
+    {
+      "question": "Was ist Pseudonymisierung?",
+      "answer": "Daten werden so verändert, dass sie ohne Zusatzinformationen nicht mehr einer bestimmten Person zugeordnet werden können."
+    },
+    {
+      "question": "Was ist Compliance?",
+      "answer": "Compliance ist die Einhaltung von gesetzlichen Vorschriften sowie interner Unternehmensrichtlinien."
+    },
+    {
+      "question": "Was sind die Aufgaben eines Datenschutzbeauftragten?",
+      "answer": "Überwachung der Einhaltung von Datenschutzrichtlinien, Beratung und Schulung von Mitarbeitern, sowie Ansprechpartner für Datenschutzfragen im Unternehmen."
+    },
+    {
+      "question": "Was sind die Aufgaben eines Sicherheitsbeauftragten?",
+      "answer": "Überwachung der Sicherheitsrichtlinien, Durchführung von Schulungen und Ansprechpartner für IT-Sicherheit im Unternehmen."
+    },
+    {
+      "question": "Auf welche IT-Sicherheitsregeln muss ein Unternehmen achten?",
+      "answer": "Unternehmen müssen die DSGVO (Europa) und das BDSG (Deutschland) beachten. Zudem ist ISO 27001 ein internationaler Standard für Informationssicherheits-Managementsysteme (ISMS)."
+    },
+    {
+      "question": "Welche Einteilung gibt es bei den Schutzbedarfskategorien?",
+      "answer": "Die Schutzbedarfskategorien lauten: normal, hoch und sehr hoch. Sie helfen, geeignete Sicherheitsmaßnahmen auszuwählen."
+    },
+    {
+      "question": "Was sind die Prinzipien der Transparenz und Richtigkeit?",
+      "answer": "Unternehmen müssen offenlegen, welche Daten sie erheben und zu welchem Zweck. Die erhobenen Daten müssen korrekt und aktuell sein."
+    },
+    {
+      "question": "Wie werden Daten von Personen beim Datenschutz nach DSGVO unterschieden?",
+      "answer": "Es wird unterschieden zwischen personenbezogenen Daten und besonderen personenbezogenen Daten (z. B. Gesundheitsdaten)."
+    },
     {
       "question": "Was besagt das Verbot mit Erlaubnisvorbehalt der DSGVO?",
       "answer": "Daten dürfen nur verarbeitet werden, wenn eine spezielle Rechtsvorgabe oder eine informierte Einwilligung vorliegt."
@@ -1270,14 +1516,6 @@ const cardSets = {
     {
       "question": "Wie muss die Datenschutzerklärung formuliert sein?",
       "answer": "Sie muss in verständlicher und transparenter Sprache verfasst sein."
-    },
-    {
-      "question": "Wann muss ein Vertrag mit einem Dienstleister abgeschlossen werden?",
-      "answer": "Bei externer Datenverarbeitung muss ein Vertrag abgeschlossen werden, der den Dienstleister zur Einhaltung der Datenschutzrichtlinien verpflichtet."
-    },
-    {
-      "question": "Was muss für die Verarbeitungstätigkeiten erstellt werden?",
-      "answer": "Ein Verzeichnis von Verarbeitungstätigkeiten muss erstellt werden."
     },
     {
       "question": "Wann muss ein Datenschutzbeauftragter ernannt werden?",
@@ -1764,7 +2002,123 @@ const cardSets = {
       "answer": "Es können falsche Zertifikate ausgestellt werden, was die Sicherheit gefährdet."
     }
   ],
+  "IT-Tech": [
+
+
+    {
+      "question": "Wie lautet die Formel zur Berechnung von Watt?",
+      "answer": "P = U × I (P = Leistung in Watt, U = Spannung in Volt, I = Stromstärke in Ampere)."
+    },
+    {
+      "question": "Wie lautet die Formel zur Berechnung von Wattstunden?",
+      "answer": "W = P × t (W = Arbeit in Joule oder Wh, P = Leistung in Watt, t = Zeit in Sekunden oder Stunden)."
+    },
+
+  ],
   "AEuP": [
+
+    {
+      "question": "Was ist Stateless bei RESTful APIs?",
+      "answer": "Stateless bedeutet, dass jede Anfrage unabhängig von der vorherigen ist und der Server keine Sitzungsdaten speichert. Jede Anfrage muss alle nötigen Informationen beinhalten, um sie zu verarbeiten."
+    },
+
+
+    {
+      "question": "Warum ist Versionierung wichtig in der Softwareentwicklung?",
+      "answer": "Damit man Änderungen nachvollziehen kann, Fehler korrigieren kann und die Zusammenarbeit mit anderen verbessert wird."
+    },
+    {
+      "question": "Was ist ein Update?",
+      "answer": "Ein Update innerhalb einer Version, z. B. zur Behebung von Bugs."
+    },
+    {
+      "question": "Was ist ein Upgrade?",
+      "answer": "Ein Versionssprung oder Wechsel auf eine neue Version."
+    },
+    {
+      "question": "Was sind strukturierte Daten?",
+      "answer": "Klare Tabellenstruktur (z. B. SQL) hat Regeln und ist gut organisiert."
+    },
+    {
+      "question": "Was sind semi-strukturierte Daten?",
+      "answer": "XML, JSON – gewisse Ordnung, aber nicht streng tabellarisch."
+    },
+    {
+      "question": "Was sind unstrukturierte Daten?",
+      "answer": "Texte, Bilder, Videos – keine feste Struktur."
+    },
+    {
+      "question": "Was ist Pfadüberdeckung?",
+      "answer": "Jeder logische Pfad im Programm muss mindestens einmal getestet werden."
+    },
+    {
+      "question": "Was ist Zweigüberdeckung?",
+      "answer": "Jede Entscheidungsalternative (z. B. if/else) muss mindestens einmal durchlaufen werden."
+    },
+
+    {
+      "question": "Was ist SOAP (Simple Object Access Protocol)?",
+      "answer": "Protokoll für Webservices, basiert auf XML. Standardisiert den Austausch strukturierter Informationen über HTTP. Plattform- und sprachunabhängig."
+    },
+
+
+    {
+      "question": "Was ist ein Data Warehouse?",
+      "answer": "Ein Data Warehouse ist ein zentraler Datenspeicher, in dem Unternehmensdaten aus verschiedenen Quellen strukturiert und bereinigt abgelegt werden."
+    },
+    {
+      "question": "Was ist ein Data Lake?",
+      "answer": "Ein Data Lake ist ein zentraler Speicherort für unstrukturierte oder teilweise strukturierte Daten, die für spätere Analysen genutzt werden können."
+    },
+    {
+      "question": "Was ist ein Data Mesh?",
+      "answer": "Ein Data Mesh ist ein dezentraler Ansatz für Datenmanagement, bei dem Fachbereiche für die Aufbereitung und Bereitstellung von Daten verantwortlich sind."
+    },
+
+    {
+      "question": "Was sind die Herausforderungen bei Big Data?",
+      "answer": "Große Datenmengen, komplexe Integration, Datenqualität, Verarbeitungsgeschwindigkeit und Datenschutz & -sicherheit."
+    },
+    {
+      "question": "Was ist Blockchain (Beispiel Kryptowährung)?",
+      "answer": "Daten werden in verketteten Blöcken gespeichert. Jeder Block enthält Transaktionen, Zeitstempel und Verweis auf den vorherigen Block."
+    },
+    {
+      "question": "Was ist Cloud, Fog und Edge Computing?",
+      "answer": "Cloud: Ressourcenbereitstellung über das Internet. Fog: Dezentrale Datenverarbeitung nahe am Nutzer (z. B. Router). Edge: Verarbeitung direkt am Gerät (z. B. Kamera)."
+    },
+    {
+      "question": "Was ist Zustandslosigkeit (Statelessness) bei REST-API?",
+      "answer": "Jede Anfrage enthält alle nötigen Informationen – keine Speicherung von Zuständen zwischen Anfragen."
+    },
+    {
+      "question": "Was sind REST-API Prinzipien?",
+      "answer": "Client-Server-Trennung, Zustandslosigkeit, Caching und einheitliche Schnittstellen."
+    },
+    {
+      "question": "Was ist CSV (Comma-Separated Values)?",
+      "answer": "CSV ist ein einfaches Textformat, bei dem Werte durch Trennzeichen (z. B. Komma) getrennt sind und für Tabellen verwendet wird."
+    },
+    {
+      "question": "Was ist XML?",
+      "answer": "XML ist eine Markup-Sprache zur hierarchischen Darstellung von Daten mithilfe von Tags."
+    },
+    {
+      "question": "Was ist eine generische Klasse?",
+      "answer": "Verwendet Typparameter (z. B. <T>), um Funktionen/Methoden für verschiedene Datentypen zu ermöglichen."
+    },
+    {
+      "question": "Was ist eine iterative Vorgehensweise?",
+      "answer": "Mehrfache Ausführung eines Vorgangs (z. B. mit Schleifen: for, while)."
+    },
+    {
+      "question": "Was ist eine rekursive Vorgehensweise?",
+      "answer": "Eine Funktion ruft sich selbst auf, bis eine Abbruchbedingung erfüllt ist."
+    },
+    {
+      "question": "Was ist OAuth 2.0?",
+      "answer": "OAuth 2.0 ist ein Protokoll, das es Nutzern ermöglicht, Drittanbieter-Apps Zugriff zu gewähren, ohne ihre Passwörter weiterzugeben."
+    },
     {
       "question": "Was versteht man unter einer objektorientierten Programmiersprache?",
       "answer": "Ein System wird durch das Zusammenspiel kooperierender Objekte beschrieben. Einem Objekt sind bestimmte Attribute (Eigenschaften) und Methoden zugeordnet. Diese können auch vererbt werden. Das System ist in der Lage, von Objekten Nachrichten zu empfangen und zu senden."
@@ -2067,7 +2421,7 @@ const cardSets = {
     },
     {
       "question": "Wofür steht REST in REST-API?",
-      "answer": "REST steht für Representational State Transfer."
+      "answer": "Steht für Representational State Transfer - Application Programming Interfac."
     },
     {
       "question": "Was ist eine REST-API?",
@@ -2715,30 +3069,6 @@ const cardSets = {
       answer: "Das Bundesdatenschutzgesetz regelt in Deutschland den Umgang mit personenbezogenen Daten und schützt die Rechte der betroffenen Personen."
     },
     {
-      question: "Was ist die Testplanung?",
-      answer: "Festlegung der Teststrategie, Testziele und Ressourcen."
-    },
-    {
-      question: "Was ist der Testentwurf?",
-      answer: "Erstellen von Testfällen basierend auf den Anforderungen."
-    },
-    {
-      question: "Was ist die Testvorbereitung?",
-      answer: "Vorbereitung der Testumgebung und Testdaten."
-    },
-    {
-      question: "Was ist die Testdurchführung?",
-      answer: "Ausführen der Testfälle und Dokumentation der Ergebnisse."
-    },
-    {
-      question: "Was ist die Testauswertung?",
-      answer: "Auswerten der Testergebnisse im Vergleich zu den erwarteten Ergebnissen."
-    },
-    {
-      question: "Was ist der Testabschluss?",
-      answer: "Dokumentation der Ergebnisse und Lessons Learned."
-    },
-    {
       question: "Was ist Black-Box-Testing?",
       answer: "Testen der Funktionalität ohne Kenntnis des Quellcodes."
     },
@@ -2937,6 +3267,134 @@ const cardSets = {
     {
       question: "Was bedeutet Embedding in der Programmierung?",
       answer: "Embedding ist der Prozess, bei dem du eine Sprache wie Python in ein anderes Programm (z. B. ein C-Programm) einbettest, sodass Python-Code innerhalb des C-Codes ausgeführt wird."
+    },
+    {
+      "question": "Ethernet: Wozu dient die Preamble im Ethernet Frame?",
+      "answer": "Zur Synchronisation vor dem Frame."
+    },
+    {
+      "question": "Ethernet: Wie lang ist die Destination MAC-Adresse im Ethernet Frame?",
+      "answer": "6 Bytes."
+    },
+    {
+      "question": "Ethernet: Was zeigt die Source MAC im Ethernet Frame?",
+      "answer": "Die Quelladresse."
+    },
+    {
+      "question": "Ethernet: Welcher Wert steht im Type-Feld für IPv4?",
+      "answer": "0x0800."
+    },
+    {
+      "question": "Ethernet: Wie groß ist der Datenbereich im Ethernet Frame?",
+      "answer": "46 bis 1500 Bytes."
+    },
+    {
+      "question": "Ethernet: Was macht das FCS-Feld im Ethernet Frame?",
+      "answer": "Es prüft auf Fehler."
+    },
+    {
+      "question": "ARP: Wo befindet sich der ARP Header im Ethernet Frame?",
+      "answer": "Im Data-Feld des Ethernet Frames."
+    },
+    {
+      "question": "ARP: Wie lang ist der ARP Header?",
+      "answer": "28 Bytes."
+    },
+    {
+      "question": "ARP: Was ist ein ARP Request?",
+      "answer": "Ein Broadcast zur Abfrage einer MAC-Adresse."
+    },
+    {
+      "question": "ARP: Welche MAC-Adresse wird bei einem ARP Request verwendet?",
+      "answer": "FF:FF:FF:FF:FF:FF (Broadcast)."
+    },
+    {
+      "question": "ARP: Welche Informationen enthält ein ARP Request?",
+      "answer": "Eigene MAC/IP, Ziel-IP, leere Ziel-MAC."
+    },
+    {
+      "question": "ARP: Was passiert beim ARP Reply?",
+      "answer": "Die Ziel-MAC-Adresse wird zurückgesendet."
+    },
+    {
+      "question": "ARP: Was passiert nach dem Empfang eines ARP Reply?",
+      "answer": "Die MAC-Adresse wird in die ARP-Tabelle eingetragen."
+    },
+    {
+      "question": "TCP: Wie viele Schritte hat der TCP 3-Way Handshake?",
+      "answer": "Drei."
+    },
+    {
+      "question": "TCP: Was sendet der Client zuerst im Handshake?",
+      "answer": "SYN."
+    },
+    {
+      "question": "TCP: Was sendet der Server im zweiten Schritt?",
+      "answer": "SYN-ACK."
+    },
+    {
+      "question": "TCP: Was sendet der Client zuletzt im Handshake?",
+      "answer": "ACK."
+    },
+    {
+      "question": "TCP: Wozu dienen die Sequenznummern in TCP?",
+      "answer": "Zur Sicherstellung der Reihenfolge und Erkennung von Fehlern."
+    },
+    {
+      "question": "TCP: Was passiert, wenn ein TCP-Paket fehlt?",
+      "answer": "Es wird erneut angefordert."
+    },
+    {
+      "question": "Ports: Was ist ein Socket?",
+      "answer": "Eine Kombination aus IP-Adresse und Port."
+    },
+    {
+      "question": "Ports: Wie viele Bits hat eine Portnummer?",
+      "answer": "16 Bit."
+    },
+    {
+      "question": "Ports: Was sind Well Known Ports?",
+      "answer": "Ports von 0 bis 1023 für bekannte Dienste."
+    },
+    {
+      "question": "Ports: Was sind Registered Ports?",
+      "answer": "Ports von 1024 bis 49151 für registrierte Anwendungen."
+    },
+    {
+      "question": "Ports: Was sind Dynamic oder Private Ports?",
+      "answer": "Ports von 49152 bis 65535 für Clients."
+    },
+    {
+      "question": "Ports: Wer verwaltet die Portnummern im Internet?",
+      "answer": "Die IANA (Internet Assigned Numbers Authority)."
+    },
+    {
+      "question": "Ethernet: Wie wird die Mindestlänge eines Ethernet-Frames erreicht?",
+      "answer": "Durch Auffüllen mit zusätzlichen Daten (Padding)."
+    },
+    {
+      "question": "Ethernet: Wie lang ist ein Ethernet-Frame mindestens?",
+      "answer": "64 Bytes."
+    },
+    {
+      "question": "Ethernet: Wie lang ist der Ethernet-Header?",
+      "answer": "14 Bytes."
+    },
+    {
+      "question": "Ethernet: Wie lang ist der Ethernet-Trailer (FCS)?",
+      "answer": "4 Bytes."
+    },
+    {
+      "question": "Ethernet: Wie lang ist typischerweise der ARP-Datenbereich im Ethernet Frame?",
+      "answer": "28 Bytes."
+    },
+    {
+      "question": "ARP: Wie läuft die Kommunikation mit ARP Schritt für Schritt ab?",
+      "answer": "1. Sender kennt nur die IP des Zielgeräts. 2. Sender sendet ARP Request (Broadcast) mit eigener MAC/IP und Ziel-IP. 3. Zielgerät erkennt eigene IP, speichert MAC/IP des Senders und antwortet mit ARP Reply. 4. Sender empfängt ARP Reply und speichert MAC/IP des Ziels. Danach ist Kommunikation möglich."
+    },
+    {
+      "question": "DHCP: Wie läuft der DHCP-Prozess Schritt für Schritt ab?",
+      "answer": "1. DHCP Discover (Client sucht Server, Broadcast). 2. DHCP Offer (Server bietet IP an). 3. DHCP Request (Client fragt angebotene IP an). 4. DHCP Acknowledgment (Server bestätigt Zuweisung). Danach kann der Client die IP-Adresse verwenden."
     }
   ],
   "WISO": [
@@ -3489,219 +3947,219 @@ const cardSets = {
     {
       "question": "Magisches Viereck: Was bedeutet Preisstabilität im Magischen Viereck?",
       "answer": "Sicherung der Kaufkraft."
-  },
-  {
+    },
+    {
       "question": "Magisches Viereck: Was bedeutet hohe Vollbeschäftigung im Magischen Viereck?",
       "answer": "Weniger als 2% Arbeitslose."
-  },
-  {
+    },
+    {
       "question": "Magisches Viereck: Was bedeutet stetiges Wirtschaftswachstum im Magischen Viereck?",
       "answer": "Die Wirtschaft wächst stetig weiter."
-  },
-  {
+    },
+    {
       "question": "Magisches Viereck: Was bedeutet Gleichgewicht in der In- und Außenwirtschaft?",
       "answer": "Export und Import sind im Gleichgewicht."
-  },
-  {
+    },
+    {
       "question": "Zahlungsbilanz: Welche Institutionen sind für die Zahlungsbilanz zuständig?",
       "answer": "Die DZB für Deutschland und die EZB für die EU."
-  },
-  {
+    },
+    {
       "question": "Leistungsbilanz: Was umfasst die Handelsbilanz?",
       "answer": "Die Warenverrechnung von Export und Import."
-  },
-  {
+    },
+    {
       "question": "Leistungsbilanz: Was umfasst die Dienstleistungsbilanz?",
       "answer": "Die Verrechnung von Dienstleistungsexport und -import."
-  },
-  {
+    },
+    {
       "question": "Leistungsbilanz: Was umfasst die Erwerbs- und Vermögenseinkommensbilanz?",
       "answer": "Alle Kapitalanlagen, die gezahlt werden – Export minus Import."
-  },
-  {
+    },
+    {
       "question": "Leistungsbilanz: Was umfasst die laufende Übertragungsbilanz?",
       "answer": "Unentgeltliche Leistungen wie Rente, Spenden und Entwicklungshilfe – Export minus Import."
-  },
-  {
+    },
+    {
       "question": "Zahlungsbilanz: Wie berechnet sich der Außenbetrag?",
       "answer": "Der Außenbetrag ist gleich der Handelsbilanz plus der Dienstleistungsbilanz."
-  },
-  {
+    },
+    {
       "question": "Vermögensübertragung: Was bedeutet Vermögensübertragung?",
       "answer": "Einmalige Übertragung zwischen Ländern, etwa durch Schuldenerlass oder Unterstützung."
-  },
-  {
+    },
+    {
       "question": "Vermögensübertragung: Wie kann eine Vermögensübertragung zwischen Ländern erfolgen?",
       "answer": "Durch Schuldenerlass, Unterstützung von Ländern oder Einwanderung und Erbschaften."
-  },
-  {
+    },
+    {
       "question": "Kapitalbilanz: Was umfasst Direktinvestitionen?",
       "answer": "Beteiligungen in Form von Aktien."
-  },
-  {
+    },
+    {
       "question": "Kapitalbilanz: Was umfasst den Bereich Wertpapiere?",
       "answer": "Erwerb und Verkauf von klassischen Wertpapieren."
-  },
-  {
+    },
+    {
       "question": "Kapitalbilanz: Was umfasst den Bereich Kreditverkehr?",
       "answer": "Langfristige und kurzfristige Kredite."
-  },
-  {
+    },
+    {
       "question": "Kapitalbilanz: Was sind sonstige Transaktionen?",
       "answer": "Sonstige Finanztransaktionen, die nicht in andere Kategorien passen."
-  },
-  {
+    },
+    {
       "question": "Saldo nicht wiederaufladbare Transaktionen: Was umfasst dieser Saldo?",
       "answer": "Alle ungeklärten Dinge, die man nicht nachverfolgen kann, wie Koffergeschäfte."
-  },
-  {
+    },
+    {
       "question": "Devisen: Was ist ein Devisenzufluss?",
       "answer": "Wenn ausländische Währung in ein Land fließt, etwa durch Exporte oder ausländische Investitionen."
-  },
-  {
+    },
+    {
       "question": "Devisen: Was ist ein Devisenabfluss?",
       "answer": "Wenn heimische Währung das Land verlässt, zum Beispiel durch Importe oder Auslandskredite."
-  },
-  {
+    },
+    {
       "question": "Leistungsbilanzüberschuss: Was bedeutet ein Leistungsbilanzüberschuss?",
       "answer": "Ein Land erhält mehr durch Exporte und Dienstleistungen, als es ausgibt. Mehr Geld fließt ins Land als hinaus."
-  },
-  {
+    },
+    {
       "question": "Binnenkonjunktur: Was passiert bei einem Exportboom?",
       "answer": "Investitionen steigen, Arbeitslosigkeit sinkt und die Nachfrage steigt."
-  },
-  {
+    },
+    {
       "question": "Binnenkonjunktur: Was passiert bei einem Exportboom in Bezug auf die Inlandsgeldmenge?",
       "answer": "Die Inlandsgeldmenge steigt, was zu importierter Inflation führt."
-  },
-  {
+    },
+    {
       "question": "Außenhandel: Was passiert mit dem Eurokurs bei einem USD-Umtausch?",
       "answer": "Der Eurokurs steigt."
-  },
-  {
+    },
+    {
       "question": "Außenhandel: Was passiert, wenn der Eurokurs steigt?",
       "answer": "Die Exporterlöse sinken, und die Leistungsbilanz wird ausgeglichen."
-  },
-  {
-    "question": "Was ist ein Leistungsbilanzdefizit?",
-    "answer": "Es entsteht, wenn ein Land mehr für Importe und Dienstleistungen ausgibt als es durch Exporte und Einnahmen erhält, was zu einem Nettoabfluss von Geld führt."
-},
-{
-    "question": "Was passiert bei einem hohen Import für die Binnenkonjunktur?",
-    "answer": "Investitionen sinken, Arbeitslosigkeit steigt, Nachfrage sinkt, was zu einer Rezession führt."
-},
-{
-    "question": "Was passiert bei einem hohen Import für die Inlandsgeldmenge?",
-    "answer": "Die Inlandsgeldmenge sinkt, wodurch auch die Inflation sinkt."
-},
-{
-    "question": "Was passiert bei einem €-Umtausch in $ für den Außenhandel?",
-    "answer": "Der $-Kurs steigt, was Exporterlöse steigen lässt und die Leistungsbilanz ausgleicht."
-},
-{
-    "question": "Was ist die Reihenfolge der Bedürfnisse laut der Bedürfnishierarchie?",
-    "answer": "1. Grundbedürfnisse, 2. Sicherheitsbedürfnisse, 3. Sozialbedürfnisse, 4. Ich-Bedürfnisse, 5. Selbstverwirklichung."
-},
-{
-    "question": "Was ist der Zusammenhang zwischen Bedürfnis und Nachfrage?",
-    "answer": "Bedürfnis führt zu Geld, was dann zu einem Bedarf führt, der den Kaufwillen und schließlich die Nachfrage auslöst."
-},
-{
-    "question": "Wie berechnet man die Rentabilität?",
-    "answer": "Rentabilität = Gewinn / Kapital."
-},
-{
-    "question": "Wie berechnet man die Eigenkapitalrentabilität?",
-    "answer": "Eigenkapitalrentabilität = Jahresgewinn * 100 / Eigenkapital."
-},
-{
-    "question": "Wie berechnet man die Produktivität?",
-    "answer": "Produktivität = Output / Input."
-},
-{
-    "question": "Wie berechnet man die Wirtschaftlichkeit?",
-    "answer": "Wirtschaftlichkeit = Erlöse / Kosten oder Ertrag / Aufwand."
-},
-{
-    "question": "Was ist eine Beschäftigungsquote?",
-    "answer": "Die Beschäftigungsquote zeigt den Grad der Kapazitätsauslastung einer Volkswirtschaft."
-},
-{
-    "question": "Wie berechnet man die Arbeitslosenquote?",
-    "answer": "Arbeitslosenquote = Arbeitslose / Erwerbspersonen * 100."
-},
-{
-    "question": "Was bedeutet Vollbeschäftigung in Bezug auf die Arbeitslosenquote?",
-    "answer": "Vollbeschäftigung liegt vor, wenn die Arbeitslosenquote zwischen 2% und 4% liegt."
-},
-{
-    "question": "Was bedeutet Unterbeschäftigung?",
-    "answer": "Unterbeschäftigung bedeutet eine Arbeitslosenquote von mehr als 2%-4%."
-},
-{
-    "question": "Was ist die Bedeutung von Überbeschäftigung?",
-    "answer": "Überbeschäftigung tritt auf, wenn es mehr offene Stellen gibt als Arbeitslose."
-},
-{
-    "question": "Welche Arten von Arbeitslosigkeit gibt es?",
-    "answer": "Friktionelle, saisonelle, konjunkturelle, strukturelle und Langzeitarbeitslosigkeit."
-},
-{
-    "question": "Was ist friktionelle Arbeitslosigkeit?",
-    "answer": "Arbeitslosigkeit aufgrund eines Jobwechsels, die von kurzer Dauer ist."
-},
-{
-    "question": "Was ist saisonelle Arbeitslosigkeit?",
-    "answer": "Arbeitslosigkeit aufgrund saisonaler Schwankungen, z.B. in der Landwirtschaft oder im Tourismus."
-},
-{
-    "question": "Was ist konjunkturelle Arbeitslosigkeit?",
-    "answer": "Arbeitslosigkeit aufgrund einer schwachen Wirtschaftslage."
-},
-{
-    "question": "Was ist strukturelle Arbeitslosigkeit?",
-    "answer": "Arbeitslosigkeit aufgrund von Umstrukturierungen oder Veränderungen in der Wirtschaft."
-},
-{
-    "question": "Was ist Langzeitarbeitslosigkeit?",
-    "answer": "Arbeitslosigkeit, die länger als ein Jahr dauert."
-},
-{
-    "question": "Was ist die Theorie der freien Marktwirtschaft?",
-    "answer": "Freier Handel führt zum Wohlstand aller, ohne staatliche Eingriffe."
-},
-{
-    "question": "Was sind die Probleme der freien Marktwirtschaft?",
-    "answer": "Monopole und Ausnutzung sozial schwacher Menschen."
-},
-{
-    "question": "Was ist die Theorie der Zentralverwaltungswirtschaft?",
-    "answer": "Es gibt kein Privat Eigentum an Produktionsmitteln, und der Staat verwaltet alles."
-},
-{
-    "question": "Was sind die Probleme der Zentralverwaltungswirtschaft?",
-    "answer": "Es gibt keine freie Entfaltung für den Einzelnen und der Staat bestimmt die Preise."
-},
-{
-    "question": "Was ist die Theorie der sozialen Marktwirtschaft?",
-    "answer": "Es kombiniert das Beste aus beiden Welten: Der Staat bietet viele Freiheiten und wenig Einfluss, aber sorgt für soziale Absicherung."
-},
-{
-    "question": "Was ist das Solidaritätsprinzip in der sozialen Marktwirtschaft?",
-    "answer": "Die Gemeinschaft hilft dem Einzelnen."
-},
-{
-    "question": "Was ist das Subsidiaritätsprinzip?",
-    "answer": "Der Staat springt ein, wenn der Einzelne sich nicht selbst helfen kann."
-},
-{
-    "question": "Was bedeutet marktkonforme Politik?",
-    "answer": "Der Staat gibt Menschen Geld, z.B. Wohngeld oder Kindergeld."
-},
-{
-    "question": "Was bedeutet marktkonträre Politik?",
-    "answer": "Der Staat greift in den Markt ein, z.B. durch Mindestlöhne oder Mietpreisbremse."
-}
+    },
+    {
+      "question": "Was ist ein Leistungsbilanzdefizit?",
+      "answer": "Es entsteht, wenn ein Land mehr für Importe und Dienstleistungen ausgibt als es durch Exporte und Einnahmen erhält, was zu einem Nettoabfluss von Geld führt."
+    },
+    {
+      "question": "Was passiert bei einem hohen Import für die Binnenkonjunktur?",
+      "answer": "Investitionen sinken, Arbeitslosigkeit steigt, Nachfrage sinkt, was zu einer Rezession führt."
+    },
+    {
+      "question": "Was passiert bei einem hohen Import für die Inlandsgeldmenge?",
+      "answer": "Die Inlandsgeldmenge sinkt, wodurch auch die Inflation sinkt."
+    },
+    {
+      "question": "Was passiert bei einem €-Umtausch in $ für den Außenhandel?",
+      "answer": "Der $-Kurs steigt, was Exporterlöse steigen lässt und die Leistungsbilanz ausgleicht."
+    },
+    {
+      "question": "Was ist die Reihenfolge der Bedürfnisse laut der Bedürfnishierarchie?",
+      "answer": "1. Grundbedürfnisse, 2. Sicherheitsbedürfnisse, 3. Sozialbedürfnisse, 4. Ich-Bedürfnisse, 5. Selbstverwirklichung."
+    },
+    {
+      "question": "Was ist der Zusammenhang zwischen Bedürfnis und Nachfrage?",
+      "answer": "Bedürfnis führt zu Geld, was dann zu einem Bedarf führt, der den Kaufwillen und schließlich die Nachfrage auslöst."
+    },
+    {
+      "question": "Wie berechnet man die Rentabilität?",
+      "answer": "Rentabilität = Gewinn / Kapital."
+    },
+    {
+      "question": "Wie berechnet man die Eigenkapitalrentabilität?",
+      "answer": "Eigenkapitalrentabilität = Jahresgewinn * 100 / Eigenkapital."
+    },
+    {
+      "question": "Wie berechnet man die Produktivität?",
+      "answer": "Produktivität = Output / Input."
+    },
+    {
+      "question": "Wie berechnet man die Wirtschaftlichkeit?",
+      "answer": "Wirtschaftlichkeit = Erlöse / Kosten oder Ertrag / Aufwand."
+    },
+    {
+      "question": "Was ist eine Beschäftigungsquote?",
+      "answer": "Die Beschäftigungsquote zeigt den Grad der Kapazitätsauslastung einer Volkswirtschaft."
+    },
+    {
+      "question": "Wie berechnet man die Arbeitslosenquote?",
+      "answer": "Arbeitslosenquote = Arbeitslose / Erwerbspersonen * 100."
+    },
+    {
+      "question": "Was bedeutet Vollbeschäftigung in Bezug auf die Arbeitslosenquote?",
+      "answer": "Vollbeschäftigung liegt vor, wenn die Arbeitslosenquote zwischen 2% und 4% liegt."
+    },
+    {
+      "question": "Was bedeutet Unterbeschäftigung?",
+      "answer": "Unterbeschäftigung bedeutet eine Arbeitslosenquote von mehr als 2%-4%."
+    },
+    {
+      "question": "Was ist die Bedeutung von Überbeschäftigung?",
+      "answer": "Überbeschäftigung tritt auf, wenn es mehr offene Stellen gibt als Arbeitslose."
+    },
+    {
+      "question": "Welche Arten von Arbeitslosigkeit gibt es?",
+      "answer": "Friktionelle, saisonelle, konjunkturelle, strukturelle und Langzeitarbeitslosigkeit."
+    },
+    {
+      "question": "Was ist friktionelle Arbeitslosigkeit?",
+      "answer": "Arbeitslosigkeit aufgrund eines Jobwechsels, die von kurzer Dauer ist."
+    },
+    {
+      "question": "Was ist saisonelle Arbeitslosigkeit?",
+      "answer": "Arbeitslosigkeit aufgrund saisonaler Schwankungen, z.B. in der Landwirtschaft oder im Tourismus."
+    },
+    {
+      "question": "Was ist konjunkturelle Arbeitslosigkeit?",
+      "answer": "Arbeitslosigkeit aufgrund einer schwachen Wirtschaftslage."
+    },
+    {
+      "question": "Was ist strukturelle Arbeitslosigkeit?",
+      "answer": "Arbeitslosigkeit aufgrund von Umstrukturierungen oder Veränderungen in der Wirtschaft."
+    },
+    {
+      "question": "Was ist Langzeitarbeitslosigkeit?",
+      "answer": "Arbeitslosigkeit, die länger als ein Jahr dauert."
+    },
+    {
+      "question": "Was ist die Theorie der freien Marktwirtschaft?",
+      "answer": "Freier Handel führt zum Wohlstand aller, ohne staatliche Eingriffe."
+    },
+    {
+      "question": "Was sind die Probleme der freien Marktwirtschaft?",
+      "answer": "Monopole und Ausnutzung sozial schwacher Menschen."
+    },
+    {
+      "question": "Was ist die Theorie der Zentralverwaltungswirtschaft?",
+      "answer": "Es gibt kein Privat Eigentum an Produktionsmitteln, und der Staat verwaltet alles."
+    },
+    {
+      "question": "Was sind die Probleme der Zentralverwaltungswirtschaft?",
+      "answer": "Es gibt keine freie Entfaltung für den Einzelnen und der Staat bestimmt die Preise."
+    },
+    {
+      "question": "Was ist die Theorie der sozialen Marktwirtschaft?",
+      "answer": "Es kombiniert das Beste aus beiden Welten: Der Staat bietet viele Freiheiten und wenig Einfluss, aber sorgt für soziale Absicherung."
+    },
+    {
+      "question": "Was ist das Solidaritätsprinzip in der sozialen Marktwirtschaft?",
+      "answer": "Die Gemeinschaft hilft dem Einzelnen."
+    },
+    {
+      "question": "Was ist das Subsidiaritätsprinzip?",
+      "answer": "Der Staat springt ein, wenn der Einzelne sich nicht selbst helfen kann."
+    },
+    {
+      "question": "Was bedeutet marktkonforme Politik?",
+      "answer": "Der Staat gibt Menschen Geld, z.B. Wohngeld oder Kindergeld."
+    },
+    {
+      "question": "Was bedeutet marktkonträre Politik?",
+      "answer": "Der Staat greift in den Markt ein, z.B. durch Mindestlöhne oder Mietpreisbremse."
+    }
   ],
   "WISO3": [
     {
@@ -4324,7 +4782,23 @@ const cardSets = {
     },
   ],
   "WISO5": [
-
+    {
+      "question": "Was sind die Organe einer GmbH?",
+      "answer": "Gesellschafter, Geschäftsführung und Aufsichtsrat."
+    },
+    {
+      "question": "Was sind die Organe einer AG?",
+      "answer": "Hauptversammlung, Vorstand und Aufsichtsrat."
+    },
+    {
+      "question": "Was ist eine Holding in der Organisation?",
+      "answer": "Eine Dachfirma, unter der viele Firmen organisiert sind."
+    }
+    ,
+    {
+      "question": "Was ist der Unterschied zwischen Lasten- und Pflichtenheft?",
+      "answer": "Das Lastenheft beschreibt vom Auftraggeber, was gemacht werden soll. Das Pflichtenheft beschreibt vom Auftragnehmer, wie es umgesetzt wird."
+    },
     {
       question: "Was ist das ökonomische Prinzip?",
       answer: "Das ökonomische Prinzip umfasst das Maximalprinzip (mit gegebenen Mitteln maximaler Ertrag) und das Minimalprinzip (mit gegebenem Ziel minimaler Einsatz)."
@@ -4621,6 +5095,18 @@ const cardSets = {
     { "question": "Was zeigt die Gewinnschwelle?", "answer": "Wie viele Stücke verkauft werden müssen für Gewinn." }
   ],
   "IT-System": [
+    {
+      "question": "Was sind wichtige Faktoren bei der Auswahl von Speicherlösungen?",
+      "answer": "Kosten: Optimierung der Kosten je nach Speicheranforderungen. Performance: Auswahl des Speichers basierend auf benötigter Geschwindigkeit. Skalierbarkeit: Möglichkeit der Erweiterung des Speichers bei Bedarf. Zuverlässigkeit: Speicherlösungen müssen zuverlässig und fehlerresistent sein."
+    },
+    {
+      "question": "Was ist Objekt-Storage?",
+      "answer": "Speichert Daten als Objekte mit Metadaten und einer eindeutigen ID."
+    },
+    {
+      "question": "Was ist Storage Tiering?",
+      "answer": "Das Aufteilen der Daten nach Wichtigkeit und Zugriffsfrequenz auf verschiedene Medien. Kostenoptimierung durch weniger wichtige Daten auf HDD und Leistungsoptimierung durch wichtige Daten auf SSD. Automatisierung wählt basierend auf Nutzungsmustern die Daten aus."
+    },
     {
       "question": "Was ist Kilo (k) und was entspricht es?",
       "answer": "Kilo (k) ist 10^3, also 1.000."
@@ -4953,6 +5439,85 @@ const cardSets = {
   ],
   "IT-Sicherheit": [
     {
+      "question": "Warum macht man regelmäßig Software-Updates?",
+      "answer": "Um Sicherheitslücken zu schließen, neue Funktionen bereitzustellen, Fehler zu beheben und die Leistung oder Stabilität zu verbessern."
+    },
+    {
+      "question": "Was ist ein Load Balancer?",
+      "answer": "Ein Load Balancer verteilt Anfragen an mehrere Server, um die Last gleichmäßig zu verteilen und die Performance zu verbessern."
+    },
+    {
+      "question": "Was ist Pretexting in der Social Engineering?",
+      "answer": "Pretexting ist eine Methode, bei der ein Angreifer eine falsche Identität vorgibt, um Informationen zu erschleichen."
+    },
+    {
+      "question": "Was sind wesentliche Bestandteile einer Datenschutzrichtlinie im Unternehmen?",
+      "answer": "Zweckbindung: Festlegung der konkreten Zwecke, für die Daten erhoben werden. Transparenz: Betroffene müssen darüber informiert werden, wie ihre Daten verwendet werden. \n Sicherheitsmaßnahmen: Definieren, wie die Daten technisch und organisatorisch geschützt werden. \n  Aufbewahrungsfristen: Bestimmung, wie lange Daten gespeichert werden, bevor sie gelöscht werden. Datensparsamkeit: Nur Daten erheben, die wirklich notwendig sind."
+    },
+    {
+      "question": "Warum macht man Schulungen für den IT-Schutz?",
+      "answer": "Sensibilisierung, rechtliche Anforderungen erfüllen, menschliche Fehler minimieren, Wissen aktualisieren, Sicherheit stärken."
+    },
+    {
+      "question": "Was sind Schutzmaßnahmen gegen Ransomware?",
+      "answer": "Schulungen, Backups und Antivirenprogramme, die es erkennen, Ports sperren, Mailfilter."
+    },
+    {
+      "question": "Was ist eine Zero-Trust-Strategie?",
+      "answer": "Benutzer bekommen minimale Rechte und kontinuierliche Überprüfung beim Zugriff."
+    },
+    {
+      "question": "Was sind Sicherheitsaudits?",
+      "answer": "Sicherheitsaudits sind systematische Überprüfungen, bei denen die Sicherheit von IT-Systemen, Netzwerken oder Anwendungen bewertet wird, um Schwachstellen zu identifizieren und die Einhaltung von Sicherheitsrichtlinien zu prüfen."
+    },
+    {
+      "question": "Wie kann man ein WLAN-Netzwerk absichern?",
+      "answer": "WPA3-Verschlüsselung, MAC-Adressfilterung, Deaktivierung des SSID-Broadcasts."
+    },
+    {
+      "question": "Was ist Data Loss Prevention (DLP)?",
+      "answer": "Eine Sicherheitsstrategie, die darauf abzielt, das unbefugte Entfernen oder Weitergeben von sensiblen Daten aus einem Unternehmen zu verhindern."
+    },
+    {
+      "question": "Was sind Audits?",
+      "answer": "Audits sind unabhängige Prüfungen oder Untersuchungen von Prozessen, Systemen oder Finanzberichten, um deren Genauigkeit, Einhaltung von Standards und Wirksamkeit zu bewerten. Sicherheits-Checks."
+    },
+    {
+      "question": "Nenne physikalische Sicherheitsmaßnahmen von Serverräumen?",
+      "answer": "Zutrittskontrolle, Videoüberwachung, Rauch- und Feuermelder."
+    },
+    {
+      "question": "Was ist eine Datenschutz-Folgenabschätzung (DSFA)?",
+      "answer": "Eine Datenschutz-Folgenabschätzung (DSFA) ist eine Analyse, die durchgeführt wird, um die Auswirkungen einer geplanten Datenverarbeitung auf den Schutz personenbezogener Daten zu bewerten und Risiken für die betroffenen Personen zu identifizieren."
+    },
+    {
+      "question": "Was sind Maßnahmen gegen Brute-Force-Angriffe?",
+      "answer": "Account sperren bei Fehlversuchen, 2FA, Passwort-Mindestanforderungen und CAPTCHA."
+    },
+
+    {
+      "question": "Welche Angriffszenarien im Bereich IoT gibt es?",
+      "answer": "Man-in-the-Middle, DDoS-Angriffe auf Smart-Geräte und Botnet-Angriffe."
+    },
+
+    {
+      "question": "Nenne drei Maßnahmen der DSGVO?",
+      "answer": "Datenminimierung, Pseudonymisierung, Verschlüsselung, Zugriffskontrolle (Rollen-Konzepte), Kennzeichnung der DSGVO, wo sie angewendet wird."
+    },
+
+    {
+      "question": "Was ist IT Governance?",
+      "answer": "IT Governance ist ein Rahmenwerk, das sicherstellt, dass die IT-Strategie und die Unternehmensstrategie übereinstimmen und die IT-Ziele effektiv erreicht werden."
+    },
+    {
+      "question": "Was ist Compliance?",
+      "answer": "Eine Mischung aus Richtlinien und Vorschriften, deren Einhaltung gewährleistet werden muss."
+    },
+    {
+      "question": "Was ist Industrie 4.0?",
+      "answer": "Industrie 4.0 ist die Vernetzung von IoT, KI, Big Data und automatisierten Prozessen zur Digitalisierung der Industrie."
+    },
+    {
       "question": "Was bedeutet VPN und wie funktioniert die Verschlüsselung?",
       "answer": "VPN (Virtual Private Network) ermöglicht es, eine sichere Verbindung über ein unsicheres Netzwerk, wie das Internet, zu erstellen. Die Verschlüsselung stellt sicher, dass die Daten während der Übertragung geschützt sind, indem sie in einen Code umgewandelt werden, der nur mit einem Schlüssel entschlüsselt werden kann."
     },
@@ -5263,7 +5828,106 @@ const cardSets = {
       "answer": "1. Strukturanalyse: Alle relevanten Objekte (z.B. IT-Systeme, Prozesse, Räume) werden erfasst und gruppiert. 2. Schutzbedarfsfeststellung: Für jedes Objekt wird bewertet, wie hoch der Bedarf an Vertraulichkeit, Integrität und Verfügbarkeit ist. 3. Bausteine auswählen: Passende IT-Grundschutz-Bausteine werden zugeordnet. 4. Risikoanalyse: Risiken werden identifiziert, bewertet und geeignete Maßnahmen abgeleitet. 5. Sicherheitsmaßnahmen umsetzen: Technische und organisatorische Maßnahmen werden angewendet. 6. Kontinuierliche Verbesserung: Alle Maßnahmen werden regelmäßig geprüft und angepasst (z.B. nach dem PDCA-Zyklus)."
     }
   ],
-  "Projektmanagement": [
+  "Projekt & Management": [
+    {
+      "question": "Was sind die Herausforderungen bei der mobilen Entwicklung?",
+      "answer": "Verschiedene Betriebssysteme und Versionen, Performance-Optimierung, Sicherheit und responsives Design."
+    },
+    {
+      "question": "Was ist ein Monolithisches System?",
+      "answer": "Ein monolithisches System ist eine Softwarearchitektur, bei der alle Komponenten einer Anwendung in einem einzigen, zusammenhängenden Block verarbeitet werden. Änderungen oder Erweiterungen sind schwieriger und das System kann bei wachsendem Umfang unübersichtlich werden."
+    },
+
+    {
+      "question": "Was ist der Vorteil von Design Patterns?",
+      "answer": "Wiederverwendbare Lösungen, erhöhte Wartbarkeit und bessere Skalierbarkeit."
+    },
+    {
+      "question": "Was ist Domain-Driven Design (DDD)?",
+      "answer": "Bei Domain-Driven Design arbeiten Fachexperten, z. B. aus Vertrieb oder Finanzen, eng mit Entwicklern zusammen, um durch bessere Kommunikation ein Produkt zu entwickeln, das den fachlichen Anforderungen genau entspricht."
+    },
+    {
+      "question": "Was ist ACID-Prinzipien?",
+      "answer": "Atomicity: Alles oder nichts. Consistency: Daten bleiben konsistent. Isolation: Transaktionen beeinflussen sich nicht gegenseitig. Durability: Nach erfolgreichem Abschluss bleiben Änderungen bestehen."
+    },
+    {
+      "question": "Was ist eine User Story?",
+      "answer": "Kurzbeschreibung einer Funktion aus Sicht eines Nutzers. Beispiel: „Als Nutzer möchte ich mich anmelden können, um meine Daten zu verwalten.“ Wird später in Tasks unterteilt (z. B. UI, Backend, Test)."
+    },
+    {
+      "question": "Was ist ein Service Level Agreement (SLA)?",
+      "answer": "Ein Rahmenvertrag zwischen Dienstleister und Kunde. Hier wird Qualität, Verfügbarkeit, Reaktionszeiten und Verantwortlichkeiten geregelt."
+    },
+    {
+      "question": "Was ist Standard Operating Procedures (SOP) in Unternehmen?",
+      "answer": "Standardisierte Arbeitsanweisungen in Unternehmen. Sichern gleichbleibende Qualität und helfen, Vorschriften und Prozesse korrekt einzuhalten."
+    },
+    {
+      "question": "Was ist ITIL (Information Technology Infrastructure Library)?",
+      "answer": "Framework für IT-Service-Management. Basiert auf bewährten Praktiken (Best Practices) zur effizienten Bereitstellung von IT-Services."
+    },
+    {
+      "question": "Was ist MVP (Minimum Viable Product)?",
+      "answer": "MVP ist eine frühe, funktionsfähige Version eines Produkts mit minimalem Funktionsumfang. Ziel ist es, frühzeitig Kundenfeedback in der agilen Entwicklung zu erhalten."
+    },
+
+    {
+      "question": "Was ist ein kontinuierlicher Verbesserungsprozess (KVP)?",
+      "answer": "Der kontinuierliche Verbesserungsprozess umfasst die laufende Optimierung von Produkten, Prozessen und Dienstleistungen innerhalb einer Organisation."
+    },
+    {
+      "question": "Was ist Forming – Storming – Norming – Performing bei Teambildung?",
+      "answer": "1. Forming (Kennenlernen)\n 2. Storming (Konflikte und Rollenklärung) \n 3. Norming (Zusammenarbeit verbessert sich) \n 4. Performing (Effektive Teamarbeit)."
+    },
+    {
+      "question": "Was ist das V-Modell?",
+      "answer": "Das V-Modell ist ein sequenzielles Vorgehensmodell, bei dem jede Entwicklungsphase eine passende Testphase zugeordnet wird. Es eignet sich besonders für Projekte mit hohen Qualitätsanforderungen."
+    },
+    {
+      "question": "Welche IT-Support-Level gibt es?",
+      "answer": "Level 1: Erster Kontakt, Ticket-Erstellung. Level 2: Fehleranalyse. Level 3: Expertenlösungen und Workarounds."
+    },
+    {
+      "question": "Was ist Privacy by Design?",
+      "answer": "Datenschutz wird von Anfang an in Systeme und Prozesse integriert."
+    },
+    {
+      "question": "Was ist Privacy by Default?",
+      "answer": "Datenschutzfreundliche Einstellungen sind standardmäßig aktiviert, ohne dass der Nutzer eingreifen muss."
+    },
+
+    {
+      "question": "Was ist ein Projektstrukturplan (PSP)?",
+      "answer": "Ein Projektstrukturplan zerlegt ein Projekt in einzelne Arbeitspakete. Er wird häufig als Baumdiagramm dargestellt, jedoch ohne Zeitbezug."
+    },
+    {
+      "question": "Was ist ein Netzplan?",
+      "answer": "Ein Netzplan stellt die Abhängigkeiten zwischen Vorgängen und die zeitliche Planung eines Projekts grafisch dar."
+    },
+    {
+      "question": "Was ist ein Gesamtpuffer im Netzplan?",
+      "answer": "Die Zeitspanne zwischen dem frühesten und dem spätesten möglichen Starttermin eines Vorgangs."
+    },
+    {
+      "question": "Was ist ein freier Puffer im Netzplan?",
+      "answer": "Die Zeit zwischen dem Ende eines Vorgangs und dem frühesten Beginn seines Nachfolgers, ohne diesen zu verzögern."
+    },
+    {
+      "question": "Was ist der kritische Pfad im Netzplan?",
+      "answer": "Der kritische Pfad besteht aus Vorgängen ohne Zeitpuffer. Eine Verzögerung dort verzögert das gesamte Projekt."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen klassischen und agilen Vorgehensmodellen?",
+      "answer": "Klassisch: Feste Abläufe, wenig flexibel. Agil: Iterativ, flexibel, dynamisch anpassbar."
+    },
+    {
+      "question": "Was ist ein Wasserfallmodell?",
+      "answer": "Ein lineares Vorgehensmodell, bei dem jede Projektphase (z. B. Analyse, Design, Implementierung) nacheinander abgeschlossen wird."
+    },
+    {
+      "question": "Was ist ein Spiralmodell?",
+      "answer": "Ein iteratives Vorgehensmodell mit wiederholten Zyklen und integrierter Risikobewertung in jeder Phase."
+    },
     {
       "question": "Warum ändern sich Anforderungen in IT-Projekten?",
       "answer": "Anforderungen ändern sich, weil Stakeholder ihre Ziele aufgrund neuer Informationen oder Änderungen in Gesetzen anpassen."
@@ -5365,7 +6029,7 @@ const cardSets = {
       "answer": "Ein API-Call ist eine Anfrage von einem Programm an eine andere Software oder einen Server, um Daten zu erhalten oder eine Aktion auszuführen."
     },
     {
-      "question": "Wie viele Hauptarten von Anforderungen gibt es und welche sind das?",
+      "question": "Wie viele Hauptarten von SoftwareAnforderungen an gibt es und welche sind das?",
       "answer": "Es gibt drei Hauptarten von Anforderungen: Funktionale Anforderungen, Nicht-funktionale Anforderungen und Randbedingungen."
     },
     {
@@ -5552,6 +6216,139 @@ const cardSets = {
       "question": "Nennen Sie mir agile Vorgehensmodelle.",
       "answer": "Scrum , Kanban,  Extreme,  Programming (XP)"
     }
+  ],
+  "Software-qualität/test": [
+
+    {
+      "question": "Was ist der Vorteil von automatisierten Tests?",
+      "answer": "Frühe Fehlererkennung, erhöhte Code-Stabilität und kontinuierliche Qualitätssicherung."
+    },
+    {
+      "question": "Drei Methoden zur Anforderungsanalyse",
+      "answer":
+        "Interview: Austausch mit dem Kunden  \nWorkshops: Gemeinsames Erarbeiten von Anforderungen  \nPrototyp: Ein frühes Testmodell zur Validierung von Anforderungen."
+    },
+    {
+      "question": "Was ist TDD?",
+      "answer": "Test Driven Development (TDD) ist eine Methode, bei der zunächst automatisierte Tests geschrieben werden, bevor die eigentliche Programmierung erfolgt."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Major, Minor und Patch?",
+      "answer": "Major: Eine neue Version mit signifikanten Änderungen \nMinor: Neue Features und kleinere Erweiterungen  \nPatch: Fehlerbehebungen und kleinere Updates"
+    },
+    {
+      "question": "Was ist eine Nutzwertanalyse?",
+      "answer": "Hilft bei Entscheidungen, indem Kriterien festgelegt und gewichtet werden. Anschließend werden Punkte an Kandidaten vergeben und durch die Berechnung ergibt sich der Gewinner."
+    },
+    {
+      "question": "Was ist Lifecycle-Management?",
+      "answer": "Beschreibt die Verwaltung des Lebenszyklus von Software, Hardware oder Systemen, von der Einführung bis zur Entsorgung."
+    },
+    {
+      "question": "Was ist ein CRM-System?",
+      "answer": "Customer Relationship Management (CRM) ist ein System, das hilft, Kundenbeziehungen, Verkaufsprozesse und Marketing zu optimieren."
+    },
+    {
+      "question": "Was ist ein CMS-System?",
+      "answer": "Content Management System (CMS) ist ein System, mit dem man schnell Webseiten erstellen kann, ohne tiefgehende technische Kenntnisse zu haben."
+    },
+    {
+      "question": "Was bedeutet CI (Continuous Integration)?",
+      "answer": "CI (Continuous Integration): Bei einer Codeänderung wird automatisch der Build durchgeführt und automatisierte Tests ausgeführt."
+    },
+    {
+      "question": "Was bedeutet CD (Continuous Delivery/Deployment)?",
+      "answer": "CD (Continuous Delivery/Deployment): Nach der CI wird automatisch ausgerollt in der Produktionsumgebung."
+    },
+    {
+      "question": "Was ist Staging Environment bei einer Testumgebung?",
+      "answer": "Das Staging Environment simuliert reale Bedingungen und dient als Testumgebung zwischen Entwicklung und Produktion."
+    },
+    {
+      "question": "Was ist ein Komponententest?",
+      "answer": "Test einzelner Module eines Systems."
+    },
+    {
+      "question": "Was ist ein Funktionstest?",
+      "answer": "Testet Funktionen aus der Sicht des Anwenders."
+    },
+    {
+      "question": "Was ist ein Integrationstest?",
+      "answer": "Testet das Zusammenspiel mehrerer Komponenten, Module oder Systeme, um sicherzustellen, dass sie miteinander arbeiten."
+    },
+    {
+      "question": "Was ist ein Code Review?",
+      "answer": "Überprüfung des Quellcodes durch Kollegen auf Verständlichkeit, Wartbarkeit, Funktionalität und Einhaltung von Standards."
+    },
+    {
+      "question": "Was ist eine Anweisungsüberdeckung (Statement Coverage)?",
+      "answer": "Sicherstellt, dass jede Codezeile während des Tests mindestens einmal ausgeführt wird."
+    },
+    {
+      "question": "Was ist Code Coverage?",
+      "answer": "Code Coverage misst, wie viel Prozent des Quellcodes während eines Tests tatsächlich ausgeführt wird. Verschiedene Arten: Anweisungsüberdeckung, Zweigüberdeckung, etc."
+    },
+    {
+      "question": "Was ist Branch Coverage (Zweigüberdeckung)?",
+      "answer": "Branch Coverage prüft, ob alle möglichen Ausgänge (true/false) von Verzweigungen wie if, else, switch mindestens einmal durchlaufen wurden."
+    },
+    {
+      "question": "Was ist ein Unit Test?",
+      "answer": "Test einzelner Komponenten oder Methoden isoliert. Verwendet das FIRST-Prinzip: Fast, Independent, Repeatable, Self-validating, Timely."
+    },
+    {
+      "question": "Was sind funktionale Anforderungen?",
+      "answer": "Funktionale Anforderungen beschreiben, was ein System tun soll (z. B. Benutzer kann sich einloggen)."
+    },
+    {
+      "question": "Was sind nicht-funktionale Anforderungen?",
+      "answer": "Nicht-funktionale Anforderungen beschreiben, wie ein System arbeitet (z. B. Performance, Sicherheit, Zuverlässigkeit)."
+    },
+    {
+      "question": "Was ist ein statisches Testverfahren?",
+      "answer": "Ein statisches Testverfahren überprüft den Code ohne Ausführung, z. B. durch Code-Reviews oder Analysen."
+    },
+    {
+      "question": "Was ist ein dynamisches Testverfahren?",
+      "answer": "Ein dynamisches Testverfahren führt den Code aus, um das Verhalten des Systems unter realen Bedingungen zu testen."
+    },
+    {
+      "question": "Was ist der Extremwerttest?",
+      "answer": "Testet Grenzwerte (z. B. maximale/minimale Eingaben), um Schwachstellen zu erkennen."
+    },
+    {
+      "question": "Was sind Äquivalenzklassen bei Testen?",
+      "answer": "Eingabewerte werden in Gruppen (Klassen) mit ähnlichem Verhalten eingeteilt. Eine Eingabe pro Klasse genügt für effizientes Testen."
+    },
+    {
+      "question": "Was ist ein Penetrationstest?",
+      "answer": "Ein Penetrationstest simuliert gezielte Angriffe, um Schwachstellen in IT-Systemen aufzudecken."
+    },
+
+    {
+      "question": "Welche Bereiche gibt es in der Softwarequalität nach ISO 9126?",
+      "answer": "Funktionalität, Übertragbarkeit, Änderbarkeit, Effizienz, Benutzbarkeit und Sicherheit."
+    },
+    {
+      "question": "Was ist Qualitätssicherung?",
+      "answer": "Qualitätssicherung bezeichnet Maßnahmen zur Fehlervermeidung während der Entwicklung und Herstellung eines Produkts."
+    },
+    {
+      "question": "Was ist Qualitätskontrolle?",
+      "answer": "Qualitätskontrolle bezeichnet die Fehlererkennung nach der Herstellung, z. B. durch Tests."
+    },
+    {
+      "question": "Was ist Barrierefreiheit?",
+      "answer": "Software soll für alle Nutzergruppen zugänglich sein, z. B. durch Untertitel, Brailleschrift oder Spracherkennung."
+    },
+    {
+      "question": "Was ist Softwareergonomie?",
+      "answer": "Softwareergonomie umfasst intuitive Bedienung, Fehlervermeidung und Benutzerfreundlichkeit."
+    },
+    {
+      "question": "Was ist Modularisierung?",
+      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
+    },
   ],
   "KI": [
     {
@@ -5931,7 +6728,39 @@ const cardSets = {
       "answer": "Ein Deep Learning Framework ist eine Softwarebibliothek wie TensorFlow oder PyTorch, die Entwicklern hilft, neuronale Netzwerke zu erstellen, zu trainieren und zu testen."
     }
   ],
-  "SQL": [
+  "SQL und DB": [
+    {
+      "question": "Was ist Datenbankindexierung?",
+      "answer": "Hierbei erhalten Tabellen einen Index, wodurch die Suche nach Werten schneller wird. Sollte jedoch vermieden werden, wenn ständig neue Änderungen vorgenommen werden, da dann der Index regelmäßig neu erstellt werden muss."
+    },
+    {
+      "question": "Was ist Datenbankpartitionierung?",
+      "answer": "Das Aufteilen großer Datenmengen in kleinere, leichter zu handhabende Teile."
+    },
+    {
+      "question": "Was sind Transaktionsbefehle in SQL?",
+      "answer": "BEGIN TRANSACTION: Startet eine Transaktion. COMMIT: Bestätigt und speichert alle Änderungen dauerhaft. ROLLBACK: Macht alle Änderungen in der Transaktion rückgängig."
+    },
+    {
+      "question": "Was ist ein Regressionstest?",
+      "answer": "Stellt sicher, dass bestehende Funktionen nach Änderungen weiterhin korrekt funktionieren."
+    },
+    {
+      "question": "Was ist Datenbindung bei Model und View?",
+      "answer": "Einweg: Daten fließen vom Model zur View. Zweiweg: Daten fließen in beide Richtungen."
+    },
+    {
+      "question": "Nenne wichtige Datentypen in SQL.",
+      "answer": "Wichtige SQL-Datentypen sind INT, VARCHAR, TEXT, DATE, BOOLEAN, FLOAT und DECIMAL."
+    },
+    {
+      "question": "Was ist referenzielle Integrität bei SQL?",
+      "answer": "Stellt sicher, dass Fremdschlüssel auf gültige Datensätze in anderen Tabellen verweisen."
+    },
+    {
+      "question": "Was sind Stored Procedures bei SQL?",
+      "answer": "Vordefinierte SQL-Prozeduren, die wie Funktionen wiederverwendbar sind, um die Sicherheit und Performance zu erhöhen."
+    },
     {
       "question": "Was entspricht einem Tupel im Relationen-Modell?",
       "answer": "Ein Tupel entspricht im Relationen-Modell der Entität des ER-Modells."
@@ -6228,7 +7057,55 @@ const cardSets = {
     }
 
   ],
-  "Arch und Test":[
+  "Arch und Test": [
+    {
+      "question": "Was ist Microservices-Architektur?",
+      "answer": "Microservices-Architektur teilt eine große Software in viele kleine, unabhängige Dienste auf, die jeweils eine bestimmte Funktion erfüllen und separat entwickelt, getestet und aktualisiert werden können."
+    },
+    {
+      "question": "Was ist ein Key-Value-Store?",
+      "answer": "Ein Key-Value-Store ist eine Datenbank, die Daten als Schlüssel-Wert-Paare speichert. Jede gespeicherte Information hat einen eindeutigen Schlüssel und einen zugehörigen Wert. Diese Art von Datenbank eignet sich besonders für schnelle Lese- und Schreiboperationen und ist einfach skalierbar."
+    },
+    {
+      "question": "Was ist eine dokumentenorientierte Datenbank?",
+      "answer": "Eine dokumentenorientierte Datenbank speichert Daten in Form von Dokumenten, häufig im JSON-, BSON- oder XML-Format. Jedes Dokument ist ein eigenständiges Datenelement, das eine flexible Struktur hat, was bedeutet, dass nicht alle Dokumente die gleiche Struktur haben müssen. Diese Datenbanken eignen sich besonders gut für unstrukturierte und semi-strukturierte Daten."
+    },
+    {
+      "question": "Was ist eine spaltenorientierte Datenbank?",
+      "answer": "Eine spaltenorientierte Datenbank speichert Daten in Spalten statt in Zeilen. Jede Spalte wird separat gespeichert und optimiert, um schnelle Leseoperationen für große Mengen von Daten zu ermöglichen. Diese Art von Datenbank ist besonders nützlich für analytische Anwendungen, bei denen häufig nur ein Teil der Daten benötigt wird."
+    },
+    {
+      "question": "Was ist eine Graphdatenbank?",
+      "answer": "Eine Graphdatenbank speichert Daten in Form von Knoten, Kanten und Eigenschaften. Sie wird verwendet, um komplexe Beziehungen zwischen Daten zu modellieren, wie sie zum Beispiel in sozialen Netzwerken, Empfehlungsmaschinen oder Netzwerkanalysen vorkommen. Graphdatenbanken sind besonders effizient bei der Abfrage von Beziehungen und Verbindungen zwischen Entitäten."
+    },
+    {
+      "question": "Was ist ein Performance-Test?",
+      "answer": "Testet Software unter realistischen und extremen Bedingungen."
+    },
+    {
+      "question": "Was ist ein Observer-Muster?",
+      "answer": "Verhaltensmuster in der Softwareentwicklung. Ein Subjekt (z. B. Datenquelle) benachrichtigt registrierte Observer (z. B. UI-Komponenten) bei Änderungen automatisch."
+    },
+    {
+      "question": "Was ist eine Dreischichtenarchitektur?",
+      "answer": "1. Präsentationsschicht (UI), 2. Anwendungsschicht (Logik), 3. Datenzugriffsschicht (Datenbank). Dient zur Modularisierung, besseren Wartbarkeit und Trennung von Zuständigkeiten."
+    },
+    {
+      "question": "Was ist Model View Controller (MVC)?",
+      "answer": "Software-Architektur zur Trennung von Datenmodell, Benutzeroberfläche und Steuerlogik."
+    },
+    {
+      "question": "Was ist eine Sandbox?",
+      "answer": "Eine Sandbox ist ein isolierter Bereich, in dem Software sicher getestet werden kann, ohne das Gesamtsystem zu gefährden."
+    },
+    {
+      "question": "Was ist ein Extremwerttest?",
+      "answer": "Ein Test mit Werten außerhalb der spezifizierten Grenzen zur Erkennung von Schwachstellen und Fehlern."
+    },
+    {
+      "question": "Was ist ein Performancetest?",
+      "answer": "Ein Test, der das Verhalten einer Software unter Last und Dauerbelastung prüft."
+    },
     {
       "question": "Was bedeutet es, dass Phasen in der Softwareentwicklung häufig iterativ durchlaufen werden?",
       "answer": "Phasen werden häufig mit Wiederholungen in kurzen Abständen durchlaufen."
@@ -6387,7 +7264,7 @@ const cardSets = {
       "answer": "Das Ebenen-Modell beschreibt die Struktur von Software mit den Ebenen: System, Dienst, Schichten, Komponenten, Klassen, Methoden und Quellcode."
     }
   ],
-  "Python":[
+  "Python": [
     {
       "question": "Python: Ausgabe auf dem Bildschirm",
       "answer": "print(\"Hallo Welt!\")"
