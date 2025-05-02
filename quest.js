@@ -4888,8 +4888,20 @@ const cardSets = {
       answer: "Zweiseitige Marktformen sind z. B. zweiseitiges Monopol (1 Anbieter, 1 Nachfrager) oder zweiseitiges Oligopol (wenige Anbieter, wenige Nachfrager)."
     },
     {
-      question: "Was sind spezielle Monopolformen?",
-      answer: "Spezielle Monopolformen sind: Angebotsmonopol (1 Anbieter, viele Nachfrager), Nachfragemonopol (viele Anbieter, 1 Nachfrager), beschränktes Angebotsmonopol (1 Anbieter, wenige Nachfrager) und beschränktes Nachfragemonopol (viele Anbieter, 1 Nachfrager)."
+      "question": "Was ist ein Angebotsmonopol?",
+      "answer": "Ein Angebotsmonopol liegt vor, wenn es nur einen Anbieter und viele Nachfrager gibt."
+    },
+    {
+      "question": "Was ist ein Nachfragemonopol?",
+      "answer": "Ein Nachfragemonopol liegt vor, wenn es viele Anbieter und nur einen Nachfrager gibt."
+    },
+    {
+      "question": "Was ist ein beschränktes Angebotsmonopol?",
+      "answer": "Ein beschränktes Angebotsmonopol liegt vor, wenn es nur einen Anbieter, aber nur wenige Nachfrager gibt."
+    },
+    {
+      "question": "Was ist ein beschränktes Nachfragemonopol?",
+      "answer": "Ein beschränktes Nachfragemonopol liegt vor, wenn es viele Anbieter, aber nur wenige Nachfrager gibt."
     },
     {
       question: "Was ist der Wirtschaftskreislauf?",
