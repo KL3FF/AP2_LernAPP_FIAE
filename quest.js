@@ -3479,6 +3479,10 @@ const cardSets = {
       answer: "Angebotsseitige Maßnahmen verbessern die Produktionskapazitäten durch gute Infrastruktur und günstige Rahmenbedingungen für Unternehmen."
     },
     {
+      question: "Wie berechnet man denn Gleichgewichtspreis? (Marktgleichgewicht)",
+      answer: "Vom Gleichgewichspunkt => Menge * Preis"
+    },
+    {
       "question": "Was versteht man unter Binnenkonjunktur?",
       "answer": "Binnenkonjunktur bezeichnet die Wirtschaftsentwicklung im Inland, die auf heimischer Nachfrage basiert."
     },
