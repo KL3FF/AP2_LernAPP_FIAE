@@ -1130,11 +1130,11 @@ const cardSets = {
     },
     {
       "question": "Was ist eine inkrementelle Sicherung?",
-      "answer": "Bei einer inkrementellen Sicherung wird nach einer Vollsicherung nur das gesichert, was sich seit der letzten Sicherung verändert hat."
+      "answer": "Nach der erstellung einer Vollsicherung, wird bei einer Sicherung zu der letzten Sicherung nur der unterschied gesichert."
     },
     {
       "question": "Was ist eine differenzielle Sicherung?",
-      "answer": "Bei einer differenziellen Sicherung werden alle Daten gesichert, die sich seit der letzten Vollsicherung verändert haben."
+      "answer": "Es wird eine Vollsicherung gemacht und  dann wird immer alles gesichert, was seit der letzten Vollsicherung geändert wurde."
     },
     {
       "question": "Was ist das Generationenprinzip in einer Backup-Strategie?",
@@ -4782,6 +4782,14 @@ const cardSets = {
     },
   ],
   "WISO5": [
+    {
+      "question": "Was ist ein Verkäufermarkt",
+      "answer": "Ein Verkäufermarkt ist ein Markt mit mehr Nachfrage als Angebot, was zu höheren Preisen führt."
+    },
+    {
+      "question": "Was ist ein Käufermarkt?",
+      "answer": "Ein Käufermarkt ist ein Markt mit mehr Angebot als Nachfrage, was zu niedrigeren Preisen führt."
+    },
     {
       "question": "Was sind die Organe einer GmbH?",
       "answer": "Gesellschafter, Geschäftsführung und Aufsichtsrat."
