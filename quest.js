@@ -1050,7 +1050,7 @@ const cardSets = {
 
     {
       "question": "Was ist eine statische IP-Adresse?",
-      "answer": "Eine statische IP-Adresse bleibt immer gleich und wird manuell einem Gerät zugewiesen – z. B. für Server oder Drucker."
+      "answer": "Eine statische IP-Adresse bleibt immer gleich und wird manuell einem Gerät zugewiesen – z.B. für Server oder Drucker."
     },
 
     {
@@ -1068,7 +1068,7 @@ const cardSets = {
     },
     {
       "question": "Was ist eine Paketfilter-Firewall?",
-      "answer": "Eine Paketfilter-Firewall überprüft eingehende und ausgehende Datenpakete anhand von Regeln (z. B. IP-Adresse, Port, Protokoll) und entscheidet, ob sie weitergeleitet oder blockiert werden."
+      "answer": "Eine Paketfilter-Firewall überprüft eingehende und ausgehende Datenpakete anhand von Regeln (z.B. IP-Adresse, Port, Protokoll) und entscheidet, ob sie weitergeleitet oder blockiert werden."
     },
     {
       "question": "Was ist ein Anwendungs-Gateway (auch Proxy-Firewall genannt)?",
@@ -1122,7 +1122,7 @@ const cardSets = {
     },
     {
       "question": "Was ist IPsec (Internet Protocol Security)?",
-      "answer": "Wird oft in VPNs eingesetzt. Bietet Verschlüsselung, Authentizität und Integrität von IP-Paketen. Ermöglicht eine sichere Datenübertragung über unsichere Netzwerke (z. B. Internet)."
+      "answer": "Wird oft in VPNs eingesetzt. Bietet Verschlüsselung, Authentizität und Integrität von IP-Paketen. Ermöglicht eine sichere Datenübertragung über unsichere Netzwerke (z.B. Internet)."
     },
     {
       "question": "Was ist ein Vollbackup?",
@@ -1154,7 +1154,7 @@ const cardSets = {
     },
     {
       "question": "Was ist RPO (Recovery Point Objective)?",
-      "answer": "RPO beschreibt den maximal akzeptierten Datenverlust, gemessen in Zeit (z. B. 1 Stunde alte Daten dürfen verloren gehen)."
+      "answer": "RPO beschreibt den maximal akzeptierten Datenverlust, gemessen in Zeit (z.B. 1 Stunde alte Daten dürfen verloren gehen)."
     },
     {
       "question": "Was sind X.509-Zertifikate?",
@@ -1163,7 +1163,7 @@ const cardSets = {
 
     {
       "question": "Was ist ein PAN (Personal Area Network)?",
-      "answer": "Ein kleines, privates Netzwerk zur Verbindung persönlicher Geräte über kurze Distanz (z. B. Bluetooth)."
+      "answer": "Ein kleines, privates Netzwerk zur Verbindung persönlicher Geräte über kurze Distanz (z.B. Bluetooth)."
     },
     {
       "question": "Was ist ein Access Point?",
@@ -1171,7 +1171,7 @@ const cardSets = {
     },
     {
       "question": "Was ist Quality of Service (QoS)?",
-      "answer": "QoS gibt Anwendungen unterschiedliche Prioritäten, damit z. B. Video- oder Sprachdaten bevorzugt übertragen werden."
+      "answer": "QoS gibt Anwendungen unterschiedliche Prioritäten, damit z.B. Video- oder Sprachdaten bevorzugt übertragen werden."
     },
     {
       "question": "Was ist das Internet of Things (IoT)?",
@@ -1369,7 +1369,7 @@ const cardSets = {
   "IT-Sicherheit": [
     {
       "question": "Welche Arten der Authentifizierung gibt es?",
-      "answer": "1. Wissen – z. B. Passwort, PIN. 2. Besitz – z. B. Schlüsselkarte, Token. 3. Biometrie – z. B. Fingerabdruck, Gesichtserkennung."
+      "answer": "1. Wissen – z.B. Passwort, PIN. 2. Besitz – z.B. Schlüsselkarte, Token. 3. Biometrie – z.B. Fingerabdruck, Gesichtserkennung."
     },
     {
       "question": "Was ist das Least Privilege Principle in der IT?",
@@ -1389,7 +1389,7 @@ const cardSets = {
     },
     {
       "question": "Welche Verbindungsarten bei VPN (Virtual Private Network) gibt es?",
-      "answer": "End-to-Site VPN: Einzelner Client verbindet sich mit einem Unternehmensnetzwerk (z. B. Homeoffice → Firmennetz). Site-to-Site VPN: Zwei Netzwerke werden sicher miteinander verbunden (z. B. zwei Firmenstandorte). End-to-End VPN: Direkte Verbindung zwischen zwei Endgeräten."
+      "answer": "End-to-Site VPN: Einzelner Client verbindet sich mit einem Unternehmensnetzwerk (z.B. Homeoffice → Firmennetz). Site-to-Site VPN: Zwei Netzwerke werden sicher miteinander verbunden (z.B. zwei Firmenstandorte). End-to-End VPN: Direkte Verbindung zwischen zwei Endgeräten."
     },
 
     {
@@ -1415,7 +1415,7 @@ const cardSets = {
 
     {
       "question": "Was ist PSK (Pre-Shared Key)?",
-      "answer": "Ein vorab verabredeter Schlüssel, der zur Absicherung der Kommunikation dient, z. B. bei WLANs."
+      "answer": "Ein vorab verabredeter Schlüssel, der zur Absicherung der Kommunikation dient, z.B. bei WLANs."
     },
     {
       "question": "Wie kann man Datensicherung durchführen?",
@@ -1483,7 +1483,7 @@ const cardSets = {
     },
     {
       "question": "Wie werden Daten von Personen beim Datenschutz nach DSGVO unterschieden?",
-      "answer": "Es wird unterschieden zwischen personenbezogenen Daten und besonderen personenbezogenen Daten (z. B. Gesundheitsdaten)."
+      "answer": "Es wird unterschieden zwischen personenbezogenen Daten und besonderen personenbezogenen Daten (z.B. Gesundheitsdaten)."
     },
     {
       "question": "Was besagt das Verbot mit Erlaubnisvorbehalt der DSGVO?",
@@ -2021,15 +2021,13 @@ const cardSets = {
       "question": "Was ist Stateless bei RESTful APIs?",
       "answer": "Stateless bedeutet, dass jede Anfrage unabhängig von der vorherigen ist und der Server keine Sitzungsdaten speichert. Jede Anfrage muss alle nötigen Informationen beinhalten, um sie zu verarbeiten."
     },
-
-
     {
       "question": "Warum ist Versionierung wichtig in der Softwareentwicklung?",
       "answer": "Damit man Änderungen nachvollziehen kann, Fehler korrigieren kann und die Zusammenarbeit mit anderen verbessert wird."
     },
     {
       "question": "Was ist ein Update?",
-      "answer": "Ein Update innerhalb einer Version, z. B. zur Behebung von Bugs."
+      "answer": "Ein Update innerhalb einer Version, z.B. zur Behebung von Bugs."
     },
     {
       "question": "Was ist ein Upgrade?",
@@ -2037,7 +2035,7 @@ const cardSets = {
     },
     {
       "question": "Was sind strukturierte Daten?",
-      "answer": "Klare Tabellenstruktur (z. B. SQL) hat Regeln und ist gut organisiert."
+      "answer": "Klare Tabellenstruktur (z.B. SQL) hat Regeln und ist gut organisiert."
     },
     {
       "question": "Was sind semi-strukturierte Daten?",
@@ -2053,7 +2051,7 @@ const cardSets = {
     },
     {
       "question": "Was ist Zweigüberdeckung?",
-      "answer": "Jede Entscheidungsalternative (z. B. if/else) muss mindestens einmal durchlaufen werden."
+      "answer": "Jede Entscheidungsalternative (z.B. if/else) muss mindestens einmal durchlaufen werden."
     },
 
     {
@@ -2085,7 +2083,7 @@ const cardSets = {
     },
     {
       "question": "Was ist Cloud, Fog und Edge Computing?",
-      "answer": "Cloud: Ressourcenbereitstellung über das Internet. Fog: Dezentrale Datenverarbeitung nahe am Nutzer (z. B. Router). Edge: Verarbeitung direkt am Gerät (z. B. Kamera)."
+      "answer": "Cloud: Ressourcenbereitstellung über das Internet. Fog: Dezentrale Datenverarbeitung nahe am Nutzer (z.B. Router). Edge: Verarbeitung direkt am Gerät (z.B. Kamera)."
     },
     {
       "question": "Was ist Zustandslosigkeit (Statelessness) bei REST-API?",
@@ -2097,7 +2095,7 @@ const cardSets = {
     },
     {
       "question": "Was ist CSV (Comma-Separated Values)?",
-      "answer": "CSV ist ein einfaches Textformat, bei dem Werte durch Trennzeichen (z. B. Komma) getrennt sind und für Tabellen verwendet wird."
+      "answer": "CSV ist ein einfaches Textformat, bei dem Werte durch Trennzeichen (z.B. Komma) getrennt sind und für Tabellen verwendet wird."
     },
     {
       "question": "Was ist XML?",
@@ -2105,11 +2103,11 @@ const cardSets = {
     },
     {
       "question": "Was ist eine generische Klasse?",
-      "answer": "Verwendet Typparameter (z. B. <T>), um Funktionen/Methoden für verschiedene Datentypen zu ermöglichen."
+      "answer": "Verwendet Typparameter (z.B. <T>), um Funktionen/Methoden für verschiedene Datentypen zu ermöglichen."
     },
     {
       "question": "Was ist eine iterative Vorgehensweise?",
-      "answer": "Mehrfache Ausführung eines Vorgangs (z. B. mit Schleifen: for, while)."
+      "answer": "Mehrfache Ausführung eines Vorgangs (z.B. mit Schleifen: for, while)."
     },
     {
       "question": "Was ist eine rekursive Vorgehensweise?",
@@ -2127,17 +2125,10 @@ const cardSets = {
       "question": "Was versteht man unter einer imperativen Programmiersprache?",
       "answer": "Ein Programm besteht aus einer Folge von Anweisungen, die vorgeben, in welcher Reihenfolge was vom Computer getan werden soll."
     },
-    {
-      "question": "Nenne die drei wichtigsten Analyseverfahren, um Umfang, Voraussetzungen, Dauer und Kosten eines Entwicklungsprojektes zu ermitteln.",
-      "answer": "Systemanalyse, Datenanalyse, Prozessanalyse."
-    },
+
     {
       "question": "Was ist Pseudocode?",
       "answer": "Der Code ähnelt einem Mix aus natürlicher Sprache, höherer Programmiersprache und mathematischen Verknüpfungen. Er ist nicht maschinenlesbar, aber für Programmierer verständlich."
-    },
-    {
-      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
-      "answer": "Whitebox-Tests überprüfen die Funktionsweise mithilfe des Quellcodes. Blackbox-Tests prüfen nur die nach außen sichtbaren Funktionen."
     },
     {
       "question": "Nenne sechs Qualitätskriterien, die allgemein an eine Software gestellt werden.",
@@ -2363,18 +2354,12 @@ const cardSets = {
       "question": "Was ist eine imperative Programmiersprache?",
       "answer": "Eine imperative Programmiersprache besteht aus einer Folge von Anweisungen, die dem Computer sagen, was als Nächstes zu tun ist."
     },
-    {
-      "question": "Welche drei Analyseverfahren gibt es, um Umfang, Voraussetzungen, Dauer und Kosten einer Entwicklung zu ermitteln?",
-      "answer": "Die drei Analyseverfahren sind: 1. Systemanalyse, 2. Prozessanalyse, 3. Datenanalyse."
-    },
+
     {
       "question": "Was ist Pseudocode?",
       "answer": "Pseudocode ist ein Mix aus Programmiersprache, mathematischer Verknüpfung und natürlicher Sprache."
     },
-    {
-      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
-      "answer": "Whitebox-Tests überprüfen die Funktionsweise des Quellcodes, während Blackbox-Tests die äußeren, sichtbaren Funktionen ohne Quellcode überprüfen."
-    },
+
     {
       "question": "Welche Qualitätskriterien gibt es für Software?",
       "answer": "Die Qualitätskriterien für Software sind: Kompatibilität, Portabilität, Usability, Integrität, Effizienz und Verifizierbarkeit."
@@ -2566,38 +2551,6 @@ const cardSets = {
     {
       "question": "Wofür wird die Methode DELETE verwendet?",
       "answer": "DELETE wird verwendet, um Daten zu löschen."
-    },
-    {
-      "question": "Welche Hauptbereiche umfasst die Softwarequalität?",
-      "answer": "Die Softwarequalität umfasst Funktionalität, Benutzbarkeit, Veränderbarkeit, Effizienz, Übertragbarkeit und Zuverlässigkeit."
-    },
-    {
-      "question": "Was versteht man unter Softwarequalität?",
-      "answer": "Softwarequalität beschreibt, wie gut Software ihre Anforderungen erfüllt und wie zuverlässig, sicher und benutzbar sie ist."
-    },
-    {
-      "question": "Was bedeutet Funktionalität bei Softwarequalität?",
-      "answer": "Funktionalität beschreibt, ob die Software die gewünschten Aufgaben korrekt und sicher erfüllt."
-    },
-    {
-      "question": "Was gehört zur Benutzbarkeit von Software?",
-      "answer": "Benutzbarkeit umfasst Verständlichkeit, Erlernbarkeit, Bedienbarkeit und Attraktivität der Software."
-    },
-    {
-      "question": "Was ist mit Effizienz in der Softwarequalität gemeint?",
-      "answer": "Effizienz bedeutet, dass die Software wenig Ressourcen verbraucht und schnell arbeitet."
-    },
-    {
-      "question": "Was beschreibt die Veränderbarkeit von Software?",
-      "answer": "Veränderbarkeit zeigt, wie leicht eine Software analysiert, getestet, modifiziert oder stabil gehalten werden kann."
-    },
-    {
-      "question": "Was versteht man unter Übertragbarkeit?",
-      "answer": "Übertragbarkeit bedeutet, wie gut sich Software auf andere Systeme oder Plattformen anpassen lässt."
-    },
-    {
-      "question": "Was bedeutet Zuverlässigkeit bei Software?",
-      "answer": "Zuverlässigkeit meint, dass die Software auch bei Fehlern stabil läuft und reif für den Einsatz ist."
     },
     {
       "question": "Was bedeutet On-Premises?",
@@ -2805,30 +2758,6 @@ const cardSets = {
       "answer": "Create, Read, Update, Delete – das sind die vier grundlegenden Operationen zur Bearbeitung von Daten in einer Datenbank."
     },
     {
-      "question": "Was gehört zur Funktionalität bei Softwarequalität?",
-      "answer": "Angemessenheit, Sicherheit, Richtigkeit, Interoperabilität"
-    },
-    {
-      "question": "Welche Aspekte umfasst die Benutzbarkeit von Software?",
-      "answer": "Attraktivität, Bedienbarkeit, Erlernbarkeit, Verständlichkeit"
-    },
-    {
-      "question": "Welche Eigenschaften beschreiben die Veränderbarkeit von Software?",
-      "answer": "Analysierbarkeit, Testbarkeit, Modifizierbarkeit, Stabilität"
-    },
-    {
-      "question": "Was beschreibt die Effizienz bei Softwarequalität?",
-      "answer": "Trade-Off zwischen Verbrauchsverhalten und Zeitverhalten"
-    },
-    {
-      "question": "Welche Kriterien zählen zur Übertragbarkeit von Software?",
-      "answer": "Anpassbarkeit, Austauschbarkeit, Koexistenz mit anderen Programmen, Installierbarkeit"
-    },
-    {
-      "question": "Was zählt zur Zuverlässigkeit bei Softwarequalität?",
-      "answer": "Fehlertoleranz, Reife"
-    },
-    {
       question: "Was ist Betriebssystem-Software?",
       answer: "Ein Betriebssystem verwaltet die Hardware und Software eines Computers und stellt eine Benutzeroberfläche bereit. Beispiele sind Linux, Windows und Mac."
     },
@@ -2888,10 +2817,7 @@ const cardSets = {
       question: "Was passiert in der Programmierphase?",
       answer: "In der Programmierphase wird der Code geschrieben, um die Software basierend auf den vorherigen Entwürfen und Anforderungen zu erstellen."
     },
-    {
-      question: "Warum ist die Testphase wichtig?",
-      answer: "Das Testen stellt sicher, dass die Software fehlerfrei funktioniert und den Anforderungen entspricht."
-    },
+
     {
       question: "Was geschieht im Einsatz?",
       answer: "Im Einsatz wird die Software nach erfolgreichen Tests in der realen Umgebung implementiert und für die Benutzer zugänglich gemacht."
@@ -2944,26 +2870,7 @@ const cardSets = {
       question: "Was macht eine IDE (Integrierte Entwicklungsumgebung)?",
       answer: "Eine IDE vereint Werkzeuge wie einen Editor, Compiler, Debugger und weitere Hilfsprogramme in einer Oberfläche, um die Softwareentwicklung zu erleichtern."
     },
-    {
-      question: "Was gehört zur Testdokumentation?",
-      answer: "Die Testdokumentation umfasst die Testplanung, Festlegung der Testfälle, Auswahl der Tests und Testergebnisse. Sie definiert Strategien, Ziele und Zeitrahmen für Tests, beschreibt die Testfälle, bestimmt die Art der Tests und erfasst die Testergebnisse, einschließlich festgestellter Fehler oder Bestätigungen."
-    },
-    {
-      question: "Was ist Testplanung in der Testdokumentation?",
-      answer: "Die Testplanung definiert die Strategien, Ziele und Zeitrahmen für die Tests. Sie legt fest, wie und wann Tests durchgeführt werden, um die Qualität der Software sicherzustellen."
-    },
-    {
-      question: "Was ist die Festlegung der Testfälle in der Testdokumentation?",
-      answer: "Die Festlegung der Testfälle umfasst eine detaillierte Beschreibung der Szenarien und Erwartungen, die während des Tests überprüft werden sollen, um sicherzustellen, dass die Software alle Anforderungen erfüllt."
-    },
-    {
-      question: "Was versteht man unter der Auswahl der Tests in der Testdokumentation?",
-      answer: "Die Auswahl der Tests bestimmt, welche Arten von Tests durchgeführt werden, wie z.B. Unit Tests, Integrationstests oder Systemtests, um verschiedene Aspekte der Software zu überprüfen."
-    },
-    {
-      question: "Was gehört zu den Testergebnissen in der Testdokumentation?",
-      answer: "Die Testergebnisse beinhalten die Erfassung der Ergebnisse der Tests, einschließlich festgestellter Fehler, Probleme oder Bestätigungen, dass die Software den Anforderungen entspricht."
-    },
+
     {
       question: "Was ist eine Benutzerdokumentation?",
       answer: "Die Benutzerdokumentation ist das Handbuch für den Benutzer. Es enthält Anleitungen, wie die Software verwendet wird, sowie Anforderungen an die Hardware und Anweisungen zur Installation."
@@ -3068,50 +2975,12 @@ const cardSets = {
       question: "Was regelt das Bundesdatenschutzgesetz (BDSG)?",
       answer: "Das Bundesdatenschutzgesetz regelt in Deutschland den Umgang mit personenbezogenen Daten und schützt die Rechte der betroffenen Personen."
     },
-    {
-      question: "Was ist Black-Box-Testing?",
-      answer: "Testen der Funktionalität ohne Kenntnis des Quellcodes."
-    },
-    {
-      question: "Was ist White-Box-Testing?",
-      answer: "Testen basierend auf dem Quellcode und internen Abläufen."
-    },
+
     {
       question: "Was ist statische Code-Analyse?",
       answer: "Prüfen des Codes auf Fehler ohne Programmausführung."
     },
-    {
-      question: "Was ist ein Schreibtischtest?",
-      answer: "Manuelles Durchspielen des Programms, z. B. mit Struktogrammen."
-    },
-    {
-      question: "Was ist ein Unit-Test?",
-      answer: "Test einzelner Funktionen oder Module."
-    },
-    {
-      question: "Was ist ein Integrationstest?",
-      answer: "Überprüfung des Zusammenspiels mehrerer Module."
-    },
-    {
-      question: "Was ist ein Systemtest?",
-      answer: "Test des gesamten Systems in einer realistischen Testumgebung."
-    },
-    {
-      question: "Was ist ein End-to-End-Test?",
-      answer: "Simulation kompletter Benutzerworkflows."
-    },
-    {
-      question: "Was ist ein Regressionstest?",
-      answer: "Sicherstellen, dass bestehende Funktionen nach Änderungen weiterhin korrekt arbeiten."
-    },
-    {
-      question: "Was ist ein Performance-Test?",
-      answer: "Test der Systemleistung unter Last."
-    },
-    {
-      question: "Was ist ein Security-Test?",
-      answer: "Überprüfung des Systems auf Sicherheitslücken."
-    },
+
     {
       question: "Was ist das Zweierkomplement?",
       answer: "Methode zur Darstellung negativer Zahlen in Binärform."
@@ -5116,7 +4985,11 @@ const cardSets = {
     { "question": "Was ist ein Beschaffenheitsmangel?", "answer": "Ware entspricht nicht der vereinbarten Qualität." },
     { "question": "Wie berechnet man den Deckungsbeitrag?", "answer": "Umsatzerlöse - variable Kosten." },
     { "question": "Wie berechnet man den Gewinn?", "answer": "Deckungsbeitrag - Fixkosten." },
-    { "question": "Was zeigt die Gewinnschwelle?", "answer": "Wie viele Stücke verkauft werden müssen für Gewinn." }
+    { "question": "Was zeigt die Gewinnschwelle?", "answer": "Wie viele Stücke verkauft werden müssen für Gewinn." },
+    {
+      "questeion": "Welche Kaufmannseigenschaften gibt es?",
+      "answer": "Formkaufmann, Istkaufmann und Kannkaufmann"
+    }
   ],
   "IT-System": [
     {
@@ -5868,7 +5741,7 @@ const cardSets = {
     },
     {
       "question": "Was ist Domain-Driven Design (DDD)?",
-      "answer": "Bei Domain-Driven Design arbeiten Fachexperten, z. B. aus Vertrieb oder Finanzen, eng mit Entwicklern zusammen, um durch bessere Kommunikation ein Produkt zu entwickeln, das den fachlichen Anforderungen genau entspricht."
+      "answer": "Bei Domain-Driven Design arbeiten Fachexperten, z.B. aus Vertrieb oder Finanzen, eng mit Entwicklern zusammen, um durch bessere Kommunikation ein Produkt zu entwickeln, das den fachlichen Anforderungen genau entspricht."
     },
     {
       "question": "Was ist ACID-Prinzipien?",
@@ -5876,7 +5749,7 @@ const cardSets = {
     },
     {
       "question": "Was ist eine User Story?",
-      "answer": "Kurzbeschreibung einer Funktion aus Sicht eines Nutzers. Beispiel: „Als Nutzer möchte ich mich anmelden können, um meine Daten zu verwalten.“ Wird später in Tasks unterteilt (z. B. UI, Backend, Test)."
+      "answer": "Kurzbeschreibung einer Funktion aus Sicht eines Nutzers. Beispiel: „Als Nutzer möchte ich mich anmelden können, um meine Daten zu verwalten.“ Wird später in Tasks unterteilt (z.B. UI, Backend, Test)."
     },
     {
       "question": "Was ist ein Service Level Agreement (SLA)?",
@@ -5946,7 +5819,7 @@ const cardSets = {
     },
     {
       "question": "Was ist ein Wasserfallmodell?",
-      "answer": "Ein lineares Vorgehensmodell, bei dem jede Projektphase (z. B. Analyse, Design, Implementierung) nacheinander abgeschlossen wird."
+      "answer": "Ein lineares Vorgehensmodell, bei dem jede Projektphase (z.B. Analyse, Design, Implementierung) nacheinander abgeschlossen wird."
     },
     {
       "question": "Was ist ein Spiralmodell?",
@@ -6241,7 +6114,102 @@ const cardSets = {
       "answer": "Scrum , Kanban,  Extreme,  Programming (XP)"
     }
   ],
-  "Software-qualität/test": [
+  "Analyse / test": [
+    {
+      "question": "Was ist ein Performance-Test?",
+      "answer": "Testet Software unter realistischen und extremen Bedingungen."
+    },
+    {
+      "question": "Was ist eine Sandbox?",
+      "answer": "Eine Sandbox ist ein isolierter Bereich, in dem Software sicher getestet werden kann, ohne das Gesamtsystem zu gefährden."
+    },
+    {
+      "question": "Was ist ein Extremwerttest?",
+      "answer": "Ein Test mit Werten außerhalb der spezifizierten Grenzen zur Erkennung von Schwachstellen und Fehlern."
+    },
+    {
+      "question": "Was ist ein Last- und Performancetest?",
+      "answer": "Ein Test, der das Verhalten einer Software unter Last und Dauerbelastung prüft."
+    },
+    { "question": "Testarten: Was wird beim Unit-Test getestet?", "answer": "Einzelne Funktionen oder Klassen isoliert." },
+    { "question": "Testarten: Was wird beim Integrationstest geprüft?", "answer": "Zusammenarbeit mehrerer Komponenten." },
+    { "question": "Testarten: Was wird beim Systemtest geprüft?", "answer": "Das gesamte System als Ganzes." },
+    { "question": "Testarten: Wer führt normalerweise den Akzeptanztest durch?", "answer": "Der Kunde." },
+    { "question": "Testmethoden: Was ist ein Blackbox-Test?", "answer": "Test ohne Kenntnis des Codes, Fokus auf Eingaben und Ausgaben." },
+    { "question": "Testmethoden: Was ist ein Whitebox-Test?", "answer": "Test mit Kenntnis des Codes, Prüfung der Logik und Bedingungen." },
+    {
+      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
+      "answer": "Whitebox-Tests überprüfen die Funktionsweise mithilfe des Quellcodes. Blackbox-Tests prüfen nur die nach außen sichtbaren Funktionen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Whitebox-Tests und Blackbox-Tests?",
+      "answer": "Whitebox-Tests überprüfen die Funktionsweise des Quellcodes, während Blackbox-Tests die äußeren, sichtbaren Funktionen ohne Quellcode überprüfen."
+    },
+    {
+      question: "Warum ist die Testphase wichtig?",
+      answer: "Das Testen stellt sicher, dass die Software fehlerfrei funktioniert und den Anforderungen entspricht."
+    },
+    {
+      question: "Was gehört zur Testdokumentation?",
+      answer: "Die Testdokumentation umfasst die Testplanung, Festlegung der Testfälle, Auswahl der Tests und Testergebnisse. Sie definiert Strategien, Ziele und Zeitrahmen für Tests, beschreibt die Testfälle, bestimmt die Art der Tests und erfasst die Testergebnisse, einschließlich festgestellter Fehler oder Bestätigungen."
+    },
+    {
+      question: "Was ist Testplanung in der Testdokumentation?",
+      answer: "Die Testplanung definiert die Strategien, Ziele und Zeitrahmen für die Tests. Sie legt fest, wie und wann Tests durchgeführt werden, um die Qualität der Software sicherzustellen."
+    },
+
+    {
+      question: "Was ist die Festlegung der Testfälle in der Testdokumentation?",
+      answer: "Die Festlegung der Testfälle umfasst eine detaillierte Beschreibung der Szenarien und Erwartungen, die während des Tests überprüft werden sollen, um sicherzustellen, dass die Software alle Anforderungen erfüllt."
+    },
+    {
+      question: "Was versteht man unter der Auswahl der Tests in der Testdokumentation?",
+      answer: "Die Auswahl der Tests bestimmt, welche Arten von Tests durchgeführt werden, wie z.B. Unit Tests, Integrationstests oder Systemtests, um verschiedene Aspekte der Software zu überprüfen."
+    },
+    {
+      question: "Was gehört zu den Testergebnissen in der Testdokumentation?",
+      answer: "Die Testergebnisse beinhalten die Erfassung der Ergebnisse der Tests, einschließlich festgestellter Fehler, Probleme oder Bestätigungen, dass die Software den Anforderungen entspricht."
+    },
+    {
+      question: "Was ist Black-Box-Testing?",
+      answer: "Testen der Funktionalität ohne Kenntnis des Quellcodes."
+    },
+    {
+      question: "Was ist White-Box-Testing?",
+      answer: "Testen basierend auf dem Quellcode und internen Abläufen."
+    },
+    {
+      question: "Was ist ein Schreibtischtest?",
+      answer: "Manuelles Durchspielen des Programms, z. B. mit Struktogrammen."
+    },
+    {
+      question: "Was ist ein Unit-Test?",
+      answer: "Test einzelner Funktionen oder Module."
+    },
+    {
+      question: "Was ist ein Integrationstest?",
+      answer: "Überprüfung des Zusammenspiels mehrerer Module."
+    },
+    {
+      question: "Was ist ein Systemtest?",
+      answer: "Test des gesamten Systems in einer realistischen Testumgebung."
+    },
+    {
+      question: "Was ist ein End-to-End-Test?",
+      answer: "Simulation kompletter Benutzerworkflows."
+    },
+    {
+      question: "Was ist ein Regressionstest?",
+      answer: "Sicherstellen, dass bestehende Funktionen nach Änderungen weiterhin korrekt arbeiten."
+    },
+    {
+      question: "Was ist ein Performance-Test?",
+      answer: "Test der Systemleistung unter Last."
+    },
+    {
+      question: "Was ist ein Security-Test?",
+      answer: "Überprüfung des Systems auf Sicherheitslücken."
+    },
 
     {
       "question": "Was ist der Vorteil von automatisierten Tests?",
@@ -6322,15 +6290,19 @@ const cardSets = {
     },
     {
       "question": "Was sind funktionale Anforderungen?",
-      "answer": "Funktionale Anforderungen beschreiben, was ein System tun soll (z. B. Benutzer kann sich einloggen)."
+      "answer": "Funktionale Anforderungen beschreiben, was ein System tun soll (z.B. Benutzer kann sich einloggen)."
     },
     {
       "question": "Was sind nicht-funktionale Anforderungen?",
-      "answer": "Nicht-funktionale Anforderungen beschreiben, wie ein System arbeitet (z. B. Performance, Sicherheit, Zuverlässigkeit)."
+      "answer": "Nicht-funktionale Anforderungen beschreiben, wie ein System arbeitet (z.B. Performance, Sicherheit, Zuverlässigkeit)."
+    },
+    {
+      "question": "Was sind Randbedigung(Rahmenbedigung) in der IT?",
+      "answer": "Sie beschreiben äußere Einschränkungen und Vorgaben, unter denen das System entwickelt oder betrieben werden muss. Diese können technologisch, organisatorisch, rechtlich oder wirtschaftlich "
     },
     {
       "question": "Was ist ein statisches Testverfahren?",
-      "answer": "Ein statisches Testverfahren überprüft den Code ohne Ausführung, z. B. durch Code-Reviews oder Analysen."
+      "answer": "Ein statisches Testverfahren überprüft den Code ohne Ausführung, z.B. durch Code-Reviews oder Analysen."
     },
     {
       "question": "Was ist ein dynamisches Testverfahren?",
@@ -6338,7 +6310,7 @@ const cardSets = {
     },
     {
       "question": "Was ist der Extremwerttest?",
-      "answer": "Testet Grenzwerte (z. B. maximale/minimale Eingaben), um Schwachstellen zu erkennen."
+      "answer": "Testet Grenzwerte (z.B. maximale/minimale Eingaben), um Schwachstellen zu erkennen."
     },
     {
       "question": "Was sind Äquivalenzklassen bei Testen?",
@@ -6347,32 +6319,7 @@ const cardSets = {
     {
       "question": "Was ist ein Penetrationstest?",
       "answer": "Ein Penetrationstest simuliert gezielte Angriffe, um Schwachstellen in IT-Systemen aufzudecken."
-    },
-
-    {
-      "question": "Welche Bereiche gibt es in der Softwarequalität nach ISO 9126?",
-      "answer": "Funktionalität, Übertragbarkeit, Änderbarkeit, Effizienz, Benutzbarkeit und Sicherheit."
-    },
-    {
-      "question": "Was ist Qualitätssicherung?",
-      "answer": "Qualitätssicherung bezeichnet Maßnahmen zur Fehlervermeidung während der Entwicklung und Herstellung eines Produkts."
-    },
-    {
-      "question": "Was ist Qualitätskontrolle?",
-      "answer": "Qualitätskontrolle bezeichnet die Fehlererkennung nach der Herstellung, z. B. durch Tests."
-    },
-    {
-      "question": "Was ist Barrierefreiheit?",
-      "answer": "Software soll für alle Nutzergruppen zugänglich sein, z. B. durch Untertitel, Brailleschrift oder Spracherkennung."
-    },
-    {
-      "question": "Was ist Softwareergonomie?",
-      "answer": "Softwareergonomie umfasst intuitive Bedienung, Fehlervermeidung und Benutzerfreundlichkeit."
-    },
-    {
-      "question": "Was ist Modularisierung?",
-      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
-    },
+    }
   ],
   "KI": [
     {
@@ -7083,6 +7030,10 @@ const cardSets = {
   ],
   "Arch und Test": [
     {
+      "question": "Welche drei Analyseverfahren gibt es, um Umfang, Voraussetzungen, Dauer und Kosten einer Entwicklung zu ermitteln?",
+      "answer": "Die drei Analyseverfahren sind: 1. Systemanalyse, 2. Prozessanalyse, 3. Datenanalyse."
+    },
+    {
       "question": "Was ist Microservices-Architektur?",
       "answer": "Microservices-Architektur teilt eine große Software in viele kleine, unabhängige Dienste auf, die jeweils eine bestimmte Funktion erfüllen und separat entwickelt, getestet und aktualisiert werden können."
     },
@@ -7102,13 +7053,10 @@ const cardSets = {
       "question": "Was ist eine Graphdatenbank?",
       "answer": "Eine Graphdatenbank speichert Daten in Form von Knoten, Kanten und Eigenschaften. Sie wird verwendet, um komplexe Beziehungen zwischen Daten zu modellieren, wie sie zum Beispiel in sozialen Netzwerken, Empfehlungsmaschinen oder Netzwerkanalysen vorkommen. Graphdatenbanken sind besonders effizient bei der Abfrage von Beziehungen und Verbindungen zwischen Entitäten."
     },
-    {
-      "question": "Was ist ein Performance-Test?",
-      "answer": "Testet Software unter realistischen und extremen Bedingungen."
-    },
+
     {
       "question": "Was ist ein Observer-Muster?",
-      "answer": "Verhaltensmuster in der Softwareentwicklung. Ein Subjekt (z. B. Datenquelle) benachrichtigt registrierte Observer (z. B. UI-Komponenten) bei Änderungen automatisch."
+      "answer": "Verhaltensmuster in der Softwareentwicklung. Ein Subjekt (z.B. Datenquelle) benachrichtigt registrierte Observer (z.B. UI-Komponenten) bei Änderungen automatisch."
     },
     {
       "question": "Was ist eine Dreischichtenarchitektur?",
@@ -7118,18 +7066,7 @@ const cardSets = {
       "question": "Was ist Model View Controller (MVC)?",
       "answer": "Software-Architektur zur Trennung von Datenmodell, Benutzeroberfläche und Steuerlogik."
     },
-    {
-      "question": "Was ist eine Sandbox?",
-      "answer": "Eine Sandbox ist ein isolierter Bereich, in dem Software sicher getestet werden kann, ohne das Gesamtsystem zu gefährden."
-    },
-    {
-      "question": "Was ist ein Extremwerttest?",
-      "answer": "Ein Test mit Werten außerhalb der spezifizierten Grenzen zur Erkennung von Schwachstellen und Fehlern."
-    },
-    {
-      "question": "Was ist ein Performancetest?",
-      "answer": "Ein Test, der das Verhalten einer Software unter Last und Dauerbelastung prüft."
-    },
+
     {
       "question": "Was bedeutet es, dass Phasen in der Softwareentwicklung häufig iterativ durchlaufen werden?",
       "answer": "Phasen werden häufig mit Wiederholungen in kurzen Abständen durchlaufen."
@@ -7193,12 +7130,6 @@ const cardSets = {
     { "question": "Phasen der Softwareentwicklung: Wann wird getestet?", "answer": "Vor, während und nach der Entwicklung." },
     { "question": "Phasen der Softwareentwicklung: Was passiert in der Einsatzphase?", "answer": "Software wird dem Kunden übergeben oder veröffentlicht." },
     { "question": "Phasen der Softwareentwicklung: Was passiert in der Wartungsphase?", "answer": "Fehler werden durch Updates oder Patches behoben." },
-    { "question": "Testarten: Was wird beim Unit-Test getestet?", "answer": "Einzelne Funktionen oder Klassen isoliert." },
-    { "question": "Testarten: Was wird beim Integrationstest geprüft?", "answer": "Zusammenarbeit mehrerer Komponenten." },
-    { "question": "Testarten: Was wird beim Systemtest geprüft?", "answer": "Das gesamte System als Ganzes." },
-    { "question": "Testarten: Wer führt normalerweise den Akzeptanztest durch?", "answer": "Der Kunde." },
-    { "question": "Testmethoden: Was ist ein Blackbox-Test?", "answer": "Test ohne Kenntnis des Codes, Fokus auf Eingaben und Ausgaben." },
-    { "question": "Testmethoden: Was ist ein Whitebox-Test?", "answer": "Test mit Kenntnis des Codes, Prüfung der Logik und Bedingungen." },
     {
       "question": "Was sind Design Patterns?",
       "answer": "Design Patterns sind bewährte Lösungsvorschläge für wiederkehrende Probleme im Entwurf von objektorientierten Softwaresystemen."
@@ -7396,6 +7327,215 @@ const cardSets = {
     {
       "question": "Type Casting (Typumwandlung)",
       "answer": "Type Casting ist die Umwandlung eines Werts von einem Datentyp in einen anderen (z.B. Zahl → Text).\n\n🟢 Implizites Casting:\n\t- Automatisch durch das System\n\t- Kein Datenverlust\n\n🔴 Explizites Casting:\n\t- Manuell durch Entwickler\n\t- Typ muss klar angegeben werden"
+    }
+  ],
+  "Softwarequalität": [
+    {
+      "question": "Welche Hauptbereiche umfasst die Softwarequalität?",
+      "answer": "Die Softwarequalität umfasst Funktionalität, Benutzbarkeit, Änderbarkeit, Effizienz, Übertragbarkeit und Zuverlässigkeit."
+    },
+    {
+      "question": "Was versteht man unter Softwarequalität?",
+      "answer": "Softwarequalität beschreibt, wie gut Software ihre Anforderungen erfüllt und wie zuverlässig, sicher und benutzbar sie ist."
+    },
+    {
+      "question": "Was bedeutet FUNKTIONALITÄT bei Softwarequalität? ISO 9126",
+      "answer": "Funktionalität umfasst: \n Richtigkeit => ob die Software die gewünschten Aufgaben korrekt und sicher erfüllt. \n Interoperabilität => mit anderer Software zusammenarbeiten können \n Richtigkeit => dass die Aufgaben das richtige Ergebnis zeigen \n Ordnungsmäßigkeit => Einhaltung von Normen und rechtlichen Vorgaben \n Sicherheit => Datensicherheit und Datenschutz"
+    },
+    {
+      "question": "Was bedeutet BENUTZBARKEIT bei Softwarequalität? ISO 9126",
+      "answer": "Benutzbarkeit umfasst: \n Verständlichkeit => leicht verständlich \n Erlernbarkeit => leichtes Erlernen des Produkts \n Bedienbarkeit => Barrierefreiheit \n Attraktivität => ansprechendes Design der Software (UX)"
+    },
+    {
+      "question": "Was bedeutet ÄNDERBARKEIT bei Softwarequalität? ISO 9126",
+      "answer": "Änderbarkeit umfasst: \n Analysierbarkeit => Fehler können z.B. über Logs gefunden werden \n Testbarkeit => Wie gut kann man die Software testen (am besten isoliert) \n Modifizierbarkeit => Kann man den Code einfach ändern, ohne andere Funktionen zu beeinträchtigen? \n Stabilität => Läuft die Software nach Änderungen stabil?"
+    },
+    {
+      "question": "Was bedeutet EFFIZIENZ bei Softwarequalität? ISO 9126",
+      "answer": "Effizienz umfasst: \n Verbrauchsverhalten => Wie viele Ressourcen werden verbraucht? \n Zeitverhalten => Wie schnell ist die Software? \n Beides steht im Konflikt, es ist ein Trade-off."
+    },
+    {
+      "question": "Was bedeutet ÜBERTRAGBARKEIT bei Software? ISO 9126",
+      "answer": "Übertragbarkeit umfasst: \n Anpassbarkeit => Anpassbar an die Umgebung, z.B. unterschiedliche CPUs oder Geräte \n Austauschbarkeit => Im Software-Lebenszyklus durch neue Software ersetzbar \n Installierbarkeit => Leicht installierbar, z.B. durch ein Installations-Tool (Wizard) \n Koexistenz => Die Software blockiert keine andere Software, z.B. durch Port-Konflikte"
+    },
+    {
+      "question": "Was bedeutet ZUVERLÄSSIGKEIT bei Software? ISO 9126",
+      "answer": "Zuverlässigkeit umfasst: \n Fehlertoleranz => Die Software stürzt bei Nutzerfehlern nicht ab \n Reife => Die Software soll vor der Auslieferung ausgereift sein \n Wiederherstellbarkeit => Fehler sollen rückgängig gemacht werden können"
+    },
+    {
+      "question": "Welche Bereiche gibt es in der Softwarequalität nach ISO 9126?",
+      "answer": "Funktionalität, Übertragbarkeit, Änderbarkeit, Effizienz, Benutzbarkeit und Zuverlässigkeit."
+    },
+    {
+      "question": "Was ist Qualitätssicherung?",
+      "answer": "Qualitätssicherung bezeichnet Maßnahmen zur Fehlervermeidung während der Entwicklung und Herstellung eines Produkts."
+    },
+    {
+      "question": "Was ist Qualitätskontrolle?",
+      "answer": "Qualitätskontrolle bezeichnet die Fehlererkennung nach der Herstellung, z.B. durch Tests."
+    },
+    {
+      "question": "Was ist Barrierefreiheit?",
+      "answer": "Software soll für alle Nutzergruppen zugänglich sein, z.B. durch Untertitel, Brailleschrift oder Spracherkennung."
+    },
+    {
+      "question": "Was ist Softwareergonomie?",
+      "answer": "Softwareergonomie umfasst intuitive Bedienung, Fehlervermeidung und Benutzerfreundlichkeit."
+    },
+    {
+      "question": "Was ist Modularisierung?",
+      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
+    }
+
+  ],
+  "Extra": [
+    {
+      "question": "Nenne mir Maßnahmen zu Zugang, Zutritts- und Zugangskontrolle.",
+      "answer": "Zugang: Mehrfaktor-Authentifizierung (MFA)\nZutritt: Elektronische Zutrittskontrollen (z. B. Smartcards, PIN-Codes), Biometrische Zugangskontrollen (z. B. Fingerabdruckscanner, Gesichtserkennung)\nZugriff: Role-Based Access Control (RBAC)"
+    },
+    {
+      "question": "Was ist iSCSI (Internet Small Computer Systems Interface)?",
+      "answer": "iSCSI ist ein Netzwerkprotokoll, das Block-Level-Zugriff auf Speichergeräte ermöglicht. Es wird häufig in Storage Area Networks (SAN) verwendet."
+    },
+    {
+      "question": "Was ist Fibre Channel (FC)?",
+      "answer": "Fibre Channel ist ein Hochgeschwindigkeitsnetzwerkprotokoll, das speziell für die Verbindung von Storage-Systemen und Servern in einem SAN entwickelt wurde."
+    },
+    {
+      "question": "Was ist NFS (Network File System)?",
+      "answer": "NFS ist ein Netzwerkprotokoll, das es einem Computer ermöglicht, Dateien über ein Netzwerk so zu verwenden, als ob sie auf einem lokalen Dateisystem gespeichert wären. Es wurde ursprünglich von Sun Microsystems entwickelt."
+    },
+    {
+      "question": "Was ist SNMP (Simple Network Management Protocol)?",
+      "answer": "SNMP ist ein weit verbreitetes Protokoll, das im Bereich des Monitorings und der Verwaltung von Netzwerkgeräten verwendet wird. Es ermöglicht das Sammeln und Überwachen von Informationen von Netzwerkgeräten wie Routern, Switches, Servern, Druckern und anderen netzwerkfähigen Geräten. Port 161 für Nachrichten und 162 für Agenten."
+    },
+    {
+      "question": "Was ist Predictive Maintenance (vorausschauende Wartung)?",
+      "answer": "Predictive Maintenance ist eine moderne Instandhaltungsstrategie, bei der technische Systeme und Anlagen kontinuierlich überwacht werden, um zukünftige Ausfälle frühzeitig vorherzusagen – bevor sie tatsächlich eintreten."
+    },
+    {
+      "question": "Was zählt zum unlauteren Wettbewerb (UWG)?",
+      "answer": "Irreführende Werbung\nAggressive Verkaufsmethoden (z.B. Zwang)\nHerabwürdigung von Mitbewerbern\nLockvogelangebote (nicht erhältliche Waren zu extremen Preisen)\nSchneeballsysteme\nFalsche Versprechen oder Täuschung"
+    },
+    {
+      "question": "Wann gelten Allgemeine Geschäftsbedingungen (AGB) nicht?",
+      "answer": "Wenn sie nicht eindeutig mitgeteilt wurden\nWenn sie gegen geltendes Recht verstoßen\nWenn sie überraschende Klauseln enthalten (z.B. ungewöhnliche Regelungen, mit denen der Kunde nicht rechnen musste)"
+    },
+    {
+      "question": "Ab wann gelten AGB?",
+      "answer": "Wenn der Kunde ausdrücklich oder stillschweigend zugestimmt hat (z.B. durch Unterschrift oder durch Nutzung der Dienstleistung)"
+    },
+    {
+      "question": "Wie muss ein Unternehmen auf die AGB hinweisen?",
+      "answer": "Schriftlich, mündlich oder digital\nIm Laden: deutlich sichtbar aushängen\nOnline: vor dem Kauf zur Zustimmung bereitstellen"
+    },
+    {
+      "question": "Was sind AGB?",
+      "answer": "Vorformulierte Vertragsbedingungen, die für viele Verträge gelten sollen"
+    },
+    {
+      "question": "Was versteht man unter Compliance?",
+      "answer": "Compliance bedeutet die Einhaltung von Gesetzen, Vorschriften, Richtlinien und ethischen Standards durch Unternehmen oder Personen"
+    },
+    {
+      "question": "Was versteht man unter Regelkonformität?",
+      "answer": "Regelkonformität heißt, sich an interne und externe Vorgaben zu halten\nSie ist ein Teilbereich von Compliance und betrifft konkret das Einhalten von Regeln, Vorschriften und Gesetzen"
+    },
+    {
+      "question": "Was ist Customer Relationship Management (CRM)?",
+      "answer": "CRM ist das Kundenbeziehungsmanagement\nZiel: Verbesserung der Kundenbindung, -betreuung und der Geschäftsbeziehungen"
+    },
+    {
+      "question": "Wie ist das Widerrufsrecht bei Fernabsatzverträgen und Online-Käufen?",
+      "answer": "14 Tage Widerrufsrecht ab Erhalt der Ware\nAchtung: Es gibt Ausnahmen, z.B. bei individuell angefertigten Waren oder versiegelter Software"
+    },
+    {
+      "question": "Was ist Open Data (offene Daten)?",
+      "answer": "Frei zugängliche und kostenlose Daten, die von jedem verwendet, geteilt und weiterbearbeitet werden dürfen\nBeispiel: Wetterdaten vom Deutschen Wetterdienst"
+    },
+    {
+      "question": "Was ist eine API-Schnittstelle (Application Programming Interface)?",
+      "answer": "Eine Programmierschnittstelle, über die Software-Anwendungen automatisch miteinander kommunizieren\nBeispiel: Eine App greift über eine API auf Wetterdaten zu"
+    },
+    {
+      "question": "Was ist der Kontinuierliche Verbesserungsprozess (KVP)?",
+      "answer": "Ein Prozess zur laufenden Verbesserung in kleinen Schritten\nEr basiert oft auf dem PDCA-Zyklus (Plan – Do – Check – Act)"
+    },
+    {
+      "question": "Was sind die Q7 – die sieben Qualitätswerkzeuge im KVP?",
+      "answer": "1. Fehlersammelkarte (Checkliste): Erfassung von Fehlerarten und -häufigkeiten\n2. Verlaufsdiagramm (Liniendiagramm): Zeigt zeitliche Entwicklungen eines Prozesses oder Wertes\n3. Pareto-Diagramm: Sortiert Probleme nach ihrer Bedeutung nach Dringlichkeit in einem Balkendiagramm (Pareto ist bekannt für 80/20-Regel)\n4. Ishikawa- oder Fischgrät-Diagramm: Zeigt Ursachen eines Problems und deren Verzweigungen\n5. Histogramm (Häufigkeitsdiagramm): Zeigt die Verteilung und Häufigkeit von Fehlern\n6. Streudiagramm: Zeigt Zusammenhänge zwischen Fehlern (Diagramm mit Punktewolke)\n7. Regelkarte (Control Chart): Zeigt Prozessverläufe über die Zeit und Abweichungen"
+    },
+    {
+      "question": "Was steht in einem Abnahmeprotokoll?",
+      "answer": "Wurden alle vereinbarten Leistungen erbracht?\nGibt es sichtbare Mängel oder Schäden?\nDatum, Ort und Beteiligte\nUnterschriften aller Parteien\nEvtl. Fristen zur Mängelbeseitigung"
+    },
+    {
+      "question": "Was bedeutet Barrierefreiheit?",
+      "answer": "Barrierefreiheit bedeutet, dass Produkte, Dienstleistungen oder Gebäude so gestaltet sind, dass sie für alle Menschen – auch mit Einschränkungen – nutzbar sind"
+    },
+    {
+      "question": "Auf was sollte man bei der Auswahl eines geeigneten IT-Sicherheitsproduktes achten?",
+      "answer": "DSGVO BDSG konform\nSecurity by design\nKompatibilität mit vorhandenen Produkten\nBedienbarkeit\nHersteller und Produktvertrauen\nKundensupport\nSkalierbarkeit und Zukunftssicherheit\nPreis-Leistungs-Verhältnis"
+    },
+    {
+      "question": "Wie kann man IT-Systeme objektiv bewerten (IT-Grundschutzmodellierung)?",
+      "answer": "1. Schutzbedarfsfeststellung\n2. Modellierung des Informationsverbundes\n3. Gefährdungsanalyse\n4. Auswahl geeigneter Sicherheitsmaßnahmen\n5. Dokumentation und Umsetzung\n6. Regelmäßige Überprüfung / Audit"
+    },
+    {
+      "question": "Nenne Richtlinien für Entwickler für IT-Sicherheitsmaßnahmen.",
+      "answer": "Security by design (Sicherheit bereits während der Softwareentwicklung)\nPrivacy by Design (Der Schutz personenbezogener Daten ist von Anfang an integriert.)\nNur starke Passwörter erlauben\nVerschlüsselungen (Nichts in Klartext stehen haben)\nNur vertrauenswürdige Bibliotheken verwenden\nAuf DSGVO und BDSG achten\nSicherheitsupdates\nZugriffsrechte korrekt setzen"
+    },
+    {
+      "question": "Berate einen Privathaushalt in IT-Sicherheit. Was würdest du empfehlen?",
+      "answer": "Antivirenprogramm\nRegelmäßige Updates\nStarke Passwörter\nAufklärung über Phishing und Social Engineering"
+    },
+    {
+      "question": "Was machst du, um die IT-Sicherheit eines Unternehmens einzuführen?",
+      "answer": "Implementierung vom ISMS\nRegelmäßige Sicherheits-Audits\nMitarbeiterschulung\nNotfall- und Wiederherstellungspläne"
+    },
+    {
+      "question": "Was ist ein Device Security Check?",
+      "answer": "Ein Device Security Check ist eine gründliche Überprüfung der Sicherheitsaspekte eines Geräts. Diese Überprüfung umfasst mehrere Maßnahmen und Tests, um sicherzustellen, dass das Gerät keine Schwachstellen aufweist und dass die Sicherheitsrichtlinien und -vorgaben eingehalten werden."
+    },
+    {
+      "question": "Was ist Identity Management (Identitätsmanagement)?",
+      "answer": "Die Verwaltung von Benutzeridentitäten in einer Organisation. Dies beinhaltet die Erstellung, Verwaltung und Deaktivierung von Benutzerkonten, einschließlich der zugehörigen persönlichen Daten und Authentifizierungsinformationen (z. B. Benutzernamen, Passwörter, biometrische Daten)."
+    },
+    {
+      "question": "Was ist Access Management (Zugriffsmanagement)?",
+      "answer": "Die Verwaltung der Berechtigungen und Rechte, die ein Benutzer auf bestimmte IT-Ressourcen hat. Dies sorgt dafür, dass ein Benutzer nur auf die Daten, Anwendungen oder Systeme zugreifen kann, für die er autorisiert ist."
+    },
+    {
+      "question": "Was ist Benutzeridentität (Identity)?",
+      "answer": "Benutzeridentitäten sind eindeutige Profile, die jeder Person oder jedem Benutzer in einem System zugeordnet werden. Diese Profile umfassen persönliche Informationen und Authentifizierungsmerkmale wie Passwörter, Token oder biometrische Daten."
+    },
+    {
+      "question": "Was ist Authentifizierung (Authentication)?",
+      "answer": "Authentifizierung stellt sicher, dass die Person, die auf ein System zugreifen möchte, tatsächlich die ist, die sie vorgibt zu sein. Dies kann durch verschiedene Methoden erfolgen, wie z.B. Passwörter, Zwei-Faktor-Authentifizierung (2FA), biometrische Merkmale oder Smartcards."
+    },
+    {
+      "question": "Was ist Autorisierung (Authorization)?",
+      "answer": "Autorisierung regelt, welche Ressourcen oder Informationen einem authentifizierten Benutzer zugänglich sind und welche Aktionen er auf diesen Ressourcen ausführen darf (Lesen, Schreiben, Löschen, etc.). Dies wird häufig über Rollen- und Rechtesysteme (Role-Based Access Control, RBAC) verwaltet."
+    },
+    {
+      "question": "Was ist Single Sign-On (SSO)?",
+      "answer": "Single Sign-On ermöglicht es Benutzern, sich einmalig anzumelden und dann auf mehrere Anwendungen und Systeme ohne weitere Anmeldevorgänge zuzugreifen. SSO vereinfacht den Zugriff und erhöht die Sicherheit, indem es die Anzahl der notwendigen Authentifizierungen reduziert."
+    },
+    {
+      "question": "Was ist (Role-Based Access Control, RBAC)?",
+      "answer": "Bei RBAC werden Benutzern verschiedene Rollen zugewiesen, die mit bestimmten Berechtigungen und Zugriffsebenen verbunden sind. Diese Methode vereinfacht die Verwaltung von Zugriffsrechten und sorgt für eine klare Trennung der Verantwortlichkeiten."
+    },
+    {
+      "question": "Was ist Business-Continuity-Planung (BCP)?",
+      "answer": "Die Entwicklung und Umsetzung eines Business Continuity Plans stellt sicher, dass das Unternehmen auch bei einem Vorfall schnell wieder arbeitsfähig ist."
+    },
+    {
+      "question": "Wie erfasst man solche Anforderungen?",
+      "answer": "Methoden:\nInterviews mit Stakeholdern\nWorkshops\nFragebögen\nUser Stories / Use Cases\nPrototypen"
+    },
+    {
+      "question": "Wie erfasst man solche Anforderungen?",
+      "answer": "Interviews mit Stakeholdern, Workshops, Fragebögen, User Stories / Use Cases und Prototypen"
     }
   ]
 };
