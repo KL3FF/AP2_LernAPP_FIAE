@@ -7388,6 +7388,49 @@ const cardSets = {
     }
 
   ],
+  "GIT": [
+    {
+      "question": "Wie füge ich Dateien zum Staging-Bereich hinzu?",
+      "answer": "git add . (Fügt alle geänderten oder neuen Dateien hinzu)\ngit add <Dateiname> (Fügt eine spezifische Datei hinzu)"
+    },
+    {
+      "question": "Wie speichere ich die Änderungen mit einer Commit-Nachricht?",
+      "answer": "git commit -m \"Deine Nachricht hier\" (Commitet die Änderungen mit einer Nachricht)"
+    },
+    {
+      "question": "Wie sende ich meine lokalen Änderungen an das entfernte Repository?",
+      "answer": "git push (Sendet die Änderungen an das entfernte Repository)\ngit push origin <branchname> (Push zu einem spezifischen Branch)"
+    },
+    {
+      "question": "Wie hole ich die neuesten Änderungen aus dem entfernten Repository?",
+      "answer": "git pull (Holt und integriert die neuesten Änderungen vom entfernten Repository)"
+    },
+    {
+      "question": "Wie überprüfe ich den aktuellen Status meines Repositories?",
+      "answer": "git status (Zeigt den aktuellen Status der Dateien und des Repositories)"
+    },
+    {
+      "question": "Wie sehe ich die Commit-Historie?",
+      "answer": "git log (Zeigt die vollständige Commit-Historie)\ngit log --oneline (Zeigt eine kurze Übersicht der Commits)"
+    },
+    {
+      "question": "Wie klone ich ein entferntes Repository auf meinen Computer?",
+      "answer": "git clone <URL> (Kopiert ein Repository von einer URL auf deinen lokalen Computer)"
+    },
+    {
+      "question": "Wie liste ich alle Branches auf oder erstelle einen neuen Branch?",
+      "answer": "git branch (Listet alle Branches im Repository)\ngit branch <neuerBranchname> (Erstellt einen neuen Branch)\ngit checkout <Branchname> (Wechselt zu einem anderen Branch)"
+    },
+    {
+      "question": "Wie merge ich einen anderen Branch in meinen aktuellen Branch?",
+      "answer": "git merge <branchname> (Fügt die Änderungen eines anderen Branches in den aktuellen Branch ein)"
+    },
+    {
+      "question": "Wie setze ich Änderungen im Staging-Bereich oder Commit zurück?",
+      "answer": "git reset (Setzt Änderungen im Staging-Bereich zurück)\ngit reset --soft HEAD~1 (Setzt den letzten Commit zurück, behält aber die Änderungen)\ngit reset --hard HEAD~1 (Setzt den letzten Commit und die Änderungen vollständig zurück)"
+    }
+
+  ],
   "Extra": [
     {
       "question": "Nenne mir Maßnahmen zu Zugang, Zutritts- und Zugangskontrolle.",
