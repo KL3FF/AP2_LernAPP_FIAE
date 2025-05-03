@@ -761,28 +761,6 @@ const cardSets = {
     {
       question: "Was ist ein Terminal in einem Netzwerk?",
       answer: "Ein Terminal dient nur zur Ein- und Ausgabe und ist mit einem Terminalserver verbunden – z.B. in Kassensystemen."
-    },  // Peer to Peer
-    {
-      question: "Was ist ein Peer-to-Peer-Architektur?",
-      answer: "In einem Peer-to-Peer-Architektur (P2P) sind alle Geräte gleichberechtigt und können sowohl als Client als auch als Server fungieren. Es gibt keinen zentralen Server."
-    },
-    {
-      question: "Wann ist ein Peer-to-Peer-Architektur sinnvoll?",
-      answer: "Ein P2P ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z.B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
-    },
-
-    // Client-Server
-    {
-      question: "Was ist der Unterschied zwischen einem Client-Server-Architektur und einem Peer-to-Peer-Architektur?",
-      answer: "In einem Client-Server-Architektur gibt es einen zentralen Server, der Dienste anbietet (z.B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
-    },
-    {
-      question: "Was ist ein Client in einem Client-Server-Architektur?",
-      answer: "Ein Client ist ein Gerät, das Dienste von einem zentralen Server anfordert, z.B. ein Computer, der eine Webseite von einem Webserver abruft."
-    },
-    {
-      question: "Was ist ein Server in einem Client-Server-Architektur?",
-      answer: "Ein Server stellt Dienste bereit, die von den Clients angefordert werden, z.B. ein Webserver, der Webseiten liefert, oder ein Mailserver, der E-Mails verwaltet."
     },
 
     // Terminal-Server
@@ -1045,9 +1023,6 @@ const cardSets = {
     },
   ],
   "IT-Tec s4": [
-
-
-
     {
       "question": "Was ist eine statische IP-Adresse?",
       "answer": "Eine statische IP-Adresse bleibt immer gleich und wird manuell einem Gerät zugewiesen – z.B. für Server oder Drucker."
@@ -1172,10 +1147,6 @@ const cardSets = {
     {
       "question": "Was ist Quality of Service (QoS)?",
       "answer": "QoS gibt Anwendungen unterschiedliche Prioritäten, damit z.B. Video- oder Sprachdaten bevorzugt übertragen werden."
-    },
-    {
-      "question": "Was ist das Internet of Things (IoT)?",
-      "answer": "IoT bezeichnet vernetzte Geräte, die Daten erfassen und intelligente Aktionen ausführen. Datenschutzrisiken sind eine Herausforderung."
     },
     {
       "question": "Welche Cloud-Modelle gibt es?",
@@ -2071,11 +2042,6 @@ const cardSets = {
     {
       "question": "Was ist ein Data Mesh?",
       "answer": "Ein Data Mesh ist ein dezentraler Ansatz für Datenmanagement, bei dem Fachbereiche für die Aufbereitung und Bereitstellung von Daten verantwortlich sind."
-    },
-
-    {
-      "question": "Was sind die Herausforderungen bei Big Data?",
-      "answer": "Große Datenmengen, komplexe Integration, Datenqualität, Verarbeitungsgeschwindigkeit und Datenschutz & -sicherheit."
     },
     {
       "question": "Was ist Blockchain (Beispiel Kryptowährung)?",
@@ -5400,10 +5366,6 @@ const cardSets = {
       "answer": "Eine Mischung aus Richtlinien und Vorschriften, deren Einhaltung gewährleistet werden muss."
     },
     {
-      "question": "Was ist Industrie 4.0?",
-      "answer": "Industrie 4.0 ist die Vernetzung von IoT, KI, Big Data und automatisierten Prozessen zur Digitalisierung der Industrie."
-    },
-    {
       "question": "Was bedeutet VPN und wie funktioniert die Verschlüsselung?",
       "answer": "VPN (Virtual Private Network) ermöglicht es, eine sichere Verbindung über ein unsicheres Netzwerk, wie das Internet, zu erstellen. Die Verschlüsselung stellt sicher, dass die Daten während der Übertragung geschützt sind, indem sie in einen Code umgewandelt werden, der nur mit einem Schlüssel entschlüsselt werden kann."
     },
@@ -5715,10 +5677,7 @@ const cardSets = {
     }
   ],
   "Projekt & Management": [
-    {
-      "question": "Was ist Modularisierung?",
-      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
-    },
+  
     {
       question: "Was ist die Top-Down-Methode?",
       answer: "Die Top-Down-Methode zerlegt ein Gesamtproblem in kleinere Teilaufgaben, die nach und nach gelöst werden."
@@ -5731,11 +5690,7 @@ const cardSets = {
       "question": "Was sind die Herausforderungen bei der mobilen Entwicklung?",
       "answer": "Verschiedene Betriebssysteme und Versionen, Performance-Optimierung, Sicherheit und responsives Design."
     },
-    {
-      "question": "Was ist ein Monolithisches System?",
-      "answer": "Ein monolithisches System ist eine Softwarearchitektur, bei der alle Komponenten einer Anwendung in einem einzigen, zusammenhängenden Block verarbeitet werden. Änderungen oder Erweiterungen sind schwieriger und das System kann bei wachsendem Umfang unübersichtlich werden."
-    },
-
+   
     {
       "question": "Was ist der Vorteil von Design Patterns?",
       "answer": "Wiederverwendbare Lösungen, erhöhte Wartbarkeit und bessere Skalierbarkeit."
@@ -6715,6 +6670,22 @@ const cardSets = {
   ],
   "SQL und DB": [
     {
+      "question": "Was ist ein Key-Value-Store?",
+      "answer": "Ein Key-Value-Store ist eine Datenbank, die Daten als Schlüssel-Wert-Paare speichert. Jede gespeicherte Information hat einen eindeutigen Schlüssel und einen zugehörigen Wert. Diese Art von Datenbank eignet sich besonders für schnelle Lese- und Schreiboperationen und ist einfach skalierbar."
+    },
+    {
+      "question": "Was ist eine dokumentenorientierte Datenbank?",
+      "answer": "Eine dokumentenorientierte Datenbank speichert Daten in Form von Dokumenten, häufig im JSON-, BSON- oder XML-Format. Jedes Dokument ist ein eigenständiges Datenelement, das eine flexible Struktur hat, was bedeutet, dass nicht alle Dokumente die gleiche Struktur haben müssen. Diese Datenbanken eignen sich besonders gut für unstrukturierte und semi-strukturierte Daten."
+    },
+    {
+      "question": "Was ist eine spaltenorientierte Datenbank?",
+      "answer": "Eine spaltenorientierte Datenbank speichert Daten in Spalten statt in Zeilen. Jede Spalte wird separat gespeichert und optimiert, um schnelle Leseoperationen für große Mengen von Daten zu ermöglichen. Diese Art von Datenbank ist besonders nützlich für analytische Anwendungen, bei denen häufig nur ein Teil der Daten benötigt wird."
+    },
+    {
+      "question": "Was ist eine Graphdatenbank?",
+      "answer": "Eine Graphdatenbank speichert Daten in Form von Knoten, Kanten und Eigenschaften. Sie wird verwendet, um komplexe Beziehungen zwischen Daten zu modellieren, wie sie zum Beispiel in sozialen Netzwerken, Empfehlungsmaschinen oder Netzwerkanalysen vorkommen. Graphdatenbanken sind besonders effizient bei der Abfrage von Beziehungen und Verbindungen zwischen Entitäten."
+    },
+    {
       "question": "Was ist Datenbankindexierung?",
       "answer": "Hierbei erhalten Tabellen einen Index, wodurch die Suche nach Werten schneller wird. Sollte jedoch vermieden werden, wenn ständig neue Änderungen vorgenommen werden, da dann der Index regelmäßig neu erstellt werden muss."
     },
@@ -7044,29 +7015,51 @@ const cardSets = {
   ],
   "Architekur und Muster": [
     {
-      "question": "Was ist Microservices-Architektur?",
-      "answer": "Microservices-Architektur teilt eine große Software in viele kleine, unabhängige Dienste auf, die jeweils eine bestimmte Funktion erfüllen und separat entwickelt, getestet und aktualisiert werden können."
+      "question": "Was ist Pipelines-Architektur?",
+      "answer": "Pipelines-Architektur ist eine Softwarearchitektur, die Daten in mehreren aufeinanderfolgenden Verarbeitungsschritten verarbeitet. Jeder Schritt ist ein Modul, das eine bestimmte Funktion erfüllt und die Ausgabe an das nächste Modul weitergibt."
     },
     {
-      "question": "Was ist ein Key-Value-Store?",
-      "answer": "Ein Key-Value-Store ist eine Datenbank, die Daten als Schlüssel-Wert-Paare speichert. Jede gespeicherte Information hat einen eindeutigen Schlüssel und einen zugehörigen Wert. Diese Art von Datenbank eignet sich besonders für schnelle Lese- und Schreiboperationen und ist einfach skalierbar."
+      "question": "Was ist die Event-Driven-Architektur?",
+      "answer": "Event Producer(Apps) stoßen Message Broker an und der Broker stößst die Event Consumer(Server)an. Man kann leicht neue Funktionen oder Systeme hinzufügen. Die Event-Driven-Architektur ermöglicht, dass Systeme automatisch auf Ereignisse reagieren"
     },
     {
-      "question": "Was ist eine dokumentenorientierte Datenbank?",
-      "answer": "Eine dokumentenorientierte Datenbank speichert Daten in Form von Dokumenten, häufig im JSON-, BSON- oder XML-Format. Jedes Dokument ist ein eigenständiges Datenelement, das eine flexible Struktur hat, was bedeutet, dass nicht alle Dokumente die gleiche Struktur haben müssen. Diese Datenbanken eignen sich besonders gut für unstrukturierte und semi-strukturierte Daten."
+      "question": "was ist ein Framework?",
+      "answer": "Ein Framework ist eine Sammlung von vorgefertigten Komponenten und Regeln, die Entwicklern helfen, Softwareanwendungen effizient zu erstellen. Es bietet eine Struktur und wiederverwendbare Bausteine, um Entwicklungszeit zu sparen."
     },
     {
-      "question": "Was ist eine spaltenorientierte Datenbank?",
-      "answer": "Eine spaltenorientierte Datenbank speichert Daten in Spalten statt in Zeilen. Jede Spalte wird separat gespeichert und optimiert, um schnelle Leseoperationen für große Mengen von Daten zu ermöglichen. Diese Art von Datenbank ist besonders nützlich für analytische Anwendungen, bei denen häufig nur ein Teil der Daten benötigt wird."
+      "question": "Was ist ein Monolithisches Architektur?",
+      "answer": "Ein monolithisches Architektur ist eine Softwarearchitektur, bei der alle Komponenten einer Anwendung in einem einzigen, zusammenhängenden Block verarbeitet werden. Änderungen oder Erweiterungen sind schwieriger und das System kann bei wachsendem Umfang unübersichtlich werden."
     },
     {
-      "question": "Was ist eine Graphdatenbank?",
-      "answer": "Eine Graphdatenbank speichert Daten in Form von Knoten, Kanten und Eigenschaften. Sie wird verwendet, um komplexe Beziehungen zwischen Daten zu modellieren, wie sie zum Beispiel in sozialen Netzwerken, Empfehlungsmaschinen oder Netzwerkanalysen vorkommen. Graphdatenbanken sind besonders effizient bei der Abfrage von Beziehungen und Verbindungen zwischen Entitäten."
+      "question": "Was ist eine Modularisierung?",
+      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
+    },
+    // Peer to Peer
+    {
+      question: "Was ist ein Peer-to-Peer-Architektur?",
+      answer: "In einem Peer-to-Peer-Architektur (P2P) sind alle Geräte gleichberechtigt und können sowohl als Client als auch als Server fungieren. Es gibt keinen zentralen Server."
+    },
+    {
+      question: "Wann ist ein Peer-to-Peer-Architektur sinnvoll?",
+      answer: "Ein P2P ist sinnvoll, wenn kleine Netzwerke ohne zentrale Verwaltung benötigt werden, z.B. in einem Heimnetzwerk oder bei Dateifreigaben zwischen einzelnen Computern."
     },
 
+    // Client-Server
     {
-      "question": "Was ist ein Observer-Muster?",
-      "answer": "Verhaltensmuster in der Softwareentwicklung. Ein Subjekt (z.B. Datenquelle) benachrichtigt registrierte Observer (z.B. UI-Komponenten) bei Änderungen automatisch."
+      question: "Was ist der Unterschied zwischen einem Client-Server-Architektur und einem Peer-to-Peer-Architektur?",
+      answer: "In einem Client-Server-Architektur gibt es einen zentralen Server, der Dienste anbietet (z.B. Datenbanken, Dateiserver), während Clients diese Dienste anfordern. In einem Peer-to-Peer-Netzwerk gibt es keine zentrale Instanz."
+    },
+    {
+      question: "Was ist ein Client in einem Client-Server-Architektur?",
+      answer: "Ein Client ist ein Gerät, das Dienste von einem zentralen Server anfordert, z.B. ein Computer, der eine Webseite von einem Webserver abruft."
+    },
+    {
+      question: "Was ist ein Server in einem Client-Server-Architektur?",
+      answer: "Ein Server stellt Dienste bereit, die von den Clients angefordert werden, z.B. ein Webserver, der Webseiten liefert, oder ein Mailserver, der E-Mails verwaltet."
+    },
+    {
+      "question": "Was ist Microservices-Architektur?",
+      "answer": "Microservices-Architektur teilt eine große Software in viele kleine, unabhängige Dienste auf, die jeweils eine bestimmte Funktion erfüllen und separat entwickelt, getestet und aktualisiert werden können."
     },
     {
       "question": "Was ist eine Dreischichtenarchitektur?",
@@ -7076,7 +7069,6 @@ const cardSets = {
       "question": "Was ist Model View Controller (MVC)?",
       "answer": "Software-Architektur zur Trennung von Datenmodell, Benutzeroberfläche und Steuerlogik."
     },
-
     {
       "question": "Was bedeutet es, dass Phasen in der Softwareentwicklung häufig iterativ durchlaufen werden?",
       "answer": "Phasen werden häufig mit Wiederholungen in kurzen Abständen durchlaufen."
@@ -7105,14 +7097,9 @@ const cardSets = {
       "question": "Welche sind die 6 Phasen der Softwareentwicklung?",
       "answer": "Die 6 Phasen der Softwareentwicklung sind: 1. Planung, 2. Analyse, 3. Entwurf, 4. Implementierung, 5. Test, 6. Dokumentation."
     },
-    {
-      "question": "Was ist ein Strukturmuster?",
-      "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
-    },
-    {
-      "question": "Was ist ein Beispiel für ein Strukturmuster?",
-      "answer": "Ein Beispiel für ein Strukturmuster ist das Facade-Pattern."
-    },
+
+
+
     {
       "question": "Was ist ein Erzeugungsmuster?",
       "answer": "Erzeugungsmuster befassen sich mit der Erstellung von Objekten und bieten Lösungen, wie man Objekte instanziiert."
@@ -7122,6 +7109,30 @@ const cardSets = {
       "answer": "Beispiele für Erzeugungsmuster sind das Singleton-Pattern und das Factory-Pattern."
     },
     {
+      "question": "Wie funktioniert das Factory muster?",
+      "answer": "Es gibt ein Interface Produkt, von dem verschiedeneProdukte abgeleitet werden.\n Dann gibt es eine Farbrik, die mit einer Methode wie CreateProduct (z.B. mit einem Produkttyp als String) neue Produkte erzeugt.\nDie Methode der Fabrik entscheidet, welches Produkt erzeugt wird, und gibt es zurück."
+    },
+    {
+      "question": "Wie funktioniert das Singleton-Muster?",
+      "answer": "Es gibt eine Klasse, die eine private statische Instanz von sich selbst enthält (zunächst auf null gesetzt).\nDer Konstruktor der Klasse ist privat, sodass keine Objekte von außen erzeugt werden können.\nEs gibt eine öffentliche Methode namens GetInstance().\nDiese Methode prüft, ob die private statische Instanz null ist.\nFalls ja, wird eine neue Instanz erstellt.\nAm Ende gibt die Methode die Instanz zurück."
+    },
+
+
+
+
+
+    {
+      "question": "Was ist ein Strukturmuster?",
+      "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
+    },
+    {
+      "question": "Was ist ein Beispiel für ein Strukturmuster?",
+      "answer": " Beispiele für Strukturmuster sind Adapter-Pattern "
+    },
+
+
+
+    {
       "question": "Was ist ein Verhaltensmuster?",
       "answer": "Verhaltensmuster definieren, wie Objekte miteinander kommunizieren und interagieren sollen."
     },
@@ -7129,6 +7140,14 @@ const cardSets = {
       "question": "Was sind Beispiele für Verhaltensmuster?",
       "answer": "Beispiele für Verhaltensmuster sind das Observer-Pattern und das Command-Pattern."
     },
+    {
+      "question": "Wie funktioniert das Observer-Muster?",
+      "answer": "Es gibt ein interface Observer mit einer Benachrichtigungs Methode, von dem alle Observer abgeleitet werden.\nDann gitb es eine Klasse Subjekt(dies kann von einer abstracten Klasse abgeleitet werden muss aber nicht).\n Das Subjekt hat eine Offenliche Observern list\n und daszu eine öffenlich methode zum hinzufügen und endfernen aus der liste.\n Wenn Sich der Zustand des SUbjekt verändert, dann dann ruft er alle Benachtichtigungs Methode der Observer auf in der Liste"
+    },
+
+
+
+
     { "question": "UML-Diagramme: Was beschreiben Strukturdiagramme?", "answer": "Den statischen Aufbau des Systems." },
     { "question": "UML-Diagramme: Was beschreiben Verhaltensdiagramme?", "answer": "Dynamische Abläufe." },
     { "question": "UML-Diagramme: Was zeigen Interaktionsdiagramme?", "answer": "Die Zusammenarbeit von Objekten." },
@@ -7145,15 +7164,11 @@ const cardSets = {
       "answer": "Design Patterns sind bewährte Lösungsvorschläge für wiederkehrende Probleme im Entwurf von objektorientierten Softwaresystemen."
     },
     {
-      "question": "Was beschreiben Design Patterns?",
-      "answer": "Sie beschreiben, wie Klassen, Objekte und Methoden zusammenwirken, um ein bestimmtes Entwurfsproblem zu lösen."
-    },
-    {
       "question": "Was sind die Vorteile von Design Patterns?",
       "answer": "Bewährte Lösungen, vereinfachte Diskussion, Programmiersprachenunabhängigkeit und Transparenz von Vor- und Nachteilen."
     },
     {
-      "question": "Wie werden Design Patterns unterteilt?",
+      "question": "Wie werden Endwurfsmuster (Design Patterns) unterteilt?",
       "answer": "In Erzeugungsmuster (Creational Patterns), Strukturmuster (Structural Patterns) und Verhaltensmuster (Behavioral Patterns)."
     },
     {
@@ -7161,73 +7176,29 @@ const cardSets = {
       "answer": "Sie betreffen die Erzeugung von Objekten und sorgen dafür, dass der Erstellungsprozess von der konkreten Implementierung getrennt bleibt."
     },
     {
-      "question": "Nenne Beispiele für Erzeugungsmuster.",
-      "answer": "Abstrakte Fabrik, Singleton, Builder."
-    },
-    {
-      "question": "Was macht das abstrakte Fabrikmuster?",
-      "answer": "Es erzeugt Familien von verwandten Objekten."
-    },
-    {
-      "question": "Was gewährleistet das Singleton-Muster?",
-      "answer": "Es stellt sicher, dass eine Klasse nur eine Instanz hat."
-    },
-    {
-      "question": "Was kapselt das Builder-Muster?",
-      "answer": "Es kapselt die Konstruktion komplexer Objekte."
-    },
-    {
       "question": "Was ist der Zweck von Strukturmustern (Structural Patterns)?",
       "answer": "Strukturmuster befassen sich mit dem Design und der Struktur von Software und definieren Beziehungen zwischen Klassen und Objekten."
-    },
-    {
-      "question": "Nenne Beispiele für Strukturmuster.",
-      "answer": "Adapter, Kompositum, Proxy, Dekorierer, MVC."
-    },
-    {
-      "question": "Was macht das Adapter-Muster?",
-      "answer": "Es passt eine Schnittstelle an eine andere an."
-    },
-    {
-      "question": "Was macht das Kompositum-Muster?",
-      "answer": "Es behandelt Objekte und deren Kombinationen als einzelne Instanzen."
-    },
-    {
-      "question": "Was stellt das Proxy-Muster zur Verfügung?",
-      "answer": "Es stellt ein Stellvertreterobjekt zur Verfügung."
-    },
-    {
-      "question": "Was macht das Dekorierer-Muster?",
-      "answer": "Es fügt einem Objekt zusätzliche Funktionalitäten hinzu."
-    },
-    {
-      "question": "Was trennt das MVC-Muster?",
-      "answer": "Es trennt Benutzeroberfläche, Daten und Logik."
     },
     {
       "question": "Was ist der Zweck von Verhaltensmustern (Behavioral Patterns)?",
       "answer": "Sie modellieren das Verhalten der Software und verbessern die Flexibilität und Kommunikation zwischen Objekten."
     },
+
     {
-      "question": "Nenne Beispiele für Verhaltensmuster.",
-      "answer": "Observer, Zustand, Schablonenmuster (Template Method)."
+        "question":"Wie sieht die 3-Schichtenarchitektur (DDD/Clean Architecture) aus ?",
+        "answer": "UI (Interface Layer) => \nDomain (Business Logic) => \nInfrastruktur"
     },
     {
-      "question": "Was macht das Observer-Muster?",
-      "answer": "Es ermöglicht Objekten, Benachrichtigungen zu erhalten, wenn sich ein anderes Objekt verändert."
+        "question":"Wie sieht die 4-Schichtenarchitektur (DDD/Clean Architecture) aus ?",
+        "answer": "UI (Interface Layer) => \nApplication Layer (Handler Request, Session Mangment) => \nDomain (Entities, Business Rules) => \nInfrastruktur"
     },
     {
-      "question": "Was verändert das Zustand-Muster?",
-      "answer": "Es verändert das Verhalten eines Objekts basierend auf seinem Zustand."
-    },
-    {
-      "question": "Was tut das Schablonenmuster (Template Method)?",
-      "answer": "Es definiert das Grundgerüst einer Methode und lässt Unterklassen Teile der Methode spezifizieren."
-    },
-    {
-      "question": "Was ist das Ebenen-Modell in der Strukturierung von Software?",
-      "answer": "Das Ebenen-Modell beschreibt die Struktur von Software mit den Ebenen: System, Dienst, Schichten, Komponenten, Klassen, Methoden und Quellcode."
+        "question":"Wie sieht die 6-Schichtenarchitektur (DDD/Clean Architecture) aus ?",
+        "answer": "UI (Interface Layer) => \nApplication Layer (Handler Request, Session Mangment) => \nDomain (Entities, Business Rules) => Low Level Bisniss(Berechnungen) => \nTechnical Services(zb secruity) => \nFoundation(Threads etc)"
     }
+
+
+
   ],
   "Python": [
     {
@@ -7537,6 +7508,35 @@ const cardSets = {
     }
   ],
   "Extra": [
+    {
+      "question": "Was sind Cyber-Physische Systeme (CPS)?",
+      "answer": "Vernetzte Systeme, die physische Prozesse mit digitaler Steuerung und Kommunikation verbinden (z.B. in Industrie 4.0, Smart Homes, autonome Fahrzeuge)."
+    },
+    {
+      "question": "Wie funktioniert ein Cyber-Physisches System?",
+      "answer": "Sensoren erfassen Daten → Regeln/KI treffen Entscheidungen → Aktoren führen Aktionen aus → Kommunikation mit anderen Geräten."
+    },
+    {
+      "question": "Was für Sensoren gibt es in CPS?",
+      "answer": "Temperatursensor (misst Wärme), Bewegungssensor (erkennt Bewegung), Lichtsensor (erfasst Helligkeit), Feuchtigkeitssensor (misst Luftfeuchte), Drucksensor (erfasst Druckänderungen)."
+    },
+    {
+      "question": "Was für Aktoren gibt es in CPS?",
+      "answer": "LED (zeigt Licht), Motor (erzeugt Bewegung), Relais (schaltet Strom), Heizelement (erzeugt Wärme), Display (zeigt Infos), Elektromagnet (zieht an), Lautsprecher (gibt Ton aus)."
+    },
+    {
+      "question": "Was ist Industrie 4.0?",
+      "answer": "Industrie 4.0 ist die Vernetzung von IoT, KI, Big Data , Cloud Computing, und Cyber-Physische Systeme (CPS)."
+    },
+    {
+      "question": "Was sind die Herausforderungen bei Big Data?",
+      "answer": "Große Datenmengen, komplexe Integration, Datenqualität, Verarbeitungsgeschwindigkeit und Datenschutz & -sicherheit."
+    },
+    {
+      "question": "Was ist das Internet of Things (IoT)?",
+      "answer": "IoT bezeichnet vernetzte Geräte, die Daten erfassen und intelligente Aktionen ausführen. Datenschutzrisiken sind eine Herausforderung."
+    },
+
     {
       "question": "Was ist SOAP?",
       "answer": "SOAP (Simple Object Access Protocol) ist ein Protokoll für den Austausch strukturierter Informationen in Webdiensten. Es verwendet XML zur Codierung der Nachrichten und HTTP oder SMTP als Transportprotokoll."
