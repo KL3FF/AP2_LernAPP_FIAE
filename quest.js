@@ -2234,6 +2234,7 @@ const cardSets = {
       "question": "Um was handelt es sich bei der Programmiersprache Java?",
       "answer": "Java ist eine objektorientierte Compilersprache."
     },
+
     {
       "question": "Um was handelt es sich bei der Programmiersprache Perl?",
       "answer": "Perl ist eine objektorientierte Skriptsprache."
@@ -2780,18 +2781,6 @@ const cardSets = {
     {
       question: "Was ist Individualsoftware?",
       answer: "Individualsoftware ist maßgeschneiderte Software, die speziell für die Anforderungen eines Unternehmens oder einer Person entwickelt wird."
-    },
-    {
-      question: "Was ist die Top-Down-Methode?",
-      answer: "Die Top-Down-Methode zerlegt ein Gesamtproblem in kleinere Teilaufgaben, die nach und nach gelöst werden."
-    },
-    {
-      question: "Was beschreibt die Bottom-Up-Methode?",
-      answer: "Die Bottom-Up-Methode beginnt mit der Entwicklung von Einzelmodulen, die später zu einem Gesamtsystem zusammengefügt werden."
-    },
-    {
-      question: "Was ist die Up-Down-Methode?",
-      answer: "Die Up-Down-Methode zerteilt Aufgaben in Teilprobleme und entwickelt kritische Teilaufgaben durch Module."
     },
     {
       question: "Was ist das Modularitätsprinzip?",
@@ -5727,6 +5716,18 @@ const cardSets = {
   ],
   "Projekt & Management": [
     {
+      "question": "Was ist Modularisierung?",
+      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
+    },
+    {
+      question: "Was ist die Top-Down-Methode?",
+      answer: "Die Top-Down-Methode zerlegt ein Gesamtproblem in kleinere Teilaufgaben, die nach und nach gelöst werden."
+    },
+    {
+      question: "Was beschreibt die Bottom-Up-Methode?",
+      answer: "Beim Bottom-Up-Ansatz beginnt man mit der Entwicklung kleiner, funktionierender Module (z. B. Funktionen, Klassen) und integriert diese schrittweise zu einem Gesamtsystem."
+    },
+    {
       "question": "Was sind die Herausforderungen bei der mobilen Entwicklung?",
       "answer": "Verschiedene Betriebssysteme und Versionen, Performance-Optimierung, Sicherheit und responsives Design."
     },
@@ -6115,6 +6116,19 @@ const cardSets = {
     }
   ],
   "Analyse / test": [
+    {
+      "question": "Was ist Print-Debugging?",
+      "answer": "Es wird Ausgabe Funktionen verwendet (z.b console.log(), print()), um den Programmablauf zu verfolgen und Fehler zu identifizieren."
+    },
+    {
+      "question": "Was ist E2E-Tests (End-to-End-Tests)?",
+      "answer": "End-to-End-Tests (E2E-Tests) sind eine Form von Tests, die das gesamte System als Ganzes testen. Ziel ist es, sicherzustellen, dass alle Komponenten der Software zusammenarbeiten, wie sie sollten, und die gesamte Anwendung aus der Sicht des Endnutzers funktioniert"
+    },
+
+    {
+      "question": "Welche drei Analyseverfahren gibt es, um Umfang, Voraussetzungen, Dauer und Kosten einer Entwicklung zu ermitteln?",
+      "answer": "Die drei Analyseverfahren sind: 1. Systemanalyse, 2. Prozessanalyse, 3. Datenanalyse."
+    },
     {
       "question": "Was ist ein Performance-Test?",
       "answer": "Testet Software unter realistischen und extremen Bedingungen."
@@ -7028,11 +7042,7 @@ const cardSets = {
     }
 
   ],
-  "Arch und Test": [
-    {
-      "question": "Welche drei Analyseverfahren gibt es, um Umfang, Voraussetzungen, Dauer und Kosten einer Entwicklung zu ermitteln?",
-      "answer": "Die drei Analyseverfahren sind: 1. Systemanalyse, 2. Prozessanalyse, 3. Datenanalyse."
-    },
+  "Architekur und Muster": [
     {
       "question": "Was ist Microservices-Architektur?",
       "answer": "Microservices-Architektur teilt eine große Software in viele kleine, unabhängige Dienste auf, die jeweils eine bestimmte Funktion erfüllen und separat entwickelt, getestet und aktualisiert werden können."
@@ -7382,10 +7392,7 @@ const cardSets = {
       "question": "Was ist Softwareergonomie?",
       "answer": "Softwareergonomie umfasst intuitive Bedienung, Fehlervermeidung und Benutzerfreundlichkeit."
     },
-    {
-      "question": "Was ist Modularisierung?",
-      "answer": "Modularisierung ist die Zerlegung von Code in kleine, wiederverwendbare Module zur Reduktion von Komplexität."
-    }
+    
 
   ],
   "GIT": [
@@ -7431,7 +7438,117 @@ const cardSets = {
     }
 
   ],
+  "Shell Program":[
+    {
+      "question": "Wie navigiere ich zu einem anderen Verzeichnis?",
+      "answer": "cd <Pfad> (Wechselt in das angegebene Verzeichnis)"
+    },
+    {
+      "question": "Wie liste ich die Dateien in einem Verzeichnis auf?",
+      "answer": "ls (Listet alle Dateien und Ordner im aktuellen Verzeichnis)"
+    },
+    {
+      "question": "Wie zeige ich den Inhalt einer Datei an?",
+      "answer": "cat <Dateiname> (Zeigt den Inhalt der Datei an)"
+    },
+    {
+      "question": "Wie erstelle ich eine neue Datei?",
+      "answer": "touch <Dateiname> (Erstellt eine leere Datei)"
+    },
+    {
+      "question": "Wie lösche ich eine Datei?",
+      "answer": "rm <Dateiname> (Löscht eine Datei)"
+    },
+    {
+      "question": "Wie erstelle ich ein neues Verzeichnis?",
+      "answer": "mkdir <Verzeichnisname> (Erstellt ein neues Verzeichnis)"
+    },
+    {
+      "question": "Wie lösche ich ein Verzeichnis?",
+      "answer": "rmdir <Verzeichnisname> (Löscht ein Verzeichnis, wenn es leer ist)\nrm -r <Verzeichnisname> (Löscht ein Verzeichnis und dessen Inhalt)"
+    },
+    {
+      "question": "Wie kopiere ich eine Datei?",
+      "answer": "cp <Quelle> <Ziel> (Kopiert eine Datei von Quelle nach Ziel)"
+    },
+    {
+      "question": "Wie verschiebe ich eine Datei?",
+      "answer": "mv <Quelle> <Ziel> (Verschiebt eine Datei von Quelle nach Ziel)"
+    },
+    {
+      "question": "Wie gebe ich den aktuellen Arbeitsordner aus?",
+      "answer": "pwd (Zeigt den aktuellen Arbeitsordner)"
+    },
+    {
+      "question": "Wie finde ich Hilfe zu einem Befehl?",
+      "answer": "man <Befehl> (Zeigt die Hilfe für den angegebenen Befehl)\n--help (zeigt Hilfe zu einem Befehl, z. B. `ls --help`)"
+    },
+    {
+      "question": "Wie führe ich ein Skript aus?",
+      "answer": "./<Skriptname> (Führt ein Skript aus)"
+    },
+    {
+      "question": "Wie gebe ich den Inhalt einer Datei zeilenweise aus?",
+      "answer": "more <Dateiname> (Zeigt den Inhalt der Datei zeilenweise)"
+    },
+    {
+      "question": "Wie navigiere ich zu einem anderen Verzeichnis?",
+      "answer": "cd <Pfad> (Wechselt in das angegebene Verzeichnis)"
+    },
+    {
+      "question": "Wie gehe ich zum übergeordneten Verzeichnis?",
+      "answer": "cd .. (Wechselt in das übergeordnete Verzeichnis)"
+    },
+    {
+      "question": "Wie gehe ich zum Home-Verzeichnis?",
+      "answer": "cd ~ (Wechselt zum Home-Verzeichnis)\ncd $HOME (In PowerShell ebenfalls)"
+    },
+    {
+      "question": "Wie navigiere ich zum Root-Verzeichnis?",
+      "answer": "cd / (Wechselt zum Root-Verzeichnis in Bash)\ncd 'C:\\' (In PowerShell für das Root-Verzeichnis von Laufwerk C)"
+    },
+    {
+      "question": "Wie navigiere ich in ein Verzeichnis mit Leerzeichen im Namen?",
+      "answer": "cd \"<Verzeichnisname mit Leerzeichen>\" (In Bash und PowerShell mit Anführungszeichen)"
+    },
+    {
+      "question": "Wie zeige ich den aktuellen Arbeitsordner?",
+      "answer": "pwd (Zeigt den aktuellen Arbeitsordner in Bash und PowerShell)"
+    },
+    {
+      "question": "Wie navigiere ich mit einem absoluten Pfad?",
+      "answer": "cd /path/to/directory (Wechselt zu einem Verzeichnis mit einem absoluten Pfad in beiden Shells)"
+    },
+    {
+      "question": "Wie navigiere ich mit einem relativen Pfad?",
+      "answer": "cd <RelativerPfad> (Wechselt zu einem Verzeichnis relativ zum aktuellen Verzeichnis)"
+    },
+    {
+      "question": "Wie navigiere ich zum letzten Verzeichnis, in dem ich war?",
+      "answer": "cd - (Wechselt zum vorherigen Verzeichnis in Bash und PowerShell)"
+    },
+    {
+      "question": "Wie liste ich alle Verzeichnisse und Dateien im aktuellen Verzeichnis auf?",
+      "answer": "ls (Listet alle Dateien und Ordner im aktuellen Verzeichnis in Bash und PowerShell)"
+    },
+    {
+      "question": "Wie gehe ich in das Home-Verzeichnis eines anderen Benutzers?",
+      "answer": "cd ~<Benutzername> (In Bash, um ins Home-Verzeichnis eines anderen Benutzers zu wechseln)\nIn PowerShell: cd C:\\Users\\<Benutzername>"
+    }
+  ],
   "Extra": [
+    {
+      "question": "Was ist SOAP?",
+      "answer": "SOAP (Simple Object Access Protocol) ist ein Protokoll für den Austausch strukturierter Informationen in Webdiensten. Es verwendet XML zur Codierung der Nachrichten und HTTP oder SMTP als Transportprotokoll."
+    },
+    {
+      "question": "Was ist ein Binder/Linker?",
+      "answer": "Ein Binder/Linker ist ein Programm, das alle Teile eines Programms (z.B. Bibliotheken) zusammenfügt und die endgültige ausführbare Datei erstellt."
+    },
+    {
+      "question": "Was ist ein Lader/Loader?",
+      "answer": "Ein Lader/Loader ist ein Programm, das die ausführbare Datei in den Arbeitsspeicher lädt und sie zur Ausführung bereitstellt."
+    },
     {
       "question": "Nenne mir Maßnahmen zu Zugang, Zutritts- und Zugangskontrolle.",
       "answer": "Zugang: Mehrfaktor-Authentifizierung (MFA)\nZutritt: Elektronische Zutrittskontrollen (z. B. Smartcards, PIN-Codes), Biometrische Zugangskontrollen (z. B. Fingerabdruckscanner, Gesichtserkennung)\nZugriff: Role-Based Access Control (RBAC)"
@@ -7573,14 +7690,11 @@ const cardSets = {
       "answer": "Die Entwicklung und Umsetzung eines Business Continuity Plans stellt sicher, dass das Unternehmen auch bei einem Vorfall schnell wieder arbeitsfähig ist."
     },
     {
-      "question": "Wie erfasst man solche Anforderungen?",
-      "answer": "Methoden:\nInterviews mit Stakeholdern\nWorkshops\nFragebögen\nUser Stories / Use Cases\nPrototypen"
-    },
-    {
-      "question": "Wie erfasst man solche Anforderungen?",
+      "question": "Wie erfasst man Anforderungen eines Projektes?",
       "answer": "Interviews mit Stakeholdern, Workshops, Fragebögen, User Stories / Use Cases und Prototypen"
     }
-  ]
+  ],
+
 };
 
 export { cardSets };
