@@ -1422,11 +1422,11 @@ const cardSets = {
     },
     {
       "question": "Was ist Anonymisierung?",
-      "answer": "Bei der Anonymisierung werden alle Identifikationsmerkmale entfernt, sodass die betroffene Person nicht mehr identifizierbar ist."
+      "answer": "Bei der Anonymisierung werden alle Identifikationsmerkmale entfernt, sodass die betroffene Person nicht mehr identifizierbar ist. "
     },
     {
       "question": "Was ist Pseudonymisierung?",
-      "answer": "Daten werden so verändert, dass sie ohne Zusatzinformationen nicht mehr einer bestimmten Person zugeordnet werden können."
+      "answer": "Daten werden so verändert, dass sie ohne Zusatzinformationen nicht mehr einer bestimmten Person zugeordnet werden können. Pseudnymisierte Daten sind jedoch nicht anonymisiert, da sie mit den Zusatzinformationen wieder zugeordnet werden können."
     },
     {
       "question": "Was ist Compliance?",
