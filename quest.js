@@ -7200,7 +7200,7 @@ const cardSets = {
 
 
   ], 
-  "Python \t \n": [
+  "Python": [
     {
       "question": "Überlege dir wie eine Linerare Suche funktioniert in Python",
       "answer":"def lineare_search(arr, target):\n\tfor i in range(len(arr)):\n\t\tif arr[i] == target:\n\t\t\treturn i\n\treturn None"
