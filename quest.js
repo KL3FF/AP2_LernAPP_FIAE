@@ -5701,7 +5701,7 @@ const cardSets = {
     },
     {
       "question": "Was ist ACID-Prinzipien?",
-      "answer": "Atomicity: Alles oder nichts. Consistency: Daten bleiben konsistent. Isolation: Transaktionen beeinflussen sich nicht gegenseitig. Durability: Nach erfolgreichem Abschluss bleiben Änderungen bestehen."
+      "answer": "Atomicity: Transaktionen sind unteilbar. Consistency: Datenbank bleibt nach Transaktion in einem konsistent Zustand. Isolation: Transaktionen beeinflussen sich nicht gegenseitig. Durability: Nach erfolgreichem Abschluss bleiben Änderungen bestehen."
     },
     {
       "question": "Was ist eine User Story?",
