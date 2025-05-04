@@ -3110,7 +3110,7 @@ const cardSets = {
     },
     {
       "question": "Ethernet: Wie groß ist der Datenbereich im Ethernet Frame?",
-      "answer": "46 bis 1500 Bytes."
+      "answer": "46 bis 1518 Bytes."
     },
     {
       "question": "Ethernet: Was macht das FCS-Feld im Ethernet Frame?",
@@ -5684,7 +5684,7 @@ const cardSets = {
     },
     {
       question: "Was beschreibt die Bottom-Up-Methode?",
-      answer: "Beim Bottom-Up-Ansatz beginnt man mit der Entwicklung kleiner, funktionierender Module (z. B. Funktionen, Klassen) und integriert diese schrittweise zu einem Gesamtsystem."
+      answer: "Beim Bottom-Up-Ansatz beginnt man mit der Entwicklung kleiner, funktionierender Module (z.B. Funktionen, Klassen) und integriert diese schrittweise zu einem Gesamtsystem."
     },
     {
       "question": "Was sind die Herausforderungen bei der mobilen Entwicklung?",
@@ -7110,11 +7110,11 @@ const cardSets = {
     },
     {
       "question": "Wie funktioniert das Factory muster?",
-      "answer": "Es gibt ein Interface Produkt, von dem verschiedeneProdukte abgeleitet werden.\n Dann gibt es eine Farbrik, die mit einer Methode wie CreateProduct (z.B. mit einem Produkttyp als String) neue Produkte erzeugt.\nDie Methode der Fabrik entscheidet, welches Produkt erzeugt wird, und gibt es zurück."
+      "answer": "Es gibt ein Interface Produkt, von dem verschiedeneProdukte abgeleitet werden.\n Dann gibt es eine Farbrik, die mit einer Methode wie CreateProduct und typ parameter (z.B. mit einem Produkttyp als String parameter) neue Produkte erzeugt.\nDie Methode der Fabrik entscheidet, welches Produkt erzeugt wird, und gibt es zurück."
     },
     {
       "question": "Wie funktioniert das Singleton-Muster?",
-      "answer": "Es gibt eine Klasse, die eine private statische Instanz von sich selbst enthält (zunächst auf null gesetzt).\nDer Konstruktor der Klasse ist privat, sodass keine Objekte von außen erzeugt werden können.\nEs gibt eine öffentliche Methode namens GetInstance().\nDiese Methode prüft, ob die private statische Instanz null ist.\nFalls ja, wird eine neue Instanz erstellt.\nAm Ende gibt die Methode die Instanz zurück."
+      "answer": "Es gibt eine Klasse, die eine private statische Instanz von sich selbst enthält (zunächst auf null gesetzt).\nDer Konstruktor der Klasse ist privat, sodass keine Objekte von außen erzeugt werden können.\nEs gibt eine öffentliche statische Methode namens GetInstance().\nDiese Methode prüft, ob die private statische Instanz null ist.\nFalls ja, wird eine neue Instanz erstellt.\nAm Ende gibt die Methode die Instanz zurück."
     },
 
 
@@ -7199,8 +7199,28 @@ const cardSets = {
 
 
 
-  ],
-  "Python": [
+  ], 
+  "Python \t \n": [
+    {
+      "question": "Überlege dir wie eine Linerare Suche funktioniert in Python",
+      "answer":"def lineare_search(arr, target):\n\tfor i in range(len(arr)):\n\t\tif arr[i] == target:\n\t\t\treturn i\n\treturn None"
+    },
+    {
+      "question": "Überlege dir wie eine Binäre Suche funktioniert in Python",
+      "answer":"def binary_search(arr, target):\n\tleft = 0\n\trigth = len(arr) - 1\n\twhile left <= rigth:\n\t\tmid = round((left+rigth/2))\n\t\tif arr[mid] == target:\n\t\t\treturn mid\n\t\telif target > arr[mid]:\n\t\t\tleft = mid+1\n\t\telif target < arr[mid]:\n\t\t\trigth = mid-1\n\t\telse:\n\t\t\treturn None\n\treturn None"
+    },
+    {
+      "question": "Überlege dir wie eine Bubble Sort funktioniert in Python",
+      "answer":"def bubble_sort(arr):\n\tis_it_sort = False\n\t\while is_it_sort == False:\n\t\tis_it_sort = True\n\t\tfor i in range(len(arr) -1):\n\t\t\tif arr[i] < arr[i+1]:\n\t\t\t\ta = arr[i]\n\t\t\t\tarr[i] = arr[i+1]\n\t\t\t\tarr[i+1] = a\n\t\t\t\tis_it_sort = False\n\treturn arr"
+    },
+    {
+      "question": "Überlege dir wie eine Selection Sort funktioniert in Python",
+      "answer":"def selection_sort(arr):\n\tfor i in range(len(arr)):\n\t\tmin_index = i\n\t\tfor j in range(i + 1, len(arr)):\n\t\t\tif arr[j] < arr[min_index]:\n\t\t\t\tmin_index = j\n\t\ttemp = arr[i]\n\t\tarr[i] = arr[min_index]\n\t\tarr[min_index] = temp\n\treturn arr"
+    },
+    {
+      "question": "Überlege dir wie eine Insertion Sort funktioniert in Python",
+      "answer":"def insertion_sort(arr):\n\tfor i in range(len(arr)):\n\t\tcurrent = arr[i]\n\t\tj = i -1\n\t\twhile j >= 0 and arr[j] > current:\n\t\t\tarr[j+1] = arr[j]\n\t\t\tj-= 1\n\t\tarr[j+1] = current\n\treturn arr"
+    },
     {
       "question": "Python: Ausgabe auf dem Bildschirm",
       "answer": "print(\"Hallo Welt!\")"
