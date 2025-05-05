@@ -7097,9 +7097,6 @@ const cardSets = {
       "question": "Welche sind die 6 Phasen der Softwareentwicklung?",
       "answer": "Die 6 Phasen der Softwareentwicklung sind: 1. Planung, 2. Analyse, 3. Entwurf, 4. Implementierung, 5. Test, 6. Dokumentation."
     },
-
-
-
     {
       "question": "Was ist ein Erzeugungsmuster?",
       "answer": "Erzeugungsmuster befassen sich mit der Erstellung von Objekten und bieten Lösungen, wie man Objekte instanziiert."
@@ -7116,22 +7113,22 @@ const cardSets = {
       "question": "Wie funktioniert das Singleton-Muster?",
       "answer": "Es gibt eine Klasse, die eine private statische Instanz von sich selbst enthält (zunächst auf null gesetzt).\nDer Konstruktor der Klasse ist privat, sodass keine Objekte von außen erzeugt werden können.\nEs gibt eine öffentliche statische Methode namens GetInstance().\nDiese Methode prüft, ob die private statische Instanz null ist.\nFalls ja, wird eine neue Instanz erstellt.\nAm Ende gibt die Methode die Instanz zurück."
     },
-
-
-
-
-
     {
       "question": "Was ist ein Strukturmuster?",
       "answer": "Ein Strukturmuster hilft dabei, Klassen oder Objekte so zu organisieren, dass sie effizient zusammenarbeiten und die Struktur des Systems verbessern."
     },
     {
       "question": "Was ist ein Beispiel für ein Strukturmuster?",
-      "answer": " Beispiele für Strukturmuster sind Adapter-Pattern "
+      "answer": " Beispiele für Strukturmuster sind Fassade-Pattern und Proxy-Pattern."
     },
-
-
-
+    {
+      "question": "Wie funktioniert das Fassade-Muster?",
+      "answer": "Der Client kann eine Klasse sein, muss es aber nicht. Es gibt eine Fassade-Klasse, die der Client erstellt. Die Fassade kennt alle anderen Klassen und deren Methoden, auf die der Client aufgrund von Sichtbarkeitsmodifikatoren (z. B. `private` oder `package`-geschützt) nicht direkt zugreifen kann. Über die Fassade kann der Client dann eine Methode aufrufen, die intern die Methoden der anderen Klassen koordiniert und ausführt."
+    },
+    {
+      "question": "Wie funktioniert das Proxy-Muster?",
+      "answer": "Es gibt ein Interface, das von Proxy und einem RealSubjekt implementiert wird. \n Der Proxy kennt das RealSubjekt und hat eine Methode, die das RealSubjekt aufruft. \nDer Proxy kann dabei zusätzliche Logik hinzufügen, z. B. Zugriffskontrollen, Caching oder Lazy Loading, bevor oder nachdem er die Methode des RealSubjekts aufruft. \nDer Client verwendet denn Proxy anstelle des RealSubjekts. Der Proxy ruft die Methode des RealSubjekts auf und fungiert somit als Vermittler zwischen dem Client und dem RealSubjekt."
+    },
     {
       "question": "Was ist ein Verhaltensmuster?",
       "answer": "Verhaltensmuster definieren, wie Objekte miteinander kommunizieren und interagieren sollen."
@@ -7144,10 +7141,6 @@ const cardSets = {
       "question": "Wie funktioniert das Observer-Muster?",
       "answer": "Es gibt ein interface Observer mit einer Benachrichtigungs Methode, von dem alle Observer abgeleitet werden.\nDann gitb es eine Klasse Subjekt(dies kann von einer abstracten Klasse abgeleitet werden muss aber nicht).\n Das Subjekt hat eine Offenliche Observern list\n und daszu eine öffenlich methode zum hinzufügen und endfernen aus der liste.\n Wenn Sich der Zustand des SUbjekt verändert, dann dann ruft er alle Benachtichtigungs Methode der Observer auf in der Liste"
     },
-
-
-
-
     { "question": "UML-Diagramme: Was beschreiben Strukturdiagramme?", "answer": "Den statischen Aufbau des Systems." },
     { "question": "UML-Diagramme: Was beschreiben Verhaltensdiagramme?", "answer": "Dynamische Abläufe." },
     { "question": "UML-Diagramme: Was zeigen Interaktionsdiagramme?", "answer": "Die Zusammenarbeit von Objekten." },
