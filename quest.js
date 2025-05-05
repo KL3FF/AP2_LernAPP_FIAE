@@ -7529,6 +7529,42 @@ const cardSets = {
   ],
   "Extra": [
     {
+      "question": "Was ist die Stackholder-Analyse?",
+      "answer": "Die Stakeholder-Analyse ist eine Methode zur Identifizierung und Analyse der Interessen, Bedürfnisse und Einflüsse von Stakeholdern in einem Projekt."
+    },
+    {
+      "question": "Was ist die MOSCow-Methode im Agilen Projektmanagment?",
+      "answer": "Die MOSCow-Methode ist eine Priorisierungstechnik, die Anforderungen in vier Kategorien einteilt: Must have (Muss), Should have (Sollte), Could have (Könnte) und Won't have (Wird nicht haben)."
+    },
+    {
+      "question": "was ist ein Composite primary key?",
+      "answer": "Ein Composite Primary Key ist ein Primärschlüssel, der aus mehreren Spalten besteht. Er wird verwendet, um eine eindeutige Identifizierung von Datensätzen in einer Tabelle zu gewährleisten."
+    },
+    {
+      "question": "Was bedeutet referenzielle Integrität bei SQL-Datenbanken?",
+      "answer": "Referenzielle Integrität bedeutet, dass der Primärschlüssel, auf den verwiesen wird, durch einen Fremdschlüssel auch existiert."
+    },
+    {
+      "question": "Wie lange dauert die Elternzeit?",
+      "answer": "12 Monate, aufgeteilt können es 14 Monate sein."
+    },
+    {
+      "question": "Wie viel Geld bekommt man als Elterngeld?",
+      "answer": "Der maximale Satz beträgt 1.800 €. Bei Geringverdienern sind es 100 % des Gehalts."
+    },
+    {
+      "question": "Was ist Elterngeld Plus?",
+      "answer": "Die Elternzeit kann sich auf 28 Monate (14 × 2) verdoppeln. Beide Elternteile arbeiten in Teilzeit und erhalten zusätzlich Elterngeld."
+    },
+    {
+      "question": "Was bedeutet das Open-Closed-Prinzip in der Softwareentwicklung?",
+      "answer": "Open for extension, but closed for modification – der Code soll erweiterbar sein, ohne dass bestehender Code verändert wird. In der OOP greift man auf die Basisklasse zu."
+    },
+    {
+      "question": "Was ist ein View in einer Datenbank?",
+      "answer": "Eine View ist eine virtuelle Tabelle. Sie speichert eine Struktur, und bei einer Abfrage werden die Daten dynamisch aus den zugrunde liegenden Tabellen geholt."
+    },
+    {
       "question": "Was sind Cyber-Physische Systeme (CPS)?",
       "answer": "Vernetzte Systeme, die physische Prozesse mit digitaler Steuerung und Kommunikation verbinden (z.B. in Industrie 4.0, Smart Homes, autonome Fahrzeuge)."
     },
